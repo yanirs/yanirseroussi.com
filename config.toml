@@ -1,0 +1,5 @@
+# TODO: change once porting is done
+baseURL = 'https://yanirs.github.io/yanirseroussi.com'
+languageCode = 'en-au'
+title = 'Yanir Seroussi'
+theme = 'ananke'
