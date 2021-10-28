@@ -1,0 +1,22 @@
+# TODO: change this when the porting is complete
+baseURL: https://yanirs.github.io/yanirseroussi.com/
+languageCode: en-au
+# TODO: sort out the copyright footer
+title: Yanir Seroussi | Data science and beyond
+theme: papermod
+paginate: 10
+
+params:
+  comments: true
+  cover:
+    hidden: false
+  mainSections: post
+  editPost:
+    url: https://github.com/yanirs/yanirseroussi.com/blob/master/content
+    text: Suggest changes
+    appendFilePath: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
