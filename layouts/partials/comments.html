@@ -1,0 +1,60 @@
+<section class="comment-section">
+  {{ $slug := trim (replace .RelPermalink "/" "-") "-" }}
+  {{ $comments := index $.Site.Data.comments $slug | default slice }}
+
+  <strong>{{ len $comments | default "No" }} {{ cond (eq (len $comments) 1) "comment" "comments"}}</strong>
+  <a
+    class="comment-button"
+    href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New comment on {{ .Permalink }}&body=<!-- Post your comment here and it may get added to the site -->"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Comment via GitHub issue
+  </a>
+
+  {{/* Collect mappings from each comment to its replies to efficiently loop over the threaded levels. */}}
+  {{ $parentIdToReplyIds := newScratch }}
+  {{ $idToComment := newScratch }}
+  {{ range sort $comments "date" }}
+      {{ $parentIdToReplyIds.Add (.reply_to | default "null") (slice ._id) }}
+      {{ $idToComment.Add ._id . }}
+  {{ end }}
+
+  {{ range $parentIdToReplyIds.Get "null" }}
+    {{ partial "comment_single" (dict "comment" ($idToComment.Get .) "page" $.Page "level" 0) }}
+    {{ range $parentIdToReplyIds.Get . }}
+      {{ partial "comment_single" (dict "comment" ($idToComment.Get .) "page" $.Page "level" 1) }}
+      {{ range $parentIdToReplyIds.Get . }}
+        {{ partial "comment_single" (dict "comment" ($idToComment.Get .) "page" $.Page "level" 2) }}
+        {{ range $parentIdToReplyIds.Get . }}
+          {{ partial "comment_single" (dict "comment" ($idToComment.Get .) "page" $.Page "level" 3) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</section>
+
+{{ define "partials/comment_single" }}
+  <div class="comment-level-{{ .level }}" id="comment-{{ .comment._id }}">
+    <div class="comment-header">
+      <a href="#comment-{{ .comment._id }}">
+        <img class="comment-avatar" src="https://www.gravatar.com/avatar/{{ .comment.email }}?s=50">
+        <p class="comment-info">
+          <strong>{{ .comment.name }}</strong><br>
+          <small>{{ .comment.date }}</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      {{ .comment.body | markdownify }}
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to {{ .page.Permalink }}%23comment-{{ .comment._id }}&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+{{ end }}
