@@ -1,0 +1,133 @@
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Bootstrapping the right way? | Yanir Seroussi | Data science and beyond</title>
+<meta name=keywords content="analytics,data science,software engineering,statistics">
+<meta name=description content="Bootstrapping the right way is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through the slides. The content of the talk is similar to a post I published on bootstrapping pitfalls, with some additional simulations.
+   The main takeaways shared in the talk are:
+ Don&rsquo;t compare single-sample confidence intervals by eye Use enough resamples (15K?">
+<meta name=author content="Yanir Seroussi">
+<link rel=canonical href=https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/>
+<link crossorigin=anonymous href=/yanirseroussi.com/assets/css/stylesheet.min.51e68192da3381c9040a063242bafad56d6d28666fff1f9e523f9eaad0207a83.css integrity="sha256-UeaBktozgckECgYyQrr61W1tKGZv/x+eUj+eqtAgeoM=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/yanirseroussi.com/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://yanirs.github.io/yanirseroussi.com/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://yanirs.github.io/yanirseroussi.com/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://yanirs.github.io/yanirseroussi.com/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://yanirs.github.io/yanirseroussi.com/apple-touch-icon.png>
+<link rel=mask-icon href=https://yanirs.github.io/yanirseroussi.com/safari-pinned-tab.svg>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.88.1">
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript><meta property="og:title" content="Bootstrapping the right way?">
+<meta property="og:description" content="Bootstrapping the right way is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through the slides. The content of the talk is similar to a post I published on bootstrapping pitfalls, with some additional simulations.
+   The main takeaways shared in the talk are:
+ Don&rsquo;t compare single-sample confidence intervals by eye Use enough resamples (15K?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/">
+<meta property="og:image" content="https://yanirs.github.io/yanirseroussi.com/revenue-confidence-intervals.png"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2019-10-06T06:48:07+00:00">
+<meta property="article:modified_time" content="2019-10-06T06:48:07+00:00">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://yanirs.github.io/yanirseroussi.com/revenue-confidence-intervals.png">
+<meta name=twitter:title content="Bootstrapping the right way?">
+<meta name=twitter:description content="Bootstrapping the right way is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through the slides. The content of the talk is similar to a post I published on bootstrapping pitfalls, with some additional simulations.
+   The main takeaways shared in the talk are:
+ Don&rsquo;t compare single-sample confidence intervals by eye Use enough resamples (15K?">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://yanirs.github.io/yanirseroussi.com/posts/"},{"@type":"ListItem","position":2,"name":"Bootstrapping the right way?","item":"https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Bootstrapping the right way?","name":"Bootstrapping the right way?","description":"Bootstrapping the right way is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through the slides. The content of the talk is similar to a post I published on bootstrapping pitfalls, with some additional simulations.\n   The main takeaways shared in the talk are:\n Don\u0026rsquo;t compare single-sample confidence intervals by eye Use enough resamples (15K?","keywords":["analytics","data science","software engineering","statistics"],"articleBody":"Bootstrapping the right way is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through the slides. The content of the talk is similar to a post I published on bootstrapping pitfalls, with some additional simulations.\n   The main takeaways shared in the talk are:\n Don’t compare single-sample confidence intervals by eye Use enough resamples (15K?) Use a solid bootstrapping package (e.g., Python ARCH) Use the right bootstrap for the job Consider going parametric Bayesian Test all the things  Testing all the things typically requires writing code, which I did for the talk. You can browse through it in this notebook. The most interesting findings from my tests are summarised by the following figure.\n   The figure shows how the accuracy of confidence interval estimation varies by algorithm, sample size, and the number of bootstrapping resamples on a synthetic revenue dataset. This sort of dataset may occur in freemium scenarios, where several product variations are offered at a few price tiers, including a price of zero (i.e., free). In all cases, the dashed line denotes the requested confidence level of 95%, i.e., the true difference in means between the two revenue distributions should be inside the confidence interval in approximately 95% of the simulations for it to be accurate. Unfortunately, it is clear that both the percentile and BCa algorithms perform poorly on the simulated data. Even with a sample size of 10K, they both yield “95%” confidence intervals that contain the true difference in means less than 90% of the time, i.e., the intervals are too narrow. By contrast, the studentized algorithm gets much closer to the requested confidence level, but this comes at the price of considerably longer runtime due to the need for nested bootstrapping.\nNote that the results presented in the talk are slightly different from the figure above. The difference is due to a small bug in the simulation code: I used a constant random seed for all the bootstrapping simulation iterations (every iteration still contained different data). This has led to the surprising finding that accuracy with 10,000 resamples was lower than with 1,000 resamples. I attributed that finding to dataset quirks, and noted that my results may not generalise to all cases. Indeed, I recently ran a similar set of experiments on different data as part of my work at Automattic, and found that the studentized algorithm accuracy wasn’t as impressive as the results shown here.\nIn addition to synthetic data, the experiments I ran at Automattic included an implementation of an idea by my colleague, Demet Dagdelen: Test accuracy on samples from the full population for a given period (e.g., all sales over a calendar year). In such cases, the full population is well-defined. Therefore, we know the value of the “true” parameters, and we can run the same simulations as on synthetic data. While I can’t share that data, I can say that all algorithms performed much worse on real data than on simulated data. Therefore, we decided to follow the penultimate takeaway and use a parametric Bayesian approach for modelling our data. We may share insights from that line of work on data.blog in the future. In the meantime, comments are very welcome!\nUpdate: You can find more accurate simulations in this post.\n","wordCount":"559","inLanguage":"en","image":"https://yanirs.github.io/yanirseroussi.com/revenue-confidence-intervals.png","datePublished":"2019-10-06T06:48:07Z","dateModified":"2019-10-06T06:48:07Z","author":{"@type":"Person","name":"Yanir Seroussi"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/"},"publisher":{"@type":"Organization","name":"Yanir Seroussi | Data science and beyond","logo":{"@type":"ImageObject","url":"https://yanirs.github.io/yanirseroussi.com/favicon.ico"}}}</script>
+</head>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://yanirs.github.io/yanirseroussi.com/ accesskey=h title="Yanir Seroussi | Data science and beyond (Alt + H)">Yanir Seroussi | Data science and beyond</a>
+<span class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+</span>
+</div>
+<ul id=menu>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+Bootstrapping the right way?
+</h1>
+<div class=post-meta>October 6, 2019&nbsp;·&nbsp;Yanir Seroussi&nbsp;|&nbsp;<a href=https://github.com/yanirs/yanirseroussi.com/blob/master/content/posts/2019-10-06-bootstrapping-the-right-way/index.md rel="noopener noreferrer" target=_blank>Suggest changes</a>
+</div>
+</header>
+<figure class=entry-cover>
+<img loading=lazy srcset="https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_360x0_resize_box_3.png 360w ,https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_480x0_resize_box_3.png 480w ,https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_720x0_resize_box_3.png 720w ,https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_1080x0_resize_box_3.png 1080w ,https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_1500x0_resize_box_3.png 1500w ,https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals.png 1765w" sizes="(min-width: 768px) 720px, 100vw" src=https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals.png alt width=1765 height=666>
+</figure>
+<div class=post-content><p><em>Bootstrapping the right way</em> is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through <a href=https://yanirs.github.io/talks/bootstrapping-the-right-way/>the slides</a>. The content of the talk is similar to <a href=https://yanirseroussi.com/2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/>a post I published on bootstrapping pitfalls</a>, with some additional simulations.</p>
+<p>
+<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
+<iframe src=https://www.youtube.com/embed/2wZXejYz-e0 style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>The main takeaways shared in the talk are:</p>
+<ul>
+<li>Don&rsquo;t compare single-sample confidence intervals by eye</li>
+<li>Use enough resamples (15K?)</li>
+<li>Use a solid bootstrapping package (e.g., <a href=https://arch.readthedocs.io/>Python ARCH</a>)</li>
+<li>Use the right bootstrap for the job</li>
+<li>Consider going parametric Bayesian</li>
+<li>Test all the things</li>
+</ul>
+<p>Testing all the things typically requires writing code, which I did for the talk. You can browse through it in <a href=https://github.com/yanirs/yanirs.github.io/blob/master/talks/bootstrapping-the-right-way/notebook.ipynb>this notebook</a>. The most interesting findings from my tests are summarised by the following figure.</p>
+<figure>
+<a href=revenue-confidence-intervals.png target=_blank rel=noopener>
+<img sizes="
+          (min-width: 768px) 720px,
+          100vw
+        " srcset="https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_360x0_resize_box_3.png 360w,
+https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_480x0_resize_box_3.png 480w,
+https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_720x0_resize_box_3.png 720w,
+https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_1080x0_resize_box_3.png 1080w,
+https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_1500x0_resize_box_3.png 1500w," src=https://yanirs.github.io/yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/revenue-confidence-intervals_hua7f3e259e998045c935f50c75e8eb77d_43359_800x0_resize_box_3.png alt="Revenue confidence intervals" loading=lazy>
+</a>
+</figure>
+<p>The figure shows how the accuracy of confidence interval estimation varies by algorithm, sample size, and the number of bootstrapping resamples on a synthetic revenue dataset. This sort of dataset may occur in freemium scenarios, where several product variations are offered at a few price tiers, including a price of zero (i.e., free). In all cases, the dashed line denotes the requested confidence level of 95%, i.e., the true difference in means between the two revenue distributions should be inside the confidence interval in approximately 95% of the simulations for it to be accurate. Unfortunately, it is clear that both the percentile and BCa algorithms perform poorly on the simulated data. Even with a sample size of 10K, they both yield &ldquo;95%&rdquo; confidence intervals that contain the true difference in means less than 90% of the time, i.e., the intervals are too narrow. By contrast, the studentized algorithm gets much closer to the requested confidence level, but this comes at the price of considerably longer runtime due to the need for nested bootstrapping.</p>
+<p>Note that the results presented in the talk are slightly different from the figure above. The difference is due to a small bug in the simulation code: I used a constant random seed for all the bootstrapping simulation iterations (every iteration still contained different data). This has led to the surprising finding that accuracy with 10,000 resamples was lower than with 1,000 resamples. I attributed that finding to dataset quirks, and noted that my results may not generalise to all cases. Indeed, I recently ran a similar set of experiments on different data as part of my work at <a href=https://automattic.com/work-with-us/>Automattic</a>, and found that the studentized algorithm accuracy wasn&rsquo;t as impressive as the results shown here.</p>
+<p>In addition to synthetic data, the experiments I ran at Automattic included an implementation of an idea by my colleague, <a href=https://data.blog/author/dem0sh/>Demet Dagdelen</a>: Test accuracy on samples from the full population for a given period (e.g., all sales over a calendar year). In such cases, the full population is well-defined. Therefore, we know the value of the &ldquo;true&rdquo; parameters, and we can run the same simulations as on synthetic data. While I can&rsquo;t share that data, I can say that all algorithms performed much worse on real data than on simulated data. Therefore, we decided to follow the penultimate takeaway and use a parametric Bayesian approach for modelling our data. We may share insights from that line of work on <a href=https://data.blog>data.blog</a> in the future. In the meantime, comments are very welcome!</p>
+<p><strong>Update</strong>: You can find more accurate simulations in <a href=https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/>this post</a>.</p>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://yanirs.github.io/yanirseroussi.com/tags/analytics/>analytics</a></li>
+<li><a href=https://yanirs.github.io/yanirseroussi.com/tags/data-science/>data science</a></li>
+<li><a href=https://yanirs.github.io/yanirseroussi.com/tags/software-engineering/>software engineering</a></li>
+<li><a href=https://yanirs.github.io/yanirseroussi.com/tags/statistics/>statistics</a></li>
+</ul>
+</footer><section class=comment-section>
+<strong>No comments</strong>
+<a class=comment-button href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New comment on https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2019%2f10%2f06%2fbootstrapping-the-right-way%2f&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Comment via GitHub issue
+</a>
+</section>
+</article>
+</main>
+<footer class=footer>
+<span>&copy; 2021 <a href=https://yanirs.github.io/yanirseroussi.com/>Yanir Seroussi | Data science and beyond</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+</body>
+</html>
