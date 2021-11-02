@@ -1,0 +1,37 @@
+.post-content p.intro-note {
+  font-size: 15px;
+  font-style: italic;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.post-content pre code {
+  white-space: pre-wrap;
+}
+
+.post-content p.highlight-box {
+  background-color: var(--primary);
+  border-radius: 4px;
+  color: var(--theme);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px;
+  text-align: center;
+}
+
+.post-content p.indent-1 {
+  margin-left: 2%;
+}
+
+.post-content p.reblog-read-more {
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.post-content iframe.contact-form {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+}

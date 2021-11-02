@@ -1,0 +1,18 @@
+.post-content blockquote {
+  font-style: italic;
+  line-height: 1.4;
+  margin: 0 10% var(--content-gap);
+}
+
+.post-content blockquote p {
+  margin-bottom: 10px;
+}
+
+.post-content blockquote footer {
+  font-style: normal;
+  text-align: right;
+}
+
+.post-content blockquote footer::before {
+  content: '–';
+}
