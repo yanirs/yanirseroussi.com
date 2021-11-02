@@ -1,0 +1,12 @@
+.post-content figure {
+  text-align: center;
+}
+
+.post-content figure.float-right {
+  float: right;
+  padding-left: 10px;
+}
+
+.post-content figure img {
+  margin: 1rem auto;
+}

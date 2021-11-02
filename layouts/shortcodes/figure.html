@@ -1,0 +1,89 @@
+{{/*
+
+Taken from https://cpbotha.net/2020/05/02/drop-in-replacement-for-hugo-figure-shortcode-with-img-srcset-support/ with
+some tweaks:
+ - Candidate sizes configured to match papermod cover image sizes.
+ - Link by default to the src image.
+ - Make links always open in a new tab with noopener.
+ - Add lazy loading attribute.
+ - Avoid unnecessary resizing by filtering the candidates and adding the full size as the last element if it's less than
+   the max supported size.
+ - Avoid stretching by using the max supported size rather then 720 on wide displays.
+
+*/}}
+
+{{/* hugo will resize to all of these sizes that are smaller than your original. configure if you like! */}}
+{{ $candidateSizes := (slice 360 480 720 1080 1500) }}
+
+{{/* get file that matches the filename as specified as src="" in shortcode */}}
+{{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
+
+{{ $supportedSizes := slice }}
+{{ range $candidateSizes }}
+  {{ if ge $src.Width . }}
+    {{ $supportedSizes = $supportedSizes | append . }}
+  {{ end }}
+{{ end }}
+{{ if lt (len $supportedSizes) (len $candidateSizes) }}
+  {{ $supportedSizes = $supportedSizes | append $src.Width }}
+{{ end }}
+{{ $maxSupportedSize := index ($supportedSizes | last 1) 0 }}
+
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  <a href="{{ (.Get "link") | default (.Get "src") }}" target="_blank" rel="noopener">
+    <img
+      {{ if $src }}
+        sizes="
+          (min-width: 768px) {{ cond (le $maxSupportedSize 720) $maxSupportedSize 720 }}px,
+          100vw
+        "
+        srcset="
+          {{ range $supportedSizes }}
+            {{ if eq $src.Width . }}
+              {{ $src.Permalink }} {{ . }}w,
+            {{ else }}
+              {{ ($src.Resize (printf "%dx" .)).Permalink }} {{ . }}w,
+            {{ end }}
+          {{ end }}
+        "
+        {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
+        {{/* if image smaller than 800, then load the image itself */}}
+        {{ if ge $src.Width "800" }}
+          src="{{ ($src.Resize "800x").Permalink }}"
+        {{ else }}
+          src="{{ $src.Permalink }}"
+        {{ end }}
+
+      {{ else }}
+          {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
+          src="{{ .Get "src" }}"
+      {{ end }}
+
+      {{- if or (.Get "alt") (.Get "caption") }}
+        alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify | plainify }}{{ end }}"
+      {{- end -}}
+      {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+      {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+      loading="lazy"
+    />
+  </a>
+    {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
+      <figcaption>
+        {{ with (.Get "title") -}}
+          <h4>{{ . }}</h4>
+        {{- end -}}
+        {{- if or (.Get "caption") (.Get "attr") -}}
+          <p>
+            {{- .Get "caption" | markdownify -}}
+            {{- with .Get "attrlink" }}
+              <a href="{{ . }}">
+            {{- end -}}
+            {{- .Get "attr" | markdownify -}}
+            {{- if .Get "attrlink" }}
+              </a>
+            {{ end }}
+          </p>
+        {{- end }}
+      </figcaption>
+    {{- end }}
+</figure>
