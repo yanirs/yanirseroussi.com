@@ -1,0 +1,37 @@
+_id: '621'
+body: "I enjoyed the post - though I offer some contrary points to consider:\n\nI\
+  \ have learned that if it is clear that you will need a data scientists (by someone\
+  \ who knows what they do), then you should get them as soon as possible.  Don\u2019\
+  t wait.  Data Scientists work best when they have full context for the problem they\
+  \ are here to solve.  Getting them in early allows them to help frame the problem.\
+  \  This framing is critical.  If the framing is off, it takes a very long time (sometimes\
+  \ never) to get it back on track. A late-to-the-game data scientists can be too\
+  \ influenced by the the existing framing they are given.   They tend to think within\
+  \ that box, when in reality, the box was never the right way to approach the problem.\
+  \   Even if they do see outside of it, it can be very difficult to convince the\
+  \ original framers that there is a better way to do things (people can get quite\
+  \ attached to their vision).    \n\nIt also can be wise to NOT WAIT till there is\
+  \ data to analyze.  Too often, data is an afterthought.  Its important for the data\
+  \ scientist to get in early on the initiative so he or she can help define the needed\
+  \ instrumentation and data acquisition strategy.  They can even guide the needs\
+  \ of the data warehouse and other repositories where the newly captured data will\
+  \ reside. \n\nFurther, it is often the case that it is the data scientist that identifies\
+  \ the specific problem to solve.  At my company, I estimate that over half of the\
+  \ ideas for new data products, features, and services come from the data science\
+  \ team -- not the business.  This is intuitive as the data scientists are the folks\
+  \ that are most intimate with the data and are least constrained by what is possible\
+  \ to do with data.  Give them business context and they will come up with problems/solutions\
+  \ that no one has thought of. \n\nFinally, I find heuristics to be dangerous.  \
+  \ At best they are suboptimal, and more often than not, they are just plain wrong\
+  \ (those with extensive A/B testing experience can attest to the fact that our intuition\
+  \ fails us again and again).    Undoing a bad heuristics can be very painful - in\
+  \ the technical work, the coordinate work, and in the resetting of expectations.\
+  \  Its hard to get people to not walk on a paved path ... even if that path is the\
+  \ long way or a dead-end. \n\nI totally agree with \"Q5: Are you committed to being\
+  \ data-driven?\".  This comes down to business model and culture.   Is your business\
+  \ model one where data science can be the source of strategic differentiation? Is\
+  \ your culture able to support empiricism?   The answer to both of these has to\
+  \ be 'yes' in order to commit to being data-driven."
+date: '2015-08-28 16:10:40'
+email: 3e83196ec5d22b66453107ead83adc58
+name: Eric Colson

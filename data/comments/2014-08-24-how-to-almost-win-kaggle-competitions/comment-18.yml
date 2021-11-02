@@ -1,0 +1,12 @@
+_id: '18'
+body: "Good point. What I was referring to are scenarios where local validation is\
+  \ unreliable. \n\nFor example, in the Arabic writer identification competition (http://blog.kaggle.com/2012/04/29/on-diffusion-kernels-histograms-and-arabic-writer-identification/),\
+  \ each of the 204 writers had only two training paragraphs (all containing the same\
+  \ text), while the test/leaderboard instances were a third paragraph with different\
+  \ content. I tried many forms of local validation but none of them yielded results\
+  \ that were consistent with the leaderboard, so I ended up relying on the leaderboard\
+  \ score."
+date: '2014-10-08 21:04:52'
+email: dda019c47a6183120608a6aeac2db6c5
+name: yanirseroussi
+reply_to: '17'

@@ -1,0 +1,20 @@
+_id: '1090'
+body: I've been thinking about this lately quite a bit. The fact that I can type this
+  comment and send it across the internet rests on the ability to create a completely
+  controlled causal environment. Inside the computer, all noise and randomness is
+  kept below the threshold of the data, and every process is completely causal. Meanwhile,
+  outside the computer, most measurements are mostly noise, and extracting any sort
+  of causal relation is very difficult and often impossible. My mind seems to have
+  some sort of idea of cause as something like the interaction of balls on a pool
+  table. The que ball strikes the eight ball and knocks it into the corner pocket,
+  etc. But when one tries to measure things, mostly one finds nothing like this. Instead,
+  one finds that some measurements tend to be found with other measurements most of
+  the time, but not all of the time. Cause thus seems a statistical thing, and in
+  no way absolute. I have difficulty reconciling the two views. One thing that occured
+  to me to investigate, was the manner in which several huge internet outages developed
+  involving the BGP protocol. It seemed to me that every individual packet must experience
+  a completely causal path, but the aggregate turns into the statistical causal form
+  we most usually deal with. I haven't followed up with this idea so far, however
+date: '2016-02-18 18:58:51'
+email: 5ae7cb133b8f140346083a4885fa1569
+name: Joel Kreager

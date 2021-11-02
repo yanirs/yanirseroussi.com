@@ -1,0 +1,13 @@
+_id: '704'
+body: 'Two points that were not discussed but I see it recurrently, at least in E-Commerce,
+  it is how people underestimate the effort necessary to build an online realtime
+  recommender system and overestimate its impact. Offline recommendations are enough
+  for the majority of cases. The second one, there is an obsession with novel algorithms,
+  when often bread and butter ALS + domain knowledge reflected in business rules bring
+  better impact.
+
+
+  Overall, really good overview, and I fully agree with all points!'
+date: '2015-10-02 18:19:27'
+email: b5a286f0ade6f558ff4cf0e3c3f9813a
+name: rriveramx

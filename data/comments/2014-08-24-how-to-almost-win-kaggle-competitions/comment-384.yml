@@ -1,0 +1,11 @@
+_id: '384'
+body: "Thanks a lot,\nSo to summarize the following could be 3 \n1. Using summary\
+  \ statistics such as means/stds/variance on the data, looking out for outliers,etc\
+  \ in the data\n2. Looking at misclassified instances during validation to find some\
+  \ sort of pattern in them\n3. Looking at label-specific raw data \nI  apologize\
+  \ for the long overdue response, and thanks for these tips. This will surely be\
+  \ useful in my next Kaggle competition."
+date: '2015-05-22 03:11:29'
+email: 2f58afbef02de0937224bcbce7e172c2
+name: saatvik
+reply_to: '306'

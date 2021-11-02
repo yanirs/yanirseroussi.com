@@ -1,0 +1,18 @@
+_id: '1496'
+body: 'Thanks for your comment, Sam!
+
+
+  There are many approaches to Bayesian A/B testing. It looks like the other one you
+  linked to doesn''t allow you to specify your prior knowledge about the conversion
+  rate and the decision criterion. Which values did you use for those fields in my
+  calculator?
+
+
+  As mentioned in the last paragraph of the post, you should really aim for a representative
+  sample of users -- size is only one factor. That being said, you can play with the
+  number of trials in the calculator to get an idea of the required sample size based
+  on the minimum effect criterion.'
+date: '2017-04-01 10:57:35'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1483'

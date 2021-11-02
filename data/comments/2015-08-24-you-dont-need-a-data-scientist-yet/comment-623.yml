@@ -1,0 +1,22 @@
+_id: '623'
+body: 'Thank you for your thoughtful comments, Eric!
+
+
+  I generally agree that it can be beneficial to involve data scientists early on
+  and to avoid thoughtless heuristics, but that it all depends on having a supportive
+  data-driven environment and on resource constraints. As mentioned under Q2, getting
+  advice from a data scientist in the early stages of the product is worthwhile, so
+  it may be smart to pay for a few days of consulting, but not necessarily a good
+  idea to hire a full-timer. A lot of it depends on the general product vision.
+
+
+  Another note regarding heuristics and intuition: While some may be dangerous, you
+  can view many modelling decisions as heuristics. For example, when building a predictive
+  model, you have to make some intuition-driven choices around features (no model
+  uses all the knowledge in the world), learning algorithms and their hyperparameters.
+  You just can''t test everything, so there''s a need for compromises if you aim to
+  ever deliver anything.'
+date: '2015-08-29 02:43:41'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '621'

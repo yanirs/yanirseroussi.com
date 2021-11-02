@@ -1,0 +1,15 @@
+_id: '897'
+body: "Thank you for a great article.  Yes, well defined problems and well defined\
+  \ performance evaluation are keys to designing any data driven model.  \n\nI also\
+  \ found that sometimes we have the question we want to pursue, but getting to an\
+  \ answer is not straight forward.  For instance, I'm trying to find \naffinity between\
+  \ food ingredients using only data analytics.  One may think that this problem is\
+  \ trivial.  In fact, to find this, one has to totally rethink how to represent data\
+  \ (having ingredients in a table or a dataset produced nothing.)  Yes finding affinity\
+  \ between 2 ingredients is trivial, but when the number grows up, one has to change\
+  \ the setting.  In my case, I had to think of ingredients as part of a complete\
+  \ network, where the network is a recipe.  It is then and only then, that I was\
+  \ able to find affinity between many ingredients."
+date: '2015-11-30 14:50:28'
+email: db015de93a5653d51295570f25580bc7
+name: Dalila

@@ -1,0 +1,17 @@
+_id: '1483'
+body: "Thanks for the post!  \n\nI'm more of a business stakeholder simply trying\
+  \ to improve our testing practices, rather than a data scientist who understands\
+  \ the theories at a detailed level. \n\nI'm a bit confused why, if I enter the default\
+  \ example in your calculator (5000 trials each, 100 successes vs 130), the recommendation\
+  \ is to implement EITHER variant. \n\nWhereas, using a tool such as the following\
+  \ suggests a 97.8% chance the variant with 130 successes will outperform the control:\
+  \  https://abtestguide.com/bayesian/\n\nThis calculator also seems to suggest the\
+  \ 130 successes variant should be chosen, not EITHER, as there is 95% confidence\
+  \ the result is not due to chance : https://abtestguide.com/calc/\n\n\nA secondary\
+  \ question is, if there is no predetermined sample size with the Bayesian approach,\
+  \ how do you plan how long to run the test for?  Mainly to deal with stakeholder\
+  \ communication &amp; project planning, but also to avoid peaking. \n\nMany thanks,\n\
+  Sam"
+date: '2017-03-24 17:23:47'
+email: a7eaeb8a80e037342bf6d5e2e0e18f82
+name: Sam Gil

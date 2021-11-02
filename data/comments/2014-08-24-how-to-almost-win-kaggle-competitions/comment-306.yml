@@ -1,0 +1,24 @@
+_id: '306'
+body: "It really depends on the dataset. For personal use, I don't worry too much\
+  \ about pretty visualisations. Often just printing some summary statistics works\
+  \ well.\n\nMost text classification problems are hard to visualise. If, for example,\
+  \ you use bag of words (or n-grams) as your feature set, you could just print the\
+  \ top words for each label, or the top words that vary between labels. Another thing\
+  \ to look at would be commonalities between misclassified instances -- these could\
+  \ be dependent on the content of the texts or their length.\n\nExamples:\n- In the\
+  \ Greek Media Monitoring competition (http://yanirseroussi.com/2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/),\
+  \ I found that 'Despite being manually annotated, the data isn\u2019t very clean.\
+  \ Issues include identical texts that have different labels, empty articles, and\
+  \ articles with very few words. For example, the training set includes ten \u201C\
+  articles\u201D with a single word. Five of these articles have the word 68839, but\
+  \ each of these five was given a different label.' -- this was discovered by just\
+  \ printing some summary statistics and looking at misclassified instances\n- Looking\
+  \ into the raw data behind one of the widely-used sentiment analysis datasets, I\
+  \ found an issue that was overlooked by many other people who used the dataset:\
+  \ http://www.cs.cornell.edu/people/pabo/movie-review-data/ (look for the comment\
+  \ with my name -- found four years after the original dataset was published)\n\n\
+  I hope this helps."
+date: '2015-04-13 08:29:37'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '302'

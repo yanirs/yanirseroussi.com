@@ -1,0 +1,9 @@
+_id: '1198'
+body: "Interesting point on the causal significance. How does this work when you have\
+  \ confounders in x? I'd have thought that x must contain the set of prima facie\
+  \ causes *for which we have true exogenous variation*. \n\nAlso, how does it work\
+  \ when you have bad controls in x (where x includes post-treatment causes that are\
+  \ plausibly varied by c)?"
+date: '2016-05-15 21:49:50'
+email: 3a974c8365594f5920b6b20ac70c9da9
+name: James Savage

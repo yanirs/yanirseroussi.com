@@ -1,0 +1,12 @@
+_id: '385'
+body: 'Thank you for the comment! I agree that analysing sentiment is very tricky
+  due to the fact that people often don''t express themselves so well. If I remember
+  correctly, inter-annotator agreement on some sentiment analysis tasks is only 70-80%,
+  so it''s likely that we will ever have perfect performance by machines.
+
+
+  dev.keywordmeme.com redirects to a github page -- where is the API?'
+date: '2015-05-22 08:49:02'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '370'

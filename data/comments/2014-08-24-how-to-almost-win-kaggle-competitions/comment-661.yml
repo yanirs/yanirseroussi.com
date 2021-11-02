@@ -1,0 +1,29 @@
+_id: '661'
+body: 'Thanks for your comment, Derek. These are all good questions, but the answers
+  really depend on the problem you''re working on and what you''re comfortable with.
+
+
+  Personally, I find IPython Notebooks useful for playing around with the data and
+  for documenting/storing throwaway code. However, once you have code that is more
+  complex or code that you want to rerun, it''s better to save it in separate files.
+  For editing these files, I use PyCharm.
+
+
+  Not all problems require a large hard drive. If you are working on a large dataset,
+  you can either purchase an external drive, or hire an instance from a cloud provider
+  like AWS or <a href="https://www.digitalocean.com/?refcode=cd96cae9d5e1" target="_blank"
+  rel="nofollow">DigitalOcean</a>. The latter is generally cheaper than AWS, but they
+  don''t offer GPUs. If you are working with a remote server, you can run IPython
+  Notebook on the server and work from your browser.
+
+
+  Regarding waiting for a script, for many models you can first build a simple version
+  to test that everything works (e.g., build a random forest with just a few trees
+  or train a neural network for a few iterations). If everything works well, you can
+  run the full version. If the run time is long, it''s a good idea to take snapshots
+  of the model and monitor performance on a hold-out set to ensure that you''re not
+  wasting time overfitting.'
+date: '2015-09-12 23:40:11'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '659'

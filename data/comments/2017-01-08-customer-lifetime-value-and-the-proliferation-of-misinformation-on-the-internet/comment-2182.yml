@@ -1,0 +1,12 @@
+_id: '2182'
+body: Thanks Eleni! I think that in the case of subscription-based products, you're
+  better off using different models, as churn is observed and can be predicted (e.g.,
+  using a package like <a href="https://github.com/CamDavidsonPilon/lifelines" rel="nofollow">lifelines</a>).
+  Once you have an estimate of when a customer is going to churn, it's easy to estimate
+  their LTV (assuming constant recurring revenue). In any case, the general principle
+  of not using closed formulas without testing their accuracy on your data still applies
+  here.
+date: '2018-02-02 09:56:00'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '2179'

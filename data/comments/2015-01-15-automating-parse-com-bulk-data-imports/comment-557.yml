@@ -1,0 +1,12 @@
+_id: '557'
+body: 'Hi Walter! Yeah, the code stopped working when Parse redesigned their website.
+  I never fixed it because I ended up porting my projects away from Parse. If you
+  fix it let me know and I''ll update this post.
+
+  By the way, you may find it easier to use Selenium (or something similar) as a wrapper
+  around PhantomJS, as it should result in cleaner code. For example, check out Python''s
+  Selenium bindings: http://selenium.googlecode.com/svn/trunk/docs/api/py/index.html'
+date: '2015-07-30 21:20:45'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '556'

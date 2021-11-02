@@ -1,0 +1,28 @@
+_id: '1420'
+body: 'When I started doing data science in a business setting (after years of doing
+  quantitative genetics in academic settings), I was puzzled by the talk of "customer
+  lifetime value", partly due to the issues you''ve mentioned. Even with appropriate
+  clarifications - it''s over, say, five years, not forever, etc. - it''s a peculiar
+  quantity, in that as typically calculated, at least by the business-y people in
+  my vicinity, it isn''t an average over a single population of customers. Instead,
+  it''s average, say, first-month net present value over customers who''ve been around
+  for at least one month (or maybe over all such customers who''ve also been around
+  for at most one year, to reduce the influence of customer behavior farther in the
+  past, when the product catalog, marketing strategies, etc. were different), plus
+  average second-month net present value over customers who''ve been around for at
+  least two months, etc., that is, it''s a sum of averages over a sequence of populations
+  of customers (which may not even be nested). And there can be further subtleties.
+  For example, in the context of a "freemium" service such as the one that is my primary
+  client at present, sometimes people want to measure time from when a customer signs
+  up for an account, whereas other times people want to measure time from when a customer
+  first buys something, which may be much later. Altogether, I''ve found that "customer
+  lifetime value" generally requires a good deal of explanation.
+
+
+  "no amount of cheap demagoguery and misinformation can alter the objective reality
+  of our world.": Alas, that isn''t quite true. Next week, the objective reality of
+  how the USA is governed will be altered substantially, partly due to blatant demagoguery
+  and misinformation.'
+date: '2017-01-09 21:09:02'
+email: 76347f8703adb9394f74bf150edb9b19
+name: Ralph Haygood

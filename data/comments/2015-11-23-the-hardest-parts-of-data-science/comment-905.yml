@@ -1,0 +1,15 @@
+_id: '905'
+body: 'Yes, many good points here, thanks for this. There is even another difficulty
+  apart from problem definition and solution measurement:  the semantics of the data
+  itself.  Are the definitions real (referring to other concepts) or nominal ("a cheeseburger
+  is a burger with cheese")? Scope and context can easily be lost,  and can only be
+  put back by a human being taking a decision, no amount of empirical modelling can
+  re-discover this. Also precision and accuracy of the data may be unknown and/or
+  insufficient to solve the problem posed.  If you have detected these issues, sometimes
+  you can re-formulate the problem,but typically its not clear from the column headings
+  alone (if you even have these). Even worse, the definitions may be incoherent or
+  nonsensical: eg in classical econometric modelling the definition of a rational
+  agent entails that the agent have knowledge of the future!'
+date: '2015-12-04 00:29:33'
+email: 9a6fa828e494e8583e5450e34f0d999a
+name: andrew

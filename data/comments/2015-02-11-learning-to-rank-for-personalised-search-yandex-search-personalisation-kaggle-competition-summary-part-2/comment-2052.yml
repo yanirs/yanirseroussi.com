@@ -1,0 +1,7 @@
+_id: '2052'
+body: "I do not understand how your featureset helped the model to learn anything.\n\
+  For example, \nuser_num_query_actions: number of queries performed by the user\n\
+  \nHow will it affect the order of search results for a new/test query."
+date: '2017-12-17 13:02:37'
+email: 1fc0fb275ad25219b5c017921c5e71ec
+name: nitin

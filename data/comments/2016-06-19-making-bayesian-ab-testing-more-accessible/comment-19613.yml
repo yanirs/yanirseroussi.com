@@ -1,0 +1,13 @@
+_id: '19613'
+body: 'Yanir hi! Thanks for sharing this content. I got a question regarding something
+  said on the Lyst blog post that I havent seen mentioned here: "Both of these problems
+  (repeated testing and low base rate) are much less pronounced when we use an informative
+  prior." Could you please explain how and why this occurs? Or share some paper about
+  it? Because otherwise I cant see in which ways prior selection affects type 1 errors
+  (since you are comparing it to the problems of repeated testing). And also, as my
+  understanding goes, bayesian inference does not control for type 1 errors, its not
+  in its interest to do so, so why would someone choose a prior conditioned on its
+  possible effects on type 1 errors?'
+date: '2020-07-15 19:32:24'
+email: 705dd93e666bf6d8a78517544974d254
+name: LazioB

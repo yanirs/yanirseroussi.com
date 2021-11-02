@@ -1,0 +1,9 @@
+_id: '662'
+body: Thanks for the quick response!  I think I'll be using Sublime Text on EC2 with
+  S3 in the short term, and possibly move onto Amazon ML with RedShift in the future.  I'll
+  probably take snapshots by outputting results to the console or MatPlotLib every
+  once in awhile, so that's great advice as well.
+date: '2015-09-13 21:58:32'
+email: 9f3ee838eeb42849d4880676cedd85d6
+name: derekchen14
+reply_to: '661'

@@ -1,0 +1,11 @@
+_id: '1255'
+body: "Great writeup! \nI think causality will become something that data scientists\
+  \ will need to acknowledge and think about more explicitly.\n\nComing from machine\
+  \ learning, it took me a while to wrap my head around the subtle but important differences\
+  \ in the way similar ideas are used in prediction vs. causal inference.\n\nRecently\
+  \ I gave an ICML tutorial about causality, together with David Sontag. This might\
+  \ be of interest to your readers as a starting point, particulalry for people who\
+  \ are well-versed in ML. It's here:\nwww.cs.nyu.edu/~shalit/tutorial.html"
+date: '2016-08-01 21:04:59'
+email: 57d87bea2ff0024f7c30361e59bf9072
+name: urishin

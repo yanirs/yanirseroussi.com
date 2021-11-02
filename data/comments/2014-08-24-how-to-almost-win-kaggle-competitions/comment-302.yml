@@ -1,0 +1,9 @@
+_id: '302'
+body: 'Could you provide some tips on #3(''Getting to Know your data'') with respect
+  to best practice visualisations to gain insights from data - especially considering
+  the fact that datasets always have a large number of features. Plotting feature
+  vs. label graphs do seem to be helpful, but for a large number of features will
+  be impractical. So how should one go about data analysis via visualisation?'
+date: '2015-04-11 10:08:23'
+email: 2f58afbef02de0937224bcbce7e172c2
+name: saatvik

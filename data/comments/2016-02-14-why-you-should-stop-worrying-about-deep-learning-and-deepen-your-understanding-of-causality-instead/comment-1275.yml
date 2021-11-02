@@ -1,0 +1,17 @@
+_id: '1275'
+body: My understanding is that causality is always the central focus of science.  Machine
+  learning/data mining is a relatively more recent thing, and its greatest benefit
+  lies in solving complex prediction problems.  But I think causality study and data
+  mining can help each other.  For the purpose of understanding causality, data mining
+  can be used in an exploratory way that helps scientists to generate theories (I
+  think it is possible to study the features (i.e., hidden units) extracted by deep
+  learning networks), then experiments, longitudinal studies and traditional stats
+  can be used to test the theories.    For the purpose of solving practical prediction
+  problems, theories developed from causality studies can help identify useful features
+  as input to the machine learning algorithms.  In fact, this was done all the times
+  especially before deep learning became popular.  I agree that scientists should
+  improve their understanding of causality, but picking up new technologies that take
+  advantage of modern computers and large data won't really hurt.
+date: '2016-08-08 20:38:55'
+email: ba93a0603ff68abb505a24f6cbe91024
+name: Qi

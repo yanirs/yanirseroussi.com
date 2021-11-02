@@ -1,0 +1,24 @@
+_id: '1200'
+body: 'Good questions :)
+
+
+  To be honest, I''m not completely sure it works in all these cases, as there is
+  always a need for interpretation to decide whether the identified causes are genuine.
+  I tried playing a bit with the toy data from <a href="http://bayes.cs.ucla.edu/R264.pdf"
+  target="_blank" rel="nofollow">Pearl''s report on Simpson''s Paradox</a>, but the
+  results are not entirely convincing. However, I''m also not fully convinced that
+  Pearl''s solution fully resolves Simpson''s Paradox, and Kleinberg does go through
+  a few scenarios where her approach doesn''t work in her book, so I''d say that there
+  are still quite a few open problems in the area.
+
+
+  Post-treatment causes are partly addressed by the definition in <a href="http://www.skleinberg.org/papers/huang_flairs15.pdf"
+  target="_blank" rel="nofollow">Huang and Kleinberg (2015)</a>, where significance
+  is weighted by the number of timepoints where <i>e</i> follows <i>c</i>. Again,
+  that definition doesn''t handle all cases, but I think it''s an interesting line
+  of research. I would definitely like to see their results reproduced by other researchers
+  and expanded to other datasets, though.'
+date: '2016-05-16 21:29:51'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1198'

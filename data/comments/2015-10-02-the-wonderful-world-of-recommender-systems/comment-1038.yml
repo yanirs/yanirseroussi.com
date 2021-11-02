@@ -1,0 +1,18 @@
+_id: '1038'
+body: 'It is important, but its importance tends to be exaggerated to the exclusion
+  of all other metrics. As I said in the post, things like the way you present your
+  results (UI/UX) and novelty/serendipity are also very important. In addition, the
+  goal of the system is often to optimise a different goal from offline accuracy,
+  such as revenue or engagement. In such cases it is best to focus on what you want
+  to improve rather than offline accuracy.
+
+
+  By the way, I attended a talk by Ted Dunning a few months ago, where he said that
+  one of the most important tweaks in real-life recommender system is adding random
+  recommendations (essentially decreasing offline accuracy). This allows the system
+  to learn from user feedback on a wider range of items, improving performance in
+  the long run.'
+date: '2016-01-26 19:21:55'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1037'

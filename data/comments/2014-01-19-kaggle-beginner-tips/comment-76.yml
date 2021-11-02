@@ -1,0 +1,25 @@
+_id: '76'
+body: 'Hi Flavio!
+
+
+  The optimisation approach depends on the data and method you''re using.
+
+
+  A basic example is when you don''t have any features, only a sample of target values.
+  In that case, if you want to minimise the MAE you should choose the sample median,
+  and if you want to minimise the MSE you should choose the sample mean. Here''s proof
+  why: https://www.dropbox.com/s/b1195thcqebnxyn/mae-vs-rmse.pdf
+
+
+  For more complex problems, if you''re using a machine learning package you can often
+  specify the type of loss function to minimise (see https://en.wikipedia.org/wiki/Loss_function#Selecting_a_loss_function).
+  But even if your measure isn''t directly optimised (e.g., MAE is harder to minimise
+  than MSE because it''s not differentiable at zero), you can always do cross-validation
+  to find the parameters that optimise it.
+
+
+  I hope this helps.'
+date: '2014-12-29 21:50:13'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir
+reply_to: '75'

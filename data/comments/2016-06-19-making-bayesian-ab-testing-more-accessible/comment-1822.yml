@@ -1,0 +1,23 @@
+_id: '1822'
+body: 'Hi Yanir,
+
+
+  I''ve read the explanation provided, and it left me feeling like the calculator
+  ignores the stopping rule used up to the point when data enters your calculator.
+  The same is confirmed by the calculator interface, where I see no option to specify
+  a stopping rule or number and points of prior observations I''ve done on the data
+  I enter. While for the first part one can assume that the user would use your calculator
+  for each look and the stopping rule is then given and the same, the second part
+  clearly means it will have no input on the number and timing of peeks. Given that
+  the stopping rule is data-based, it is certain to introduce heavy bias on the resulting
+  statistics, if my impression that you''re not adjusting the calculations to account
+  for peeking/optional stopping in any way are correct. Am I wrong in my assertion?
+
+
+  Thanks,
+
+  Georgi'
+date: '2017-09-21 13:09:23'
+email: 38e2950880f82e1fe5fe4cf876428407
+name: Georgi Georgiev
+reply_to: '1821'

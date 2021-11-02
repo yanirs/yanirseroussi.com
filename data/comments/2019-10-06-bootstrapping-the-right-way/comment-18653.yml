@@ -1,0 +1,17 @@
+_id: '18653'
+body: 'Reblogged this on <a href="http://gorelik.net/2019/10/06/bootstrapping-the-right-way/"
+  rel="nofollow">Boris Gorelik</a> and commented:
+
+
+  Many years ago, I terribly overfit a model which caused losses of a lot of shekels
+  (a LOT). It''s not that I wasn''t aware of the potential overfitting. I was. Among
+  other things, I used several bootstrapping simulations. It turns out that I applied
+  the bootstrapping in a wrong way. My particular problem was that I "forgot" about
+  confounding parameters and that I "forgot" that peeping into the future is a bad
+  thing.
+
+
+  Anyhow, Yanir Seroussi, my coworker data scientist, gave a very good talk on bootstrapping.'
+date: '2019-10-06 07:54:37'
+email: 22d41e5b6ff197cd7900c0514d1bd305
+name: Boris Gorelik

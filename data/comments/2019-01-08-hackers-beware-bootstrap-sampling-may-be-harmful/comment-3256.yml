@@ -1,0 +1,14 @@
+_id: '3256'
+body: "\"the basic bootstrap makes no assumption about the underlying distribution\
+  \ of the data\": I suppose bootstrapping per se doesn't, but some things people\
+  \ like to use it for do. For example, suppose the original sample is from a Cauchy\
+  \ distribution, and bootstrapping is used to compute a confidence interval around\
+  \ the sample mean; no matter how many bootstrap replicates are used, the computed\
+  \ interval is worthless, because the original distribution doesn't have a mean.\
+  \ Of course, that's an extreme case unlikely to arise in practice, but it immediately\
+  \ raises doubt that guidelines like \"n \u2265 101 for the bootstrap t\" should\
+  \ be applied uncritically. As you obviously agree, it's best to know and think about\
+  \ where the data came from when deciding which statistical methods to apply."
+date: '2019-01-08 00:09:43'
+email: 76347f8703adb9394f74bf150edb9b19
+name: Ralph Haygood

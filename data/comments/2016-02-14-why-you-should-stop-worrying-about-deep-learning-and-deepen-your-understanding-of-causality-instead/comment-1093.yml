@@ -1,0 +1,33 @@
+_id: '1093'
+body: 'I agree that in many cases the reasoning behind models isn''t interesting,
+  as long as the models produce satisfactory results. Web search is actually a good
+  example. Yes, many end users don''t really care how Google ranks pages, but SEO
+  practitioners go to great lengths to understand search algorithms and get pages
+  to rank well (see https://moz.com/search-ranking-factors for example).
+
+
+  As data scientists, it''s important to consider model stability in production. Sculley
+  et al. said it well in their paper on machine learning technical debt (http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf):
+  "Machine learning systems often have a difficult time distinguishing the impact
+  of correlated features. This may not seem like a major problem: if two features
+  are always correlated, but only one is truly causal, it may still seem okay to ascribe
+  credit to both and rely on their observed co-occurrence. However, if the world suddenly
+  stops making these features co-occur, prediction behavior may change significantly."
+
+
+  Finally, in many cases what we really care about is interventionality. I don''t
+  think it''s a real word, but what it means is that you don''t really care whether
+  A causes B, you want to know whether intervening to change A would change B. These
+  inferences are critical in fields like medicine and marketing, but we can look at
+  an example from the world of blogging, which is probably more relevant to you. Many
+  bloggers would like to attract more readers. A possible costly intervention would
+  be to switch platforms from WordPress to Medium. Cheaper interventions may be changing
+  the site''s layout, writing titles that get people interested, and posting links
+  to your content on relevant channels. Another intervention would be trying to post
+  at different times (as implied by WordPress insights and discussed in http://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/).
+  Obviously, one would like to apply the interventions with the highest return on
+  investment first, and data that helps with ranking the interventions is very interesting.'
+date: '2016-02-18 20:42:41'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1087'

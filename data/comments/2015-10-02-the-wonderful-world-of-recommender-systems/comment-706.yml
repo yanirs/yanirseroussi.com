@@ -1,0 +1,26 @@
+_id: '706'
+body: 'I agree. I said that predictive accuracy has some importance, but it is not
+  the only thing that matters. You''re right about it needing to be <em>good enough</em>,
+  where the definition of good enough is domain-dependent.
+
+
+  <a href="http://cgi.csc.liv.ac.uk/~wda2001/Panel_Presentations/Lopresti/Lopresti_files/v3_document.htm"
+  target="_blank" rel="nofollow">Daniel Lopresti</a> said it well years ago (he spoke
+  about web search but it applies to recommendation scenarios where suggestions are
+  browsable):
+
+  <blockquote>
+
+  Browsing is a comfortable and powerful paradigm (the serendipity effect). Search
+  results don''t have to be very good.
+
+  Recall? Not important (as long as you get at least some good hits).
+
+  Precision? Not important (as long as at least some of the hits on the first page
+  you return are good).
+
+  </blockquote>'
+date: '2015-10-02 20:36:57'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '702'

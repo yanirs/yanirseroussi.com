@@ -1,0 +1,15 @@
+_id: '1282'
+body: 'Good article - I''ve always had a bit of problem with the term "Data Scientist"
+  in that it infers that the person with such a title is somehow involved in research
+  of data for scientific purposes or has a deep academic background neither of which
+  are usually true.
+
+
+  Now, what does everyone think about the term "Data Architect" - I could do a rant
+  on that one.  Suffice it to say, you are a DATABASE Architect, not a DATA architect.  Data
+  is data, it is just raw numbers. You don''t design data, you design a data model
+  which eventually gets translated into a database.  Sorry, I guess that was a bit
+  of a rant ...'
+date: '2016-08-15 15:36:44'
+email: c21c9f89f98c1234da4a0ab04d1f43fa
+name: Ian Miller

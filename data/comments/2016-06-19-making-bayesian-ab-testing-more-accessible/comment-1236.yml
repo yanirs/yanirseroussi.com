@@ -1,0 +1,10 @@
+_id: '1236'
+body: My hunch is that the % of HDI chosen is of less interest to a user than seeing
+  how each test iteration alters the HDI and shifts the level of overlap between HDI
+  and ROPE toward one of either outcome. In the example given above, would a fair
+  interpretation be that the differences appear weighted more toward the negative
+  than the positive? With precision, shouldn't it be made a function of the minimum
+  effect requested? Larger ROPE require less precision and vice versa?
+date: '2016-06-20 00:23:50'
+email: 56f2e2c3d5f195f0d70e78194731f571
+name: John Chew

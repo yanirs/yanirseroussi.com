@@ -1,0 +1,10 @@
+_id: '1821'
+body: Thanks Georgi. I'm not sure I understand your question. The stopping rule is
+  explained under "Building the new calculator". It's worth reading Kruschke's articles
+  for further explanations. Also, as noted in the final paragraph of the post, no
+  stopping rule can tell you whether your sample is representative of the general
+  population, so results on synthetic data are of limited use.
+date: '2017-09-21 12:11:43'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1817'

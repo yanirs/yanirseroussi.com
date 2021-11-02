@@ -1,0 +1,8 @@
+_id: '17'
+body: Can you elaborate what you mean in Tip 5 by stating "The main scenarios when
+  you should skip local validation is when the data is too small ...". What I experienced
+  is that with too little observations, the leaderboard becomes very misleading, so
+  my intuition would be to use more local validation for small datasets, not less.
+date: '2014-10-08 14:28:21'
+email: 329369dea5acae30d805ae2229ee965a
+name: Toby

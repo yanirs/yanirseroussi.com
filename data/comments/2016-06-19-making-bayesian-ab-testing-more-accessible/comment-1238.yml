@@ -1,0 +1,13 @@
+_id: '1238'
+body: Thanks for your comment, John! I think that it appears weighted more towards
+  the negative because the beta distribution is symmetric when the mean is 0.5 (alpha
+  = beta), and asymmetric in other cases, making it less pointy. According to Kruschke's
+  simulations, using the precision stopping rule makes the success rate estimate closer
+  to the true mean of the underlying distribution than with other stopping rules,
+  which tend to overestimate the success rate. I'm not sure we'd get the same results
+  if precision were a function of the minimum effect, but I'd like to run more simulations
+  to get a better feeling for how it works.
+date: '2016-06-20 12:37:25'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1236'

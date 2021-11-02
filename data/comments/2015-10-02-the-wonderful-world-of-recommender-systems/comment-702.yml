@@ -1,0 +1,14 @@
+_id: '702'
+body: 'How did you arrive at the conclusion that accuracy doesn''t matter? The Netflix
+  quote and chart don''t seem connected to me. The quote refers to the massive ensembling
+  used to achieve the challenge score threshold. The chart seems to show that you
+  can go a long way from the baseline by improving features and models.
+
+
+  I''d say accuracy, or more generally, score used for evaluation, doesn''t matter
+  _as long as it''s good enough_. However, it''s not that easy to arrive at "good
+  enough". Consider Spotify. I find their daily recommendations abysmal. Discover
+  Weekly is much better, but still has room to improve.'
+date: '2015-10-02 16:51:09'
+email: 54f70981ce3758ccbfd5420bbff28df6
+name: Zygmunt

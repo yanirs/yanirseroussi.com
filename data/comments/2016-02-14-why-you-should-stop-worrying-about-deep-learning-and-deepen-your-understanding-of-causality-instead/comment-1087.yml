@@ -1,0 +1,11 @@
+_id: '1087'
+body: The problem with the search for causality (or, more generally, explainability)
+  is that in many cases, it is "not interesting". If I click on Google search results,
+  neither me nor Google algorithm developers are truly interested how the algorithm
+  decided to rank Page A before Page B. It is OK for me, as an end user, not to care
+  about those details, as much as I don't care hydraulics every  time I take a shower.
+  Is it OK for me, as a data scientist, not to care about the reasons behind my models?
+  Honestly, I don't yet know.
+date: '2016-02-18 09:56:34'
+email: 22d41e5b6ff197cd7900c0514d1bd305
+name: Boris Gorelik

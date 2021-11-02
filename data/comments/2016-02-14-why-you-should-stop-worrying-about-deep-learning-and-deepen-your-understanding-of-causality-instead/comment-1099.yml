@@ -1,0 +1,11 @@
+_id: '1099'
+body: Interesting. I think that one of the dividing factors between traditional software
+  engineering and data science is the attitude towards uncertainty. Whereas, as you
+  say, coding is all about creating a controlled deterministic environment, data science
+  and statistics thrive on uncertainty. It's similar with computer networks as well,
+  where there is always a non-deterministic element (e.g., packets may be lost, arrive
+  out-of-order, or come in bursts).
+date: '2016-02-20 09:41:25'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1090'

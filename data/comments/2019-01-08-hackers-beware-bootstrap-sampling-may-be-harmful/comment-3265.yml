@@ -1,0 +1,9 @@
+_id: '3265'
+body: Learned a lot from the post. One question on the CIs for means and the difference
+  between the means. If the two CIs for the means do not overlap, does it always imply
+  that the difference is significant? Or can the error go in both ways, meaning that
+  it is possible to have non-overlapping CIs and the CI of the difference includes
+  0?
+date: '2019-01-09 09:52:57'
+email: f4207c379a26aa8bb4dbb9376b261d48
+name: Ingo Rohlfing

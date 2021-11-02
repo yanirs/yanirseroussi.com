@@ -1,0 +1,14 @@
+_id: '19833'
+body: 'I''m not entirely sure about statements by the Lyst post authors, but I think
+  that it might be because the prior can make it less likely that one would make a
+  call before there is enough data, which is when there is a higher risk of false
+  positives. However, this is also addressed by using a stopping rule like Krushcke''s.
+
+
+  By the way, Kruschke''s 2018 paper <a href="https://osf.io/s5vdy/" rel="nofollow
+  ugc">Rejecting or accepting parameter values in Bayesian estimation</a> is a good
+  recent read on the topic.'
+date: '2020-08-17 03:23:18'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '19613'

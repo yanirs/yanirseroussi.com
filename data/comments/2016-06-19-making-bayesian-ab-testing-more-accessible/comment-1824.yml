@@ -1,0 +1,12 @@
+_id: '1824'
+body: Thanks for the clarification, Georgi. You're right, the calculator doesn't take
+  the number of peeks into account. As noted in the final paragraph of the post, I
+  don't think it matters as much as other factors, so I'm not planning on changing
+  this. As discussed in <a href="https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/">a
+  separate post</a>, statistical significance doesn't imply causality, which is what
+  we really care about. It is just one factor that should be taken into account when
+  deciding to implement changes.
+date: '2017-09-21 22:29:08'
+email: dda019c47a6183120608a6aeac2db6c5
+name: Yanir Seroussi
+reply_to: '1822'

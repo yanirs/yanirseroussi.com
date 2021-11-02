@@ -1,0 +1,23 @@
+_id: '1817'
+body: 'Hi Yanir,
+
+
+  The calculator is simple enough, and easy to use, though it lacks some basic things
+  such as testing more than one variant against a control, which is very often done
+  in practice.
+
+
+  I, and hopefully others, am interested to learn how information about the stopping
+  rule used enters into the calculations, if at all? After all, ignoring the stopping
+  rule would be like discarding data that can have a critical impact on the decision
+  made. I make an argument about it here: http://blog.analytics-toolkit.com/2017/bayesian-ab-testing-not-immune-to-optional-stopping-issues/
+  , with lots of references. Another take on the issue I''ve recently found is here
+  http://srmart.in/bayes-optional-stopping/ .
+
+
+  Best,
+
+  Georgi'
+date: '2017-09-20 10:53:39'
+email: 38e2950880f82e1fe5fe4cf876428407
+name: Georgi Georgiev
