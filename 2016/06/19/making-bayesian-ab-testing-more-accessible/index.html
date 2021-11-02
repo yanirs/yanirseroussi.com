@@ -162,10 +162,321 @@ https://yanirs.github.io/yanirseroussi.com/2016/06/19/making-bayesian-ab-testing
 <li><a href=https://yanirs.github.io/yanirseroussi.com/tags/statistics/>statistics</a></li>
 </ul>
 </footer><section class=comment-section>
-<strong>No comments</strong>
+<strong>17 comments</strong>
 <a class=comment-button href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New comment on https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
 Comment via GitHub issue
 </a>
+<div class=comment-level-0 id=comment-1236>
+<div class=comment-header>
+<a href=#comment-1236>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/56f2e2c3d5f195f0d70e78194731f571?s=50">
+<p class=comment-info>
+<strong>John Chew</strong><br>
+<small>2016-06-20 00:23:50</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+My hunch is that the % of HDI chosen is of less interest to a user than seeing how each test iteration alters the HDI and shifts the level of overlap between HDI and ROPE toward one of either outcome. In the example given above, would a fair interpretation be that the differences appear weighted more toward the negative than the positive? With precision, shouldn&rsquo;t it be made a function of the minimum effect requested? Larger ROPE require less precision and vice versa?
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1236&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-1238>
+<div class=comment-header>
+<a href=#comment-1238>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2016-06-20 12:37:25</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thanks for your comment, John! I think that it appears weighted more towards the negative because the beta distribution is symmetric when the mean is 0.5 (alpha = beta), and asymmetric in other cases, making it less pointy. According to Kruschke&rsquo;s simulations, using the precision stopping rule makes the success rate estimate closer to the true mean of the underlying distribution than with other stopping rules, which tend to overestimate the success rate. I&rsquo;m not sure we&rsquo;d get the same results if precision were a function of the minimum effect, but I&rsquo;d like to run more simulations to get a better feeling for how it works.
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1238&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1481>
+<div class=comment-header>
+<a href=#comment-1481>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/7618c8563a001f0ecc8c661d81d72532?s=50">
+<p class=comment-info>
+<strong>Сергей Филиппов</strong><br>
+<small>2017-03-23 18:11:43</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Could you tell me please how do you calculate HDI and ROPE?
+I am trying to replicate this calculator in R.
+Thanks!
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1481&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-1491>
+<div class=comment-header>
+<a href=#comment-1491>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2017-03-31 08:00:23</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+The source code for the calculation is here: <a href=https://github.com/yanirs/yanirs.github.io/blob/master/tools/split-test-calculator/src/bayes.coffee#L139>https://github.com/yanirs/yanirs.github.io/blob/master/tools/split-test-calculator/src/bayes.coffee#L139</a> &ndash; it shouldn&rsquo;t be too hard to translate to R.
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1491&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1483>
+<div class=comment-header>
+<a href=#comment-1483>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/a7eaeb8a80e037342bf6d5e2e0e18f82?s=50">
+<p class=comment-info>
+<strong>Sam Gil</strong><br>
+<small>2017-03-24 17:23:47</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Thanks for the post!</p>
+<p>I&rsquo;m more of a business stakeholder simply trying to improve our testing practices, rather than a data scientist who understands the theories at a detailed level.</p>
+<p>I&rsquo;m a bit confused why, if I enter the default example in your calculator (5000 trials each, 100 successes vs 130), the recommendation is to implement EITHER variant.</p>
+<p>Whereas, using a tool such as the following suggests a 97.8% chance the variant with 130 successes will outperform the control: <a href=https://abtestguide.com/bayesian/>https://abtestguide.com/bayesian/</a></p>
+<p>This calculator also seems to suggest the 130 successes variant should be chosen, not EITHER, as there is 95% confidence the result is not due to chance : <a href=https://abtestguide.com/calc/>https://abtestguide.com/calc/</a></p>
+<p>A secondary question is, if there is no predetermined sample size with the Bayesian approach, how do you plan how long to run the test for? Mainly to deal with stakeholder communication & project planning, but also to avoid peaking.</p>
+<p>Many thanks,
+Sam</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1483&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-1496>
+<div class=comment-header>
+<a href=#comment-1496>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2017-04-01 10:57:35</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Thanks for your comment, Sam!</p>
+<p>There are many approaches to Bayesian A/B testing. It looks like the other one you linked to doesn&rsquo;t allow you to specify your prior knowledge about the conversion rate and the decision criterion. Which values did you use for those fields in my calculator?</p>
+<p>As mentioned in the last paragraph of the post, you should really aim for a representative sample of users &ndash; size is only one factor. That being said, you can play with the number of trials in the calculator to get an idea of the required sample size based on the minimum effect criterion.</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1496&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1527>
+<div class=comment-header>
+<a href=#comment-1527>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/f71979d1ffe00bec8f8b28be74d06bc8?s=50">
+<p class=comment-info>
+<strong>David S</strong><br>
+<small>2017-05-09 15:56:05</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Great stuff!</p>
+<p>I agree that Peak Conversion makes it easy, but not being able to change the priors makes it limited. Lyst is a very good tool but your use of &ldquo;success rate&rdquo; rather than specifying an alpha and beta makes it much more intuitive.</p>
+<p>I just wanted to confirm my assumption on the &ldquo;Minimum effect&rdquo; field - you said it&rsquo;s absolute, so if I wanted to detect a 10% difference in a 5% success rate, that means I would have to input the value as 0.5?</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1527&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-1530>
+<div class=comment-header>
+<a href=#comment-1530>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2017-05-09 23:54:45</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Thanks David!</p>
+<p>That&rsquo;s correct. If you set the minimum effect field to 0.5, it means that changes in the success rate that are lower than 0.5% are considered equivalent to zero change. In your example, if the success rate changes from 5% to anything between 4.5% and 5.5%, the change is considered to be insubstantial or unimportant. Note that this is different from statistical significance: A change is significant in the statistical sense if it is unlikely to be due to random variation. The decision whether a change is substantial or important depends on your application, which is where the minimum effect threshold comes in.</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1530&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1817>
+<div class=comment-header>
+<a href=#comment-1817>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/38e2950880f82e1fe5fe4cf876428407?s=50">
+<p class=comment-info>
+<strong>Georgi Georgiev</strong><br>
+<small>2017-09-20 10:53:39</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Hi Yanir,</p>
+<p>The calculator is simple enough, and easy to use, though it lacks some basic things such as testing more than one variant against a control, which is very often done in practice.</p>
+<p>I, and hopefully others, am interested to learn how information about the stopping rule used enters into the calculations, if at all? After all, ignoring the stopping rule would be like discarding data that can have a critical impact on the decision made. I make an argument about it here: <a href=http://blog.analytics-toolkit.com/2017/bayesian-ab-testing-not-immune-to-optional-stopping-issues/>http://blog.analytics-toolkit.com/2017/bayesian-ab-testing-not-immune-to-optional-stopping-issues/</a> , with lots of references. Another take on the issue I&rsquo;ve recently found is here <a href=http://srmart.in/bayes-optional-stopping/>http://srmart.in/bayes-optional-stopping/</a> .</p>
+<p>Best,
+Georgi</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1817&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-1821>
+<div class=comment-header>
+<a href=#comment-1821>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2017-09-21 12:11:43</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thanks Georgi. I&rsquo;m not sure I understand your question. The stopping rule is explained under &ldquo;Building the new calculator&rdquo;. It&rsquo;s worth reading Kruschke&rsquo;s articles for further explanations. Also, as noted in the final paragraph of the post, no stopping rule can tell you whether your sample is representative of the general population, so results on synthetic data are of limited use.
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1821&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-2 id=comment-1822>
+<div class=comment-header>
+<a href=#comment-1822>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/38e2950880f82e1fe5fe4cf876428407?s=50">
+<p class=comment-info>
+<strong>Georgi Georgiev</strong><br>
+<small>2017-09-21 13:09:23</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Hi Yanir,</p>
+<p>I&rsquo;ve read the explanation provided, and it left me feeling like the calculator ignores the stopping rule used up to the point when data enters your calculator. The same is confirmed by the calculator interface, where I see no option to specify a stopping rule or number and points of prior observations I&rsquo;ve done on the data I enter. While for the first part one can assume that the user would use your calculator for each look and the stopping rule is then given and the same, the second part clearly means it will have no input on the number and timing of peeks. Given that the stopping rule is data-based, it is certain to introduce heavy bias on the resulting statistics, if my impression that you&rsquo;re not adjusting the calculations to account for peeking/optional stopping in any way are correct. Am I wrong in my assertion?</p>
+<p>Thanks,
+Georgi</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1822&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-3 id=comment-1824>
+<div class=comment-header>
+<a href=#comment-1824>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2017-09-21 22:29:08</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thanks for the clarification, Georgi. You&rsquo;re right, the calculator doesn&rsquo;t take the number of peeks into account. As noted in the final paragraph of the post, I don&rsquo;t think it matters as much as other factors, so I&rsquo;m not planning on changing this. As discussed in <a href=https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/>a separate post</a>, statistical significance doesn&rsquo;t imply causality, which is what we really care about. It is just one factor that should be taken into account when deciding to implement changes.
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1824&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-2 id=comment-1829>
+<div class=comment-header>
+<a href=#comment-1829>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2017-09-30 02:34:13</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+This recent paper on the limited use of statistical significance testing is worth reading: <a href=http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf>http://www.stat.columbia.edu/~gelman/research/unpublished/abandon.pdf</a>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-1829&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-19613>
+<div class=comment-header>
+<a href=#comment-19613>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/705dd93e666bf6d8a78517544974d254?s=50">
+<p class=comment-info>
+<strong>LazioB</strong><br>
+<small>2020-07-15 19:32:24</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Yanir hi! Thanks for sharing this content. I got a question regarding something said on the Lyst blog post that I havent seen mentioned here: &ldquo;Both of these problems (repeated testing and low base rate) are much less pronounced when we use an informative prior.&rdquo; Could you please explain how and why this occurs? Or share some paper about it? Because otherwise I cant see in which ways prior selection affects type 1 errors (since you are comparing it to the problems of repeated testing). And also, as my understanding goes, bayesian inference does not control for type 1 errors, its not in its interest to do so, so why would someone choose a prior conditioned on its possible effects on type 1 errors?
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-19613&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-19833>
+<div class=comment-header>
+<a href=#comment-19833>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2020-08-17 03:23:18</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>I&rsquo;m not entirely sure about statements by the Lyst post authors, but I think that it might be because the prior can make it less likely that one would make a call before there is enough data, which is when there is a higher risk of false positives. However, this is also addressed by using a stopping rule like Krushcke&rsquo;s.</p>
+<p>By the way, Kruschke&rsquo;s 2018 paper <a href=https://osf.io/s5vdy/ rel="nofollow ugc">Rejecting or accepting parameter values in Bayesian estimation</a> is a good recent read on the topic.</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-19833&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-19632>
+<div class=comment-header>
+<a href=#comment-19632>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/d016712f917c1fd5799faf878077c4b5?s=50">
+<p class=comment-info>
+<strong>mrpickleau</strong><br>
+<small>2020-07-23 10:38:40</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Would you happen to have a bayesian test duration calculator or know of one you can point me to?
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-19632&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-19832>
+<div class=comment-header>
+<a href=#comment-19832>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2020-08-17 02:56:19</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+A quick search yields some results, but I&rsquo;m not sure about the reliability of the estimates. Maybe I&rsquo;ll add it as a feature one day&mldr; :)
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f06%2f19%2fmaking-bayesian-ab-testing-more-accessible%2f%23comment-19832&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
 </section>
 </article>
 </main>

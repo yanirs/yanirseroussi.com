@@ -162,10 +162,167 @@ Hill: Testing untested assumptions</h2>
 <li><a href=https://yanirs.github.io/yanirseroussi.com/tags/predictive-modelling/>predictive modelling</a></li>
 </ul>
 </footer><section class=comment-section>
-<strong>No comments</strong>
+<strong>9 comments</strong>
 <a class=comment-button href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New comment on https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
 Comment via GitHub issue
 </a>
+<div class=comment-level-0 id=comment-1198>
+<div class=comment-header>
+<a href=#comment-1198>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/3a974c8365594f5920b6b20ac70c9da9?s=50">
+<p class=comment-info>
+<strong>James Savage</strong><br>
+<small>2016-05-15 21:49:50</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Interesting point on the causal significance. How does this work when you have confounders in x? I&rsquo;d have thought that x must contain the set of prima facie causes <em>for which we have true exogenous variation</em>.</p>
+<p>Also, how does it work when you have bad controls in x (where x includes post-treatment causes that are plausibly varied by c)?</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-1198&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-1200>
+<div class=comment-header>
+<a href=#comment-1200>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2016-05-16 21:29:51</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Good questions :)</p>
+<p>To be honest, I&rsquo;m not completely sure it works in all these cases, as there is always a need for interpretation to decide whether the identified causes are genuine. I tried playing a bit with the toy data from <a href=http://bayes.cs.ucla.edu/R264.pdf target=_blank rel=nofollow>Pearl&rsquo;s report on Simpson&rsquo;s Paradox</a>, but the results are not entirely convincing. However, I&rsquo;m also not fully convinced that Pearl&rsquo;s solution fully resolves Simpson&rsquo;s Paradox, and Kleinberg does go through a few scenarios where her approach doesn&rsquo;t work in her book, so I&rsquo;d say that there are still quite a few open problems in the area.</p>
+<p>Post-treatment causes are partly addressed by the definition in <a href=http://www.skleinberg.org/papers/huang_flairs15.pdf target=_blank rel=nofollow>Huang and Kleinberg (2015)</a>, where significance is weighted by the number of timepoints where <i>e</i> follows <i>c</i>. Again, that definition doesn&rsquo;t handle all cases, but I think it&rsquo;s an interesting line of research. I would definitely like to see their results reproduced by other researchers and expanded to other datasets, though.</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-1200&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1201>
+<div class=comment-header>
+<a href=#comment-1201>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/6c7d9b2bba16f79b1900c5098386c383?s=50">
+<p class=comment-info>
+<strong>Jose Magana</strong><br>
+<small>2016-05-17 01:19:40</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Excellent article! It has been very useful to understand what the topic of causality is about and triggered my interest to continue learning more!
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-1201&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1369>
+<div class=comment-header>
+<a href=#comment-1369>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/e7778c88395a420fcff68a1a31afedab?s=50">
+<p class=comment-info>
+<strong>Rachel Lynne Wilkerson</strong><br>
+<small>2016-12-08 11:26:40</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thanks for this post! I share your troubles over Pearl/time/feedback loops!
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-1369&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-1480>
+<div class=comment-header>
+<a href=#comment-1480>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/3cbe692e74c8824a7db554f18efbccad?s=50">
+<p class=comment-info>
+<strong>rs</strong><br>
+<small>2017-03-23 06:57:16</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Nice post. have you had any chance to apply them on real datasets. Please share those results
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-1480&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-3185>
+<div class=comment-header>
+<a href=#comment-3185>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/c076c646b1ac8cebfbf9ebabf4362bed?s=50">
+<p class=comment-info>
+<strong>ingorohlfing</strong><br>
+<small>2018-12-30 19:33:12</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Great post. I did not know about Kleinberg and Hill&rsquo;s work. I knew a similar list of criteria from this article, which is much younger <a href=https://doi.org/10.1177%2F0951629805050859>https://doi.org/10.1177%2F0951629805050859</a>
+Regarding Kleinberg: Adding time certainly is valuable, but doesn&rsquo;t the smoking example change the research question from whether smoking causes lung cancer to when it causes lung cancer? The latter question is more informative and implies the former, but I&rsquo;d say it is fine to ask the first question when one is not interested in the time of occurrence of cancer.
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-3185&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-3189>
+<div class=comment-header>
+<a href=#comment-3189>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2018-12-31 01:25:05</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thank you! I agree that the latter question is more informative, but I now think that saying that &ldquo;smoking causes cancer&rdquo; isn&rsquo;t particularly meaningful, as it ignores both timing and dosage. A good summary of the case for well-defined interventions was provided by Miguel Hernán in this paper: <a href=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207342/>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207342/</a>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-3189&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-21812>
+<div class=comment-header>
+<a href=#comment-21812>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/c19ebbee91d2fd5351fbc11cbb77c26e?s=50">
+<p class=comment-info>
+<strong>locksley1</strong><br>
+<small>2021-01-02 11:44:23</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+The limits of Pearl&rsquo;s theory on feedback loops bothers me too. However, have you studied much Control Theory? Or dynamical systems in general? It explicitly deals with feedback loops. I&rsquo;d be keen to get your thoughts on the comparison of Control Theory vs Pearl&rsquo;s Causal Inference.
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-21812&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-21816>
+<div class=comment-header>
+<a href=#comment-21816>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2021-01-03 01:07:36</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thanks for the comment! No, I haven&rsquo;t studied Control Theory. Maybe I&rsquo;ll look into it one day. :)
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2016%2f05%2f15%2fdiving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions%2f%23comment-21816&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
 </section>
 </article>
 </main>

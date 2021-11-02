@@ -91,10 +91,89 @@ Kaggle beginner tips
 <li><a href=https://yanirs.github.io/yanirseroussi.com/tags/kaggle-beginners/>kaggle beginners</a></li>
 </ul>
 </footer><section class=comment-section>
-<strong>No comments</strong>
+<strong>4 comments</strong>
 <a class=comment-button href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New comment on https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2014%2f01%2f19%2fkaggle-beginner-tips%2f&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
 Comment via GitHub issue
 </a>
+<div class=comment-level-0 id=comment-75>
+<div class=comment-header>
+<a href=#comment-75>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/8e31214a8da081b4a48b0b2dfa012d84?s=50">
+<p class=comment-info>
+<strong>Flavio</strong><br>
+<small>2014-12-29 13:09:27</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Hi Yanir!</p>
+<p>I have a question.</p>
+<p>When you say: &ldquo;For example, minimising the mean absolute error (MAE) may require a different approach from minimising the mean square error (MSE).&rdquo; can you explain what kind of approach (or methods, or rules of thumb) that your get to minimising MAE or MSE in machine learning?</p>
+<p>Thanks for your time in advance!</p>
+<p>Regards,</p>
+<p>Flavio</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2014%2f01%2f19%2fkaggle-beginner-tips%2f%23comment-75&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-76>
+<div class=comment-header>
+<a href=#comment-76>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir</strong><br>
+<small>2014-12-29 21:50:13</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Hi Flavio!</p>
+<p>The optimisation approach depends on the data and method you&rsquo;re using.</p>
+<p>A basic example is when you don&rsquo;t have any features, only a sample of target values. In that case, if you want to minimise the MAE you should choose the sample median, and if you want to minimise the MSE you should choose the sample mean. Here&rsquo;s proof why: <a href=https://www.dropbox.com/s/b1195thcqebnxyn/mae-vs-rmse.pdf>https://www.dropbox.com/s/b1195thcqebnxyn/mae-vs-rmse.pdf</a></p>
+<p>For more complex problems, if you&rsquo;re using a machine learning package you can often specify the type of loss function to minimise (see <a href=https://en.wikipedia.org/wiki/Loss_function#Selecting_a_loss_function)>https://en.wikipedia.org/wiki/Loss_function#Selecting_a_loss_function)</a>. But even if your measure isn&rsquo;t directly optimised (e.g., MAE is harder to minimise than MSE because it&rsquo;s not differentiable at zero), you can always do cross-validation to find the parameters that optimise it.</p>
+<p>I hope this helps.</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2014%2f01%2f19%2fkaggle-beginner-tips%2f%23comment-76&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-0 id=comment-2995>
+<div class=comment-header>
+<a href=#comment-2995>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/6541344d2773f2fbdb1df6f6d0ca71f5?s=50">
+<p class=comment-info>
+<strong>Hamid Khan</strong><br>
+<small>2018-10-25 21:18:00</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+<p>Hi Yanir!</p>
+<p>appreciate your work! I need to know should I directly jump into machine learning algorithm, programming etc or to first master math and statistics ?
+I am new in this field.</p>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2014%2f01%2f19%2fkaggle-beginner-tips%2f%23comment-2995&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
+<div class=comment-level-1 id=comment-2997>
+<div class=comment-header>
+<a href=#comment-2997>
+<img class=comment-avatar src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+<p class=comment-info>
+<strong>Yanir Seroussi</strong><br>
+<small>2018-10-26 02:27:48</small>
+</p>
+</a>
+</div>
+<div class="comment-body post-content">
+Thanks Hamid! Here&rsquo;s a post I wrote on the topic: <a href=https://yanirseroussi.com/2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/>https://yanirseroussi.com/2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/</a>
+</div>
+<a class="comment-button comment-button-small" href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirs.github.io%2fyanirseroussi.com%2f2014%2f01%2f19%2fkaggle-beginner-tips%2f%23comment-2997&body=<!-- Post your comment here and it may get added to the site -->" rel="noopener noreferrer" target=_blank>
+Reply via GitHub issue
+</a>
+</div>
 </section>
 </article>
 </main>
