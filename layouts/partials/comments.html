@@ -1,6 +1,5 @@
 <section class="comment-section">
-  {{ $slug := trim (replace .RelPermalink "/" "-") "-" }}
-  {{ $comments := index $.Site.Data.comments $slug | default slice }}
+  {{ $comments := index $.Site.Data.comments .File.ContentBaseName | default slice }}
 
   <strong>{{ len $comments | default "No" }} {{ cond (eq (len $comments) 1) "comment" "comments"}}</strong>
   <a
