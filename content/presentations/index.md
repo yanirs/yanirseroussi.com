@@ -6,8 +6,9 @@ date: 2014-04-05T23:30:29+00:00
 sharing_disabled:
   - 1
 comments: false
+url: /talks/ 
 aliases:
-  - /talks/
+ - /presentations/
 
 ---
 Just a list of some talks I've given, saved here for future reference and for general public benefit.

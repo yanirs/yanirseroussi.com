@@ -3,9 +3,9 @@ title: Advice for aspiring data scientists and other FAQs
 author: Yanir Seroussi
 type: post
 date: 2017-10-15T09:15:25+00:00
-url: /2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/
+url: /faq/
 aliases:
-  - /faq/
+  - /2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/
 cover:
   image: gold-coast-surfers.jpg
 categories:

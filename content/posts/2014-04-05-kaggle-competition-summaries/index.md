@@ -3,9 +3,9 @@ title: Kaggle competition tips and summaries
 author: Yanir Seroussi
 type: post
 date: 2014-04-05T23:46:10+00:00
-url: /2014/04/05/kaggle-competition-summaries/
+url: /kaggle/
 aliases:
-  - /kaggle/
+  - /2014/04/05/kaggle-competition-summaries/
 cover:
   image: kaggle-logo-transparent.png
 categories:
