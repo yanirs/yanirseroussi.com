@@ -1,0 +1,31 @@
+.mailing-list-container {
+  background: var(--code-bg);
+}
+
+form.mailing-list {
+  padding: 10px;
+  text-align: center;
+  max-width: calc(var(--nav-width) + var(--gap) * 2);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+form.mailing-list label {
+  font-weight: bold;
+}
+
+form.mailing-list input[type="text"] {
+  background: var(--theme);
+  border-radius: 4px;
+  color: var(--primary);
+  margin: 8px;
+  padding: 4px;
+}
+
+form.mailing-list input[type="submit"]  {
+  background: var(--primary);
+  border-radius: 18px;
+  color: var(--theme);
+  font-size: 16px;
+  padding: 0 16px;
+}
