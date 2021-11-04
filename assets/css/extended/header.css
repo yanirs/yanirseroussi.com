@@ -1,0 +1,20 @@
+header.header {
+  background: var(--code-bg);
+  border-bottom: 1px solid var(--content);
+  padding: 10px 0;
+}
+
+header.header .logo {
+  flex-wrap: unset;
+}
+
+header.header .nav {
+  flex-wrap: unset;
+  line-height: 1;
+  text-align: center;
+}
+
+header.header #menu {
+  margin-left: 0;
+  overflow-x: unset;
+}

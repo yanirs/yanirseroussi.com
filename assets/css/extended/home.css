@@ -1,0 +1,15 @@
+.home-info {
+  margin: 0;
+}
+
+.home-info .entry-header h1 {
+  text-align: center;
+}
+
+.home-info .entry-header img {
+  margin: auto;
+}
+
+.home-info .entry-footer {
+  display: none;
+}
