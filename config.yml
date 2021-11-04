@@ -1,5 +1,4 @@
-# TODO: change this when the porting is complete
-baseURL: https://yanirs.github.io/yanirseroussi.com/
+baseURL: https://yanirseroussi.com/
 copyright: '&copy; [Yanir Seroussi](https://yanirseroussi.com/about/)&nbsp;&nbsp;|'
 enableGitInfo: true
 languageCode: en-au
