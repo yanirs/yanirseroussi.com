@@ -1,22 +1,45 @@
 # TODO: change this when the porting is complete
 baseURL: https://yanirs.github.io/yanirseroussi.com/
+copyright: '&copy; [Yanir Seroussi](https://yanirseroussi.com/about/)&nbsp;&nbsp;|'
+enableGitInfo: true
 languageCode: en-au
-# TODO: sort out the copyright footer
-title: Yanir Seroussi | Data science and beyond
 theme: papermod
-paginate: 10
-
-params:
-  comments: true
-  cover:
-    hidden: false
-  mainSections: post
-  editPost:
-    url: https://github.com/yanirs/yanirseroussi.com/blob/master/content
-    text: Suggest changes
-    appendFilePath: true
+title: Yanir Seroussi | Data science and beyond
 
 markup:
   goldmark:
     renderer:
       unsafe: true
+
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Talks
+      url: /talks/
+      weight: 2
+    - name: FAQ
+      url: /faq/
+      weight: 3
+
+params:
+  analytics:
+    google:
+      siteVerificationTag: aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU
+  comments: true
+  cover:
+    hidden: false
+  disableScrollToTop: true
+  editPost:
+    appendFilePath: true
+    text: Suggest changes
+    url: https://github.com/yanirs/yanirseroussi.com/blob/master/content
+  homeInfoParams:
+    title: '![Yanir Seroussi profile picture](apple-touch-icon.png) Welcome! 🐳️'
+    content: |
+      Check out the [About](/about/) page for a general intro and contact options. Browse recent posts below, and get
+      notified about new posts by subscribing to the mailing list at [the bottom of any page](#mailing-list-email) or on
+      [TinyLetter](https://tinyletter.com/yanir).
+  mainSections: post
+  showShareButtons: true
