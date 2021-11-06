@@ -2,7 +2,6 @@
 title: Talks
 author: Yanir Seroussi
 type: page
-date: 2014-04-05T23:30:29+00:00
 sharing_disabled:
   - 1
 comments: false
