@@ -7,6 +7,9 @@ cover:
 comments: false
 sharing_disabled:
   - 1
+# Avoid 404 when following the link for the final WP.com post.
+aliases:
+  - /2021/11/06/migrating-off-wordpress-com-a-note-to-subscribers/
 
 ---
 Hi!
