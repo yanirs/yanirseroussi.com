@@ -8,14 +8,13 @@ cover:
   image: lord-howe-island.jpg
 timeline_notification:
   - 1617604912
-categories:
-  - Causal inference
-  - Environment
 tags:
   - a/b testing
   - career
+  - causal inference
   - causality
-  - reef life survey
+  - environment
+  - Reef Life Survey
   - remote work
   - sustainability
 
@@ -31,4 +30,4 @@ My track record of posting here has been pretty poor in 2020, partly because of 
 
 <strong>Reef Life Survey (RLS).</strong> Another distributed organisation that I'm involved with, and a worthwhile cause, is <a href="https://reeflifesurvey.com/">the RLS foundation</a>. I previously posted about my experiences with <a href="https://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/">RLS offline data collection</a> and <a href="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/">visualisation of the collected data</a>, and have since helped with quite a few RLS surveys. Despite lockdowns and border closures, 2020 was no exception: I participated in <a href="https://reeflifesurvey.com/biennial-lord-howe-island-surveys-feb-2020/">the Lord Howe biennial surveys</a> in February (just before the initial lockdown), and was fortunate to join <a href="https://reeflifesurvey.com/airlie-beach-to-thursday-island-onboard-eviota-lap-of-aus/">a survey trip from Airlie Beach to Thursday Island</a> in October (long after lockdown lifted in the lucky state of Queensland). I also joined the 38(!) author list of <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320720309137"><em>Establishing the ecological basis for conservation of shallow marine life using Reef Life Survey</em></a> – a Biological Conservation journal paper covering RLS's history, methodology, outcomes, and more. Finally, I was surprised and honoured to receive <a href="https://www.facebook.com/ReefLifeSurvey/posts/the-rlsf-agm-was-held-on-monday-so-we-can-officially-announce-this-years-scoresb/5361191510573757/">the Scoresby Shepherd Award</a> for doing the most RLS surveys in the 2019-20 financial year. It was clearly a bit of a slow year due to the pandemic, but it's always nice to get recognised. Overall, 2020 was definitely a good year for my participation in RLS and I'm planning on contributing more in 2021, especially with help around organising and conducting surveys in Southeast Queensland.
 
-<strong>Technical work.</strong> My main "day job" focus in 2020 was on being the tech lead for Automattic's new experimentation platform (ExPlat). This aligns well with my long-standing interest in <a href="https://yanirseroussi.com/category/data-science-2/causal-inference/">causal inference</a>. Among other things, it gave me an opportunity to apply <a href="https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/">my favourite approach to Bayesian A/B testing</a> in the wild, and get excited about other interesting causal inference work we have in the pipeline. Now that ExPlat's foundation is mostly in place, we are planning on sharing much of our work on data.blog. My colleague Aaron just published <a href="https://data.blog/2021/03/16/explat-automattics-experimentation-platform/">the first post in the series</a>, and my post on ExPlat's architecture will be next. Subscribe to data.blog to get updates!
+<strong>Technical work.</strong> My main "day job" focus in 2020 was on being the tech lead for Automattic's new experimentation platform (ExPlat). This aligns well with my long-standing interest in <a href="https://yanirseroussi.com/tags/causal-inference/">causal inference</a>. Among other things, it gave me an opportunity to apply <a href="https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/">my favourite approach to Bayesian A/B testing</a> in the wild, and get excited about other interesting causal inference work we have in the pipeline. Now that ExPlat's foundation is mostly in place, we are planning on sharing much of our work on data.blog. My colleague Aaron just published <a href="https://data.blog/2021/03/16/explat-automattics-experimentation-platform/">the first post in the series</a>, and my post on ExPlat's architecture will be next. Subscribe to data.blog to get updates!

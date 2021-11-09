@@ -6,8 +6,6 @@ date: 2015-04-24T00:19:36+00:00
 url: /2015/04/24/my-divestment-from-fossil-fuels/
 cover:
   image: industry.jpg
-categories:
-  - Environment
 tags:
   - climate change
   - divestment

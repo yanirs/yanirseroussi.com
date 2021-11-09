@@ -6,8 +6,6 @@ date: 2015-03-22T09:43:47+00:00
 url: /2015/03/22/the-long-road-to-a-lifestyle-business/
 cover:
   image: overland-track.jpg
-categories:
-  - General
 tags:
   - business
   - data science

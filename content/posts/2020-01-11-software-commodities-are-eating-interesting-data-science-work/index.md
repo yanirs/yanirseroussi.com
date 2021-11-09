@@ -8,8 +8,6 @@ cover:
  image: pacman.png
 timeline_notification:
   - 1578734558
-categories:
-  - Data science
 tags:
   - business
   - career

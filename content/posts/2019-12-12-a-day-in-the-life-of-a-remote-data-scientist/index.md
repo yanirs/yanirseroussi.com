@@ -8,10 +8,8 @@ cover:
   image: remote-person-tossing-globe.jpg
 timeline_notification:
   - 1576101984
-categories:
-  - Data science
 tags:
-  - automattic
+  - Automattic
   - career
   - data science
   - remote work

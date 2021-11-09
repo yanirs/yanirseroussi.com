@@ -6,9 +6,6 @@ date: 2016-01-24T00:32:25+00:00
 url: /2016/01/24/the-joys-of-offline-data-collection/
 cover:
   image: triaenodon-obesus-whitetip-reef-shark.jpg
-categories:
-  - Data science
-  - Environment
 tags:
   - data science
   - deep learning
@@ -16,6 +13,7 @@ tags:
   - marine science
   - personal
   - predictive modelling
+  - Reef Life Survey
   - scuba diving
 
 ---

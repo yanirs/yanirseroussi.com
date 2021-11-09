@@ -6,16 +6,14 @@ date: 2015-01-29T10:37:39+00:00
 url: /2015/01/29/is-thinking-like-a-search-engine-possible-yandex-search-personalisation-kaggle-competition-summary-part-1/
 cover:
   image: artificial-intelligence.jpg
-categories:
-  - Kaggle
 tags:
   - data science
-  - kaggle competition
+  - Kaggle
+  - Kaggle competition
   - machine learning
   - predictive modelling
   - search engine optimisation
-  - SEO
-
+ 
 ---
 About a year ago, I participated in the <a href="https://www.kaggle.com/c/yandex-personalized-web-search-challenge" target="_blank" rel="noopener">Yandex search personalisation Kaggle competition</a>. I started off as a solo competitor, and then added a few Kaggle newbies to the team as part of a program I was running for the <a href="http://www.meetup.com/Data-Science-Sydney/" target="_blank" rel="noopener">Sydney Data Science Meetup</a>. My team hasn't done too badly, finishing 9th out of 194 teams. As is usually the case with Kaggle competitions, the most valuable part was the lessons learned from the experience. In this case, the lessons go beyond the usual data science skills, and include some insights that are relevant to search engine optimisation (SEO) and privacy. This post describes the competition setup and covers the more general insights. A follow-up post will cover the technical side of our approach.
 

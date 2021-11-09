@@ -6,14 +6,12 @@ date: 2017-06-03T00:49:05+00:00
 url: /2017/06/03/exploring-and-visualising-reef-life-survey-data/
 cover:
   image: reef-life-survey-frequency-explorer-screenshot.png
-categories:
-  - Data science
-  - Environment
 tags:
+  - data science
   - environment
-  - javascript
+  - JavaScript
   - marine science
-  - reef life survey
+  - Reef Life Survey
   - software engineering
   - web development
 

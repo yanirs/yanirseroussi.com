@@ -6,15 +6,13 @@ date: 2017-07-29T05:39:26+00:00
 url: /2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/
 cover:
   image: long-remote-road.jpg
-categories:
-  - Data science
 tags:
-  - automattic
+  - Automattic
   - career
   - data science
   - Elasticsearch
   - personal
-  - wordpress
+  - WordPress
 
 ---
 About two years ago, I read the book <a href="http://scottberkun.com/yearwithoutpants/" target="_blank" rel="noopener">The Year without Pants</a>, which describes the author's experience leading a team at <a href="https://automattic.com/" target="_blank" rel="noopener">Automattic</a> (the company behind WordPress.com, among other products). Automattic is a fully-distributed company, which means that all of its employees work remotely (hence pants are optional). While the book discusses some of the challenges of working remotely, the author's general experience was very positive. A few months after reading the book, I decided to look for a full-time position after [a period of independent work][1]. Ideally, I wanted a well-paid data science-y remote job with an established distributed tech company that offers a good life balance and makes products I care about. Automattic seemed to tick all my boxes, so I decided to apply for a job with them. This post describes my application steps, which ultimately led to me becoming a data scientist with Automattic.

@@ -6,8 +6,6 @@ date: 2015-07-06T22:21:42+00:00
 url: /2015/07/06/learning-about-deep-learning-through-album-cover-classification/
 cover:
   image: bandcamp-album-covers-by-genre.png
-categories:
-  - Data science
 tags:
   - data science
   - deep learning

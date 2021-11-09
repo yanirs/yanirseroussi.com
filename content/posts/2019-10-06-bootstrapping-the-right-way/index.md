@@ -8,8 +8,6 @@ cover:
   image: revenue-confidence-intervals.png
 timeline_notification:
   - 1570344490
-categories:
-  - Data science
 tags:
   - analytics
   - data science

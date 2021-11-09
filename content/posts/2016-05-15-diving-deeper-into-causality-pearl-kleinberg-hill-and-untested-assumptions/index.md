@@ -6,10 +6,8 @@ date: 2016-05-14T19:57:03+00:00
 url: /2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
 cover:
   image: freediving.jpg
-categories:
-  - Causal inference
-  - Data science
 tags:
+  - causal inference
   - causality
   - data science
   - insights

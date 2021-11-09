@@ -8,12 +8,10 @@ aliases:
   - /2014/04/05/kaggle-competition-summaries/
 cover:
   image: kaggle-logo-transparent.png
-categories:
-  - Kaggle
 tags:
   - data science
-  - kaggle
-  - kaggle competition
+  - Kaggle
+  - Kaggle competition
   - predictive modelling
 
 ---

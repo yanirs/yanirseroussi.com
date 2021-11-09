@@ -4,8 +4,6 @@ author: Yanir Seroussi
 type: post
 date: 2014-12-29T02:30:06+00:00
 url: /2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/
-categories:
-  - Data science
 tags:
   - data science
   - gradient boosting

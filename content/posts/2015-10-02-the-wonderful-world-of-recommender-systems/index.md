@@ -6,8 +6,6 @@ date: 2015-10-02T05:25:57+00:00
 url: /2015/10/02/the-wonderful-world-of-recommender-systems/
 cover:
   image: recommender-universe.jpg
-categories:
-  - Data science
 tags:
   - data science
   - machine learning

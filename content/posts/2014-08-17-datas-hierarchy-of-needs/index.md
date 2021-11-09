@@ -6,8 +6,6 @@ date: 2014-08-17T13:09:30+00:00
 url: /2014/08/17/datas-hierarchy-of-needs/
 cover:
   image: datas-hierarchy-of-needs.jpg
-categories:
-  - Data science
 tags:
   - business
   - data business

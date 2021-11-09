@@ -42,3 +42,6 @@ params:
       [TinyLetter](https://tinyletter.com/yanir).
   mainSections: post
   showShareButtons: true
+
+taxonomies:
+  tag: tags

@@ -6,11 +6,10 @@ date: 2014-09-07T10:48:44+00:00
 url: /2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
 cover:
   image: bcrecommender-architecture.png
-categories:
-  - BCRecommender
 tags:
-  - bandcamp
-  - devops
+  - Bandcamp
+  - BCRecommender
+  - DevOps
   - recommender systems
   - software engineering
 

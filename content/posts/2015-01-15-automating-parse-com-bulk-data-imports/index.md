@@ -6,12 +6,10 @@ date: 2015-01-15T04:41:16+00:00
 url: /2015/01/15/automating-parse-com-bulk-data-imports/
 cover:
   image: parse-hosting.jpg
-categories:
-  - General
 tags:
-  - devops
+  - DevOps
   - parse.com
-  - phantomjs
+  - PhantomJS
   - software engineering
 
 ---

@@ -6,10 +6,8 @@ date: 2015-06-06T05:00:22+00:00
 url: /2015/06/06/hopping-on-the-deep-learning-bandwagon/
 cover:
   image: bandcamp-album-covers-by-genre-shuffled.png
-categories:
-  - Data science
 tags:
-  - bandcamp
+  - Bandcamp
   - data science
   - deep learning
   - machine learning

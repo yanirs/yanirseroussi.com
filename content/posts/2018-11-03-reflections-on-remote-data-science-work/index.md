@@ -8,14 +8,12 @@ cover:
   image: angels-beach.jpg
 timeline_notification:
   - 1541226797
-categories:
-  - Data science
 tags:
-  - automattic
+  - Automattic
   - career
   - data science
   - remote work
-  - wordpress
+  - WordPress
 
 ---
 It's been about a year and a half since [I joined Automattic as a remote data scientist][1]. This is the longest I've been in one position since finishing my PhD in 2012. This is also the first time I've worked full-time with a fully-distributed team. In this post, I briefly discuss some of the top pluses and minuses of remote work, based on my experience so far.

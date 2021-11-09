@@ -6,16 +6,14 @@ date: 2015-12-08T06:57:25+00:00
 url: /2015/12/08/this-holiday-season-give-me-real-insights/
 cover:
   image: dikw-pyramid.jpg
-categories:
-  - Data science
 tags:
   - analytics
   - data science
-  - facebook
+  - Facebook
   - insights
-  - linkedin
+  - LinkedIn
   - marketing
-  - wordpress
+  - WordPress
 
 ---
 Merriam-Webster defines an <a href="http://www.merriam-webster.com/dictionary/insight" target="_blank" rel="noopener">insight</a> as _an understanding of the true nature of something_. Many companies seem to define an insight as _any piece of data or information_, which I would call a pseudo-insight. This post surveys some examples of pseudo-insights, and discusses how these can be built upon to provide real insights.

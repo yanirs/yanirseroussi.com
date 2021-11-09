@@ -6,13 +6,11 @@ date: 2014-11-19T09:17:34+00:00
 url: /2014/11/19/fitting-noise-forecasting-the-sale-price-of-bulldozers-kaggle-competition-summary/
 cover:
   image: noisy-bulldozers.jpg
-categories:
-  - Kaggle
 tags:
   - data science
   - gradient boosting
-  - kaggle
-  - kaggle competition
+  - Kaggle
+  - Kaggle competition
   - predictive modelling
   - price forecasting
   - scikit-learn

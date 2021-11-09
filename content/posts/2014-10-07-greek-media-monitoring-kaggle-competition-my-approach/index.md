@@ -6,12 +6,10 @@ date: 2014-10-07T03:21:35+00:00
 url: /2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/
 cover:
   image: wise2014-connected-components.png
-categories:
-  - Kaggle
 tags:
   - data science
-  - kaggle
-  - kaggle competition
+  - Kaggle
+  - Kaggle competition
   - multi-label classification
   - predictive modelling
 

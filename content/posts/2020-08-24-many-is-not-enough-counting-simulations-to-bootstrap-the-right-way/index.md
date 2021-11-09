@@ -8,8 +8,6 @@ cover:
   image: santa-counting.jpg
 timeline_notification:
   - 1598232923
-categories:
-  - Data science
 tags:
   - bootstrapping
   - confidence intervals

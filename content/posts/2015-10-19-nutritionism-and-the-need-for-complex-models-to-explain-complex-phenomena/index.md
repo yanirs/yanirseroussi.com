@@ -6,8 +6,6 @@ date: 2015-10-19T00:02:32+00:00
 url: /2015/10/19/nutritionism-and-the-need-for-complex-models-to-explain-complex-phenomena/
 cover:
   image: health-star-dish.jpg
-categories:
-  - Data science
 tags:
   - data business
   - data science

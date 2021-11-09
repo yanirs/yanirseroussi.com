@@ -8,10 +8,8 @@ cover:
   image: chicken-egg-roost.jpg
 timeline_notification:
   - 1545619075
-categories:
-  - Causal inference
-  - Data science
 tags:
+  - causal inference
   - causality
   - data science
   - statistics

@@ -6,8 +6,6 @@ date: 2016-08-04T22:26:03+00:00
 url: /2016/08/04/is-data-scientist-a-useless-job-title/
 cover:
   image: silly-data-scientist.jpg
-categories:
-  - Data science
 tags:
   - business
   - data science

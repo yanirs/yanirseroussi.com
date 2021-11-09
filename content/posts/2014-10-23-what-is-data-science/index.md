@@ -7,11 +7,9 @@ excerpt: "Data science has been a hot term in the past few years. Despite this f
 url: /2014/10/23/what-is-data-science/
 cover:
   image: data-skill-continuum.png
-categories:
-  - Data science
 tags:
   - data science
-  - kaggle
+  - Kaggle
   - software engineering
 
 ---

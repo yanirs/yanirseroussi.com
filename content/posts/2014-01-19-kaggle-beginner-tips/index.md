@@ -4,12 +4,10 @@ author: Yanir Seroussi
 type: post
 date: 2014-01-19T10:34:28+00:00
 url: /2014/01/19/kaggle-beginner-tips/
-categories:
-  - Kaggle
 tags:
   - data science
-  - kaggle
-  - kaggle beginners
+  - Kaggle
+  - Kaggle beginners
 
 ---
 These are few points from an email I sent to members of the [Data Science Sydney Meetup][1]. I suppose other Kaggle beginners may find it useful.

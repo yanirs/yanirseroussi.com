@@ -8,8 +8,6 @@ cover:
   image: warning-signs.jpg
 timeline_notification:
   - 1546895280
-categories:
-  - Data science
 tags:
   - bootstrapping
   - data science

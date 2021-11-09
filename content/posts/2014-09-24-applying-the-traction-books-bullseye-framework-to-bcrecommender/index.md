@@ -4,10 +4,9 @@ author: Yanir Seroussi
 type: post
 date: 2014-09-24T04:57:39+00:00
 url: /2014/09/24/applying-the-traction-books-bullseye-framework-to-bcrecommender/
-categories:
-  - BCRecommender
 tags:
-  - bandcamp
+  - Bandcamp
+  - BCRecommender
   - business
   - marketing
   - recommender systems

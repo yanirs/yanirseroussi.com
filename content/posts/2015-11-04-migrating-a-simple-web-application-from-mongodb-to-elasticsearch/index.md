@@ -6,10 +6,9 @@ date: 2015-11-04T03:53:18+00:00
 url: /2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/
 cover:
   image: mongodb-to-elasticsearch.png
-categories:
-  - BCRecommender
 tags:
-  - devops
+  - BCRecommender
+  - DevOps
   - Elasticsearch
   - MongoDB
   - software engineering

@@ -6,10 +6,9 @@ date: 2015-07-31T03:29:50+00:00
 url: /2015/07/31/goodbye-parse-com/
 cover:
   image: farewell.jpg
-categories:
-  - BCRecommender
 tags:
-  - devops
+  - BCRecommender
+  - DevOps
   - parse.com
   - software engineering
 

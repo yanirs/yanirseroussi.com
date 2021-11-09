@@ -15,8 +15,6 @@ timeline_notification:
   - 1521579702
 blog_id:
   - 115552841
-categories:
-  - Data science
 tags:
   - data science
   - software engineering

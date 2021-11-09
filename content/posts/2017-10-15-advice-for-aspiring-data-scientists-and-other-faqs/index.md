@@ -8,13 +8,11 @@ aliases:
   - /2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/
 cover:
   image: gold-coast-surfers.jpg
-categories:
-  - Data science
 tags:
   - career
   - data business
   - data science
-  - faq
+  - frequently asked questions
 
 ---
 Aspiring data scientists and other visitors to this site often repeat the same questions. This post is the definitive collection of my answers to such questions (which may evolve over time).

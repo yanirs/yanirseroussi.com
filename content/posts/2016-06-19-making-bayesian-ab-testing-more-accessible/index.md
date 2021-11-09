@@ -6,12 +6,10 @@ date: 2016-06-19T10:32:15+00:00
 url: /2016/06/19/making-bayesian-ab-testing-more-accessible/
 cover:
   image: bayesian-split-testing-calculator.png
-categories:
-  - Causal inference
-  - Data science
 tags:
   - a/b testing
   - analytics
+  - causal inference
   - causality
   - data science
   - split testing

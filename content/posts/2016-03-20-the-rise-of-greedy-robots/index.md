@@ -6,13 +6,12 @@ date: 2016-03-20T20:33:43+00:00
 url: /2016/03/20/the-rise-of-greedy-robots/
 cover:
   image: greedy-robot.jpg
-categories:
-  - Machine intelligence
 tags:
   - data science
   - deep learning
   - economics
   - futurism
+  - machine intelligence
 
 ---
 Given the impressive advancement of machine intelligence in recent years, many people have been speculating on what the future holds when it comes to the power and roles of robots in our society. Some have even <a href="http://www.theguardian.com/technology/2014/oct/27/elon-musk-artificial-intelligence-ai-biggest-existential-threat" target="_blank" rel="noopener">called for regulation of machine intelligence before it's too late</a>. My take on this issue is that there is no need to speculate &ndash; machine intelligence is already here, with greedy robots already dominating our lives.

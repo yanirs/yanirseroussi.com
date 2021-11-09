@@ -6,8 +6,6 @@ date: 2016-08-21T21:34:17+00:00
 url: /2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/
 cover:
   image: data-driven-off-cliff.jpg
-categories:
-  - Data science
 tags:
   - analytics
   - business

@@ -15,8 +15,6 @@ blog_id:
   - 115552841
 timeline_notification:
   - 1549326039
-categories:
-  - General
 
 ---
 One of the main projects I worked on last year.

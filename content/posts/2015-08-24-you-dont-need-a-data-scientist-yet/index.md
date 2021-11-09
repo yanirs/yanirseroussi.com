@@ -6,8 +6,6 @@ date: 2015-08-24T08:25:30+00:00
 url: /2015/08/24/you-dont-need-a-data-scientist-yet/
 cover:
   image: hammer.jpg
-categories:
-  - Data science
 tags:
   - business
   - data business

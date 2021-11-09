@@ -4,13 +4,11 @@ author: Yanir Seroussi
 type: post
 date: 2014-08-24T12:40:53+00:00
 url: /2014/08/24/how-to-almost-win-kaggle-competitions/
-categories:
-  - Kaggle
 tags:
   - data science
-  - kaggle
-  - kaggle beginners
-  - kaggle competition
+  - Kaggle
+  - Kaggle beginners
+  - Kaggle competition
   - predictive modelling
 
 ---

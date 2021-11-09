@@ -6,8 +6,6 @@ date: 2016-09-19T21:28:44+00:00
 url: /2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/
 cover:
   image: why-brick-wall-large.jpg
-categories:
-  - Data science
 tags:
   - causality
   - data science

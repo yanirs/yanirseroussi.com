@@ -8,8 +8,6 @@ cover:
   image: what-would-you-say-you-do-here.jpg
 timeline_notification:
   - 1532248067
-categories:
-  - Data science
 tags:
   - analytics
   - artificial intelligence

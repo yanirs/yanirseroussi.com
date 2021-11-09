@@ -6,10 +6,9 @@ date: 2014-08-30T08:11:38+00:00
 url: /2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/
 cover:
   image: bcrecommender-screenshot.png
-categories:
-  - BCRecommender
 tags:
-  - bandcamp
+  - Bandcamp
+  - BCRecommender
   - music
   - music industry
   - recommender systems
