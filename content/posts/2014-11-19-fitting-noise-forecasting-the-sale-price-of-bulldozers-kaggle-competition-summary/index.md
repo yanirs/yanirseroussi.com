@@ -57,5 +57,5 @@ These results are pretty cool, but this is still just a toy dataset (though repe
 
 **Update:** I ran Ridgway's experiments. The results are discussed in [Stochastic Gradient Boosting: Choosing the Best Number of Iterations][2].
 
- [1]: http://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/ "How to (almost) win Kaggle competitions - Tip 9"
- [2]: http://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/ "Stochastic Gradient Boosting: Choosing the Best Number of Iterations"
+ [1]: https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/ "How to (almost) win Kaggle competitions - Tip 9"
+ [2]: https://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/ "Stochastic Gradient Boosting: Choosing the Best Number of Iterations"

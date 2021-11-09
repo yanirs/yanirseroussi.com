@@ -61,4 +61,4 @@ Second, the tools themselves could be improved. For example, reliance on third-p
 
 Finally, many other interesting things can be done with the RLS data (in addition to producing <a href="http://reeflifesurvey.com/scientific-papers/" target="_blank" rel="noopener">scientific papers and reports</a>, which is the main focus of the researchers behind the project). Examples include using the images to automate species identification (as discussed more thoroughly in my [previous post on the topic][1]), and building models to predict survey output and detect anomalies (e.g., due to climate change or other unusual factors). If you have other ideas, or end up playing with the data and coming with interesting results, please share your findings in the comments section.
 
- [1]: http://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/
+ [1]: https://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/

@@ -72,4 +72,4 @@ Overall, I like working with Automattic. For me, the positives outweigh the nega
 
 **Update (March 2019):** I also covered similar topics in a Data Science Sydney talk about <a href="https://www.youtube.com/watch?v=5qbVEEtgWcY">a day in the life of a remote data scientist</a>.
 
- [1]: http://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/
+ [1]: https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/

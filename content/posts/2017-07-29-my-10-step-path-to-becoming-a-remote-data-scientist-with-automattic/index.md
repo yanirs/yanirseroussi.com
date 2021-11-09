@@ -95,8 +95,8 @@ The chat with Matt finally happened on May 2. As is often the case, it took a fe
 
 As noted above, Automatticians get to choose their own job titles, so to become a data scientist with Automattic, I had to set my job title to Data Scientist. This is generally how many people become data scientists these days, even outside Automattic. However, job titles don't matter as much as job satisfaction. And after 2.5 months with Automattic, I'm very satisfied with my decision to join the company. My first three weeks were spent doing customer support, like all new Automattic employees. Since then, I've been involved in projects to make engagement measurement more consistent (harder than it sounds, as <a href="http://daynebatten.com/2016/06/counting-hard-data-science/" target="_blank" rel="noopener">counting things is hard</a>), and to improve the data science codebase (e.g., moving away from <a href="http://powerfulpython.com/blog/magic-word-legacy-python/" target="_blank" rel="noopener">Legacy Python</a>). Besides that, I also went to Montréal for the data division meetup, and have started getting into <a href="https://data.blog/2017/05/24/may-the-bot-be-with-you-how-algorithms-are-supporting-happiness-at-wordpress-com/" target="_blank" rel="noopener">chatbot work</a>. I'm looking forward to doing more work and sharing my experience here and on <a href="https://data.blog/" target="_blank" rel="noopener">data.blog</a>.
 
- [1]: http://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/
- [2]: http://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/
- [3]: http://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/
+ [1]: https://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/
+ [2]: https://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/
+ [3]: https://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/
  [4]: https://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/#comment-957
- [5]: http://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/
+ [5]: https://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/

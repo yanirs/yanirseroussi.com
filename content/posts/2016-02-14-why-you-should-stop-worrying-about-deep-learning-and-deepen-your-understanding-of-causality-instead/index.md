@@ -17,7 +17,7 @@ tags:
   - predictive modelling
 
 ---
-Everywhere you go these days, you hear about deep learning's impressive advancements. New deep learning libraries, tools, and products get announced on a regular basis, making the average data scientist feel like they're missing out if they don't <a href="http://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/" target="_blank" rel="noopener">hop on the deep learning bandwagon</a>. However, as Kamil Bartocha put it in his post <a href="https://www.linkedin.com/pulse/inconvenient-truth-data-science-kamil-bartocha" target="_blank" rel="noopener">The Inconvenient Truth About Data Science</a>, _95% of tasks do not require deep learning_. This is obviously <a href="http://dilbert.com/strip/2008-05-08" target="_blank" rel="noopener">a made up number</a>, but it's probably an accurate representation of the everyday reality of many data scientists. This post discusses an often-overlooked area of study that is of much higher relevance to most data scientists than deep learning: **causality**.
+Everywhere you go these days, you hear about deep learning's impressive advancements. New deep learning libraries, tools, and products get announced on a regular basis, making the average data scientist feel like they're missing out if they don't <a href="https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/" target="_blank" rel="noopener">hop on the deep learning bandwagon</a>. However, as Kamil Bartocha put it in his post <a href="https://www.linkedin.com/pulse/inconvenient-truth-data-science-kamil-bartocha" target="_blank" rel="noopener">The Inconvenient Truth About Data Science</a>, _95% of tasks do not require deep learning_. This is obviously <a href="http://dilbert.com/strip/2008-05-08" target="_blank" rel="noopener">a made up number</a>, but it's probably an accurate representation of the everyday reality of many data scientists. This post discusses an often-overlooked area of study that is of much higher relevance to most data scientists than deep learning: **causality**.
 
 ## Causality is everywhere
 
@@ -69,7 +69,7 @@ Kleinberg's book is a great general intro to causality, but it intentionally omi
   <i>Cover image source: <a href="https://xkcd.com/552/" target="_blank" rel="noopener">xkcd: Correlation</a></i>
 </p>
 
- [1]: http://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/
- [2]: http://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/
- [3]: http://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
- [4]: http://yanirseroussi.com/2015/10/19/nutritionism-and-the-need-for-complex-models-to-explain-complex-phenomena/
+ [1]: https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/
+ [2]: https://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/
+ [3]: https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
+ [4]: https://yanirseroussi.com/2015/10/19/nutritionism-and-the-need-for-complex-models-to-explain-complex-phenomena/

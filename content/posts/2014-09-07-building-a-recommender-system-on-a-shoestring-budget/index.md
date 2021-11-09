@@ -14,7 +14,7 @@ tags:
   - software engineering
 
 ---
-<p class="intro-note">This is the second part of a series of posts on my <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">BCRecommender – personalised Bandcamp recommendations</a> project. Check out <a href="http://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/">the first part</a> for the general motivation behind this project.</p>
+<p class="intro-note">This is the second part of a series of posts on my <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">BCRecommender – personalised Bandcamp recommendations</a> project. Check out <a href="https://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/">the first part</a> for the general motivation behind this project.</p>
 
 <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">BCRecommender</a> is a hobby project whose main goal is to help me find music I like on <a href="https://bandcamp.com" target="_blank" rel="noopener">Bandcamp</a>. Its secondary goal is to serve as a testing ground for ideas I have and things I'd like to explore.  
 One question I've been wondering about is: how much money does one need to spend on infrastructure for a simple web-based product before it reaches meaningful traffic?  

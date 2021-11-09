@@ -58,4 +58,4 @@ Another thing that is demonstrated by this competition's dataset is just how muc
 
 With those thoughts out of the way, it's time to describe the way we addressed the challenge. This is covered in the next post, [Learning to rank for personalised search][1].
 
- [1]: http://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/ "Learning to rank for personalised search (Yandex Search Personalisation – Kaggle Competition Summary – Part 2)"
+ [1]: https://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/ "Learning to rank for personalised search (Yandex Search Personalisation – Kaggle Competition Summary – Part 2)"

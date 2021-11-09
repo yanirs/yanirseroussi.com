@@ -47,4 +47,4 @@ The main finding is that CV remains the most reliable approach. Even when CV is 
 
 In conclusion, stick to cross-validation for the best results. It's more computationally intensive than SKO and TSO, but can be parallelised. I still think that there may be a way to avoid cross-validation, perhaps by extending SKO/TSO in more intelligent ways (see some interesting ideas by Eugene Dubossarsky <a href="http://cavemoosum.blogspot.com.au/2014/02/cross-validation-is-over-long-live.html" target="_blank" rel="noopener">here</a> and <a href="http://cavemoosum.blogspot.com.au/2014/03/cross-validation-is-not-quite-kaput-but.html" target="_blank" rel="noopener">here</a>). Any comments/ideas are very welcome.
 
- [1]: http://yanirseroussi.com/2014/11/19/fitting-noise-forecasting-the-sale-price-of-bulldozers-kaggle-competition-summary/ "Fitting noise: Forecasting the sale price of bulldozers (Kaggle competition summary)"
+ [1]: https://yanirseroussi.com/2014/11/19/fitting-noise-forecasting-the-sale-price-of-bulldozers-kaggle-competition-summary/ "Fitting noise: Forecasting the sale price of bulldozers (Kaggle competition summary)"

@@ -60,7 +60,7 @@ Once you've recognised your skill gaps, you may decide to hire a data scientist 
 
 <small><b>Note:</b> This article is not a portrayal of how things are with my current employer, Car Next Door. Views expressed are my own. In fact, if you want to work at a place where expert advice is acted on and uncertainty is seen as something to be studied rather than ignored, <a href="https://www.carnextdoor.com.au/careers" target="_blank" rel="noopener">we're hiring</a>!</small>
 
- [4]: http://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/
+ [4]: https://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/
  [6]: https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
- [9]: http://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/
- [10]: http://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/
+ [9]: https://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/
+ [10]: https://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/

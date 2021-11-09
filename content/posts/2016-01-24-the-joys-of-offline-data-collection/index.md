@@ -69,5 +69,5 @@ Each RLS survey requires several hours of work. In addition to performing the su
 
 In summary, the RLS experience has given me a new appreciation for small data in the offline world. Offline data collection is often expensive and labour-intensive &ndash; you need to work hard to produce a few high-quality data points. But the size of your data doesn't matter (though having more quality data is always good). What really matters is what you do with the data &ndash; and the RLS team and their collaborators have been doing quite a lot. The RLS experience also illustrates the importance of domain expertise: I've looked at the RLS datasets, but I have no idea what questions are worth asking and answering using those datasets. The RLS project is yet another example of how in science [collecting data is time-consuming, and coming up with appropriate research questions is hard][2]. It is a lot of fun, though.
 
- [1]: http://yanirseroussi.com/about/
- [2]: http://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
+ [1]: https://yanirseroussi.com/about/
+ [2]: https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/

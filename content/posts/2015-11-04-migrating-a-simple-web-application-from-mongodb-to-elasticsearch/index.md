@@ -80,7 +80,7 @@ Some disadvantages of Elasticsearch in comparison to MongoDB are:
 
 In conclusion, my experience with Elasticsearch has been mostly positive so far and I'm glad I've made the switch. I'm looking forward to taking further advantage of advanced search features to improve user experience on BCRecommender. New posts on the topic may be published in the future, so please subscribe to be notified when this happens. As always, I'm happy to receive feedback through the comments or [privately][4].
 
- [1]: http://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
- [2]: http://yanirseroussi.com/2015/07/31/goodbye-parse-com/
- [3]: http://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
- [4]: http://yanirseroussi.com/about/
+ [1]: https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
+ [2]: https://yanirseroussi.com/2015/07/31/goodbye-parse-com/
+ [3]: https://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
+ [4]: https://yanirseroussi.com/about/

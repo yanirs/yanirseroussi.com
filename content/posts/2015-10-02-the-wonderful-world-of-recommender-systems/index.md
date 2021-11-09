@@ -162,9 +162,9 @@ I don't think it's incorrect that personalisation and recommender systems are di
 
 **In conclusion**, recommenders are about as murky as data science. Just like data science, the boundaries of recommender systems are hard to define and they are sometimes over-hyped. This hype may lead to people investing in a recommender system they don't really need, just like [the common issue of premature investment in data science][11]. However, the hype is based on real value, which can definitely be delivered by recommender systems when they are used correctly.
 
- [1]: http://yanirseroussi.com/2014/10/23/what-is-data-science/
- [2]: http://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
- [3]: http://yanirseroussi.com/about/
- [8]: http://yanirseroussi.com/phd-work/
- [10]: http://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/
- [11]: http://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/
+ [1]: https://yanirseroussi.com/2014/10/23/what-is-data-science/
+ [2]: https://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
+ [3]: https://yanirseroussi.com/about/
+ [8]: https://yanirseroussi.com/phd-work/
+ [10]: https://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/
+ [11]: https://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/

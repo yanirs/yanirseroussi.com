@@ -42,13 +42,13 @@ If you're interested in the topics covered in the talk, here are a few posts you
 
 <small>Cover image: <a href="https://flic.kr/p/9yaos5" target="_blank" rel="noopener">Why by Ksayer</a></small>
 
- [1]: http://yanirseroussi.com/2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/
- [2]: http://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
- [3]: http://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/
- [4]: http://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/
- [5]: http://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
- [6]: http://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/
+ [1]: https://yanirseroussi.com/2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/
+ [2]: https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
+ [3]: https://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/
+ [4]: https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/
+ [5]: https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
+ [6]: https://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/
  [7]: http://www.kdnuggets.com/2015/05/should-data-science-do-that.html
- [8]: http://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/
- [9]: http://yanirseroussi.com/2015/04/24/my-divestment-from-fossil-fuels/
- [10]: http://yanirseroussi.com/2016/03/20/the-rise-of-greedy-robots/
+ [8]: https://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/
+ [9]: https://yanirseroussi.com/2015/04/24/my-divestment-from-fossil-fuels/
+ [10]: https://yanirseroussi.com/2016/03/20/the-rise-of-greedy-robots/

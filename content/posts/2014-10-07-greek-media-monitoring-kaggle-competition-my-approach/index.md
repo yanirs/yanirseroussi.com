@@ -60,5 +60,5 @@ I also played with reverse-engineering the features back to counts, but it was p
 
 Overall, this was a fun competition. Despite minor issues with the data and not having enough time to do everything I wanted to do, it was a great learning experience. From reading <a href="http://www.kaggle.com/c/wise-2014/forums/t/9773/our-approach-5th-place/50995" target="_blank" rel="noopener">the summaries by the other teams</a>, it appears that other competitors enjoyed it too. As always, I highly recommend Kaggle competitions to beginners who are trying to learn more about the field of data science and predictive modelling, and to more experienced data scientists who want to improve their skills.
 
- [1]: http://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/
- [2]: http://yanirseroussi.com/2014/01/19/kaggle-beginner-tips/
+ [1]: https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/
+ [2]: https://yanirseroussi.com/2014/01/19/kaggle-beginner-tips/

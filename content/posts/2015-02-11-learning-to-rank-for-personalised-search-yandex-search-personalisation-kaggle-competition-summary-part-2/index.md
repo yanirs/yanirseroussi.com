@@ -69,5 +69,5 @@ Our best submission ended up placing us at the 9th place (out of 194 teams), whi
 
 I really enjoyed this competition. The data was well-organised and well-defined, which is not something you get in every competition (or in "real life"). Its size did present some challenges, but we stuck to using flat files and some preprocessing and other tricks to speed things up (e.g., I got to use <a href="http://cython.org/" target="_blank" rel="noopener">Cython</a> for the first time). It was good to learn how learning to rank algorithms work and get some insights on search personalisation. As is often the case with Kaggle competitions, this was time well spent.
 
- [1]: http://yanirseroussi.com/2015/01/29/is-thinking-like-a-search-engine-possible-yandex-search-personalisation-kaggle-competition-summary-part-1/ "Is thinking like a search engine possible? (Yandex search personalisation – Kaggle competition summary – part 1)"
- [2]: http://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/ "How to (almost) win Kaggle competitions"
+ [1]: https://yanirseroussi.com/2015/01/29/is-thinking-like-a-search-engine-possible-yandex-search-personalisation-kaggle-competition-summary-part-1/ "Is thinking like a search engine possible? (Yandex search personalisation – Kaggle competition summary – part 1)"
+ [2]: https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/ "How to (almost) win Kaggle competitions"

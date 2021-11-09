@@ -60,5 +60,5 @@ The high level plan is to iteratively read tutorials/papers/books, implement ide
 
 **Update**: [The second post in the series is now available][2].
 
- [1]: http://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/
- [2]: http://yanirseroussi.com/2015/07/06/learning-about-deep-learning-through-album-cover-classification/
+ [1]: https://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/
+ [2]: https://yanirseroussi.com/2015/07/06/learning-about-deep-learning-through-album-cover-classification/

@@ -14,7 +14,7 @@ tags:
 
 ---
 <p class="intro-note">
-This is the third part of a series of posts on my <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">Bandcamp recommendations (BCRecommender)</a> project. Check out <a href="http://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/">the first part</a> for the general motivation behind this project and <a href="http://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/">the second part</a> for the system architecture.
+This is the third part of a series of posts on my <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">Bandcamp recommendations (BCRecommender)</a> project. Check out <a href="https://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/">the first part</a> for the general motivation behind this project and <a href="https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/">the second part</a> for the system architecture.
 </p>
 
 The main goal of the BCRecommender project is to help me find music I like. This post discusses the algorithmic approaches I took towards that goal. I've kept the descriptions at a fairly high-level, without getting too much into the maths, as all recommendation algorithms essentially try to model simple intuition. Please leave a comment if you feel like something needs to be explained further. 

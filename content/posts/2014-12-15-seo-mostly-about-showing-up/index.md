@@ -21,4 +21,4 @@ I hope Google won't suddenly decide that BCRecommender content is not valuable o
 
 More updates to come in the future. For now, my conclusion is: thin content is better than no content, as long as it's relevant to what people are searching for and provides real value.
 
- [1]: http://yanirseroussi.com/2014/11/05/bcrecommender-traction-update/ "BCRecommender Traction Update"
+ [1]: https://yanirseroussi.com/2014/11/05/bcrecommender-traction-update/ "BCRecommender Traction Update"

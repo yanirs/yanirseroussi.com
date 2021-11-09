@@ -28,12 +28,12 @@ Just a list of some talks I've given, saved here for future reference and for ge
 
  [1]: http://www.meetup.com/Data-Science-Sydney/
  [2]: https://yanirseroussi.com/2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/
- [3]: http://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
- [4]: http://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/
+ [3]: https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/
+ [4]: https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/
  [5]: http://yanirs.github.io/talks/general-assembly-intro-to-data-science/
  [6]: https://generalassemb.ly/education/demystifying-data-an-introduction-to-data-science
  [7]: http://yanirs.github.io/talks/data-science-sydney-winning-kaggle/
- [8]: http://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/
+ [8]: https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/
  [9]: http://yanirs.github.io/talks/high-level-recommender-systems-intro/
  [10]: http://prezi.com/aqk4kstbvg9v/how-to-avoid-most-sharding-issues/
  [11]: http://yanirs.github.io/talks/mongo2012.pdf

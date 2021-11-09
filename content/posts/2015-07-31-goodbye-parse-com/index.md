@@ -57,5 +57,5 @@ I really like the idea behind Parse, as setting up and running a web backend is 
 
 **Update (30 January, 2016):** <a href="http://blog.parse.com/announcements/moving-on/" target="_blank" rel="noopener">Facebook has announced it will be shutting Parse down</a>, which is a shame. It could have been a great service if they had just focused more on reliability. You just couldn't run serious apps on Parse, which probably meant that not many apps were upgraded to the paid tiers. It's very disappointing that Facebook didn't help Parse realise its potential, but this isn't the first time a big company takes over a small product and shuts it down. It's <a href="http://ourincrediblejourney.tumblr.com/" target="_blank" rel="noopener">just the way of the world</a>.
 
- [1]: http://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/
- [2]: http://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
+ [1]: https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/
+ [2]: https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/

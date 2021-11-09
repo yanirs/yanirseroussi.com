@@ -44,16 +44,16 @@ Everyone loves a good buzzword, and these days AI (Artificial Intelligence) is o
 The resurgence of AI feels somewhat amusing given my personal experience. One of the reasons I decided to pursue a PhD in natural language processing and personalisation was my interest in what I considered to be AI back in 2008. My initial introduction to the field was through an AI course and a project I did as part of my bachelor's degree in computer science. However, by the time I graduated from my PhD, saying that I'm an AI expert seemed less useful than calling myself a data scientist. It may be that the field is about to shift again, and that rebranding as an AI expert would be more beneficial (though I'd be doing exactly the same work). Titles are somewhat silly &ndash; I'm going to continue working with data to support decisions for as long as there is demand for this kind of work and I continue enjoying it. There is plenty to learn and develop in this area, regardless of buzzwords and sexy titles.
 
  [1]: https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century
- [2]: http://yanirseroussi.com/2014/10/23/what-is-data-science/
- [3]: http://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/
- [4]: http://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/
+ [2]: https://yanirseroussi.com/2014/10/23/what-is-data-science/
+ [3]: https://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/
+ [4]: https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/
  [5]: https://www.kaggle.com/
- [6]: http://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/
+ [6]: https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/
  [7]: https://www.youtube.com/watch?v=YOIo09qjVl4
  [8]: https://eng.lyft.com/whats-in-a-name-ce42f419d16c
  [9]: https://www.youtube.com/watch?v=AoRSIdLpFqU
  [10]: https://arxiv.org/pdf/1804.10846.pdf
- [11]: http://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
+ [11]: https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
  [12]: https://www.healio.com/hematology-oncology/news/print/hemonc-today/%7B241d62a7-fe6e-4c5b-9fed-a33cc6e4bd7c%7D/cigarettes-were-once-physician-tested-approved
  [13]: https://www.linkedin.com/pulse/why-all-scientists-data-john-hawkins
  [14]: https://www.superdatascience.com/podcast-one-purpose-data-science-truth-analytics/

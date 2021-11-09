@@ -14,7 +14,7 @@ tags:
 
 ---
 <p class="intro-note">
-This is the fourth part of a series of posts on my <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">Bandcamp recommendations (BCRecommender)</a> project. Check out previous posts on <a href="http://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/">the general motivation behind this project</a>, <a href="http://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/">the system's architecture</a>, and <a href="http://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/">the recommendation algorithms</a>.
+This is the fourth part of a series of posts on my <a href="http://www.bcrecommender.com" target="_blank" rel="noopener">Bandcamp recommendations (BCRecommender)</a> project. Check out previous posts on <a href="https://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/">the general motivation behind this project</a>, <a href="https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/">the system's architecture</a>, and <a href="https://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/">the recommendation algorithms</a>.
 </p>
 
 Having used BCRecommender to find music I like, I'm certain that other Bandcamp fans would like it too. It could probably be extended to attract a wider audience of music lovers, but for now, just getting feedback from Bandcamp fans would be enough. There are about 200,000 fans that I know of – getting even a fraction of them to use and comment on BCRecommender would serve as a good guide to what's worth building and improving.

@@ -102,7 +102,7 @@ Going down the bootstrapping rabbit hole has reminded me of an important lesson:
  [11]: https://github.com/bashtage/arch/releases/tag/4.8.0
  [12]: https://github.com/bashtage/arch/issues/260
  [14]: https://towardsdatascience.com/why-overlapping-confidence-intervals-mean-nothing-about-statistical-significance-48360559900a
- [16]: http://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/
+ [16]: https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/
  [17]: https://yanirs.github.io/tools/split-test-calculator/
  [18]: https://en.wikipedia.org/wiki/Bootstrapping_(statistics)#Block_bootstrap
  [19]: https://arch.readthedocs.io/en/latest/bootstrap/timeseries-bootstraps.html

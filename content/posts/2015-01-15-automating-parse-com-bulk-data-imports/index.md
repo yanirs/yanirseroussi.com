@@ -42,5 +42,5 @@ That's it! I hope that other people would find this solution useful. Any suggest
 
 <small><br /> Image source: <a href="http://blog.parse.com/2013/05/07/goodbye-web-servers-hello-parse-hosting/" target="_blank" rel="noopener">Parse Blog</a>.<br /> </small>
 
- [1]: http://yanirseroussi.com/2015/07/31/goodbye-parse-com/
- [2]: http://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/ "Building a recommender system on a shoestring budget (or: BCRecommender part 2 – general system layout)"
+ [1]: https://yanirseroussi.com/2015/07/31/goodbye-parse-com/
+ [2]: https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/ "Building a recommender system on a shoestring budget (or: BCRecommender part 2 – general system layout)"

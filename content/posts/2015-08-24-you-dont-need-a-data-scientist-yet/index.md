@@ -46,7 +46,7 @@ I have seen more than one case where data scientists are hired only to be blocke
 
 ### Closing thoughts
 
-While data science is currently over-hyped, many organisations still have much to gain from hiring data scientists. I hope that this post has helped you decide whether you need a data scientist right now. If you're unsure, please don't hesitate to <a href="http://yanirseroussi.com/about/" target="_blank" rel="noopener">contact me</a>. And to any data scientists reading this: Be very wary of potential employers who do not have good answers to the above questions. At this point in time you can afford to be picky, at least until the hype is over.
+While data science is currently over-hyped, many organisations still have much to gain from hiring data scientists. I hope that this post has helped you decide whether you need a data scientist right now. If you're unsure, please don't hesitate to <a href="https://yanirseroussi.com/about/" target="_blank" rel="noopener">contact me</a>. And to any data scientists reading this: Be very wary of potential employers who do not have good answers to the above questions. At this point in time you can afford to be picky, at least until the hype is over.
 
- [1]: http://yanirseroussi.com/2014/10/23/what-is-data-science/
- [2]: http://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/
+ [1]: https://yanirseroussi.com/2014/10/23/what-is-data-science/
+ [2]: https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/

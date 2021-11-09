@@ -80,5 +80,5 @@ Personally, I find the complexities of measurement and problem definition quite 
 
 <small><b>Note:</b> The ideas in this post were first presented at <a href="http://www.meetup.com/The-Sydney-Data-Science-Breakfast-Meetup-Group/" target="_blank" rel="noopener">The Sydney Data Science Breakfast Meetup Group</a>. The slides for that talk are available <a href="http://yanirs.github.io/talks/the-hardest-part-of-data-science" target="_blank" rel="noopener">here</a>.</small>
 
- [1]: http://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/
- [2]: http://yanirseroussi.com/2015/10/19/nutritionism-and-the-need-for-complex-models-to-explain-complex-phenomena/
+ [1]: https://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/
+ [2]: https://yanirseroussi.com/2015/10/19/nutritionism-and-the-need-for-complex-models-to-explain-complex-phenomena/

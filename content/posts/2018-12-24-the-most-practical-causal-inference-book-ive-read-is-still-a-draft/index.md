@@ -31,9 +31,9 @@ The practicality of the book is also demonstrated by the fact that it comes with
 
 I won't try to summarise the technical aspects of the book &ndash; partly because I don't fully understand it all, and partly because the book itself is already a summary of a very rich research area. However, I'm likely to go back and reread the book in the future, with the goal of applying the techniques from the book to my work. I'd also like to take [Hernán's causal inference course][7] as a way of practising what I've learned from the book. For people who want a non-technical summary of the topics covered by the book, I recommend the article [_The c-word: Scientific euphemisms do not improve causal inference from observational data_][8]. If you're curious about other (less practical) causality books I've read, check out [my causal inference reading list][9] and my two previous posts on the topic: [_Why you should stop worrying about deep learning and deepen your understanding of causality instead_][1] and [_Diving deeper into causality: Pearl, Kleinberg, Hill, and untested assumptions_][3].
 
- [1]: http://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/
+ [1]: https://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/
  [2]: https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/
- [3]: http://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
+ [3]: https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
  [4]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207342/
  [5]: https://en.wikipedia.org/wiki/Rubin_causal_model
  [6]: https://en.wikipedia.org/wiki/Structural_equation_modeling

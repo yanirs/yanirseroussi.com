@@ -53,4 +53,4 @@ Many of the choices we make every day have the power to reduce energy demand. Th
 
  [1]: http://thischangeseverything.org/
  [2]: http://gofossilfree.org/
- [3]: http://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/ "The long road to a lifestyle business"
+ [3]: https://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/ "The long road to a lifestyle business"

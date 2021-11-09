@@ -29,14 +29,14 @@ Despite the lack of attention, about 5,000 people still visit BCRecommender ever
 
 Rather than simply pulling the plug on BCRecommender, I thought I'd put a call out to see if anyone is interested in maintaining it. I'm happy to open source the code and hand the project over to someone else if it means it would be in good hands. With a little bit of work, BCRecommender can be turned into a full Bandcamp-based personalised radio station. If you think you'd be a good fit for maintaining the project, [drop me a line][10] and we can discuss further. If you just love BCRecommender, you can also let Bandcamp know that you want them to implement algorithmic recommendations (e.g., on [Twitter][11] or by emailing support@bandcamp.com). I'll keep BCRecommender alive for about two more months and see if I get any responses. Either way, I'll be saying goodbye to maintaining it before the end of the year.
 
- [1]: http://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/
+ [1]: https://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/
  [2]: https://bandcamp.com/
- [3]: http://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
- [4]: http://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
- [5]: http://yanirseroussi.com/2014/09/24/applying-the-traction-books-bullseye-framework-to-bcrecommender/
- [6]: http://yanirseroussi.com/2014/11/05/bcrecommender-traction-update/
- [7]: http://yanirseroussi.com/2014/12/15/seo-mostly-about-showing-up/
- [8]: http://yanirseroussi.com/2015/07/31/goodbye-parse-com/
- [9]: http://yanirseroussi.com/2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/
+ [3]: https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
+ [4]: https://yanirseroussi.com/2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
+ [5]: https://yanirseroussi.com/2014/09/24/applying-the-traction-books-bullseye-framework-to-bcrecommender/
+ [6]: https://yanirseroussi.com/2014/11/05/bcrecommender-traction-update/
+ [7]: https://yanirseroussi.com/2014/12/15/seo-mostly-about-showing-up/
+ [8]: https://yanirseroussi.com/2015/07/31/goodbye-parse-com/
+ [9]: https://yanirseroussi.com/2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/
  [10]: https://yanirseroussi.com/about/
  [11]: https://twitter.com/bandcamp

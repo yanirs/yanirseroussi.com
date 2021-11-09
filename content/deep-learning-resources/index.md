@@ -31,4 +31,4 @@ This page summarises the deep learning resources I've consulted in [my album cov
   * <a href="http://arxiv.org/abs/1409.1556" target="_blank" rel="noopener">Very deep convolutional networks for large scale image recognition (Simonyan and Zisserman, 2014)</a>: VGGNet paper &ndash; interesting experiments and architectures &ndash; deep and homogeneous
   * <a href="http://arxiv.org/abs/1311.2901" target="_blank" rel="noopener">Visualizing and Understanding Convolutional Networks (Zeiler and Fergus, 2013)</a>: interesting work on visualisation, but I'll need to apply it to understand it better
 
- [1]: http://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/
+ [1]: https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/

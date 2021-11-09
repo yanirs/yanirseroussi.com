@@ -35,5 +35,5 @@ The main publications that resulted from my PhD work are as follows. Links to po
   * Yanir Seroussi, Ingrid Zukerman and Fabian Bohnert, "Collaborative inference of sentiments from texts". In _UMAP 2010_, pages 195–206, Waikoloa, HI, USA, 2010. <a href="https://www.dropbox.com/s/sz9uw1s5151vs5d/SeroussiZukermanBohnert2010b.pdf" target="_blank" rel="noopener">PDF</a> | <a href="https://www.dropbox.com/s/np1u1hl343gd73m/imdb62.zip" target="_blank" rel="noopener">Dataset</a> | [Blog post][2]  
     **In a sentence:** An application of a model based on <a href="https://en.wikipedia.org/wiki/Collaborative_filtering#Memory-based" target="_blank" rel="noopener">neighbour-based collaborative filtering</a> to a variant of the <a href="https://en.wikipedia.org/wiki/Sentiment_analysis" target="_blank" rel="noopener">sentiment analysis</a> problem where the authors are known
 
- [1]: http://yanirseroussi.com/2014/10/23/what-is-data-science/ "What is data science?"
- [2]: http://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/ "First steps in data science: author-aware sentiment analysis"
+ [1]: https://yanirseroussi.com/2014/10/23/what-is-data-science/ "What is data science?"
+ [2]: https://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/ "First steps in data science: author-aware sentiment analysis"

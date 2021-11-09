@@ -26,29 +26,29 @@ Aspiring data scientists and other visitors to this site often repeat the same q
 <b id="why-should-i-become-a-data-scientist">Hmm... Not really. Why should I become a data scientist?</b>
 
 <p class="indent-1">
-  I can't answer this for you, but it's great to see you <a href="http://yanirseroussi.com/2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/">asking why</a>. Do you know what data science is? Do you understand what data scientists do?
+  I can't answer this for you, but it's great to see you <a href="https://yanirseroussi.com/2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/">asking why</a>. Do you know what data science is? Do you understand what data scientists do?
 </p>
 
 <b id="what-is-data-science">Sort of. Just so we're on the same page, what is data science?</b>
 
 <p class="indent-1">
-  No one knows for sure. Here are <a href="http://yanirseroussi.com/2014/10/23/what-is-data-science/">my thoughts from 2014 on defining data science as the intersection of software engineering and statistics</a>, and a more recent post on <a href="http://yanirseroussi.com/2018/07/22/defining-data-science-in-2018/">defining data science in 2018</a>.
+  No one knows for sure. Here are <a href="https://yanirseroussi.com/2014/10/23/what-is-data-science/">my thoughts from 2014 on defining data science as the intersection of software engineering and statistics</a>, and a more recent post on <a href="https://yanirseroussi.com/2018/07/22/defining-data-science-in-2018/">defining data science in 2018</a>.
 </p>
 
 <b id="hardest-parts-of-data-science">What are the hardest parts of data science?</b>
 
 <p class="indent-1">
-  The hardest parts of data science are <a href="http://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/">problem definition and solution measurement, not model fitting and data cleaning</a>, because <a href="http://daynebatten.com/2016/06/counting-hard-data-science/">counting things is hard</a>.
+  The hardest parts of data science are <a href="https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/">problem definition and solution measurement, not model fitting and data cleaning</a>, because <a href="http://daynebatten.com/2016/06/counting-hard-data-science/">counting things is hard</a>.
 </p>
 
 <b id="what-do-data-scientists-do">Thanks, that's helpful. But what do data scientists actually do?</b>
 
 <p class="indent-1">
-  It varies a lot. This variability makes the job title <a href="http://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/">somewhat useless</a>. You should try to get an idea what areas of data science interest you. For many people, excitement over the technical aspects wanes with time. And even if you still find the technical aspects exciting, most jobs have boring parts. When considering career changes, think of the non-technical aspects that would keep you engaged.
+  It varies a lot. This variability makes the job title <a href="https://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/">somewhat useless</a>. You should try to get an idea what areas of data science interest you. For many people, excitement over the technical aspects wanes with time. And even if you still find the technical aspects exciting, most jobs have boring parts. When considering career changes, think of the non-technical aspects that would keep you engaged.
 </p>
 
 <p class="indent-1">
-  To answer the question, here are some posts on things I've done: <a href="http://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/">Joined Automattic by improving the Elasticsearch language detection plugin</a>, <a href="http://yanirseroussi.com/2017/01/08/customer-lifetime-value-and-the-proliferation-of-misinformation-on-the-internet/">calculated customer lifetime value</a>, <a href="http://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/">analysed A/B test results</a>, <a href="http://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/">built recommender systems</a> (including <a href="http://yanirseroussi.com/state-of-bandcamp-recommender-september-2017/">one for Bandcamp music</a>), <a href="http://yanirseroussi.com/2014/04/05/kaggle-competition-summaries/">competed on Kaggle</a>, and <a href="https://yanirseroussi.wordpress.com/phd-work/">completed a PhD</a>. I've also dabbled in <a href="https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/">deep learning</a>, <a href="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/">marine surveys</a>, <a href="https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/">causality</a>, and other things that I haven't had the chance to write about.
+  To answer the question, here are some posts on things I've done: <a href="https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/">Joined Automattic by improving the Elasticsearch language detection plugin</a>, <a href="https://yanirseroussi.com/2017/01/08/customer-lifetime-value-and-the-proliferation-of-misinformation-on-the-internet/">calculated customer lifetime value</a>, <a href="https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/">analysed A/B test results</a>, <a href="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/">built recommender systems</a> (including <a href="https://yanirseroussi.com/state-of-bandcamp-recommender-september-2017/">one for Bandcamp music</a>), <a href="https://yanirseroussi.com/2014/04/05/kaggle-competition-summaries/">competed on Kaggle</a>, and <a href="https://yanirseroussi.wordpress.com/phd-work/">completed a PhD</a>. I've also dabbled in <a href="https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/">deep learning</a>, <a href="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/">marine surveys</a>, <a href="https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/">causality</a>, and other things that I haven't had the chance to write about.
 </p>
 
 <b id="become-a-data-scientist-overview">Cool! Can you provide a general overview of how to become a data scientist?</b>
@@ -82,7 +82,7 @@ Aspiring data scientists and other visitors to this site often repeat the same q
 <b id="become-a-data-science-freelancer">I want to become a data science freelancer. Can you provide some advice?</b>
 
 <p class="indent-1">
-  As with any freelancing job, expect to spend much of your time on sales and networking. I've only <a href="http://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/">explored the freelancing path briefly</a>, but <a href="https://berlinbuzzwords.de/sites/berlinbuzzwords.de/files/media/documents/radim_rehurek-so_you_want_to_be_a_data_science_consultant.pdf">Radim Řehůřek has published great slides on the topic</a>. If you're thinking of freelancing as a way of gaining financial independence, also consider <a href="https://minafi.com/interactive-guide-early-retirement-financial-independence/">spending less, earning more, and investing wisely</a>.
+  As with any freelancing job, expect to spend much of your time on sales and networking. I've only <a href="https://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/">explored the freelancing path briefly</a>, but <a href="https://berlinbuzzwords.de/sites/berlinbuzzwords.de/files/media/documents/radim_rehurek-so_you_want_to_be_a_data_science_consultant.pdf">Radim Řehůřek has published great slides on the topic</a>. If you're thinking of freelancing as a way of gaining financial independence, also consider <a href="https://minafi.com/interactive-guide-early-retirement-financial-independence/">spending less, earning more, and investing wisely</a>.
 </p>
 
 <b id="data-science-degree">Can you recommend an academic data science degree?</b>
@@ -94,13 +94,13 @@ Aspiring data scientists and other visitors to this site often repeat the same q
 <b id="be-my-mentor">Will you be my mentor?</b>
 
 <p class="indent-1">
-  Probably not, unless you're hard-working, independent, and doing something I find interesting. Feel free to <a href="http://yanirseroussi.com/about/">contact me</a> if you believe we'd both find the relationship beneficial.
+  Probably not, unless you're hard-working, independent, and doing something I find interesting. Feel free to <a href="https://yanirseroussi.com/about/">contact me</a> if you believe we'd both find the relationship beneficial.
 </p>
 
 <b id="help-with-my-project">Can you help with my project?</b>
 
 <p class="indent-1">
-  Probably not, as I work full-time with <a href="https://automattic.com/">Automattic</a>. I barely have time for my side projects, and I'm not looking for more paid work. However, if you think I'd find your project exciting, please do <a href="http://yanirseroussi.com/about/">contact me</a>.
+  Probably not, as I work full-time with <a href="https://automattic.com/">Automattic</a>. I barely have time for my side projects, and I'm not looking for more paid work. However, if you think I'd find your project exciting, please do <a href="https://yanirseroussi.com/about/">contact me</a>.
 </p>
 
 * * *
@@ -114,7 +114,7 @@ Aspiring data scientists and other visitors to this site often repeat the same q
 <b id="data-driven-manager">I'm a manager. When should I hire a data scientist and start using machine learning?</b>
 
 <p class="indent-1">
-  There's a good chance <a href="http://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/">you don't need a data scientist yet</a>, but you should be aware of <a href="http://yanirseroussi.com/2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/">common pitfalls when trying to be data-driven</a>. It's also worth reading Paras Chopra's post on <a href="https://growth.wingify.com/what-you-need-to-know-before-you-board-the-machine-learning-train-a81c513098fe">what you need to know before you board the machine learning train</a>.
+  There's a good chance <a href="https://yanirseroussi.com/2015/08/24/you-dont-need-a-data-scientist-yet/">you don't need a data scientist yet</a>, but you should be aware of <a href="https://yanirseroussi.com/2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/">common pitfalls when trying to be data-driven</a>. It's also worth reading Paras Chopra's post on <a href="https://growth.wingify.com/what-you-need-to-know-before-you-board-the-machine-learning-train-a81c513098fe">what you need to know before you board the machine learning train</a>.
 </p>
 
 <b id="spam">Do you want to buy my products or services?</b>
@@ -126,5 +126,5 @@ Aspiring data scientists and other visitors to this site often repeat the same q
 <b id="other-questions">I have a question that isn't answered here or anywhere on the internet, and I think you can help. Can I contact you?</b>
 
 <p class="indent-1">
-  Sure, <a href="http://yanirseroussi.com/about/">use the form on this page</a>.
+  Sure, <a href="https://yanirseroussi.com/about/">use the form on this page</a>.
 </p>

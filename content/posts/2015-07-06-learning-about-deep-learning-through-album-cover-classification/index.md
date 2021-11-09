@@ -100,6 +100,6 @@ Feedback and suggestions are always welcome. Please feel free to [contact me pri
 
 <small>**Acknowledgement:** Thanks to Brian Basham and Diogo Moitinho de Almeida for useful tips and discussions.</small>
 
- [1]: http://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/
- [2]: http://yanirseroussi.com/deep-learning-resources/
- [3]: http://yanirseroussi.com/about/
+ [1]: https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/
+ [2]: https://yanirseroussi.com/deep-learning-resources/
+ [3]: https://yanirseroussi.com/about/
