@@ -62,6 +62,17 @@
 </header>
 <main class=main>
 <article class=post-entry>
+<header class=entry-header>
+<h2>Stochastic Gradient Boosting: Choosing the Best Number of Iterations
+</h2>
+</header>
+<section class=entry-content>
+<p>In my summary of the Kaggle bulldozer price forecasting competition, I mentioned that part of my solution was based on stochastic gradient boosting. To reduce runtime, the number of boosting iterations was set by minimising the loss on the out-of-bag (OOB) samples, skipping trees where samples are in-bag. This approach was motivated by a bug in scikit-learn, where the OOB loss estimate was calculated on the in-bag samples, meaning that it always improved (and thus was useless for the purpose of setting the number of iterations)....</p>
+</section>
+<footer class=entry-footer>December 29, 2014&nbsp;·&nbsp;Yanir Seroussi</footer>
+<a class=entry-link aria-label="post link to Stochastic Gradient Boosting: Choosing the Best Number of Iterations" href=https://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/></a>
+</article>
+<article class=post-entry>
 <figure class=entry-cover>
 <img loading=lazy srcset="https://yanirseroussi.com/2014/12/15/seo-mostly-about-showing-up/bcrecommender-search-queries_hu97bce2d6c38a7ed1236b5abe2f40bfe4_11489_360x0_resize_box_3.png 360w ,https://yanirseroussi.com/2014/12/15/seo-mostly-about-showing-up/bcrecommender-search-queries.png 444w" sizes="(min-width: 768px) 720px, 100vw" src=https://yanirseroussi.com/2014/12/15/seo-mostly-about-showing-up/bcrecommender-search-queries.png alt width=444 height=295>
 </figure>
@@ -187,17 +198,6 @@ One question I’ve been wondering about is: how much money does one need to spe
 </section>
 <footer class=entry-footer>August 30, 2014&nbsp;·&nbsp;Yanir Seroussi</footer>
 <a class=entry-link aria-label="post link to Building a Bandcamp recommender system (part 1 – motivation)" href=https://yanirseroussi.com/2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>How to (almost) win Kaggle competitions
-</h2>
-</header>
-<section class=entry-content>
-<p>Last week, I gave a talk at the Data Science Sydney Meetup group about some of the lessons I learned through almost winning five Kaggle competitions. The core of the talk was ten tips, which I think are worth putting in a post (the original slides are here). Some of these tips were covered in my beginner tips post from a few months ago. Similar advice was also recently published on the Kaggle blog – it’s great to see that my tips are in line with the thoughts of other prolific kagglers....</p>
-</section>
-<footer class=entry-footer>August 24, 2014&nbsp;·&nbsp;Yanir Seroussi</footer>
-<a class=entry-link aria-label="post link to How to (almost) win Kaggle competitions" href=https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
