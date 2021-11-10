@@ -27,6 +27,10 @@ some tweaks:
 {{ if lt (len $supportedSizes) (len $candidateSizes) }}
   {{ $supportedSizes = $supportedSizes | append $src.Width }}
 {{ end }}
+{{/* Don't do any resizing if requested, e.g., needed for GIFs (https://github.com/gohugoio/hugo/issues/5030) */}}
+{{ if not (.Get "resize" | default true) }}
+  {{ $supportedSizes = slice $src.Width }}
+{{ end }}
 {{ $maxSupportedSize := index ($supportedSizes | last 1) 0 }}
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>

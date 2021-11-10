@@ -33,7 +33,7 @@ My first crack at recommendation generation was using <a href="https://en.wikipe
 
 A simple example for collaborative filtering is in the following image, which was taken from the <a href="https://en.wikipedia.org/wiki/Collaborative_filtering" target="_blank" rel="noopener">Wikipedia article on the topic</a>. 
 
-{{< figure src="collaborative-filtering.gif" alt="A simple collaborative filtering example" link="https://en.wikipedia.org/wiki/Collaborative_filtering" >}}
+{{< figure src="collaborative-filtering.gif" alt="A simple collaborative filtering example" link="https://en.wikipedia.org/wiki/Collaborative_filtering" resize=false >}}
 
 I used matrix factorisation as the collaborative filtering algorithm. This algorithm was a key part of <a href="https://datajobs.com/data-science-repo/Recommender-Systems-%5BNetflix%5D.pdf" target="_blank" rel="noopener">the winning team's solution to the Netflix competition</a>. Unsurprisingly, it didn't work that well. The key issue is that there are 160K * (335K + 170K) = 80.8B possible preferences in the dataset, but only 3.4M (0.004%) preferences are given. What matrix factorisation tries to do is to predict the remaining 99.996% of preferences based on the tiny percentage of given data. This just didn't yield any music recommendations I liked, even when I made the matrix denser by dropping fans and tralbums with few preferences. Therefore, I moved on to employing an algorithm that can use more data &ndash; the tags. 
 
