@@ -13,3 +13,8 @@
 .home-info .entry-footer {
   display: none;
 }
+
+article.post-entry figure.entry-cover img {
+  margin: auto;
+  width: unset;
+}
