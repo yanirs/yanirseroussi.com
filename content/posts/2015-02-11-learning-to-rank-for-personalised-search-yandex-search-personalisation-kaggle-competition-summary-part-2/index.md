@@ -6,6 +6,7 @@ date: 2015-02-11T06:34:17+00:00
 url: /2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/
 cover:
   image: rating.png
+  responsiveImages: false
 tags:
   - data science
   - gradient boosting

@@ -6,6 +6,7 @@ date: 2015-12-08T06:57:25+00:00
 url: /2015/12/08/this-holiday-season-give-me-real-insights/
 cover:
   image: dikw-pyramid.jpg
+  responsiveImages: false
 tags:
   - analytics
   - data science

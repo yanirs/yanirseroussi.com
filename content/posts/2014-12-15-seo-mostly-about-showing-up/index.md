@@ -6,6 +6,7 @@ date: 2014-12-15T04:25:25+00:00
 url: /2014/12/15/seo-mostly-about-showing-up/
 cover:
   image: bcrecommender-search-queries.png
+  responsiveImages: false
 tags:
   - BCRecommender
   - marketing

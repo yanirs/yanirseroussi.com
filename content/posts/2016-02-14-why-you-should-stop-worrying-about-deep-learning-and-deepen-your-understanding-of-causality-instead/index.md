@@ -6,6 +6,7 @@ date: 2016-02-14T11:04:11+00:00
 url: /2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/
 cover:
   image: correlation-xkcd.png
+  responsiveImages: false
 tags:
   - analytics
   - causal inference
