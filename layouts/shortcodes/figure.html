@@ -18,25 +18,30 @@ some tweaks:
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $src := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) }}
 
+{{/* check if the file type is supported -- this may be extended to be more sophisticated in the future */}}
+{{ $imageTypeSupported := not (strings.HasSuffix $src.Name ".svg") }}
+
 {{ $supportedSizes := slice }}
-{{ range $candidateSizes }}
-  {{ if ge $src.Width . }}
-    {{ $supportedSizes = $supportedSizes | append . }}
+{{ if $imageTypeSupported }}
+  {{ range $candidateSizes }}
+    {{ if ge $src.Width . }}
+      {{ $supportedSizes = $supportedSizes | append . }}
+    {{ end }}
   {{ end }}
-{{ end }}
-{{ if lt (len $supportedSizes) (len $candidateSizes) }}
-  {{ $supportedSizes = $supportedSizes | append $src.Width }}
-{{ end }}
-{{/* Don't do any resizing if requested, e.g., needed for GIFs (https://github.com/gohugoio/hugo/issues/5030) */}}
-{{ if not (.Get "resize" | default true) }}
-  {{ $supportedSizes = slice $src.Width }}
+  {{ if lt (len $supportedSizes) (len $candidateSizes) }}
+    {{ $supportedSizes = $supportedSizes | append $src.Width }}
+  {{ end }}
+  {{/* Don't do any resizing if requested, e.g., needed for GIFs (https://github.com/gohugoio/hugo/issues/5030) */}}
+  {{ if not (.Get "resize" | default true) }}
+    {{ $supportedSizes = slice $src.Width }}
+  {{ end }}
 {{ end }}
 {{ $maxSupportedSize := index ($supportedSizes | last 1) 0 }}
 
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
   <a href="{{ (.Get "link") | default (.Get "src") }}" target="_blank" rel="noopener">
     <img
-      {{ if $src }}
+      {{ if $imageTypeSupported }}
         sizes="
           (min-width: 768px) {{ cond (le $maxSupportedSize 720) $maxSupportedSize 720 }}px,
           100vw
@@ -57,7 +62,6 @@ some tweaks:
         {{ else }}
           src="{{ $src.Permalink }}"
         {{ end }}
-
       {{ else }}
           {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
           src="{{ .Get "src" }}"
