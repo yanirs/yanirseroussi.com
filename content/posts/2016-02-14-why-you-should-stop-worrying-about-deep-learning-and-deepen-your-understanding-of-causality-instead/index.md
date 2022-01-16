@@ -10,7 +10,6 @@ cover:
 tags:
   - analytics
   - causal inference
-  - causality
   - data science
   - deep learning
   - insights

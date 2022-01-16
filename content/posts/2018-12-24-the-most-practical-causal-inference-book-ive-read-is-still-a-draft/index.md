@@ -10,7 +10,6 @@ timeline_notification:
   - 1545619075
 tags:
   - causal inference
-  - causality
   - data science
   - statistics
 

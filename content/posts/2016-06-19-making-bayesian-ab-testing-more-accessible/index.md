@@ -10,9 +10,7 @@ tags:
   - a/b testing
   - analytics
   - causal inference
-  - causality
   - data science
-  - split testing
   - statistics
 
 ---

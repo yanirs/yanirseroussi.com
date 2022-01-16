@@ -8,7 +8,6 @@ cover:
   image: freediving.jpg
 tags:
   - causal inference
-  - causality
   - data science
   - insights
   - predictive modelling

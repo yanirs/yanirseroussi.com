@@ -12,7 +12,6 @@ tags:
   - causal inference
   - data science
   - marketing
-  - split testing
   - statistics
 
 ---
