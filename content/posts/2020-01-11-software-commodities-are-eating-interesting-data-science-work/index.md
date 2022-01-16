@@ -59,7 +59,7 @@ As an individual data scientist, **what can you do when your speciality becomes 
 
 Are there any other options I don't see? Let me know in the comments!
 
- [1]: https://yanirseroussi.com/causal-inference-reading-list/
+ [1]: https://yanirseroussi.com/causal-inference-resources/
  [2]: https://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/
  [3]: https://www.cs.waikato.ac.nz/ml/weka/
  [4]: https://yanirseroussi.com/phd-work/
