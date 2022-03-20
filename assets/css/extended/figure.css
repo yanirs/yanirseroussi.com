@@ -10,3 +10,8 @@
 .post-content figure img {
   margin: 1rem auto;
 }
+
+.post-content figure.white-bg img {
+  padding: 10px;
+  background: white;
+}
