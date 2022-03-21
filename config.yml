@@ -1,5 +1,5 @@
 baseURL: https://yanirseroussi.com/
-copyright: '&copy; [Yanir Seroussi](https://yanirseroussi.com/about/)&nbsp;&nbsp;|'
+copyright: 'Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&nbsp;&nbsp;|'
 enableGitInfo: true
 languageCode: en-au
 theme: papermod
