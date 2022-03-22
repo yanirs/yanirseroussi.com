@@ -30,3 +30,8 @@ form.mailing-list input[type="submit"]  {
   font-size: 16px;
   padding: 0 16px;
 }
+
+.mailing-list-container .footer {
+  padding-bottom: 10px;
+  padding-top: 0;
+}
