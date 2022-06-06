@@ -40,3 +40,9 @@ article.post-single figure.entry-cover img {
   border: none;
   border-radius: 4px;
 }
+
+.post-content sup a.footnote-ref {
+  box-shadow: 0 0;
+  font-size: 13px;
+  text-decoration: underline;
+}
