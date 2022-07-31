@@ -38,8 +38,7 @@ params:
     title: '![Yanir Seroussi profile picture](apple-touch-icon.png) Welcome! 🐳️'
     content: |
       Check out the [About](/about/) page for a general intro and contact options. Browse recent posts below, and get
-      notified about new posts by subscribing to the mailing list at [the bottom of any page](#mailing-list-email) or on
-      [TinyLetter](https://tinyletter.com/yanir).
+      notified about new posts by subscribing to the mailing list at [the bottom of any page](#mailing-list-email).
   mainSections: post
   showShareButtons: true
 

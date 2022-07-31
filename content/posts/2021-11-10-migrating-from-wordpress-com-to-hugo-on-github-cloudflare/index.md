@@ -30,7 +30,7 @@ The easiest short-term choice would have been to stick with WordPress.com and sp
 
     {{< figure src="github-copilot.png" caption="GitHub Copilot trying to help with this post" resize=false >}}
 
-  * **Platform-independent follower list.** On WordPress.com, about half my followers subscribed via email. The other half used the WordPress.com Reader. [Reader subscribers can only be ported to other WordPress sites](https://wordpress.com/support/moving-a-blog/moving-your-subscribers/). With the migration, all subscribers join [a single mailing list](https://tinyletter.com/yanir) that is easy to port across service providers.
+  * **Platform-independent follower list.** On WordPress.com, about half my followers subscribed via email. The other half used the WordPress.com Reader. [Reader subscribers can only be ported to other WordPress sites](https://wordpress.com/support/moving-a-blog/moving-your-subscribers/). With the migration, all subscribers join a single mailing list that is easy to port across service providers.
   * **Lower running costs.** Hosting a site with a custom domain on GitHub Pages is free, but mapping a custom domain to a WordPress.com site requires payment. While the plan cost is low compared to the time cost of switching, it's nice to eliminate recurring payments to WordPress.com.
   * **Learning opportunity.** Not being a web developer, I don't follow changes in the web development world too closely. Taking more ownership and control over my personal site means that I have to refresh some of my knowledge, i.e., the time spent on the migration wasn't completely wasted on mindless work.
 
