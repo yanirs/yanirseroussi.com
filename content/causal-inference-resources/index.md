@@ -19,6 +19,7 @@ This is a list of some causal inference resources, which I update from time to t
   * [_Mostly Harmless Econometrics_][10] by Joshua D. Angrist and Jörn-Steffen Pischke: I started reading this book on my Kindle and was put off by some formatting issues. It also seemed like a less-general version of Pearl's work. I may get back to it one day.
   * [_Causality: Models, Reasoning, and Inference_][11] by Judea Pearl: I haven't read it, and I doubt it'd be very practical given [the opinions of people who have][12]. But maybe I'll get to it one day.
   * [_The Book of Why: The New Science of Cause and Effect_][13] by Judea Pearl and Dana Mackenzie: An accessible overview of the field, focusing on Pearl's contributions, but with plenty of historical background. Worth reading to get excited about the causal revolution.
+  * [_Causal Machine Learning_](https://www.manning.com/books/causal-machine-learning) by Robert Osazuwa Ness: Still a draft as of September 2022, but [it looks promising](https://yanirseroussi.com/2022/09/12/causal-machine-learning-book-draft-review/).
 
 **Articles**:
 
