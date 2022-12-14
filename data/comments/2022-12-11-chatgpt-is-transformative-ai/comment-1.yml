@@ -1,0 +1,9 @@
+_id: '1'
+body: |
+    I'm amused that the first sample on the home page features the user asking, "this code is not working like i expect - how do i fix it?" In my mind, I hear the voice of HAL (Douglas Rain) answer, "This sort of thing has cropped up before, and it has always been due to human error."
+
+    I've been assuming ChatGPT is just the latest specimen of what typically passes for AI these days, a system with an elaborate model of utterances disconnected from any deeper and richer model of the world to which utterances refer, hence brittle and shallow. (Such systems more or less realize John Searle's "Chinese room" scenario, although unlike Searle, I don't think they represent any fundamental limit on AI, merely the current, crude state of the art.) However, you've convinced me to try it out.
+date: '2022-12-12 23:32:24'
+github_id: 7493721
+name: Ralph Haygood
+github_ref: https://github.com/yanirs/yanirseroussi.com/issues/3#issue-1492986401
