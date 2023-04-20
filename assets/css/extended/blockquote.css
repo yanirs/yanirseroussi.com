@@ -14,5 +14,5 @@
 }
 
 .post-content blockquote footer::before {
-  content: '–';
+  content: '– ';
 }
