@@ -9,24 +9,22 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out repo
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab  # pin@v3.5.2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-          extended: true
+      - name: Install Hugo
+        run: sudo snap install hugo
 
-      - name: Build
+      - name: Build production site
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Commit changes to gh-pages branch
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # pin@v3.9.3
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
