@@ -17,4 +17,9 @@
 article.post-entry figure.entry-cover img {
   margin: auto;
   width: unset;
+  max-height: 250px;
+}
+
+article.post-entry div.entry-content {
+  -webkit-line-clamp: unset;
 }
