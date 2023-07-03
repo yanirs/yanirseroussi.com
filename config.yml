@@ -26,9 +26,11 @@ params:
   analytics:
     google:
       siteVerificationTag: aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU
+  author: Yanir Seroussi
   comments: true
   cover:
     hidden: false
+  description: Posts on data science and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
   disableScrollToTop: true
   editPost:
     appendFilePath: true
