@@ -1,13 +1,14 @@
 {{- with site.Params.homeInfoParams }}
-<article class="first-entry home-info">
+  <article class="first-entry home-info">
+    {{- partial "cover.html" (dict "cxt" (dict "Params" .) "IsHome" true "isHidden" false) }}
     <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
+      <h1>{{ .Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        {{ .Content | markdownify }}
+      {{ .Content | markdownify }}
     </div>
     <footer class="entry-footer">
-        {{ partial "social_icons.html" site.Params.socialIcons }}
+      {{ partial "social_icons.html" site.Params.socialIcons }}
     </footer>
-</article>
+  </article>
 {{- end -}}

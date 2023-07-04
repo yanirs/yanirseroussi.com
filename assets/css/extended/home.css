@@ -1,5 +1,9 @@
 .home-info {
-  margin: 0;
+  margin: var(--gap) 0;
+}
+
+.home-info a {
+  text-decoration: underline;
 }
 
 .home-info .entry-header h1 {
@@ -10,10 +14,26 @@
   margin: auto;
 }
 
+.home-info .entry-content {
+  font-size: 20px;
+}
+
+.home-info .entry-content p {
+  margin-top: 10px;
+}
+
+.home-info .entry-content .footnote {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
 .home-info .entry-footer {
   display: none;
 }
 
+.home-info figure.entry-cover img,
 article.post-entry figure.entry-cover img {
   margin: auto;
   width: unset;

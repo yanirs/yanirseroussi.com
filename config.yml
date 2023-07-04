@@ -30,17 +30,30 @@ params:
   comments: true
   cover:
     hidden: false
-  description: Posts on data science and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
+  description: |
+    Posts on data science and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
   disableScrollToTop: true
   editPost:
     appendFilePath: true
     text: Suggest changes
     url: https://github.com/yanirs/yanirseroussi.com/blob/master/content
   homeInfoParams:
-    title: '![Yanir Seroussi profile picture](apple-touch-icon.png) Welcome! 🐳️'
+    title: 'Yanir Seroussi &ndash; Data & AI Expert<sup>*</sup>'
     content: |
-      Check out the [About](/about/) page for a general intro and contact options. Browse recent posts below, and get
-      notified about new posts by subscribing to the mailing list at [the bottom of any page](#mailing-list-email).
+      **Welcome! 🐳️** I'm Yanir Seroussi, a full-stack data scientist and software engineer with over a decade of
+      experience and an ongoing interest in finding the perfect title to describe my work
+      ([it's not easy](https://yanirseroussi.com/2023/06/30/was-data-science-a-failure-mode-of-software-engineering/)).
+      
+      [Visit the About page for a longer intro and contact options](/about/).
+      Subscribe to the mailing list at [the bottom of any page](#mailing-list-email) for new post notifications.
+      Recent posts are listed below.
+      
+      <div class="footnote">
+        * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence.
+      </div>
+    cover:
+      image: /about/profile.jpg
+      alt: Yanir Seroussi's profile picture
   mainSections: post
   showShareButtons: true
 
