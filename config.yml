@@ -2,6 +2,7 @@ baseURL: https://yanirseroussi.com/
 copyright: 'Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&nbsp;&nbsp;|'
 enableGitInfo: true
 languageCode: en-au
+paginate: 10000
 theme: papermod
 title: Yanir Seroussi | Data science and beyond
 
@@ -29,7 +30,7 @@ params:
   author: Yanir Seroussi
   comments: true
   cover:
-    hidden: false
+    hiddenInList: true
   description: |
     Posts on data science and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
   disableScrollToTop: true
@@ -43,14 +44,18 @@ params:
       **Welcome! 🐳️** I'm Yanir Seroussi, a full-stack data scientist and software engineer with over a decade of
       experience and an ongoing interest in finding the perfect title to describe my work
       ([it's not easy](https://yanirseroussi.com/2023/06/30/was-data-science-a-failure-mode-of-software-engineering/)).
-      
       [Visit the About page for a longer intro and contact options](/about/).
-      Subscribe to the mailing list at [the bottom of any page](#mailing-list-email) for new post notifications.
-      Recent posts are listed below.
       
-      <div class="footnote">
+      Over the years, I've published a bunch of posts on data science and other topics I find interesting. Scroll down
+      to view them in reverse chronological order, or [explore posts by tag](/tags/).
+      
+      I mostly write to better understand specific topics and for future reference. My interests may change over time,
+      but you can subscribe to my mailing list at [the bottom of any page](#mailing-list-email) for new post
+      notifications.
+      
+      <p class="footnote">
         * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence.
-      </div>
+      </p>
     cover:
       image: /home-profile.webp
       alt: Yanir Seroussi's profile picture
