@@ -10,10 +10,6 @@
   text-align: center;
 }
 
-.home-info .entry-header img {
-  margin: auto;
-}
-
 .home-info .entry-content {
   font-size: 20px;
 }
@@ -33,11 +29,15 @@
   display: none;
 }
 
-.home-info figure.entry-cover img,
-article.post-entry figure.entry-cover img {
+.home-info .entry-cover img,
+article.post-entry .entry-cover img {
   margin: auto;
   width: unset;
   max-height: 250px;
+}
+
+.home-info .entry-cover img {
+  border-radius: calc(100 * var(--radius));
 }
 
 article.post-entry div.entry-content {

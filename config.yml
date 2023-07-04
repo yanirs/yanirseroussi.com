@@ -52,7 +52,7 @@ params:
         * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence.
       </div>
     cover:
-      image: /about/profile.jpg
+      image: /home-profile.webp
       alt: Yanir Seroussi's profile picture
   mainSections: post
   showShareButtons: true

@@ -1,6 +1,8 @@
 {{- with site.Params.homeInfoParams }}
   <article class="first-entry home-info">
-    {{- partial "cover.html" (dict "cxt" (dict "Params" .) "IsHome" true "isHidden" false) }}
+    <figure class="entry-cover">
+      <img src="{{ .cover.image | absURL }}" alt="{{ .cover.alt }}">
+    </figure>
     <header class="entry-header">
       <h1>{{ .Title | markdownify }}</h1>
     </header>
