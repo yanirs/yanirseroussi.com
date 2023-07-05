@@ -6,8 +6,7 @@ date: 2020-08-24T01:35:17+00:00
 url: /2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/
 cover:
   image: santa-counting.jpg
-timeline_notification:
-  - 1598232923
+summary: Going deeper into correct testing of different methods for bootstrap estimation of confidence intervals.
 tags:
   - bootstrapping
   - confidence intervals

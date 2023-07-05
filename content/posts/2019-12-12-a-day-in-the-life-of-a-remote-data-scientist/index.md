@@ -6,8 +6,7 @@ date: 2019-12-11T22:06:19+00:00
 url: /2019/12/12/a-day-in-the-life-of-a-remote-data-scientist/
 cover:
   image: remote-person-tossing-globe.jpg
-timeline_notification:
-  - 1576101984
+summary: Video of a talk I gave on remote data science work at the Data Science Sydney meetup.
 tags:
   - Automattic
   - career

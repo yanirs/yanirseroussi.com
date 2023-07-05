@@ -6,8 +6,7 @@ date: 2020-01-11T09:22:35+00:00
 url: /2020/01/11/software-commodities-are-eating-interesting-data-science-work/
 cover:
  image: pacman.png
-timeline_notification:
-  - 1578734558
+summary: Being a data scientist can sometimes feel like a race against software commodities that replace interesting work. What can one do to remain relevant?
 tags:
   - business
   - career

@@ -6,8 +6,7 @@ date: 2021-04-05T06:41:48+00:00
 url: /2021/04/05/some-highlights-from-2020/
 cover:
   image: lord-howe-island.jpg
-timeline_notification:
-  - 1617604912
+summary: Sharing remote teamwork insights, my climate & sustainability activism, Reef Life Survey publications, and progress on Automattic's Experimentation Platform. 
 tags:
   - a/b testing
   - career

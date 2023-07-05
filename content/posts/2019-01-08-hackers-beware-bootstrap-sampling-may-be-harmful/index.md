@@ -6,8 +6,7 @@ date: 2019-01-07T21:07:56+00:00
 url: /2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/
 cover:
   image: warning-signs.jpg
-timeline_notification:
-  - 1546895280
+summary: Bootstrap sampling has been promoted as an easy way of modelling uncertainty to hackers without much statistical knowledge. But things aren't that simple.
 tags:
   - bootstrapping
   - data science
