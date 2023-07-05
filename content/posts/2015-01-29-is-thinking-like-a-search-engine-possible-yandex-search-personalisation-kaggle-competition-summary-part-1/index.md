@@ -6,6 +6,7 @@ date: 2015-01-29T10:37:39+00:00
 url: /2015/01/29/is-thinking-like-a-search-engine-possible-yandex-search-personalisation-kaggle-competition-summary-part-1/
 cover:
   image: artificial-intelligence.jpg
+summary: Insights on search personalisation and SEO from participating in a Kaggle competition (finished 9th out of 194 teams).
 tags:
   - data science
   - Kaggle

@@ -6,6 +6,7 @@ date: 2015-07-06T22:21:42+00:00
 url: /2015/07/06/learning-about-deep-learning-through-album-cover-classification/
 cover:
   image: bandcamp-album-covers-by-genre.png
+summary: Progress on my album cover classification project, highlighting lessons that would be useful to others who are getting started with deep learning.
 tags:
   - data science
   - deep learning

@@ -6,8 +6,7 @@ date: 2018-12-24T02:37:50+00:00
 url: /2018/12/24/the-most-practical-causal-inference-book-ive-read-is-still-a-draft/
 cover:
   image: chicken-egg-roost.jpg
-timeline_notification:
-  - 1545619075
+summary: Causal Inference by Miguel Hernán and Jamie Robins is a must-read for anyone interested in the area.
 tags:
   - causal inference
   - data science

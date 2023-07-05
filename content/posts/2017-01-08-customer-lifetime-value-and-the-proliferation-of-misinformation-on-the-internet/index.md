@@ -6,6 +6,7 @@ date: 2017-01-08T20:02:30+00:00
 url: /2017/01/08/customer-lifetime-value-and-the-proliferation-of-misinformation-on-the-internet/
 cover:
   image: propaganda-graffiti.jpg
+summary: There's a lot of misleading content on the estimation of customer lifetime value. Here's what I learned about doing it well.
 tags:
   - analytics
   - business

@@ -6,6 +6,7 @@ date: 2017-07-29T05:39:26+00:00
 url: /2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/
 cover:
   image: long-remote-road.jpg
+summary: I wanted a well-paid data science-y remote job with an established company that offers a good life balance and makes products I care about. I got it eventually.
 tags:
   - Automattic
   - career

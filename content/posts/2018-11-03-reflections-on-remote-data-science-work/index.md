@@ -6,8 +6,7 @@ date: 2018-11-03T06:33:13+00:00
 url: /2018/11/03/reflections-on-remote-data-science-work/
 cover:
   image: angels-beach.jpg
-timeline_notification:
-  - 1541226797
+summary: Discussing the pluses and minuses of remote work eighteen months after joining Automattic as a data scientist.
 tags:
   - Automattic
   - career

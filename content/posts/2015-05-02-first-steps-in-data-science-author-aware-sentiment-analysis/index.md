@@ -6,6 +6,7 @@ date: 2015-05-02T08:31:10+00:00
 url: /2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/
 cover:
   image: kitten-first-steps.jpg
+summary: I became a data scientist by doing a PhD, but the same steps can be followed without a formal education program.
 tags:
   - data science
   - machine learning

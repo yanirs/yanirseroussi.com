@@ -6,6 +6,7 @@ date: 2015-08-24T08:25:30+00:00
 url: /2015/08/24/you-dont-need-a-data-scientist-yet/
 cover:
   image: hammer.jpg
+summary: Hiring data scientists prematurely is wasteful and frustrating. Here are some questions to ask before you hire your first data scientist.
 tags:
   - business
   - data business

@@ -4,6 +4,7 @@ author: Yanir Seroussi
 type: post
 date: 2014-09-24T04:57:39+00:00
 url: /2014/09/24/applying-the-traction-books-bullseye-framework-to-bcrecommender/
+summary: Ranking 19 channels with the goal of getting traction for BCRecommender.
 tags:
   - Bandcamp
   - BCRecommender

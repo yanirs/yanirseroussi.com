@@ -6,6 +6,7 @@ date: 2015-04-24T00:19:36+00:00
 url: /2015/04/24/my-divestment-from-fossil-fuels/
 cover:
   image: industry.jpg
+summary: Recent choices I've made to reduce my exposure to fossil fuels, including practical steps that can be taken by Australians and generally applicable lessons.
 tags:
   - climate change
   - divestment

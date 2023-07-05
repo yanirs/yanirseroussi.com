@@ -7,6 +7,7 @@ url: /2014/11/05/bcrecommender-traction-update/
 cover:
   image: bullseye.png
   responsiveImages: false
+summary: 'Update on BCRecommender traction using three channels: blogger outreach, search engine optimisation, and content marketing.'
 tags:
   - Bandcamp
   - BCRecommender

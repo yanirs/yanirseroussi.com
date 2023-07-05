@@ -4,6 +4,7 @@ author: Yanir Seroussi
 type: post
 date: 2014-09-19T14:26:55+00:00
 url: /2014/09/19/bandcamp-recommendation-and-discovery-algorithms/
+summary: The recommendation backend for my BCRecommender service for personalised Bandcamp music discovery.
 tags:
   - Bandcamp
   - BCRecommender

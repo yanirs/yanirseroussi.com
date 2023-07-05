@@ -7,6 +7,7 @@ url: /2015/07/31/goodbye-parse-com/
 cover:
   image: farewell.jpg
   responsiveImages: false
+summary: Migrating my web apps away from Parse.com due to reliability issues. Self-hosting is a better solution.
 tags:
   - BCRecommender
   - DevOps

@@ -4,6 +4,7 @@ author: Yanir Seroussi
 type: post
 date: 2014-01-19T10:34:28+00:00
 url: /2014/01/19/kaggle-beginner-tips/
+summary: First post! An email I sent to members of the Data Science Sydney Meetup with tips on how to get started with Kaggle competitions.
 tags:
   - data science
   - Kaggle

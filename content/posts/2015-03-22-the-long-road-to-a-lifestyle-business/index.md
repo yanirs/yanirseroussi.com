@@ -6,6 +6,7 @@ date: 2015-03-22T09:43:47+00:00
 url: /2015/03/22/the-long-road-to-a-lifestyle-business/
 cover:
   image: overland-track.jpg
+summary: Progress since leaving my last full-time job and setting on an independent path that includes data science consulting and work on my own projects.
 tags:
   - business
   - data science

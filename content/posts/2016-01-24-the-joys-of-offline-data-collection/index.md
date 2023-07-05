@@ -6,6 +6,7 @@ date: 2016-01-24T00:32:25+00:00
 url: /2016/01/24/the-joys-of-offline-data-collection/
 cover:
   image: triaenodon-obesus-whitetip-reef-shark.jpg
+summary: Insights on data collection and machine learning from spending a month sailing, diving, and counting fish with Reef Life Survey.
 tags:
   - data science
   - deep learning

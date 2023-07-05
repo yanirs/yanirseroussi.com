@@ -6,6 +6,7 @@ date: 2014-10-07T03:21:35+00:00
 url: /2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/
 cover:
   image: wise2014-connected-components.png
+summary: Summary of my approach to the Greek Media Monitoring Kaggle competition, where I finished 6th out of 120 teams.
 tags:
   - data science
   - Kaggle

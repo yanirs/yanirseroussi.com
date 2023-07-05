@@ -6,6 +6,7 @@ date: 2016-05-14T19:57:03+00:00
 url: /2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/
 cover:
   image: freediving.jpg
+summary: Discussing the need for untested assumptions and temporality in causal inference. Mostly based on Samantha Kleinberg's Causality, Probability, and Time.
 tags:
   - causal inference
   - data science

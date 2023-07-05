@@ -6,6 +6,7 @@ date: 2016-03-20T20:33:43+00:00
 url: /2016/03/20/the-rise-of-greedy-robots/
 cover:
   image: greedy-robot.jpg
+summary: Is artificial/machine intelligence a future threat? I argue that it's already here, with greedy robots already dominating our lives.
 tags:
   - data science
   - deep learning

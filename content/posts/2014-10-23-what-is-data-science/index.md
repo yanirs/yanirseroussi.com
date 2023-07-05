@@ -3,10 +3,10 @@ title: What is data science?
 author: Yanir Seroussi
 type: post
 date: 2014-10-23T03:22:08+00:00
-excerpt: "Data science has been a hot term in the past few years. Despite this fact (or perhaps because of it), it still seems like there isn't a single unifying definition of data science. This post discusses my favourite definition."
 url: /2014/10/23/what-is-data-science/
 cover:
   image: data-skill-continuum.png
+summary: Data science has been a hot term in the past few years. Still, there isn't a single definition of the field. This post discusses my favourite definition.
 tags:
   - data science
   - Kaggle

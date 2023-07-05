@@ -4,6 +4,7 @@ author: Yanir Seroussi
 type: post
 date: 2014-12-29T02:30:06+00:00
 url: /2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/
+summary: Exploring an approach to choosing the optimal number of iterations in stochastic gradient boosting, following a bug I found in scikit-learn.
 tags:
   - data science
   - gradient boosting

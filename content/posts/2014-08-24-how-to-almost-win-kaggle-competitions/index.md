@@ -4,6 +4,7 @@ author: Yanir Seroussi
 type: post
 date: 2014-08-24T12:40:53+00:00
 url: /2014/08/24/how-to-almost-win-kaggle-competitions/
+summary: Summary of a talk I gave at the Data Science Sydney meetup with ten tips on almost-winning Kaggle competitions.
 tags:
   - data science
   - Kaggle
