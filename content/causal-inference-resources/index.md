@@ -4,6 +4,8 @@ author: Yanir Seroussi
 aliases:
   - /causal-inference-reading-list/
 type: page
+editPost:
+  disabled: true
 
 ---
 This is a list of some causal inference resources, which I update from time to time. You can also check out my posts on [causal inference](/tags/causal-inference/) and [A/B testing](/tags/a/b-testing/).
