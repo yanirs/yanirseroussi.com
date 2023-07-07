@@ -1,10 +1,17 @@
 ---
 title: State of Bandcamp Recommender, Late 2017
 author: Yanir Seroussi
-type: page
+type: post
 date: 2017-09-02T10:19:02+00:00
+url: /2017/09/02/state-of-bandcamp-recommender/
+aliases:
+ - /state-of-bandcamp-recommender-september-2017/
 cover:
   image: bcrecommender-homepage.jpg
+summary: Call for BCRecommender maintainers followed by a decision to shut it down, as I don't have enough time and Bandcamp now offers recommendations.
+tags:
+ - Bandcamp
+ - BCRecommender
 
 ---
 ## November 2017: Update and goodbye
