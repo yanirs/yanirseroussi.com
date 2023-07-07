@@ -1,18 +1,28 @@
 ---
-title: Research
+title: My PhD work
 author: Yanir Seroussi
-type: page
+type: post
 date: 2015-03-30T03:23:33+00:00
+url: /phd-work/
+aliases:
+  - /2015/03/30/phd-work/
 cover:
   image: thesis.jpg
+summary: 'An overview of my PhD in data science / artificial intelligence. Thesis title: Text Mining and Rating Prediction with Topical User Models.'
 comments: false
+tags:
+  - artificial intelligence
+  - career
+  - data science
+  - machine learning
+  - predictive modelling
 
 ---
 I did my PhD at <a href="http://www.monash.edu/" target="_blank" rel="noopener">Monash University</a> under the supervision of <a href="http://users.monash.edu/~ingrid/" target="_blank" rel="noopener">Ingrid Zukerman</a> and <a href="https://sites.google.com/a/bohnert.eu/fabian-bohnert/" target="_blank" rel="noopener">Fabian Bohnert</a>. I started in March 2009 and submitted my thesis in August 2012. When excluding time spent on conference trips and three months of an internship with Google, it took about three years of work to complete the PhD, which is not too bad for a 100% research program (no coursework was required at the time).
 
 People often ask me how to become [a data scientist][1]. The PhD was my way of doing that, though it was entirely unplanned. In fact, I didn't even want to do a PhD. My original plan was to come to Australia, do a master degree, and see if I like it here. Ingrid convinced me to do a PhD, because "the time difference to a master isn't huge". I don't regret listening to her. I had the opportunity to work on interesting problems, travel, and generally have fun. The PhD has even made me more employable due to the boom in data-driven work, which wasn't something I was aiming for. All I was hoping to achieve was being qualified to work on more interesting stuff than vanilla software engineering, which was my focus prior to the PhD.
 
-Broadly speaking, the topics of the PhD were in the areas of user modelling and natural language processing. I'm planning to eventually document the journey and the work done through a series of posts. The idea is to give a behind-the-scenes overview of the work that went into publishing the papers, as there are many lessons that may be useful to both PhD students and software engineers who wish to become data scientists. In addition, this website gets much more exposure than my papers ever did, so I hope that using this platform to explain the papers in a friendly language would enable a wider audience to build on my PhD work.
+Broadly speaking, the topics of the PhD were in the areas of user modelling and natural language processing. I'm planning to eventually document the journey and the work done through a series of posts.[^2023-update] The idea is to give a behind-the-scenes overview of the work that went into publishing the papers, as there are many lessons that may be useful to both PhD students and software engineers who wish to become data scientists. In addition, this website gets much more exposure than my papers ever did, so I hope that using this platform to explain the papers in a friendly language would enable a wider audience to build on my PhD work.
 
 The title of my thesis is _Text Mining and Rating Prediction with Topical User Models_. The short, human-friendly abstract is:
 
@@ -37,3 +47,5 @@ The main publications that resulted from my PhD work are as follows. Links to po
 
  [1]: https://yanirseroussi.com/2014/10/23/what-is-data-science/ "What is data science?"
  [2]: https://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/ "First steps in data science: author-aware sentiment analysis"
+
+[^2023-update]: _July 2023 update:_ Just noticed this plan while tidying up the website. The series of posts never got off the ground. As it's been eight years, I think it's safe to say it's not going to happen.
