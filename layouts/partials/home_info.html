@@ -1,7 +1,7 @@
 {{- with site.Params.homeInfoParams }}
   <article class="first-entry home-info">
     <figure class="entry-cover">
-      <img src="{{ .cover.image | absURL }}" alt="{{ .cover.alt }}">
+      <img width="334" height="250" src="{{ .cover.image | absURL }}" alt="{{ .cover.alt }}">
     </figure>
     <header class="entry-header">
       <h1>{{ .Title | markdownify }}</h1>
