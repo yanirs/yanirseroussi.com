@@ -23,9 +23,22 @@ jobs:
       - name: Build production site
         run: hugo --minify
 
-      - name: Commit changes to gh-pages branch
+      - name: Commit changes to gh-pages branch (master only)
         uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # pin@v3.9.3
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
+      # The following steps aren't essentially, but useful for debugging and viewing a human-friendly diff.
+      - name: Rebuild site without minification (master only)
+        if: github.ref == 'refs/heads/master'
+        run: hugo --destination ./public-unminified
+
+      - name: Commit changes to gh-pages-unminified branch (master only)
+        uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847  # pin@v3.9.3
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages-unminified
+          publish_dir: ./public-unminified
