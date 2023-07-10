@@ -42,9 +42,8 @@ params:
     title: 'Yanir Seroussi &ndash; Data & AI Expert<sup>*</sup>'
     content: |
       **Welcome! 🐳️** I'm Yanir Seroussi, a full-stack data scientist and software engineer with over a decade of
-      experience and an ongoing interest in finding the perfect title to describe my work
-      ([it's not easy](https://yanirseroussi.com/2023/06/30/was-data-science-a-failure-mode-of-software-engineering/)).
-      [Visit the About page for a longer intro and contact options](/about/).
+      experience. Concisely describing my work is a bit of a challenge, so [visit the About page for a longer intro
+      and contact options](/about/).
       
       Over the years, I've published a bunch of posts on data science and other topics I find interesting. Scroll down
       to view them in reverse chronological order, or [explore posts by tag](/tags/).
