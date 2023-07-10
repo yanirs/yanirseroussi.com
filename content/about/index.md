@@ -5,7 +5,7 @@ type: page
 cover:
   image: profile.jpg
   alt: Yanir Seroussi's profile picture
-  responsiveImages: false
+summary: About Yanir Seroussi, a full-stack data scientist and software engineer with over a decade of experience.
 comments: false
 # Avoid 404 when following the link for the final WP.com post.
 aliases:
