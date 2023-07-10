@@ -19,9 +19,6 @@ menu:
     - name: Talks
       url: /talks/
       weight: 2
-    - name: FAQ
-      url: /faq/
-      weight: 3
 
 params:
   analytics:

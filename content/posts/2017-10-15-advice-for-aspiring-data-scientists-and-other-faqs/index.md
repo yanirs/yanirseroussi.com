@@ -3,9 +3,9 @@ title: Advice for aspiring data scientists and other FAQs
 author: Yanir Seroussi
 type: post
 date: 2017-10-15T09:15:25+00:00
-url: /faq/
+url: /2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/
 aliases:
-  - /2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/
+  - /faq/
 cover:
   image: gold-coast-surfers.jpg
 summary: Frequently asked questions by visitors to this site, especially around entering the data science field.
@@ -101,7 +101,7 @@ Aspiring data scientists and other visitors to this site often repeat the same q
 <b id="help-with-my-project">Can you help with my project?</b>
 
 <p class="indent-1">
-  Probably not, as I work full-time with <a href="https://automattic.com/">Automattic</a>. I barely have time for my side projects, and I'm not looking for more paid work. However, if you think I'd find your project exciting, please do <a href="https://yanirseroussi.com/about/">contact me</a>.
+  Possibly. If you think I'd find your project exciting, please do <a href="https://yanirseroussi.com/about/">contact me</a>.
 </p>
 
 * * *
