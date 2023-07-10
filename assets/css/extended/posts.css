@@ -1,6 +1,7 @@
 article.post-single figure.entry-cover img {
   margin: auto;
   width: unset;
+  max-height: 250px;
 }
 
 .post-content p.intro-note {
