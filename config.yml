@@ -29,7 +29,7 @@ params:
   cover:
     hiddenInList: true
   description: |
-    Posts on data science and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
+    Human-generated words on data science, artificial intelligence, and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
   disableScrollToTop: true
   editPost:
     appendFilePath: true
