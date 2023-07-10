@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>statistics on Yanir Seroussi | Data science and beyond</title>
+    <link>https://yanirseroussi.com/tags/statistics/</link>
+    <description>Recent content in statistics on Yanir Seroussi | Data science and beyond</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
+    <lastBuildDate>Fri, 14 Jan 2022 00:05:40 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis strategies in online A/B experiments: Intention-to-treat, per-protocol, and other lessons from clinical trials</title>
+      <link>https://yanirseroussi.com/2022/01/14/analysis-strategies-in-online-a-b-experiments/</link>
+      <pubDate>Fri, 14 Jan 2022 00:05:40 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2022/01/14/analysis-strategies-in-online-a-b-experiments/</guid>
+      <description>Epidemiologists analyse clinical trials to estimate the intention-to-treat and per-protocol effects. This post applies their strategies to online experiments.</description>
+    </item>
+    
+    <item>
+      <title>Many is not enough: Counting simulations to bootstrap the right way</title>
+      <link>https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/</link>
+      <pubDate>Mon, 24 Aug 2020 01:35:17 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/</guid>
+      <description>Going deeper into correct testing of different methods for bootstrap estimation of confidence intervals.</description>
+    </item>
+    
+    <item>
+      <title>Bootstrapping the right way?</title>
+      <link>https://yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/</link>
+      <pubDate>Sun, 06 Oct 2019 06:48:07 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/</guid>
+      <description>Video and summary of a talk I gave at YOW! Data on bootstrap estimation of confidence intervals.</description>
+    </item>
+    
+    <item>
+      <title>Hackers beware: Bootstrap sampling may be harmful</title>
+      <link>https://yanirseroussi.com/2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/</link>
+      <pubDate>Mon, 07 Jan 2019 21:07:56 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/</guid>
+      <description>Bootstrap sampling has been promoted as an easy way of modelling uncertainty to hackers without much statistical knowledge. But things aren&amp;rsquo;t that simple.</description>
+    </item>
+    
+    <item>
+      <title>The most practical causal inference book I’ve read (is still a draft)</title>
+      <link>https://yanirseroussi.com/2018/12/24/the-most-practical-causal-inference-book-ive-read-is-still-a-draft/</link>
+      <pubDate>Mon, 24 Dec 2018 02:37:50 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2018/12/24/the-most-practical-causal-inference-book-ive-read-is-still-a-draft/</guid>
+      <description>Causal Inference by Miguel Hernán and Jamie Robins is a must-read for anyone interested in the area.</description>
+    </item>
+    
+    <item>
+      <title>Defining data science in 2018</title>
+      <link>https://yanirseroussi.com/2018/07/22/defining-data-science-in-2018/</link>
+      <pubDate>Sun, 22 Jul 2018 08:27:43 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2018/07/22/defining-data-science-in-2018/</guid>
+      <description>Updating my definition of data science to match changes in the field. It is now broader than before, but its ultimate goal is still to support decisions.</description>
+    </item>
+    
+    <item>
+      <title>Customer lifetime value and the proliferation of misinformation on the internet</title>
+      <link>https://yanirseroussi.com/2017/01/08/customer-lifetime-value-and-the-proliferation-of-misinformation-on-the-internet/</link>
+      <pubDate>Sun, 08 Jan 2017 20:02:30 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2017/01/08/customer-lifetime-value-and-the-proliferation-of-misinformation-on-the-internet/</guid>
+      <description>There&amp;rsquo;s a lot of misleading content on the estimation of customer lifetime value. Here&amp;rsquo;s what I learned about doing it well.</description>
+    </item>
+    
+    <item>
+      <title>If you don’t pay attention, data can drive you off a cliff</title>
+      <link>https://yanirseroussi.com/2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/</link>
+      <pubDate>Sun, 21 Aug 2016 21:34:17 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/</guid>
+      <description>Seven common mistakes to avoid when working with data, such as ignoring uncertainty and confusing observed and unobserved quantities.</description>
+    </item>
+    
+    <item>
+      <title>Is Data Scientist a useless job title?</title>
+      <link>https://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/</link>
+      <pubDate>Thu, 04 Aug 2016 22:26:03 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2016/08/04/is-data-scientist-a-useless-job-title/</guid>
+      <description>It seems like anyone who touches data can call themselves a data scientist, which makes the title useless. The work they do can still be useful, though.</description>
+    </item>
+    
+    <item>
+      <title>Making Bayesian A/B testing more accessible</title>
+      <link>https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/</link>
+      <pubDate>Sun, 19 Jun 2016 10:32:15 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2016/06/19/making-bayesian-ab-testing-more-accessible/</guid>
+      <description>A web tool I built to interpret A/B test results in a Bayesian way, including prior specification, visualisations, and decision rules.</description>
+    </item>
+    
+  </channel>
+</rss>

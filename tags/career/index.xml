@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>career on Yanir Seroussi | Data science and beyond</title>
+    <link>https://yanirseroussi.com/tags/career/</link>
+    <description>Recent content in career on Yanir Seroussi | Data science and beyond</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
+    <lastBuildDate>Fri, 30 Jun 2023 00:06:30 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Was data science a failure mode of software engineering?</title>
+      <link>https://yanirseroussi.com/2023/06/30/was-data-science-a-failure-mode-of-software-engineering/</link>
+      <pubDate>Fri, 30 Jun 2023 00:06:30 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2023/06/30/was-data-science-a-failure-mode-of-software-engineering/</guid>
+      <description>Yes, data science projects have suffered from classic software engineering mistakes, but the field is maturing with the rise of new engineering roles.</description>
+    </item>
+    
+    <item>
+      <title>How hackable are automated coding assessments?</title>
+      <link>https://yanirseroussi.com/2023/05/26/how-hackable-are-automated-coding-assessments/</link>
+      <pubDate>Fri, 26 May 2023 00:03:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2023/05/26/how-hackable-are-automated-coding-assessments/</guid>
+      <description>Exploring the hackability of speed-based coding tests, using CodeSignal&amp;rsquo;s Industry Coding Framework as a case study.</description>
+    </item>
+    
+    <item>
+      <title>Remaining relevant as a small language model</title>
+      <link>https://yanirseroussi.com/2023/04/21/remaining-relevant-as-a-small-language-model/</link>
+      <pubDate>Fri, 21 Apr 2023 00:06:30 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2023/04/21/remaining-relevant-as-a-small-language-model/</guid>
+      <description>Bing Chat recently quipped that humans are small language models. Here are some of my thoughts on how we small language models can remain relevant (for now).</description>
+    </item>
+    
+    <item>
+      <title>The mission matters: Moving to climate tech as a data scientist</title>
+      <link>https://yanirseroussi.com/2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/</link>
+      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/</guid>
+      <description>Discussing my recent career move into climate tech as a way of doing more to help mitigate dangerous climate change.</description>
+    </item>
+    
+    <item>
+      <title>My work with Automattic</title>
+      <link>https://yanirseroussi.com/2021/10/07/my-work-with-automattic/</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2021/10/07/my-work-with-automattic/</guid>
+      <description>Back-dated meta-post that gathers my posts on Automattic blogs into a summary of the work I&amp;rsquo;ve done with the company.</description>
+    </item>
+    
+    <item>
+      <title>Some highlights from 2020</title>
+      <link>https://yanirseroussi.com/2021/04/05/some-highlights-from-2020/</link>
+      <pubDate>Mon, 05 Apr 2021 06:41:48 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2021/04/05/some-highlights-from-2020/</guid>
+      <description>Sharing remote teamwork insights, my climate &amp;amp; sustainability activism, Reef Life Survey publications, and progress on Automattic&amp;rsquo;s Experimentation Platform.</description>
+    </item>
+    
+    <item>
+      <title>Software commodities are eating interesting data science work</title>
+      <link>https://yanirseroussi.com/2020/01/11/software-commodities-are-eating-interesting-data-science-work/</link>
+      <pubDate>Sat, 11 Jan 2020 09:22:35 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2020/01/11/software-commodities-are-eating-interesting-data-science-work/</guid>
+      <description>Being a data scientist can sometimes feel like a race against software commodities that replace interesting work. What can one do to remain relevant?</description>
+    </item>
+    
+    <item>
+      <title>A day in the life of a remote data scientist</title>
+      <link>https://yanirseroussi.com/2019/12/12/a-day-in-the-life-of-a-remote-data-scientist/</link>
+      <pubDate>Wed, 11 Dec 2019 22:06:19 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2019/12/12/a-day-in-the-life-of-a-remote-data-scientist/</guid>
+      <description>Video of a talk I gave on remote data science work at the Data Science Sydney meetup.</description>
+    </item>
+    
+    <item>
+      <title>Reflections on remote data science work</title>
+      <link>https://yanirseroussi.com/2018/11/03/reflections-on-remote-data-science-work/</link>
+      <pubDate>Sat, 03 Nov 2018 06:33:13 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2018/11/03/reflections-on-remote-data-science-work/</guid>
+      <description>Discussing the pluses and minuses of remote work eighteen months after joining Automattic as a data scientist.</description>
+    </item>
+    
+    <item>
+      <title>Advice for aspiring data scientists and other FAQs</title>
+      <link>https://yanirseroussi.com/faq/</link>
+      <pubDate>Sun, 15 Oct 2017 09:15:25 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/faq/</guid>
+      <description>Frequently asked questions by visitors to this site, especially around entering the data science field.</description>
+    </item>
+    
+    <item>
+      <title>My 10-step path to becoming a remote data scientist with Automattic</title>
+      <link>https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/</link>
+      <pubDate>Sat, 29 Jul 2017 05:39:26 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/</guid>
+      <description>I wanted a well-paid data science-y remote job with an established company that offers a good life balance and makes products I care about. I got it eventually.</description>
+    </item>
+    
+    <item>
+      <title>My PhD work</title>
+      <link>https://yanirseroussi.com/phd-work/</link>
+      <pubDate>Mon, 30 Mar 2015 03:23:33 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/phd-work/</guid>
+      <description>An overview of my PhD in data science / artificial intelligence. Thesis title: Text Mining and Rating Prediction with Topical User Models.</description>
+    </item>
+    
+  </channel>
+</rss>

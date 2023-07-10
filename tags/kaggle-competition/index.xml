@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kaggle competition on Yanir Seroussi | Data science and beyond</title>
+    <link>https://yanirseroussi.com/tags/kaggle-competition/</link>
+    <description>Recent content in Kaggle competition on Yanir Seroussi | Data science and beyond</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
+    <lastBuildDate>Wed, 11 Feb 2015 06:34:17 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/kaggle-competition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to rank for personalised search (Yandex Search Personalisation – Kaggle Competition Summary – Part 2)</title>
+      <link>https://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/</link>
+      <pubDate>Wed, 11 Feb 2015 06:34:17 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/</guid>
+      <description>My team&amp;rsquo;s solution to the Yandex Search Personalisation competition (finished 9th out of 194 teams).</description>
+    </item>
+    
+    <item>
+      <title>Is thinking like a search engine possible? (Yandex search personalisation – Kaggle competition summary – part 1)</title>
+      <link>https://yanirseroussi.com/2015/01/29/is-thinking-like-a-search-engine-possible-yandex-search-personalisation-kaggle-competition-summary-part-1/</link>
+      <pubDate>Thu, 29 Jan 2015 10:37:39 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2015/01/29/is-thinking-like-a-search-engine-possible-yandex-search-personalisation-kaggle-competition-summary-part-1/</guid>
+      <description>Insights on search personalisation and SEO from participating in a Kaggle competition (finished 9th out of 194 teams).</description>
+    </item>
+    
+    <item>
+      <title>Fitting noise: Forecasting the sale price of bulldozers (Kaggle competition summary)</title>
+      <link>https://yanirseroussi.com/2014/11/19/fitting-noise-forecasting-the-sale-price-of-bulldozers-kaggle-competition-summary/</link>
+      <pubDate>Wed, 19 Nov 2014 09:17:34 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2014/11/19/fitting-noise-forecasting-the-sale-price-of-bulldozers-kaggle-competition-summary/</guid>
+      <description>Summary of a Kaggle competition to forecast bulldozer sale price, where I finished 9th out of 476 teams.</description>
+    </item>
+    
+    <item>
+      <title>Greek Media Monitoring Kaggle competition: My approach</title>
+      <link>https://yanirseroussi.com/2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/</link>
+      <pubDate>Tue, 07 Oct 2014 03:21:35 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/</guid>
+      <description>Summary of my approach to the Greek Media Monitoring Kaggle competition, where I finished 6th out of 120 teams.</description>
+    </item>
+    
+    <item>
+      <title>How to (almost) win Kaggle competitions</title>
+      <link>https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/</link>
+      <pubDate>Sun, 24 Aug 2014 12:40:53 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/</guid>
+      <description>Summary of a talk I gave at the Data Science Sydney meetup with ten tips on almost-winning Kaggle competitions.</description>
+    </item>
+    
+    <item>
+      <title>Kaggle competition tips and summaries</title>
+      <link>https://yanirseroussi.com/kaggle/</link>
+      <pubDate>Sat, 05 Apr 2014 23:46:10 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/kaggle/</guid>
+      <description>Pointers to all my Kaggle advice posts and competition summaries.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on Yanir Seroussi | Data science and beyond</title>
+    <link>https://yanirseroussi.com/tags/github/</link>
+    <description>Recent content in GitHub on Yanir Seroussi | Data science and beyond</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
+    <lastBuildDate>Wed, 10 Nov 2021 06:30:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating from WordPress.com to Hugo on GitHub &#43; Cloudflare</title>
+      <link>https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/</link>
+      <pubDate>Wed, 10 Nov 2021 06:30:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/</guid>
+      <description>My reasons for switching from WordPress.com to Hugo on GitHub + Cloudflare, along with a summary of the solution components and migration process.</description>
+    </item>
+    
+  </channel>
+</rss>

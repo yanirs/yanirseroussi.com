@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>How to (almost) win Kaggle competitions | Yanir Seroussi | Data science and beyond</title>
+<meta name="keywords" content="data science, Kaggle, Kaggle beginners, Kaggle competition, predictive modelling">
+<meta name="description" content="Summary of a talk I gave at the Data Science Sydney meetup with ten tips on almost-winning Kaggle competitions.">
+<meta name="author" content="Yanir Seroussi">
+<link rel="canonical" href="https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/">
+<meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.532aaac5e1381d5800c7cbf01ec4a3ee56d87b989b9ddfa0a189e8c8e78dd55b.css" integrity="sha256-UyqqxeE4HVgAx8vwHsSj7lbYe5ibnd&#43;goYnoyOeN1Vs=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://yanirseroussi.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://yanirseroussi.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://yanirseroussi.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="How to (almost) win Kaggle competitions" />
+<meta property="og:description" content="Summary of a talk I gave at the Data Science Sydney meetup with ten tips on almost-winning Kaggle competitions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-08-24T12:40:53+00:00" />
+<meta property="article:modified_time" content="2023-07-06T09:28:02+10:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to (almost) win Kaggle competitions"/>
+<meta name="twitter:description" content="Summary of a talk I gave at the Data Science Sydney meetup with ten tips on almost-winning Kaggle competitions."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://yanirseroussi.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "How to (almost) win Kaggle competitions",
+      "item": "https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "How to (almost) win Kaggle competitions",
+  "name": "How to (almost) win Kaggle competitions",
+  "description": "Summary of a talk I gave at the Data Science Sydney meetup with ten tips on almost-winning Kaggle competitions.",
+  "keywords": [
+    "data science", "Kaggle", "Kaggle beginners", "Kaggle competition", "predictive modelling"
+  ],
+  "articleBody": "Last week, I gave a talk at the Data Science Sydney Meetup group about some of the lessons I learned through almost winning five Kaggle competitions. The core of the talk was ten tips, which I think are worth putting in a post (the original slides are here). Some of these tips were covered in my beginner tips post from a few months ago. Similar advice was also recently published on the Kaggle blog – it’s great to see that my tips are in line with the thoughts of other prolific kagglers.\nTip 1: RTFM It’s surprising to see how many people miss out on important details, such as remembering the final date to make the first submission. Before jumping into building models, it’s important to understand the competition timeline, be able to reproduce benchmarks, generate the correct submission format, etc.\nTip 2: Know your measure A key part of doing well in a competition is understanding how the measure works. It’s often easy to obtain significant improvements in your score by using an optimisation approach that is suitable to the measure. A classic example is optimising the mean absolute error (MAE) versus the mean square error (MSE). It’s easy to show that given no other data for a set of numbers, the predictor that minimises the MAE is the median, while the predictor that minimises the MSE is the mean. Indeed, in the EMC Data Science Hackathon we fell back to the median rather than the mean when there wasn’t enough data, and that ended up working pretty well.\nTip 3: Know your data In Kaggle competitions, overspecialisation (without overfitting) is a good thing. This is unlike academic machine learning papers, where researchers often test their proposed method on many different datasets. This is also unlike more applied work, where you may care about data drifting and whether what you predict actually makes sense. Examples include the Hackathon, where the measures of pollutants in the air were repeated for consecutive hours (i.e., they weren’t really measured); the multi-label Greek article competition, where I found connected components of labels (doesn’t generalise well to other datasets); and the Arabic writers competition, where I used histogram kernels to deal with the features that we were given. The general lesson is that custom solutions win, and that’s why the world needs data scientists (at least until we are replaced by robots).\nTip 4: What before how It’s important to know what you want to model before figuring out how to model it. It seems like many beginners tend to worry too much about which tool to use (Python or R? Logistic regression or SVMs?), when they should be worrying about understanding the data and what useful patterns they want to capture. For example, when we worked on the Yandex search personalisation competition, we spent a lot of time looking at the data and thinking what makes sense for users to be doing. In that case it was easy to come up with ideas, because we all use search engines. But the main message is that to be effective, you have to become one with the data.\nTip 5: Do local validation This is a point I covered in my Kaggle beginner tips post. Having a local validation environment allows you to move faster and produce more reliable results than when relying on the leaderboard. The main scenarios when you should skip local validation is when the data is too small (a problem I had in the Arabic writers competition), or when you run out of time (towards the end of the competition).\nTip 6: Make fewer submissions In addition to making you look good, making few submissions reduces the likelihood of overfitting the leaderboard, which is a real problem. If your local validation is set up well and is consistent with the leaderboard (which you need to test by making one or two submissions), there’s really no need to make many submissions. Further, if you’re doing well, making submissions erodes your competitive advantage by showing your competitors what scores are obtainable and motivating them to work harder. Just resist the urge to submit, unless you have a really good reason.\nTip 7: Do your research For any given problem, it’s likely that there are people dedicating their lives to its solution. These people (often academics) have probably published papers, benchmarks and code, which you can learn from. Unlike actually winning, which is not only dependent on you, gaining deeper knowledge and understanding is the only sure reward of a competition. This has worked well for me, as I’ve learned something new and applied it successfully in nearly every competition I’ve worked on.\nTip 8: Apply the basics rigorously While playing with obscure methods can be a lot of fun, it’s often the case that the basics will get you very far. Common algorithms have good implementations in most major languages, so there’s really no reason not to try them. However, note that when you do try any methods, you must do some minimal tuning of the main parameters (e.g., number of trees in a random forest or the regularisation of a linear model). Running a method without minimal tuning is worse than not running it at all, because you may get a false negative – giving up on a method that actually works very well.\nAn example of applying the basics rigorously is in the classic paper In defense of one-vs-all classification, where the authors showed that the simple one-vs-all (OVA) approach to multiclass classification is at least as good as approaches that are much more sophisticated. In their words: “What we find is that although a wide array of more sophisticated methods for multiclass classification exist, experimental evidence of the superiority of these methods over a simple OVA scheme is either lacking or improperly controlled or measured”. If such a failure to perform proper experiments can happen to serious machine learning researchers, it can definitely happen to the average kaggler. Don’t let it happen to you.\nTip 9: The forum is your friend It’s very important to subscribe to the forum to receive notifications on issues with the data or the competition. In addition, it’s worth trying to figure out what your competitors are doing. An extreme example is the recent trend of code sharing during the competition (which I don’t really like) – while it’s not a good idea to rely on such code, it’s important to be aware of its existence. Finally, reading the post-competition summaries on the forum is a valuable way of learning from the winners and improving over time.\nTip 10: Ensemble all the things Not to be confused with ensemble methods (which are also very important), the idea here is to combine models that were developed independently. In high-profile competitions, it is often the case that teams merge and gain a significant boost from combining their models. This is worth doing even when competing alone, because almost no competition is won by a single model.\n",
+  "wordCount" : "1169",
+  "inLanguage": "en",
+  "datePublished": "2014-08-24T12:40:53Z",
+  "dateModified": "2023-07-06T09:28:02+10:00",
+  "author":{
+    "@type": "Person",
+    "name": "Yanir Seroussi"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yanirseroussi.com/2014/08/24/how-to-almost-win-kaggle-competitions/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yanir Seroussi | Data science and beyond",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yanirseroussi.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://yanirseroussi.com/" accesskey="h" title="Yanir Seroussi | Data science and beyond (Alt + H)">Yanir Seroussi | Data science and beyond</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://yanirseroussi.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yanirseroussi.com/talks/" title="Talks">
+                    <span>Talks</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yanirseroussi.com/faq/" title="FAQ">
+                    <span>FAQ</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      How to (almost) win Kaggle competitions
+    </h1>
+    <div class="post-meta"><span title='2014-08-24 12:40:53 +0000 UTC'>August 24, 2014</span>&nbsp;|&nbsp;<a href="https://github.com/yanirs/yanirseroussi.com/blob/master/content/posts/2014-08-24-how-to-almost-win-kaggle-competitions/index.md" rel="noopener noreferrer" target="_blank">Suggest changes</a>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Last week, I gave a talk at the <a href="http://www.meetup.com/Data-Science-Sydney/" target="_blank" rel="noopener">Data Science Sydney Meetup group</a> about some of the lessons I learned through almost winning five Kaggle competitions. The core of the talk was ten tips, which I think are worth putting in a post (the original slides are <a href="http://yanirs.github.io/talks/data-science-sydney-winning-kaggle/" target="_blank" rel="noopener">here</a>). Some of these tips were covered in my <a href="https://yanirseroussi.com/2014/01/19/kaggle-beginner-tips/">beginner tips post</a> from a few months ago. Similar advice was also <a href="http://blog.kaggle.com/2014/08/01/learning-from-the-best/" target="_blank" rel="noopener">recently published on the Kaggle blog</a> – it&rsquo;s great to see that my tips are in line with the thoughts of other prolific kagglers.</p>
+<h3 id="tip-1-rtfm">Tip 1: RTFM<a hidden class="anchor" aria-hidden="true" href="#tip-1-rtfm">#</a></h3>
+<p>It&rsquo;s surprising to see how many people miss out on important details, such as remembering the final date to make the first submission. Before jumping into building models, it&rsquo;s important to understand the competition timeline, be able to reproduce benchmarks, generate the correct submission format, etc.</p>
+<h3 id="tip-2-know-your-measure">Tip 2: Know your measure<a hidden class="anchor" aria-hidden="true" href="#tip-2-know-your-measure">#</a></h3>
+<p>A key part of doing well in a competition is understanding how the measure works. It&rsquo;s often easy to obtain significant improvements in your score by using an optimisation approach that is suitable to the measure. A classic example is optimising the mean absolute error (MAE) versus the mean square error (MSE). It&rsquo;s easy to show that given no other data for a set of numbers, the predictor that minimises the MAE is the median, while the predictor that minimises the MSE is the mean. Indeed, in the <a href="https://www.kaggle.com/c/dsg-hackathon/forums/t/1821/general-approaches-to-partitioning-the-models/10631#post10631" target="_blank" rel="noopener">EMC Data Science Hackathon</a> we fell back to the median rather than the mean when there wasn&rsquo;t enough data, and that ended up working pretty well.</p>
+<h3 id="tip-3-know-your-data">Tip 3: Know your data<a hidden class="anchor" aria-hidden="true" href="#tip-3-know-your-data">#</a></h3>
+<p>In Kaggle competitions, overspecialisation (without overfitting) is a good thing. This is unlike academic machine learning papers, where researchers often test their proposed method on many different datasets. This is also unlike more applied work, where you may care about data drifting and whether what you predict actually makes sense. Examples include the <a href="https://www.kaggle.com/c/dsg-hackathon/forums/t/1821/general-approaches-to-partitioning-the-models/10631#post10631" target="_blank" rel="noopener">Hackathon</a>, where the measures of pollutants in the air were repeated for consecutive hours (i.e., they weren&rsquo;t really measured); the <a title="Greek Media Monitoring Kaggle competition: My approach" href="https://yanirseroussi.com/2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/" target="_blank" rel="noopener">multi-label Greek article competition</a>, where I found connected components of labels (doesn&rsquo;t generalise well to other datasets); and the <a href="http://blog.kaggle.com/2012/04/29/on-diffusion-kernels-histograms-and-arabic-writer-identification/" target="_blank" rel="noopener">Arabic writers competition</a>, where I used histogram kernels to deal with the features that we were given. The general lesson is that custom solutions win, and that&rsquo;s why the world needs data scientists (at least <a href="http://www.datarobot.com/" target="_blank" rel="noopener">until we are replaced by robots</a>).</p>
+<h3 id="tip-4-what-before-how">Tip 4: What before how<a hidden class="anchor" aria-hidden="true" href="#tip-4-what-before-how">#</a></h3>
+<p>It&rsquo;s important to know <em>what</em> you want to model before figuring out <em>how</em> to model it. It seems like many beginners tend to worry too much about which tool to use (Python or R? Logistic regression or SVMs?), when they should be worrying about understanding the data and what useful patterns they want to capture. For example, when we worked on the <a href="https://www.kaggle.com/c/yandex-personalized-web-search-challenge/forums/t/6811/share-your-approach/37306#post37306" target="_blank" rel="noopener">Yandex search personalisation competition</a>, we spent a lot of time looking at the data and thinking what makes sense for users to be doing. In that case it was easy to come up with ideas, because we all use search engines. But the main message is that to be effective, you have to become one with the data.</p>
+<h3 id="tip-5-do-local-validation">Tip 5: Do local validation<a hidden class="anchor" aria-hidden="true" href="#tip-5-do-local-validation">#</a></h3>
+<p>This is a point I covered in my <a href="https://yanirseroussi.com/2014/01/19/kaggle-beginner-tips/#validation">Kaggle beginner tips post</a>. Having a local validation environment allows you to move faster and produce more reliable results than when relying on the leaderboard. The main scenarios when you should skip local validation is when the data is too small (a problem I had in the <a href="http://blog.kaggle.com/2012/04/29/on-diffusion-kernels-histograms-and-arabic-writer-identification/" target="_blank" rel="noopener">Arabic writers competition</a>), or when you run out of time (towards the end of the competition).</p>
+<h3 id="tip-6-make-fewer-submissions">Tip 6: Make fewer submissions<a hidden class="anchor" aria-hidden="true" href="#tip-6-make-fewer-submissions">#</a></h3>
+<p>In addition to making you look good, making few submissions reduces the likelihood of overfitting the leaderboard, which is a real problem. If your local validation is set up well and is consistent with the leaderboard (which you need to test by making one or two submissions), there&rsquo;s really no need to make many submissions. Further, if you&rsquo;re doing well, making submissions erodes your competitive advantage by showing your competitors what scores are obtainable and motivating them to work harder. Just resist the urge to submit, unless you have a really good reason.</p>
+<h3 id="tip-7-do-your-research">Tip 7: Do your research<a hidden class="anchor" aria-hidden="true" href="#tip-7-do-your-research">#</a></h3>
+<p>For any given problem, it&rsquo;s likely that there are people dedicating their lives to its solution. These people (often academics) have probably published papers, benchmarks and code, which you can learn from. Unlike actually winning, which is not only dependent on you, gaining deeper knowledge and understanding is the only sure reward of a competition. This has worked well for me, as I&rsquo;ve learned something new and applied it successfully in <a href="https://yanirseroussi.com/2014/04/05/kaggle-competition-summaries/">nearly every competition I&rsquo;ve worked on</a>.</p>
+<h3 id="tip-8-apply-the-basics-rigorously">Tip 8: Apply the basics rigorously<a hidden class="anchor" aria-hidden="true" href="#tip-8-apply-the-basics-rigorously">#</a></h3>
+<p>While playing with obscure methods can be a lot of fun, it&rsquo;s often the case that the basics will get you very far. Common algorithms have good implementations in most major languages, so there&rsquo;s really no reason not to try them. However, note that when you do try any methods, you <em>must</em> do some minimal tuning of the main parameters (e.g., number of trees in a random forest or the regularisation of a linear model). <strong>Running a method without minimal tuning is worse than not running it at all</strong>, because you may get a false negative – giving up on a method that actually works very well.</p>
+<p>An example of applying the basics rigorously is in the classic paper <a href="http://jmlr.org/papers/volume5/rifkin04a/rifkin04a.pdf" target="_blank" rel="noopener">In defense of one-vs-all classification</a>, where the authors showed that the simple one-vs-all (OVA) approach to multiclass classification is at least as good as approaches that are much more sophisticated. In their words: &ldquo;What we find is that although a wide array of more sophisticated methods for multiclass classification exist, experimental evidence of the superiority of these methods over a simple OVA scheme is either lacking or improperly controlled or measured&rdquo;. If such a failure to perform proper experiments can happen to serious machine learning researchers, it can definitely happen to the average kaggler. Don&rsquo;t let it happen to you.</p>
+<h3 id="tip-9-the-forum-is-your-friend">Tip 9: The forum is your friend<a hidden class="anchor" aria-hidden="true" href="#tip-9-the-forum-is-your-friend">#</a></h3>
+<p>It&rsquo;s very important to subscribe to the forum to receive notifications on issues with the data or the competition. In addition, it&rsquo;s worth trying to figure out what your competitors are doing. An extreme example is the recent trend of code sharing during the competition (<a href="http://www.kaggle.com/forums/t/5681/fed-up-with-beating-benchmark-code/30787#post30787" target="_blank" rel="noopener">which I don&rsquo;t really like</a>) – while it&rsquo;s not a good idea to rely on such code, it&rsquo;s important to be aware of its existence. Finally, reading the post-competition summaries on the forum is a valuable way of learning from the winners and improving over time.</p>
+<h3 id="tip-10-ensemble-all-the-things">Tip 10: Ensemble all the things<a hidden class="anchor" aria-hidden="true" href="#tip-10-ensemble-all-the-things">#</a></h3>
+<p>Not to be confused with ensemble methods (which are also very important), the idea here is to combine models that were developed independently. In high-profile competitions, it is often the case that teams merge and gain a significant boost from combining their models. This is worth doing even when competing alone, because almost no competition is won by a single model.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://yanirseroussi.com/tags/data-science/">data science</a></li>
+      <li><a href="https://yanirseroussi.com/tags/kaggle/">Kaggle</a></li>
+      <li><a href="https://yanirseroussi.com/tags/kaggle-beginners/">Kaggle beginners</a></li>
+      <li><a href="https://yanirseroussi.com/tags/kaggle-competition/">Kaggle competition</a></li>
+      <li><a href="https://yanirseroussi.com/tags/predictive-modelling/">predictive modelling</a></li>
+    </ul>
+
+<div class="share-buttons">
+    <a target="_blank" rel="noopener noreferrer" aria-label="share How to (almost) win Kaggle competitions on twitter"
+        href="https://twitter.com/intent/tweet/?text=How%20to%20%28almost%29%20win%20Kaggle%20competitions&amp;url=https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f&amp;hashtags=datascience%2cKaggle%2cKagglebeginners%2cKagglecompetition%2cpredictivemodelling">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-253.927,424.544c135.939,0 210.268,-112.643 210.268,-210.268c0,-3.218 0,-6.437 -0.153,-9.502c14.406,-10.421 26.973,-23.448 36.935,-38.314c-13.18,5.824 -27.433,9.809 -42.452,11.648c15.326,-9.196 26.973,-23.602 32.49,-40.92c-14.252,8.429 -30.038,14.56 -46.896,17.931c-13.487,-14.406 -32.644,-23.295 -53.946,-23.295c-40.767,0 -73.87,33.104 -73.87,73.87c0,5.824 0.613,11.494 1.992,16.858c-61.456,-3.065 -115.862,-32.49 -152.337,-77.241c-6.284,10.881 -9.962,23.601 -9.962,37.088c0,25.594 13.027,48.276 32.95,61.456c-12.107,-0.307 -23.448,-3.678 -33.41,-9.196l0,0.92c0,35.862 25.441,65.594 59.311,72.49c-6.13,1.686 -12.72,2.606 -19.464,2.606c-4.751,0 -9.348,-0.46 -13.946,-1.38c9.349,29.426 36.628,50.728 68.965,51.341c-25.287,19.771 -57.164,31.571 -91.8,31.571c-5.977,0 -11.801,-0.306 -17.625,-1.073c32.337,21.15 71.264,33.41 112.95,33.41Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share How to (almost) win Kaggle competitions on linkedin"
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f&amp;title=How%20to%20%28almost%29%20win%20Kaggle%20competitions&amp;summary=How%20to%20%28almost%29%20win%20Kaggle%20competitions&amp;source=https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share How to (almost) win Kaggle competitions on reddit"
+        href="https://reddit.com/submit?url=https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f&title=How%20to%20%28almost%29%20win%20Kaggle%20competitions">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share How to (almost) win Kaggle competitions on facebook"
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share How to (almost) win Kaggle competitions on whatsapp"
+        href="https://api.whatsapp.com/send?text=How%20to%20%28almost%29%20win%20Kaggle%20competitions%20-%20https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+        </svg>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" aria-label="share How to (almost) win Kaggle competitions on telegram"
+        href="https://telegram.me/share/url?text=How%20to%20%28almost%29%20win%20Kaggle%20competitions&amp;url=https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f">
+        <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+            <path
+                d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+        </svg>
+    </a>
+</div>
+  </footer><section class="comment-section">
+  
+
+  <strong>10 comments</strong>
+  <a
+    class="comment-button"
+    href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New comment on https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f&body=<!-- Post your comment here and it may get added to the site -->"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    Comment via GitHub issue
+  </a>
+
+  
+  
+  
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+      
+      
+  
+
+  
+    
+  <div class="comment-level-0" id="comment-17">
+    <div class="comment-header">
+      <a href="#comment-17">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/329369dea5acae30d805ae2229ee965a?s=50">
+        
+        <p class="comment-info">
+          <strong>Toby</strong><br>
+          <small>2014-10-08 14:28:21</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      Can you elaborate what you mean in Tip 5 by stating &ldquo;The main scenarios when you should skip local validation is when the data is too small &hellip;&rdquo;. What I experienced is that with too little observations, the leaderboard becomes very misleading, so my intuition would be to use more local validation for small datasets, not less.
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-17&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+    
+      
+  <div class="comment-level-1" id="comment-18">
+    <div class="comment-header">
+      <a href="#comment-18">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+        
+        <p class="comment-info">
+          <strong>yanirseroussi</strong><br>
+          <small>2014-10-08 21:04:52</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      <p>Good point. What I was referring to are scenarios where local validation is unreliable.</p>
+<p>For example, in the Arabic writer identification competition (<a href="http://blog.kaggle.com/2012/04/29/on-diffusion-kernels-histograms-and-arabic-writer-identification/%29" target="_blank" rel="noopener">http://blog.kaggle.com/2012/04/29/on-diffusion-kernels-histograms-and-arabic-writer-identification/)</a>, each of the 204 writers had only two training paragraphs (all containing the same text), while the test/leaderboard instances were a third paragraph with different content. I tried many forms of local validation but none of them yielded results that were consistent with the leaderboard, so I ended up relying on the leaderboard score.</p>
+
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-18&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+      
+        
+  <div class="comment-level-2" id="comment-19">
+    <div class="comment-header">
+      <a href="#comment-19">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/329369dea5acae30d805ae2229ee965a?s=50">
+        
+        <p class="comment-info">
+          <strong>Toby</strong><br>
+          <small>2014-10-09 06:35:46</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      Ah, thanks, that clarifies what you meant. The (currently still running) Africa Soil Property contest (<a href="https://www.kaggle.com/c/afsis-soil-properties" target="_blank" rel="noopener">https://www.kaggle.com/c/afsis-soil-properties</a>) seems a bit similar. I won&rsquo;t put much more energy into that contest, but I am curious how it will work out in the end, and what things will have worked for the winners (maybe not much except pure luck).
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-19&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+        
+      
+    
+  
+    
+  <div class="comment-level-0" id="comment-302">
+    <div class="comment-header">
+      <a href="#comment-302">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/2f58afbef02de0937224bcbce7e172c2?s=50">
+        
+        <p class="comment-info">
+          <strong>saatvik</strong><br>
+          <small>2015-04-11 10:08:23</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      Could you provide some tips on #3(&lsquo;Getting to Know your data&rsquo;) with respect to best practice visualisations to gain insights from data - especially considering the fact that datasets always have a large number of features. Plotting feature vs. label graphs do seem to be helpful, but for a large number of features will be impractical. So how should one go about data analysis via visualisation?
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-302&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+    
+      
+  <div class="comment-level-1" id="comment-306">
+    <div class="comment-header">
+      <a href="#comment-306">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+        
+        <p class="comment-info">
+          <strong>Yanir Seroussi</strong><br>
+          <small>2015-04-13 08:29:37</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      <p>It really depends on the dataset. For personal use, I don&rsquo;t worry too much about pretty visualisations. Often just printing some summary statistics works well.</p>
+<p>Most text classification problems are hard to visualise. If, for example, you use bag of words (or n-grams) as your feature set, you could just print the top words for each label, or the top words that vary between labels. Another thing to look at would be commonalities between misclassified instances &ndash; these could be dependent on the content of the texts or their length.</p>
+<p>Examples:</p>
+<ul>
+<li>In the Greek Media Monitoring competition (<a href="http://yanirseroussi.com/2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/%29">http://yanirseroussi.com/2014/10/07/greek-media-monitoring-kaggle-competition-my-approach/)</a>, I found that &lsquo;Despite being manually annotated, the data isn’t very clean. Issues include identical texts that have different labels, empty articles, and articles with very few words. For example, the training set includes ten “articles” with a single word. Five of these articles have the word 68839, but each of these five was given a different label.&rsquo; &ndash; this was discovered by just printing some summary statistics and looking at misclassified instances</li>
+<li>Looking into the raw data behind one of the widely-used sentiment analysis datasets, I found an issue that was overlooked by many other people who used the dataset: <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/" target="_blank" rel="noopener">http://www.cs.cornell.edu/people/pabo/movie-review-data/</a> (look for the comment with my name &ndash; found four years after the original dataset was published)</li>
+</ul>
+<p>I hope this helps.</p>
+
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-306&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+      
+        
+  <div class="comment-level-2" id="comment-384">
+    <div class="comment-header">
+      <a href="#comment-384">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/2f58afbef02de0937224bcbce7e172c2?s=50">
+        
+        <p class="comment-info">
+          <strong>saatvik</strong><br>
+          <small>2015-05-22 03:11:29</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      <p>Thanks a lot,
+So to summarize the following could be 3</p>
+<ol>
+<li>Using summary statistics such as means/stds/variance on the data, looking out for outliers,etc in the data</li>
+<li>Looking at misclassified instances during validation to find some sort of pattern in them</li>
+<li>Looking at label-specific raw data
+I  apologize for the long overdue response, and thanks for these tips. This will surely be useful in my next Kaggle competition.</li>
+</ol>
+
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-384&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+        
+      
+    
+  
+    
+  <div class="comment-level-0" id="comment-383">
+    <div class="comment-header">
+      <a href="#comment-383">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/8b8af9734b92baf94e8022f01d19479e?s=50">
+        
+        <p class="comment-info">
+          <strong>smirshekari</strong><br>
+          <small>2015-05-22 01:44:51</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      Reblogged this on <a href="https://smirshekari.wordpress.com/2015/05/21/how-to-almost-win-kaggle-competitions/" rel="nofollow">Dr. Manhattan's Diary</a> and commented:
+Very good read on how to win in a Kaggle competition. Useful hints!
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-383&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+    
+  
+    
+  <div class="comment-level-0" id="comment-659">
+    <div class="comment-header">
+      <a href="#comment-659">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/9f3ee838eeb42849d4880676cedd85d6?s=50">
+        
+        <p class="comment-info">
+          <strong>Derek C</strong><br>
+          <small>2015-09-12 21:16:38</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      <p>I&rsquo;m starting to dive into Kaggle competitions right now, and I&rsquo;m having trouble with some of the simple practical considerations.  For example, what IDE should I be using - IPython Notebooks?  Where should I store the data?  My personal computer surely doesn&rsquo;t have 50GB+ space to spare.   How long should I wait for a script to run before I deem it as &ldquo;broken&rdquo;?</p>
+<p>Any advice here would be greatly appreciated!</p>
+
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-659&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+    
+      
+  <div class="comment-level-1" id="comment-661">
+    <div class="comment-header">
+      <a href="#comment-661">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/dda019c47a6183120608a6aeac2db6c5?s=50">
+        
+        <p class="comment-info">
+          <strong>Yanir Seroussi</strong><br>
+          <small>2015-09-12 23:40:11</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      <p>Thanks for your comment, Derek. These are all good questions, but the answers really depend on the problem you&rsquo;re working on and what you&rsquo;re comfortable with.</p>
+<p>Personally, I find IPython Notebooks useful for playing around with the data and for documenting/storing throwaway code. However, once you have code that is more complex or code that you want to rerun, it&rsquo;s better to save it in separate files. For editing these files, I use PyCharm.</p>
+<p>Not all problems require a large hard drive. If you are working on a large dataset, you can either purchase an external drive, or hire an instance from a cloud provider like AWS or <a href="https://www.digitalocean.com/?refcode=cd96cae9d5e1" target="_blank" rel="nofollow">DigitalOcean</a>. The latter is generally cheaper than AWS, but they don&rsquo;t offer GPUs. If you are working with a remote server, you can run IPython Notebook on the server and work from your browser.</p>
+<p>Regarding waiting for a script, for many models you can first build a simple version to test that everything works (e.g., build a random forest with just a few trees or train a neural network for a few iterations). If everything works well, you can run the full version. If the run time is long, it&rsquo;s a good idea to take snapshots of the model and monitor performance on a hold-out set to ensure that you&rsquo;re not wasting time overfitting.</p>
+
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-661&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+      
+        
+  <div class="comment-level-2" id="comment-662">
+    <div class="comment-header">
+      <a href="#comment-662">
+        
+          <img class="comment-avatar" src="https://www.gravatar.com/avatar/9f3ee838eeb42849d4880676cedd85d6?s=50">
+        
+        <p class="comment-info">
+          <strong>derekchen14</strong><br>
+          <small>2015-09-13 21:58:32</small>
+        </p>
+      </a>
+    </div>
+    <div class="comment-body post-content">
+      Thanks for the quick response!  I think I&rsquo;ll be using Sublime Text on EC2 with S3 in the short term, and possibly move onto Amazon ML with RedShift in the future.  I&rsquo;ll probably take snapshots by outputting results to the console or MatPlotLib every once in awhile, so that&rsquo;s great advice as well.
+    </div>
+    <a
+      class="comment-button comment-button-small"
+      href="https://github.com/yanirs/yanirseroussi.com/issues/new?title=New reply to https%3a%2f%2fyanirseroussi.com%2f2014%2f08%2f24%2fhow-to-almost-win-kaggle-competitions%2f%23comment-662&body=<!-- Post your comment here and it may get added to the site -->"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Reply via GitHub issue
+    </a>
+  </div>
+
+        
+      
+    
+  
+</section>
+
+
+
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>Text and figures licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a> by <a href="https://yanirseroussi.com/about/">Yanir Seroussi</a>, except where noted otherwise  |</span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer><div class="mailing-list-container">
+  <form
+      class="mailing-list"
+      action="https://yanirseroussi.us17.list-manage.com/subscribe/post?u=3c08aa3ff27dd92978019febd&amp;id=bc3ab705af"
+      method="post"
+      target="_blank"
+      novalidate
+  >
+    <label for="mailing-list-email">Get new post notifications</label>
+    <input type="text" name="EMAIL" id="mailing-list-email" placeholder="Email address" />
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      <input type="text" name="b_3c08aa3ff27dd92978019febd_bc3ab705af" tabindex="-1" value="" />
+    </div>
+    <input type="submit" value="Subscribe" />
+  </form>
+
+  <div class="footer">
+    Alternatively, <a href="https://github.com/yanirs/yanirseroussi.com" rel="noopener" target="_blank">watch on GitHub</a>
+    or <a href="https://yanirseroussi.com/index.xml">subscribe to RSS feed</a>.
+  </div>
+</div>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
