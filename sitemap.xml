@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/personal/</loc>
+    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/quotes/</loc>
+    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/til/2023/07/11/you-cant-save-time/</loc>
+    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
     <lastmod>2023-07-10T16:35:18+10:00</lastmod>
   </url><url>
@@ -17,14 +32,8 @@
     <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
     <lastmod>2023-07-10T16:35:18+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2023-07-10T16:35:18+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/2023/06/30/was-data-science-a-failure-mode-of-software-engineering/</loc>
     <lastmod>2023-06-30T16:33:40+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
-    <lastmod>2023-07-10T16:35:18+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/hackers/</loc>
     <lastmod>2023-07-05T11:39:25+10:00</lastmod>
@@ -64,9 +73,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/tags/orkestra/</loc>
     <lastmod>2022-06-06T10:07:53+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/personal/</loc>
-    <lastmod>2023-07-06T09:28:02+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/politics/</loc>
     <lastmod>2023-07-06T09:28:02+10:00</lastmod>
@@ -417,5 +423,8 @@
   </url><url>
     <loc>https://yanirseroussi.com/talks/</loc>
     <lastmod>2023-07-06T16:01:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/til/</loc>
+    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
   </url>
 </urlset>
