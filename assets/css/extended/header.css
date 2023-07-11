@@ -8,6 +8,11 @@ header.header .logo {
   flex-wrap: unset;
 }
 
+header.header .logo a {
+  font-size: 20px;
+  font-weight: 400;
+}
+
 header.header .nav {
   flex-wrap: unset;
   line-height: 1;
@@ -20,5 +25,6 @@ header.header #menu {
 }
 
 header.header button#theme-toggle {
+  font-size: 22px;
   margin: auto 12px;
 }
