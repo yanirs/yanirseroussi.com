@@ -56,6 +56,7 @@ params:
       image: /home-profile.webp
       alt: Yanir Seroussi's profile picture
   mainSections: post
+  showRssButtonInSectionTermList: true
   showShareButtons: true
 
 taxonomies:
