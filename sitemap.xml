@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/devops/</loc>
+    <lastmod>2023-07-23T17:53:34+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/github/</loc>
+    <lastmod>2023-07-23T17:53:34+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/security/</loc>
+    <lastmod>2023-07-23T17:53:34+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2023-07-23T17:53:34+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/til/2023/07/23/using-yubikey-for-ssh-access/</loc>
+    <lastmod>2023-07-23T17:53:34+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2023-07-23T17:53:34+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/blogging/</loc>
     <lastmod>2023-07-17T17:18:06+10:00</lastmod>
   </url><url>
@@ -11,13 +29,7 @@
     <loc>https://yanirseroussi.com/til/2023/07/17/making-a-til-section-with-hugo-and-papermod/</loc>
     <lastmod>2023-07-17T17:18:06+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2023-07-17T17:18:06+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/web-development/</loc>
-    <lastmod>2023-07-17T17:18:06+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
     <lastmod>2023-07-17T17:18:06+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/personal/</loc>
@@ -129,9 +141,6 @@
     <lastmod>2021-11-22T13:52:18+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/cloudflare/</loc>
-    <lastmod>2022-07-31T16:16:05+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/github/</loc>
     <lastmod>2022-07-31T16:16:05+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/</loc>
@@ -270,9 +279,6 @@
     <lastmod>2023-07-06T09:28:02+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/</loc>
-    <lastmod>2023-07-06T09:28:02+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/devops/</loc>
     <lastmod>2023-07-06T09:28:02+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/</loc>
