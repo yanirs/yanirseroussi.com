@@ -4,7 +4,7 @@ author: Yanir Seroussi
 type: til
 date: 2023-08-11T03:15:00+00:00
 url: /til/2023/08/11/the-rule-of-thirds-can-probably-be-ignored/
-summary: Turns out that the rule of thirds for composing visual images may not be that important.
+summary: Turns out that the rule of thirds for composing visuals may not be that important.
 showBreadcrumbs: true
 tags:
   - data visualisation
