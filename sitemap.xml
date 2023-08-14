@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</loc>
+    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/productivity/</loc>
+    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/reef-life-survey/</loc>
+    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/data-visualisation/</loc>
     <lastmod>2023-08-11T14:35:20+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2023-08-11T14:35:20+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/til/2023/08/11/the-rule-of-thirds-can-probably-be-ignored/</loc>
-    <lastmod>2023-08-11T14:35:20+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
     <lastmod>2023-08-11T14:35:20+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/devops/</loc>
@@ -126,9 +135,6 @@
     <lastmod>2023-07-10T16:35:18+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/marine-science/</loc>
-    <lastmod>2023-07-10T16:35:18+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/reef-life-survey/</loc>
     <lastmod>2023-07-10T16:35:18+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2022/01/14/analysis-strategies-in-online-a-b-experiments/</loc>

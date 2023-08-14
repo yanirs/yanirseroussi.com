@@ -8,6 +8,15 @@
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright><atom:link href="https://yanirseroussi.com/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Email notifications on public GitHub commits</title>
+      <link>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</link>
+      <pubDate>Mon, 14 Aug 2023 05:15:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</guid>
+      <description>GitHub publishes an Atom feed, which means you can use any RSS reader to follow commits.</description>
+    </item>
+    
+    <item>
       <title>The rule of thirds can probably be ignored</title>
       <link>https://yanirseroussi.com/til/2023/08/11/the-rule-of-thirds-can-probably-be-ignored/</link>
       <pubDate>Fri, 11 Aug 2023 03:15:00 +0000</pubDate>
