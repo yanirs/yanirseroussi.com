@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/business/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/career/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/marketing/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/personal/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/productivity/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/quotes/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/til/2023/08/16/revisiting-start-small-stay-small-in-2023-chapter-1/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2023-08-16T16:21:29+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</loc>
     <lastmod>2023-08-14T15:44:21+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/productivity/</loc>
-    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/reef-life-survey/</loc>
-    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2023-08-14T15:44:21+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
     <lastmod>2023-08-14T15:44:21+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/data-visualisation/</loc>
@@ -47,19 +65,10 @@
     <loc>https://yanirseroussi.com/tags/web-development/</loc>
     <lastmod>2023-07-17T17:18:06+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/personal/</loc>
-    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/quotes/</loc>
-    <lastmod>2023-07-11T14:28:10+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/til/2023/07/11/you-cant-save-time/</loc>
     <lastmod>2023-07-11T14:28:10+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
-    <lastmod>2023-07-10T16:35:18+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/career/</loc>
     <lastmod>2023-07-10T16:35:18+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/data-science/</loc>
@@ -140,9 +149,6 @@
     <loc>https://yanirseroussi.com/2022/01/14/analysis-strategies-in-online-a-b-experiments/</loc>
     <lastmod>2022-01-17T09:00:05+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/marketing/</loc>
-    <lastmod>2023-07-06T09:28:02+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/statistics/</loc>
     <lastmod>2023-07-06T09:28:02+10:00</lastmod>
   </url><url>
@@ -175,9 +181,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/</loc>
     <lastmod>2023-07-05T11:39:25+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/business/</loc>
-    <lastmod>2023-07-06T09:28:02+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2020/01/11/software-commodities-are-eating-interesting-data-science-work/</loc>
     <lastmod>2023-07-05T11:39:25+10:00</lastmod>
