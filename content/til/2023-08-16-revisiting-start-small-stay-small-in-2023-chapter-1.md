@@ -23,7 +23,7 @@ As part of getting back into micropreneurship, I figured it'd be worth rereading
 
 I originally thought this would be a single post on the entire book, but my summary and thoughts on Chapter 1 (_The Chasm Between Developer and Entrepreneur_) ended up on the lengthy side. My goal with the TIL format is to publish more frequently, so this is good enough for a standalone post.
 
-**Summary and quotes:**
+**Summary:**
  
 * The book is focused on micropreneurs (solo founders who want to remain solo) and bootstrappers (those who want to grow a business without taking external funding) &ndash; both follow a similar process.
 * Seeking funding takes a lot of time and focus, and limits the markets you can pursue. It's harder to justify aiming for niche markets and moderate success when you're funded by venture capitalists who expect a substantial return on investment.
@@ -62,11 +62,13 @@ I originally thought this would be a single post on the entire book, but my summ
   7. _"Don't expect instant gratification"_ &ndash; product/marketing/reputation require time and effort, and it's way harder the first time. The real work begins after you launch.
   8. _"Process is king"_ &ndash; having documented repeatable processes is key to delegation, bringing on partners, and avoiding mistakes. Such documentation makes it easier to sell the business if you want.
   9. _"Nothing about a startup is a one-time effort"_ &ndash; getting to the point of an automated startup requires a wise choice of niche & product, as well as investment in outsourcing and automation. Things like marketing remain hard to outsource, though. 
-* Key quotes:
-  * _"A developer who knows how to market a product is a rare (and powerful) combination."_
-  * _"Marketing is more important than your product. [...] Product Last. Marketing First."_
-  * _"If you're a venture-backed startup founder you're looking at many years of long hours with a small potential for a huge payoff. [...] If you're a self-funded startup founder, you're looking at a decent potential for a decent payoff."_ 
-  * _"Without a market, a software application is just a project."_
+
+**Key quotes:**
+
+* _"A developer who knows how to market a product is a rare (and powerful) combination."_
+* _"Marketing is more important than your product. [...] Product Last. Marketing First."_
+* _"If you're a venture-backed startup founder you're looking at many years of long hours with a small potential for a huge payoff. [...] If you're a self-funded startup founder, you're looking at a decent potential for a decent payoff."_ 
+* _"Without a market, a software application is just a project."_
 
 **My thoughts:**
 
