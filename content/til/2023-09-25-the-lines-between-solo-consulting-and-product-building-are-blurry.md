@@ -4,7 +4,7 @@ author: Yanir Seroussi
 type: til
 date: 2023-09-25T00:00:00+00:00
 url: /til/2023/09/25/the-lines-between-solo-consulting-and-product-building-are-blurry/
-summary: It turns out that with finding a niche and defining the ideal clients is important in any solo business.
+summary: It turns out that problems like finding a niche and defining the ideal clients are key to any solo business.
 showBreadcrumbs: true
 tags:
   - business
