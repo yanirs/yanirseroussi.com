@@ -19,6 +19,8 @@ showToc: true
 
 As noted on [the homepage](https://yanirseroussi.com/), you should beware of self-proclaimed experts on the internet and do your own due diligence. I cringe putting the word _expert_ next to my name, as there's so much to know and learn, especially in a broad area like Data & AI. Still, underselling myself would also be silly. I'll let you be the judge.
 
+**⚡ New!** If you run a nature-positive startup, you may be interested in working with me as a fractional CDO. My goal is to help you scale faster by building Data & AI solutions that match your needs. See [slide deck](https://yanirseroussi.com/fractional-chief-data-officer/#/) for details.
+
 ## Obligatory self-promotional blurb
 
 I'm an experienced data scientist and software engineer with a deep background in computer science, programming, machine learning, and statistics. My work spans the full spectrum from solving isolated data problems to building production systems that serve millions of users. With a proven capability to work independently and in teams, lead and mentor co-workers, and communicate with both technical and non-technical stakeholders, I consistently deliver value to a variety of clients and projects.
