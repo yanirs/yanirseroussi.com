@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/career/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-science/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/posts/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
     <lastmod>2023-10-06T15:11:27+10:00</lastmod>
   </url><url>
@@ -17,16 +41,7 @@
     <loc>https://yanirseroussi.com/tags/quotes/</loc>
     <lastmod>2023-10-06T15:11:27+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2023-10-06T15:11:27+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
-    <lastmod>2023-10-06T15:11:27+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/business/</loc>
-    <lastmod>2023-09-25T11:15:26+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/career/</loc>
     <lastmod>2023-09-25T11:15:26+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/personal/</loc>
@@ -35,25 +50,16 @@
     <loc>https://yanirseroussi.com/til/2023/09/25/the-lines-between-solo-consulting-and-product-building-are-blurry/</loc>
     <lastmod>2023-09-25T11:15:26+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/data-science/</loc>
-    <lastmod>2023-09-22T07:54:13+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/til/2023/09/21/googles-rules-of-machine-learning-still-apply-in-the-age-of-large-language-models/</loc>
     <lastmod>2023-09-22T07:54:13+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
     <lastmod>2023-09-22T07:54:13+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
-    <lastmod>2023-09-22T07:54:13+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/blogging/</loc>
     <lastmod>2023-09-23T08:52:24+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2023/08/28/my-rediscovery-of-quiet-writing-on-the-open-web/</loc>
-    <lastmod>2023-09-23T08:52:24+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/posts/</loc>
     <lastmod>2023-09-23T08:52:24+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2023/08/21/the-minimalist-entrepreneur-is-too-prescriptive-for-me/</loc>

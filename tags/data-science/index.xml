@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
-    <lastBuildDate>Thu, 21 Sep 2023 21:30:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Oct 2023 04:45:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons from reluctant data engineering</title>
+      <link>https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/</link>
+      <pubDate>Wed, 25 Oct 2023 04:45:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/</guid>
+      <description>Video and summary of a talk I gave at DataEngBytes Brisbane on what I learned from doing data engineering as part of every data science role I had.</description>
+    </item>
+    
     <item>
       <title>Google&#39;s Rules of Machine Learning still apply in the age of large language models</title>
       <link>https://yanirseroussi.com/til/2023/09/21/googles-rules-of-machine-learning-still-apply-in-the-age-of-large-language-models/</link>
