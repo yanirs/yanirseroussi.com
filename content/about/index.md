@@ -19,7 +19,7 @@ showToc: true
 
 As noted on [the homepage](https://yanirseroussi.com/), you should beware of self-proclaimed experts on the internet and do your own due diligence. I cringe putting the word _expert_ next to my name, as there's so much to know and learn, especially in a broad area like Data & AI. Still, underselling myself would also be silly. I'll let you be the judge.
 
-**⚡ New!** If you run a nature-positive startup, you may be interested in working with me as a fractional CDO. My goal is to help you scale faster by building Data & AI solutions that match your needs. See [slide deck](https://yanirseroussi.com/fractional-chief-data-officer/#/) for details.
+**⚡ New!** If you run a positive-impact startup, you may be interested in working with me as a fractional CDO. My goal is to help you scale faster by building Data & AI solutions that match your needs. See [slide deck](https://yanirseroussi.com/fractional-chief-data-officer/#/) for details.
 
 ## Obligatory self-promotional blurb
 
