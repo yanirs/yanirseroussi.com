@@ -5,8 +5,9 @@ type: post
 date: 2023-11-29T02:00:00+00:00
 url: /2023/11/29/supporting-volunteer-monitoring-of-marine-biodiversity-with-modern-web-and-data-tools/
 cover:
-  image: reef-species-of-the-world-screenshot.png
+  image: reef-species-of-the-world-screenshot.webp
   alt: Screenshot of Reef Species of the World
+  relative: true
 summary: Summarising the work Uri Seroussi and I did to improve Reef Life Survey's Reef Species of the World app.
 tags:
   - data engineering
