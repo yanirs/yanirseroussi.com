@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yanirseroussi.com/tags/environment/</loc>
-    <lastmod>2023-11-28T16:56:18+10:00</lastmod>
+    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-visualisation/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/marine-science/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/posts/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/reef-life-survey/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2023/11/29/supporting-volunteer-monitoring-of-marine-biodiversity-with-modern-web-and-data-tools/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/web-development/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2023-11-29T12:18:11+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/environment/</loc>
     <lastmod>2023-11-28T16:56:18+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2023/11/28/our-blue-machine-is-changing-but-we-are-not-helpless/</loc>
@@ -14,25 +44,7 @@
     <loc>https://yanirseroussi.com/tags/quotes/</loc>
     <lastmod>2023-11-28T16:56:18+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2023-11-28T16:56:18+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
-    <lastmod>2023-11-28T16:56:18+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
-    <lastmod>2023-11-21T16:12:27+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/data-science/</loc>
-    <lastmod>2023-11-21T16:12:27+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/reef-life-survey/</loc>
-    <lastmod>2023-11-21T16:12:27+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
-    <lastmod>2023-11-21T16:12:27+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/web-development/</loc>
     <lastmod>2023-11-21T16:12:27+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2023/11/21/you-dont-need-a-proprietary-api-for-static-maps/</loc>
@@ -42,9 +54,6 @@
     <lastmod>2023-10-25T15:00:21+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/</loc>
-    <lastmod>2023-10-25T15:00:21+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/posts/</loc>
     <lastmod>2023-10-25T15:00:21+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
@@ -71,9 +80,6 @@
     <loc>https://yanirseroussi.com/til/2023/09/21/googles-rules-of-machine-learning-still-apply-in-the-age-of-large-language-models/</loc>
     <lastmod>2023-09-22T07:54:13+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
-    <lastmod>2023-09-22T07:54:13+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/blogging/</loc>
     <lastmod>2023-09-23T08:52:24+10:00</lastmod>
   </url><url>
@@ -94,9 +100,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</loc>
     <lastmod>2023-08-14T15:44:21+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/data-visualisation/</loc>
-    <lastmod>2023-08-11T14:35:20+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2023/08/11/the-rule-of-thirds-can-probably-be-ignored/</loc>
     <lastmod>2023-08-11T14:35:20+10:00</lastmod>

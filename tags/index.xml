@@ -7,22 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
-    <lastBuildDate>Tue, 28 Nov 2023 06:40:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Nov 2023 02:00:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>environment</title>
-      <link>https://yanirseroussi.com/tags/environment/</link>
-      <pubDate>Tue, 28 Nov 2023 06:40:00 +0000</pubDate>
+      <title>data engineering</title>
+      <link>https://yanirseroussi.com/tags/data-engineering/</link>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
       
-      <guid>https://yanirseroussi.com/tags/environment/</guid>
+      <guid>https://yanirseroussi.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data visualisation</title>
+      <link>https://yanirseroussi.com/tags/data-visualisation/</link>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/tags/data-visualisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://yanirseroussi.com/tags/machine-learning/</link>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>marine science</title>
       <link>https://yanirseroussi.com/tags/marine-science/</link>
-      <pubDate>Tue, 28 Nov 2023 06:40:00 +0000</pubDate>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
       
       <guid>https://yanirseroussi.com/tags/marine-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reef Life Survey</title>
+      <link>https://yanirseroussi.com/tags/reef-life-survey/</link>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/tags/reef-life-survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software engineering</title>
+      <link>https://yanirseroussi.com/tags/software-engineering/</link>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web development</title>
+      <link>https://yanirseroussi.com/tags/web-development/</link>
+      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>environment</title>
+      <link>https://yanirseroussi.com/tags/environment/</link>
+      <pubDate>Tue, 28 Nov 2023 06:40:00 +0000</pubDate>
+      
+      <guid>https://yanirseroussi.com/tags/environment/</guid>
       <description></description>
     </item>
     
@@ -36,47 +90,11 @@
     </item>
     
     <item>
-      <title>data engineering</title>
-      <link>https://yanirseroussi.com/tags/data-engineering/</link>
-      <pubDate>Tue, 21 Nov 2023 06:00:00 +0000</pubDate>
-      
-      <guid>https://yanirseroussi.com/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>data science</title>
       <link>https://yanirseroussi.com/tags/data-science/</link>
       <pubDate>Tue, 21 Nov 2023 06:00:00 +0000</pubDate>
       
       <guid>https://yanirseroussi.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reef Life Survey</title>
-      <link>https://yanirseroussi.com/tags/reef-life-survey/</link>
-      <pubDate>Tue, 21 Nov 2023 06:00:00 +0000</pubDate>
-      
-      <guid>https://yanirseroussi.com/tags/reef-life-survey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software engineering</title>
-      <link>https://yanirseroussi.com/tags/software-engineering/</link>
-      <pubDate>Tue, 21 Nov 2023 06:00:00 +0000</pubDate>
-      
-      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web development</title>
-      <link>https://yanirseroussi.com/tags/web-development/</link>
-      <pubDate>Tue, 21 Nov 2023 06:00:00 +0000</pubDate>
-      
-      <guid>https://yanirseroussi.com/tags/web-development/</guid>
       <description></description>
     </item>
     
@@ -135,15 +153,6 @@
     </item>
     
     <item>
-      <title>machine learning</title>
-      <link>https://yanirseroussi.com/tags/machine-learning/</link>
-      <pubDate>Thu, 21 Sep 2023 21:30:00 +0000</pubDate>
-      
-      <guid>https://yanirseroussi.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>blogging</title>
       <link>https://yanirseroussi.com/tags/blogging/</link>
       <pubDate>Mon, 28 Aug 2023 05:30:00 +0000</pubDate>
@@ -158,15 +167,6 @@
       <pubDate>Thu, 17 Aug 2023 07:45:00 +0000</pubDate>
       
       <guid>https://yanirseroussi.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>data visualisation</title>
-      <link>https://yanirseroussi.com/tags/data-visualisation/</link>
-      <pubDate>Fri, 11 Aug 2023 03:15:00 +0000</pubDate>
-      
-      <guid>https://yanirseroussi.com/tags/data-visualisation/</guid>
       <description></description>
     </item>
     
