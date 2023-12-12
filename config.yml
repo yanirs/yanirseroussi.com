@@ -19,6 +19,9 @@ menu:
     - name: Talks
       url: /talks/
       weight: 2
+    - name: Consult
+      url: /consult/
+      weight: 3
 
 params:
   analytics:
@@ -42,8 +45,8 @@ params:
       experience. Concisely describing my work is a bit of a challenge, so [visit the About page for a longer intro
       and contact options](/about/).
       
-      Over the years, I've published a bunch of posts on data science and other topics I find interesting. Scroll down
-      to view them in reverse chronological order, or [explore posts by tag](/tags/).
+      Over the years, I've published a bunch of posts on [data science](/tags/data-science/) and various other topics.
+      Scroll down to view them in reverse chronological order, or [explore posts by tag](/tags/).
       
       I mostly write to better understand specific topics and for future reference. My interests may change over time,
       but you can subscribe to my mailing list at [the bottom of any page](#mailing-list-email) for new post

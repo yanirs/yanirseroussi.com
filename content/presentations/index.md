@@ -3,7 +3,10 @@ title: Talks
 author: Yanir Seroussi
 type: page
 comments: false
-url: /talks/ 
+url: /talks/
+cover:
+  image: /fractional-chief-data-officer/assets/yanir-seroussi-dataengbytes-bne-2023.webp
+  alt: Yanir Seroussi giving a talk at DataEngBytes Brisbane 2023.
 aliases:
  - /presentations/
 editPost:
