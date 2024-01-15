@@ -5,6 +5,7 @@ type: post
 date: 2014-08-17T13:09:30+00:00
 url: /2014/08/17/datas-hierarchy-of-needs/
 cover:
+  relative: true
   image: datas-hierarchy-of-needs.jpg
 summary: 'Discussing the hierarchy of needs proposed by Jay Kreps. Key takeaway: Data-driven algorithms & insights can only be as good as the underlying data.'
 tags:

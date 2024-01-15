@@ -5,6 +5,7 @@ type: post
 date: 2015-12-08T06:57:25+00:00
 url: /2015/12/08/this-holiday-season-give-me-real-insights/
 cover:
+  relative: true
   image: dikw-pyramid.jpg
   responsiveImages: false
 summary: Some companies present raw data or information as "insights". This post surveys some examples, and discusses how they can be turned into real insights.

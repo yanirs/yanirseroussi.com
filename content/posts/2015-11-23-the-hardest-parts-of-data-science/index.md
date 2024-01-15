@@ -5,6 +5,7 @@ type: post
 date: 2015-11-23T04:14:21+00:00
 url: /2015/11/23/the-hardest-parts-of-data-science/
 cover:
+  relative: true
   image: foggy-random-forest.jpg
 summary: Defining feasible problems and coming up with reasonable ways of measuring solutions is harder than building accurate models or obtaining clean data.
 tags:

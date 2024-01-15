@@ -5,6 +5,7 @@ type: post
 date: 2016-06-19T10:32:15+00:00
 url: /2016/06/19/making-bayesian-ab-testing-more-accessible/
 cover:
+  relative: true
   image: bayesian-split-testing-calculator.png
 summary: A web tool I built to interpret A/B test results in a Bayesian way, including prior specification, visualisations, and decision rules.
 tags:

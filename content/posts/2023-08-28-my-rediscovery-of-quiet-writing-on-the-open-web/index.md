@@ -5,6 +5,7 @@ type: post
 date: 2023-08-28T05:30:00+00:00
 url: /2023/08/28/my-rediscovery-of-quiet-writing-on-the-open-web/
 cover:
+  relative: true
   image: rikoriko-cave.jpg
   alt: Rikoriko cave
 summary: "Reflections on publishing on this website: Writing publicly to share thoughts and documentation beats chasing views and likes."

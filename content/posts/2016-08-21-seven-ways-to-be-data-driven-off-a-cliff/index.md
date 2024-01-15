@@ -5,6 +5,7 @@ type: post
 date: 2016-08-21T21:34:17+00:00
 url: /2016/08/21/seven-ways-to-be-data-driven-off-a-cliff/
 cover:
+  relative: true
   image: data-driven-off-cliff.jpg
 summary: Seven common mistakes to avoid when working with data, such as ignoring uncertainty and confusing observed and unobserved quantities.
 tags:

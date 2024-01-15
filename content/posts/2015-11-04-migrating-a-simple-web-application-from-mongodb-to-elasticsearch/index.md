@@ -5,6 +5,7 @@ type: post
 date: 2015-11-04T03:53:18+00:00
 url: /2015/11/04/migrating-a-simple-web-application-from-mongodb-to-elasticsearch/
 cover:
+  relative: true
   image: mongodb-to-elasticsearch.png
   responsiveImages: false
 summary: Migrating BCRecommender from MongoDB to Elasticsearch made it possible to offer a richer search experience to users at a similar cost, among other benefits.

@@ -7,6 +7,7 @@ url: /2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/
 aliases:
   - /faq/
 cover:
+  relative: true
   image: gold-coast-surfers.jpg
 summary: Frequently asked questions by visitors to this site, especially around entering the data science field.
 tags:

@@ -5,6 +5,7 @@ type: post
 date: 2019-10-06T06:48:07+00:00
 url: /2019/10/06/bootstrapping-the-right-way/
 cover:
+  relative: true
   image: revenue-confidence-intervals.png
 summary: Video and summary of a talk I gave at YOW! Data on bootstrap estimation of confidence intervals.
 tags:

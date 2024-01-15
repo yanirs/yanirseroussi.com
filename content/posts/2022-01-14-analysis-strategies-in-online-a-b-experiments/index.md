@@ -5,6 +5,7 @@ type: post
 date: 2022-01-14T00:05:40+00:00
 url: /2022/01/14/analysis-strategies-in-online-a-b-experiments/
 cover:
+  relative: true
   image: online-drug-experiment.jpg
 summary: Epidemiologists analyse clinical trials to estimate the intention-to-treat and per-protocol effects. This post applies their strategies to online experiments.
 tags:

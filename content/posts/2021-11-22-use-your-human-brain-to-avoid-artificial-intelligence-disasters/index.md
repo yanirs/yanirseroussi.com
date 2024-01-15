@@ -5,6 +5,7 @@ type: post
 date: 2021-11-22T03:45:00+00:00
 url: /2021/11/22/use-your-human-brain-to-avoid-artificial-intelligence-disasters/
 cover:
+  relative: true
   image: think-about-your-modelling-context.png
   alt: If you don't think about your modelling context, you're gonna have a bad time.
   responsiveImages: false

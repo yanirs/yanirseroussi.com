@@ -5,6 +5,7 @@ type: post
 date: 2015-01-15T04:41:16+00:00
 url: /2015/01/15/automating-parse-com-bulk-data-imports/
 cover:
+  relative: true
   image: parse-hosting.jpg
 summary: A script for importing data into the Parse backend-as-a-service.
 tags:

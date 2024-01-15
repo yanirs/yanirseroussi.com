@@ -5,6 +5,7 @@ type: post
 date: 2015-10-19T00:02:32+00:00
 url: /2015/10/19/nutritionism-and-the-need-for-complex-models-to-explain-complex-phenomena/
 cover:
+  relative: true
   image: health-star-dish.jpg
 summary: Nutritionism is a special case of misinterpretation and miscommunication of scientific results &ndash; something many data scientists encounter in their work.
 tags:

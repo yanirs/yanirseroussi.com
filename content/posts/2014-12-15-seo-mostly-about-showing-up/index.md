@@ -5,6 +5,7 @@ type: post
 date: 2014-12-15T04:25:25+00:00
 url: /2014/12/15/seo-mostly-about-showing-up/
 cover:
+  relative: true
   image: bcrecommender-search-queries.png
   responsiveImages: false
 summary: Increasing SEO traffic to BCRecommender by adding content and opening up more pages for crawling. It turns out that thin content is better than no content.

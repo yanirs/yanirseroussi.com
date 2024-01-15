@@ -5,6 +5,7 @@ type: post
 date: 2014-10-23T03:22:08+00:00
 url: /2014/10/23/what-is-data-science/
 cover:
+  relative: true
   image: data-skill-continuum.png
 summary: Data science has been a hot term in the past few years. Still, there isn't a single definition of the field. This post discusses my favourite definition.
 tags:

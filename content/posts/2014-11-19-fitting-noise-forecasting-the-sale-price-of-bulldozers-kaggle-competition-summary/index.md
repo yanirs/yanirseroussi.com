@@ -5,6 +5,7 @@ type: post
 date: 2014-11-19T09:17:34+00:00
 url: /2014/11/19/fitting-noise-forecasting-the-sale-price-of-bulldozers-kaggle-competition-summary/
 cover:
+  relative: true
   image: noisy-bulldozers.jpg
 summary: Summary of a Kaggle competition to forecast bulldozer sale price, where I finished 9th out of 476 teams.
 tags:

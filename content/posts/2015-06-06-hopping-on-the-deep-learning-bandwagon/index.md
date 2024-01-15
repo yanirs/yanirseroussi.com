@@ -5,6 +5,7 @@ type: post
 date: 2015-06-06T05:00:22+00:00
 url: /2015/06/06/hopping-on-the-deep-learning-bandwagon/
 cover:
+  relative: true
   image: bandcamp-album-covers-by-genre-shuffled.png
 summary: To become proficient at solving data science problems, you need to get your hands dirty. Here, I used album cover classification to learn about deep learning.
 tags:

@@ -5,6 +5,7 @@ type: post
 date: 2018-07-22T08:27:43+00:00
 url: /2018/07/22/defining-data-science-in-2018/
 cover:
+  relative: true
   image: what-would-you-say-you-do-here.jpg
 summary: Updating my definition of data science to match changes in the field. It is now broader than before, but its ultimate goal is still to support decisions.
 tags:

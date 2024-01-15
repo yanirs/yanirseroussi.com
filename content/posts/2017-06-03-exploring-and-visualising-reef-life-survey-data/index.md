@@ -5,6 +5,7 @@ type: post
 date: 2017-06-03T00:49:05+00:00
 url: /2017/06/03/exploring-and-visualising-reef-life-survey-data/
 cover:
+  relative: true
   image: reef-life-survey-frequency-explorer-screenshot.png
 summary: Web tools I built to visualise Reef Life Survey data and assist citizen scientists in underwater visual census work.
 tags:

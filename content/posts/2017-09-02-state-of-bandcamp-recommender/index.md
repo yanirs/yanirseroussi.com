@@ -7,6 +7,7 @@ url: /2017/09/02/state-of-bandcamp-recommender/
 aliases:
  - /state-of-bandcamp-recommender-september-2017/
 cover:
+  relative: true
   image: bcrecommender-homepage.jpg
 summary: Call for BCRecommender maintainers followed by a decision to shut it down, as I don't have enough time and Bandcamp now offers recommendations.
 tags:

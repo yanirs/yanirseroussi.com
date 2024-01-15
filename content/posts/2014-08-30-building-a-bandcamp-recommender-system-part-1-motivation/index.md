@@ -5,6 +5,7 @@ type: post
 date: 2014-08-30T08:11:38+00:00
 url: /2014/08/30/building-a-bandcamp-recommender-system-part-1-motivation/
 cover:
+  relative: true
   image: bcrecommender-screenshot.png
 summary: My motivation behind building BCRecommender, a free recommendation & discovery service for Bandcamp music. 
 tags:

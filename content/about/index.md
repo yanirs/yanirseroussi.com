@@ -3,6 +3,7 @@ title: About Me
 author: Yanir Seroussi
 type: page
 cover:
+  relative: true
   image: profile.jpg
   alt: Yanir Seroussi's profile picture
 summary: About Yanir Seroussi, a full-stack data scientist and software engineer with over a decade of experience.

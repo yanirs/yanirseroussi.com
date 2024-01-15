@@ -5,6 +5,7 @@ type: post
 date: 2014-09-07T10:48:44+00:00
 url: /2014/09/07/building-a-recommender-system-on-a-shoestring-budget/
 cover:
+  relative: true
   image: bcrecommender-architecture.png
 summary: Iterating on my BCRecommender service with the goal of keeping costs low while providing a valuable music recommendation service.
 tags:

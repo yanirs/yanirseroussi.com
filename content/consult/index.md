@@ -3,6 +3,7 @@ title: Data & AI Consulting Services
 author: Yanir Seroussi
 type: page
 cover:
+  relative: true
   image: wolchulsan-cloud-bridge.webp
   caption: Let's cross bridges together.
 summary: Yanir Seroussi's Data & AI consulting services. 

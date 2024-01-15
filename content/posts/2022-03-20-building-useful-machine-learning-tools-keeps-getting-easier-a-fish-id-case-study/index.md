@@ -5,6 +5,7 @@ type: post
 date: 2022-03-20T04:30:00+00:00
 url: /2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/
 cover:
+  relative: true
   image: cardinals.jpg
 summary: Lessons learned building a fish ID web app with fast.ai and Streamlit, in an attempt to reduce my fear of missing out on the latest deep learning developments.
 tags:

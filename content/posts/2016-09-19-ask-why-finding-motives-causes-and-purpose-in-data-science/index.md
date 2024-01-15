@@ -5,6 +5,7 @@ type: post
 date: 2016-09-19T21:28:44+00:00
 url: /2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/
 cover:
+  relative: true
   image: why-brick-wall-large.jpg
 summary: Video and summary of a talk I gave at the Data Science Sydney meetup, about going beyond the what & how of predictive modelling.
 tags:

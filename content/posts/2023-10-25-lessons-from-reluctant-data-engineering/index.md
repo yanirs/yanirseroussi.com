@@ -5,6 +5,7 @@ type: post
 date: 2023-10-25T04:45:00+00:00
 url: /2023/10/25/lessons-from-reluctant-data-engineering/
 cover:
+  relative: true
   image: yanir-seroussi-dataengbytes-brisbane-2023.webp
   alt: Yanir Seroussi presenting at DataEngBytes Brisbane 2023
 summary: Video and summary of a talk I gave at DataEngBytes Brisbane on what I learned from doing data engineering as part of every data science role I had.

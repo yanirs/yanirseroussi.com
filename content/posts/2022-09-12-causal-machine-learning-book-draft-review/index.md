@@ -5,6 +5,7 @@ type: post
 date: 2022-09-12T02:45:00+00:00
 url: /2022/09/12/causal-machine-learning-book-draft-review/
 cover:
+  relative: true
   image: dall-e-a-steampunk-painting-of-a-data-scientist-reading-a-book-about-causal-machine-learning.png
   caption: "[DALL·E](https://labs.openai.com/)'s _steampunk painting of a data scientist reading a book about causal machine learning_."
 summary: Reviewing the first three chapters of the book Causal Machine Learning by Robert Osazuwa Ness.

@@ -5,6 +5,7 @@ type: post
 date: 2016-02-14T11:04:11+00:00
 url: /2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/
 cover:
+  relative: true
   image: correlation-xkcd.png
   responsiveImages: false
 summary: Causality is often overlooked but is of much higher relevance to most data scientists than deep learning.

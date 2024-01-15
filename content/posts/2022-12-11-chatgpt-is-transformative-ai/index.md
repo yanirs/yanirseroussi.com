@@ -5,6 +5,7 @@ type: post
 date: 2022-12-11T00:00:00+00:00
 url: /2022/12/11/chatgpt-is-transformative-ai/
 cover:
+  relative: true
   image: mage-space-prompt-human-brain-expanding.webp
   caption: "[Mage](https://www.mage.space/)'s interpretation of _human brain expanding_"
 summary: "My perspective after a week of using ChatGPT: This is a step change in finding distilled information, and it's only the beginning."

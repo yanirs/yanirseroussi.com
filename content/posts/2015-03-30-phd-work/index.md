@@ -7,6 +7,7 @@ url: /phd-work/
 aliases:
   - /2015/03/30/phd-work/
 cover:
+  relative: true
   image: thesis.jpg
 summary: 'An overview of my PhD in data science / artificial intelligence. Thesis title: Text Mining and Rating Prediction with Topical User Models.'
 comments: false

@@ -5,6 +5,7 @@ type: post
 date: 2023-06-30T00:06:30+00:00
 url: /2023/06/30/was-data-science-a-failure-mode-of-software-engineering/
 cover:
+  relative: true
   image: data-science-software-engineering-failure.jpg
   caption: Not sure what's going on here, but it came from an odd conversation on the topic with Bing. Seems apt.
 summary: Yes, data science projects have suffered from classic software engineering mistakes, but the field is maturing with the rise of new engineering roles.

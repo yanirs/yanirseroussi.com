@@ -5,6 +5,7 @@ type: post
 date: 2023-05-26T00:03:00+00:00
 url: /2023/05/26/how-hackable-are-automated-coding-assessments/
 cover:
+  relative: true
   image: otter-coding-furiously.jpg
   caption: Bing's interpretation of _an otter coding furiously in an attempt to pass a coding test_
 summary: Exploring the hackability of speed-based coding tests, using CodeSignal's Industry Coding Framework as a case study.

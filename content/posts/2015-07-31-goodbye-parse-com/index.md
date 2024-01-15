@@ -5,6 +5,7 @@ type: post
 date: 2015-07-31T03:29:50+00:00
 url: /2015/07/31/goodbye-parse-com/
 cover:
+  relative: true
   image: farewell.jpg
   responsiveImages: false
 summary: Migrating my web apps away from Parse.com due to reliability issues. Self-hosting is a better solution.

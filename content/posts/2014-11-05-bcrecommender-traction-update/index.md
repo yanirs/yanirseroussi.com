@@ -5,6 +5,7 @@ type: post
 date: 2014-11-05T02:29:35+00:00
 url: /2014/11/05/bcrecommender-traction-update/
 cover:
+  relative: true
   image: bullseye.png
   responsiveImages: false
 summary: 'Update on BCRecommender traction using three channels: blogger outreach, search engine optimisation, and content marketing.'

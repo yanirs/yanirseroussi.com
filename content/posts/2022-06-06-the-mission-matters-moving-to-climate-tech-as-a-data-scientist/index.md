@@ -5,6 +5,7 @@ type: post
 date: 2022-06-06T00:00:00+00:00
 url: /2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/
 cover:
+  relative: true
   image: dolphin-on-a-mission.jpg
 summary: Discussing my recent career move into climate tech as a way of doing more to help mitigate dangerous climate change.
 tags:

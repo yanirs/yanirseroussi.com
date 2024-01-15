@@ -5,6 +5,7 @@ type: post
 date: 2015-02-11T06:34:17+00:00
 url: /2015/02/11/learning-to-rank-for-personalised-search-yandex-search-personalisation-kaggle-competition-summary-part-2/
 cover:
+  relative: true
   image: rating.png
   responsiveImages: false
 summary: My team's solution to the Yandex Search Personalisation competition (finished 9th out of 194 teams).

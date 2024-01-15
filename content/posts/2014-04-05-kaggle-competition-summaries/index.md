@@ -7,6 +7,7 @@ url: /kaggle/
 aliases:
   - /2014/04/05/kaggle-competition-summaries/
 cover:
+  relative: true
   image: kaggle-logo-transparent.png
 summary: Pointers to all my Kaggle advice posts and competition summaries.
 tags:

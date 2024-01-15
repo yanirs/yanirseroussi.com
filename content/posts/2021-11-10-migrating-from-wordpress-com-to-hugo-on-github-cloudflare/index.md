@@ -5,6 +5,7 @@ type: post
 date: 2021-11-10T06:30:00+00:00
 url: /2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/
 cover:
+  relative: true
   image: bird-migration.jpg
 summary: My reasons for switching from WordPress.com to Hugo on GitHub + Cloudflare, along with a summary of the solution components and migration process.
 tags:

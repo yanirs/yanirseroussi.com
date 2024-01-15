@@ -5,6 +5,7 @@ type: post
 date: 2016-08-04T22:26:03+00:00
 url: /2016/08/04/is-data-scientist-a-useless-job-title/
 cover:
+  relative: true
   image: silly-data-scientist.jpg
 summary: It seems like anyone who touches data can call themselves a data scientist, which makes the title useless. The work they do can still be useful, though.
 tags:

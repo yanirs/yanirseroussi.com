@@ -5,6 +5,7 @@ type: post
 date: 2023-04-21T00:06:30+00:00
 url: /2023/04/21/remaining-relevant-as-a-small-language-model/
 cover:
+  relative: true
   image: mage-horse-versus-car-minimalistic.webp
   caption: "[Mage](https://www.mage.space/)'s interpretation of _horse versus car minimalistic_"
 summary: Bing Chat recently quipped that humans are small language models. Here are some of my thoughts on how we small language models can remain relevant (for now).

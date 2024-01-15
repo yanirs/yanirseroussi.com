@@ -5,6 +5,7 @@ type: post
 date: 2021-10-07T00:00:00+00:00
 url: /2021/10/07/my-work-with-automattic/
 cover:
+  relative: true
   image: bing-yanir-seroussi-automattic-work.webp
   caption: Bing thinks I looked like this while working at Automattic.
 summary: Back-dated meta-post that gathers my posts on Automattic blogs into a summary of the work I've done with the company.
