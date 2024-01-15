@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ethics on Yanir Seroussi | Data &amp; AI for Nature</title>
     <link>https://yanirseroussi.com/tags/ethics/</link>
@@ -7,24 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
-    <lastBuildDate>Fri, 06 Oct 2023 05:00:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Oct 2023 05:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yanirseroussi.com/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial intelligence was a marketing term all along – just call it automation</title>
       <link>https://yanirseroussi.com/til/2023/10/06/artificial-intelligence-was-a-marketing-term-all-along-just-call-it-automation/</link>
       <pubDate>Fri, 06 Oct 2023 05:00:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2023/10/06/artificial-intelligence-was-a-marketing-term-all-along-just-call-it-automation/</guid>
       <description>Replacing &amp;lsquo;artificial intelligence&amp;rsquo; with &amp;lsquo;automation&amp;rsquo; is a useful trick for cutting through the hype.</description>
     </item>
-    
     <item>
       <title>Use your human brain to avoid artificial intelligence disasters</title>
       <link>https://yanirseroussi.com/2021/11/22/use-your-human-brain-to-avoid-artificial-intelligence-disasters/</link>
       <pubDate>Mon, 22 Nov 2021 03:45:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2021/11/22/use-your-human-brain-to-avoid-artificial-intelligence-disasters/</guid>
       <description>Overview of a talk I gave at a deep learning course, focusing on AI ethics as the need for humans to think on the context and consequences of applying AI.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>climate change on Yanir Seroussi | Data &amp; AI for Nature</title>
     <link>https://yanirseroussi.com/tags/climate-change/</link>
@@ -7,33 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
-    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yanirseroussi.com/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The mission matters: Moving to climate tech as a data scientist</title>
       <link>https://yanirseroussi.com/2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/</guid>
       <description>Discussing my recent career move into climate tech as a way of doing more to help mitigate dangerous climate change.</description>
     </item>
-    
     <item>
       <title>The hardest parts of data science</title>
       <link>https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/</link>
       <pubDate>Mon, 23 Nov 2015 04:14:21 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/</guid>
       <description>Defining feasible problems and coming up with reasonable ways of measuring solutions is harder than building accurate models or obtaining clean data.</description>
     </item>
-    
     <item>
       <title>My divestment from fossil fuels</title>
       <link>https://yanirseroussi.com/2015/04/24/my-divestment-from-fossil-fuels/</link>
       <pubDate>Fri, 24 Apr 2015 00:19:36 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2015/04/24/my-divestment-from-fossil-fuels/</guid>
       <description>Recent choices I&amp;rsquo;ve made to reduce my exposure to fossil fuels, including practical steps that can be taken by Australians and generally applicable lessons.</description>
     </item>
-    
   </channel>
 </rss>

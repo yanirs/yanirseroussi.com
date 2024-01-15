@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>personal on Yanir Seroussi | Data &amp; AI for Nature</title>
     <link>https://yanirseroussi.com/tags/personal/</link>
@@ -7,114 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
-    <lastBuildDate>Tue, 09 Jan 2024 03:00:00 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 03:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yanirseroussi.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Psychographic specialisations may work for discipline generalists</title>
       <link>https://yanirseroussi.com/til/2024/01/09/psychographic-specialisations-may-work-for-discipline-generalists/</link>
       <pubDate>Tue, 09 Jan 2024 03:00:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2024/01/09/psychographic-specialisations-may-work-for-discipline-generalists/</guid>
       <description>When focusing on a market segment defined by personal beliefs, it&amp;rsquo;s often fine to position yourself as a generalist in your craft.</description>
     </item>
-    
     <item>
       <title>The lines between solo consulting and product building are blurry</title>
       <link>https://yanirseroussi.com/til/2023/09/25/the-lines-between-solo-consulting-and-product-building-are-blurry/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2023/09/25/the-lines-between-solo-consulting-and-product-building-are-blurry/</guid>
       <description>It turns out that problems like finding a niche and defining the ideal clients are key to any solo business.</description>
     </item>
-    
     <item>
       <title>My rediscovery of quiet writing on the open web</title>
       <link>https://yanirseroussi.com/2023/08/28/my-rediscovery-of-quiet-writing-on-the-open-web/</link>
       <pubDate>Mon, 28 Aug 2023 05:30:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2023/08/28/my-rediscovery-of-quiet-writing-on-the-open-web/</guid>
       <description>Reflections on publishing on this website: Writing publicly to share thoughts and documentation beats chasing views and likes.</description>
     </item>
-    
     <item>
       <title>The Minimalist Entrepreneur is too prescriptive for me</title>
       <link>https://yanirseroussi.com/til/2023/08/21/the-minimalist-entrepreneur-is-too-prescriptive-for-me/</link>
       <pubDate>Mon, 21 Aug 2023 03:15:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2023/08/21/the-minimalist-entrepreneur-is-too-prescriptive-for-me/</guid>
       <description>While I found the story of Gumroad interesting, The Minimalist Entrepreneur seems to over-generalise from the founder&amp;rsquo;s experience.</description>
     </item>
-    
     <item>
       <title>Revisiting Start Small, Stay Small in 2023 (Chapter 2)</title>
       <link>https://yanirseroussi.com/til/2023/08/17/revisiting-start-small-stay-small-in-2023-chapter-2/</link>
       <pubDate>Thu, 17 Aug 2023 07:45:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2023/08/17/revisiting-start-small-stay-small-in-2023-chapter-2/</guid>
       <description>A summary of the second chapter of Rob Walling&amp;rsquo;s Start Small, Stay Small, along with my thoughts &amp;amp; reflections.</description>
     </item>
-    
     <item>
       <title>Revisiting Start Small, Stay Small in 2023 (Chapter 1)</title>
       <link>https://yanirseroussi.com/til/2023/08/16/revisiting-start-small-stay-small-in-2023-chapter-1/</link>
       <pubDate>Wed, 16 Aug 2023 05:45:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2023/08/16/revisiting-start-small-stay-small-in-2023-chapter-1/</guid>
       <description>A summary of the first chapter of Rob Walling&amp;rsquo;s Start Small, Stay Small, along with my thoughts &amp;amp; reflections.</description>
     </item>
-    
     <item>
       <title>You can&#39;t save time</title>
       <link>https://yanirseroussi.com/til/2023/07/11/you-cant-save-time/</link>
       <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/til/2023/07/11/you-cant-save-time/</guid>
       <description>Time can be spent doing different activities, but it can&amp;rsquo;t be stored and saved for later.</description>
     </item>
-    
     <item>
       <title>The mission matters: Moving to climate tech as a data scientist</title>
       <link>https://yanirseroussi.com/2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2022/06/06/the-mission-matters-moving-to-climate-tech-as-a-data-scientist/</guid>
       <description>Discussing my recent career move into climate tech as a way of doing more to help mitigate dangerous climate change.</description>
     </item>
-    
     <item>
       <title>My 10-step path to becoming a remote data scientist with Automattic</title>
       <link>https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/</link>
       <pubDate>Sat, 29 Jul 2017 05:39:26 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2017/07/29/my-10-step-path-to-becoming-a-remote-data-scientist-with-automattic/</guid>
       <description>I wanted a well-paid data science-y remote job with an established company that offers a good life balance and makes products I care about. I got it eventually.</description>
     </item>
-    
     <item>
       <title>Ask Why! Finding motives, causes, and purpose in data science</title>
       <link>https://yanirseroussi.com/2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/</link>
       <pubDate>Mon, 19 Sep 2016 21:28:44 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2016/09/19/ask-why-finding-motives-causes-and-purpose-in-data-science/</guid>
       <description>Video and summary of a talk I gave at the Data Science Sydney meetup, about going beyond the what &amp;amp; how of predictive modelling.</description>
     </item>
-    
     <item>
       <title>The joys of offline data collection</title>
       <link>https://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/</link>
       <pubDate>Sun, 24 Jan 2016 00:32:25 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/</guid>
       <description>Insights on data collection and machine learning from spending a month sailing, diving, and counting fish with Reef Life Survey.</description>
     </item>
-    
     <item>
       <title>The long road to a lifestyle business</title>
       <link>https://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/</link>
       <pubDate>Sun, 22 Mar 2015 09:43:47 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2015/03/22/the-long-road-to-a-lifestyle-business/</guid>
       <description>Progress since leaving my last full-time job and setting on an independent path that includes data science consulting and work on my own projects.</description>
     </item>
-    
   </channel>
 </rss>

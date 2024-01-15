@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on Yanir Seroussi | Data &amp; AI for Nature</title>
     <link>https://yanirseroussi.com/tags/javascript/</link>
@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&amp;nbsp;&amp;nbsp;|</copyright>
-    <lastBuildDate>Sat, 03 Jun 2017 00:49:05 +0000</lastBuildDate><atom:link href="https://yanirseroussi.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jun 2017 00:49:05 +0000</lastBuildDate>
+    <atom:link href="https://yanirseroussi.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring and visualising Reef Life Survey data</title>
       <link>https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/</link>
       <pubDate>Sat, 03 Jun 2017 00:49:05 +0000</pubDate>
-      
       <guid>https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/</guid>
       <description>Web tools I built to visualise Reef Life Survey data and assist citizen scientists in underwater visual census work.</description>
     </item>
-    
   </channel>
 </rss>
