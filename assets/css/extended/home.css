@@ -2,8 +2,16 @@
   margin: var(--gap) 0;
 }
 
-.home-info a {
+.home-info a, .profile a {
   text-decoration: underline;
+}
+
+.profile .buttons a {
+  text-decoration: none;
+}
+
+.profile_inner {
+  text-align: left;
 }
 
 .home-info .entry-header h1 {
@@ -18,7 +26,7 @@
   margin-top: 10px;
 }
 
-.home-info .entry-content .footnote {
+.home-info .entry-content .footnote, .profile_inner .footnote {
   font-size: 14px;
   font-style: italic;
 }

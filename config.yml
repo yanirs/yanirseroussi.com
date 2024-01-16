@@ -1,5 +1,5 @@
 baseURL: https://yanirseroussi.com/
-copyright: 'Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise&nbsp;&nbsp;|'
+copyright: 'Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise'
 enableGitInfo: true
 languageCode: en-au
 paginate: 10000
@@ -32,34 +32,55 @@ params:
   cover:
     hiddenInList: true
   description: |
-    Human-generated words on data science, artificial intelligence, and related areas by Yanir Seroussi, an experienced data scientist and software engineer.
+    Human-generated words on data and artificial intelligence, with a focus on nature-positive applications.
   disableScrollToTop: true
   editPost:
     appendFilePath: true
     text: Suggest changes
     url: https://github.com/yanirs/yanirseroussi.com/blob/master/content
-  homeInfoParams:
+  hideFooter: true
+  profileMode:
+    enabled: true
     title: 'Yanir Seroussi &ndash; Data & AI Expert<sup>*</sup>'
-    content: |
-      **Welcome! 🐳️** I'm Yanir Seroussi, a full-stack data scientist and software engineer with over a decade of
-      experience.
+    subtitle: |
+      [Consultant helping](/consult/)...
+      : small-to-medium organisations focused on nature-positive outcomes
       
-      These days, I provide independent consulting services around Data & AI, focusing on small-to-medium
-      organisations in the climate tech and nature-positive sector. See [my consulting page](/consult/) for details,
-      or [visit the about page for a longer intro and contact options](/about/).
-      
-      Over the years, I've published many posts on [data science](/tags/data-science/) and related topics. Scroll down
-      to view them in reverse chronological order, or [explore posts by tag](/tags/). You can also check out the
-      [Today I Learned (TIL)](/til/) section for posts that tend to be rougher and shorter.
-      
-      Subscribe to my mailing list at [the bottom of any page](#mailing-list-email) for new post notifications.
+      [Professional background](/about/)...
+      : 15+ years in software engineering (Computer Science BSc)<br>10+ years in data science / engineering (Artificial Intelligence PhD)
+
+      [Posting about](/posts/)...
+      : data and artificial intelligence, and their role in helping nature thrive 
 
       <p class="footnote">
-        * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence.
+        * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence. 🐳️
       </p>
-    cover:
-      image: /home-profile.webp
-      alt: Yanir Seroussi's profile picture
+    imageUrl: /home-profile.webp
+    imageTitle: Yanir Seroussi's profile picture
+    imageWidth: 278
+    imageHeight: 250
+    buttons:
+      - name: About
+        url: /about/
+      - name: Posts
+        url: /posts/
+      - name: TIL
+        url: /til/
+      - name: Tags
+        url: /tags/
+      - name: Talks
+        url: /talks/
+      - name: Consulting Services
+        url: /consult/
+  socialIcons:
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/yanirseroussi/
+    - name: GitHub
+      url: https://github.com/yanirs/
+    - name: GoogleScholar
+      url: https://scholar.google.com.au/citations?user=NR254LoAAAAJ
+    - name: Email
+      url: mailto:contact@yanirseroussi.com
   mainSections: post
   showRssButtonInSectionTermList: true
   showShareButtons: true
