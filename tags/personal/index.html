@@ -12,7 +12,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/tags/personal/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.5f211a7f85c56ecff5cf5804b46f4b44d608a174ce494c0395670acf45df9d19.css" integrity="sha256-XyEaf4XFbs/1z1gEtG9LRNYIoXTOSUwDlWcKz0XfnRk=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9dca25c8fc6e1e8fd23e96856c191948b5f11c56209c6601ef40912e2c12cdd4.css" integrity="sha256-ncolyPxuHo/SPpaFbBkZSLXxHFYgnGYB70CRLiwSzdQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -109,10 +109,22 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <button id="menu-trigger" aria-haspopup="menu" aria-label="Menu Button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        <ul class="menu hidden">
             <li>
                 <a href="https://yanirseroussi.com/about/" title="About">
                     <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yanirseroussi.com/posts/" title="Posts">
+                    <span>Posts</span>
                 </a>
             </li>
             <li>
@@ -121,11 +133,10 @@
                 </a>
             </li>
             <li>
-                <a href="https://yanirseroussi.com/consult/" title="Consult">
-                    <span>Consult</span>
+                <a href="https://yanirseroussi.com/consult/" title="Consulting">
+                    <span>Consulting</span>
                 </a>
             </li>
-            
         </ul>
     </nav>
 </header>
@@ -290,11 +301,11 @@
     </main>
     <div class="mailing-list-container">
   <form
-          class="mailing-list"
-          action="https://yanirseroussi.us17.list-manage.com/subscribe/post?u=3c08aa3ff27dd92978019febd&amp;id=bc3ab705af"
-          method="post"
-          target="_blank"
-          novalidate
+      class="mailing-list"
+      action="https://yanirseroussi.us17.list-manage.com/subscribe/post?u=3c08aa3ff27dd92978019febd&amp;id=bc3ab705af"
+      method="post"
+      target="_blank"
+      novalidate
   >
     <label for="mailing-list-email">Get new posts in your mailbox</label>
     <input type="text" name="EMAIL" id="mailing-list-email" placeholder="Email address" />
@@ -317,6 +328,20 @@
     </span>
   </div>
 </div>
+
+<script>
+  const menuTrigger = document.querySelector("#menu-trigger");
+  const menuElem = document.querySelector(".menu");
+  menuTrigger.addEventListener("click", function () {
+    menuElem.classList.toggle("hidden");
+  });
+  
+  document.body.addEventListener('click', function (event) {
+    if (!menuTrigger.contains(event.target)) {
+      menuElem.classList.add("hidden");
+    }
+  });
+</script>
 
 
 <script>
