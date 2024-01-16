@@ -20,7 +20,7 @@ showToc: true
 
 As noted on [the homepage](https://yanirseroussi.com/), you should beware of self-proclaimed experts on the internet and do your own due diligence. I cringe putting the word _expert_ next to my name, as there's so much to know and learn, especially in a broad area like Data & AI. Still, underselling myself would also be silly. I'll let you be the judge.
 
-**⚡ New!** These days, I provide independent consulting services around Data & AI, focusing on small-to-medium organisations in the climate tech and nature-positive sector. See [my consulting page](/consult/) for details, or [scroll down to contact me](#contact-me).
+**⚡ New!** These days, I provide independent consulting services around Data & AI, focusing on startups and scaleups in the climate tech and nature-positive sector. See [my consulting page](/consult/) for details, or [scroll down to contact me](#contact-me).
 
 ## Obligatory self-promotional blurb
 

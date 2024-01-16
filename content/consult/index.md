@@ -28,7 +28,7 @@ With [my broad experience in data science, software engineering, and artificial 
 
 - Short one-off advisory sessions to address specific challenges and questions ([book paid call](https://talkw.me/@yanir)).
 - Longer engagements to tackle data & AI problems, which start with problem discovery and lead to hands-on implementation work ([contact me to discuss](/about/#contact-me)).
-- Mid-to-long term engagements as a Fractional Chief Data & AI Officer for startups and small-to-medium organisations (see [slide deck](/fractional-chief-data-officer/#/) for details).
+- Mid-to-long term engagements as a Fractional Chief Data & AI Officer for startups and scaleups (see [slide deck](/fractional-chief-data-officer/#/) for details).
 
 ## Examples
 
