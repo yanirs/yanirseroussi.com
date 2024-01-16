@@ -1,10 +1,10 @@
 <div class="mailing-list-container">
   <form
-          class="mailing-list"
-          action="https://yanirseroussi.us17.list-manage.com/subscribe/post?u=3c08aa3ff27dd92978019febd&amp;id=bc3ab705af"
-          method="post"
-          target="_blank"
-          novalidate
+      class="mailing-list"
+      action="https://yanirseroussi.us17.list-manage.com/subscribe/post?u=3c08aa3ff27dd92978019febd&amp;id=bc3ab705af"
+      method="post"
+      target="_blank"
+      novalidate
   >
     <label for="mailing-list-email">Get new posts in your mailbox</label>
     <input type="text" name="EMAIL" id="mailing-list-email" placeholder="Email address" />
@@ -27,3 +27,17 @@
     </span>
   </div>
 </div>
+
+<script>
+  const menuTrigger = document.querySelector("#menu-trigger");
+  const menuElem = document.querySelector(".menu");
+  menuTrigger.addEventListener("click", function () {
+    menuElem.classList.toggle("hidden");
+  });
+  // hide menu when clicked outside
+  document.body.addEventListener('click', function (event) {
+    if (!menuTrigger.contains(event.target)) {
+      menuElem.classList.add("hidden");
+    }
+  });
+</script>

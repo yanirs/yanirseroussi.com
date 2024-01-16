@@ -16,12 +16,15 @@ menu:
     - name: About
       url: /about/
       weight: 1
+    - name: Posts
+      url: /posts/
+      weight: 2
     - name: Talks
       url: /talks/
-      weight: 2
-    - name: Consult
-      url: /consult/
       weight: 3
+    - name: Consulting
+      url: /consult/
+      weight: 4
 
 params:
   analytics:
