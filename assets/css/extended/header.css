@@ -23,3 +23,7 @@ header.header button#theme-toggle {
   font-size: 22px;
   margin: auto 12px;
 }
+
+header.page-header .post-description a {
+  text-decoration: underline;
+}
