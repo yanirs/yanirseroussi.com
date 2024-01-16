@@ -67,10 +67,6 @@ params:
         url: /about/
       - name: Posts
         url: /posts/
-      - name: TIL
-        url: /til/
-      - name: Tags
-        url: /tags/
       - name: Talks
         url: /talks/
       - name: Consulting Services
