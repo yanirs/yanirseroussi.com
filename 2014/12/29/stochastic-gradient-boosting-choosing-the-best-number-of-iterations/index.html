@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.0885e10a9ede13fef0e08f08d9741c6d58667d6c610837c5c5a6b39aa2aeb5ee.css" integrity="sha256-CIXhCp7eE/7w4I8I2XQcbVhmfWxhCDfFxaazmqKute4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2b08cc09880f3581c2b7aae9477600ac95b5225b9cacd934462b59c7b5912d80.css" integrity="sha256-KwjMCYgPNYHCt6rpR3YArJW1IlucrNk0RitZx7WRLYA=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -542,7 +542,11 @@
 
 </article>
     </main>
-    <div class="mailing-list-container">
+    <a href="#mailing-list-email" aria-label="subscribe to mailing list" class="mailing-list-link" id="mailing-list-link">
+  ⬇ Subscribe below
+</a>
+
+<div class="mailing-list-container">
   <form
       class="mailing-list"
       action="https://yanirseroussi.us17.list-manage.com/subscribe/post?u=3c08aa3ff27dd92978019febd&amp;id=bc3ab705af"
@@ -573,17 +577,29 @@
 </div>
 
 <script>
+  
   const menuTrigger = document.querySelector("#menu-trigger");
   const menuElem = document.querySelector(".menu");
   menuTrigger.addEventListener("click", function () {
     menuElem.classList.toggle("hidden");
   });
-  
   document.body.addEventListener('click', function (event) {
     if (!menuTrigger.contains(event.target)) {
       menuElem.classList.add("hidden");
     }
   });
+
+  
+  const mailingListButton = document.getElementById("mailing-list-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mailingListButton.style.visibility = "visible";
+      mailingListButton.style.opacity = "1";
+    } else {
+      mailingListButton.style.visibility = "hidden";
+      mailingListButton.style.opacity = "0";
+    }
+  };
 </script>
 
 
