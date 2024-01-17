@@ -12,7 +12,7 @@ editPost:
   disabled: true
 ---
 
-This is a high-level overview of my approach to consulting and the sort of problems I can help with. Feel free to [contact me](/about/#contact-me) for more details.
+This is a high-level overview of my approach to consulting and the sort of problems I can help with. Feel free to [contact me](/contact/) for more details.
 
 ## Principles
 
@@ -27,7 +27,7 @@ When approaching consulting engagements, I aim to follow these key principles:
 With [my broad experience in data science, software engineering, and artificial intelligence](/about/), I can help in a variety of situations. My key offerings are:
 
 - Short one-off advisory sessions to address specific challenges and questions ([book paid call](https://talkw.me/@yanir)).
-- Longer engagements to tackle data & AI problems, which start with problem discovery and lead to hands-on implementation work ([contact me to discuss](/about/#contact-me)).
+- Longer engagements to tackle data & AI problems, which start with problem discovery and lead to hands-on implementation work ([contact me to discuss](/contact/)).
 - Mid-to-long term engagements as a Fractional Chief Data & AI Officer for startups and scaleups (see [slide deck](/fractional-chief-data-officer/#/) for details).
 
 ## Examples
@@ -46,4 +46,4 @@ I have worked with large companies (Intel, Qualcomm, Google, and Commonwealth Ba
 
 ## Next steps
 
-[Contact me](/about/#contact-me) if you're interested in working together.
+[Contact me](/contact/) if you're interested in working together.

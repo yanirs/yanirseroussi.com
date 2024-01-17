@@ -79,7 +79,7 @@ params:
     - name: GoogleScholar
       url: https://scholar.google.com.au/citations?user=NR254LoAAAAJ
     - name: Email
-      url: /about/#contact-me
+      url: /contact/
   mainSections: post
   showRssButtonInSectionTermList: true
   showShareButtons: true

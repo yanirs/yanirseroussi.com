@@ -14,13 +14,13 @@ aliases:
 editPost:
   disabled: true
 showToc: true
-
+disableShare: true
 ---
 ## Data & AI Expert?
 
 As noted on [the homepage](https://yanirseroussi.com/), you should beware of self-proclaimed experts on the internet and do your own due diligence. I cringe putting the word _expert_ next to my name, as there's so much to know and learn, especially in a broad area like Data & AI. Still, underselling myself would also be silly. I'll let you be the judge.
 
-**⚡ New!** These days, I provide independent consulting services around Data & AI, focusing on startups and scaleups in the climate tech and nature-positive sector. See [my consulting page](/consult/) for details, or [scroll down to contact me](#contact-me).
+**⚡ New!** These days, I provide independent consulting services around Data & AI, focusing on startups and scaleups in the climate tech and nature-positive sector. See [my consulting page](/consult/) for details.
 
 ## Obligatory self-promotional blurb
 
@@ -45,4 +45,4 @@ Anyway, whether you're trying to navigate Data & AI terminology or solve specifi
 
 ## Contact me
 
-Feel free to contact me about topics discussed on this website, potential work, or anything else you think I'd find interesting. Before you do, it's worth [checking out my FAQ page](https://yanirseroussi.com/2017/10/15/advice-for-aspiring-data-scientists-and-other-faqs/) to see if your question has already been answered. Contact options include [using my contact form](https://docs.google.com/forms/d/e/1FAIpQLSeibojYvmFUDC284wTybWAuWJ4rHi6j6SnF8ZiZt8zBIyi8vw/viewform), [opening a GitHub issue](https://github.com/yanirs/yanirseroussi.com/issues), [dropping me a line on LinkedIn](https://www.linkedin.com/in/yanirseroussi), [emailing me](mailto:contact@yanirseroussi.com), or [booking a paid call](https://talkw.me/@yanir).
+See [my contact page](/contact/).

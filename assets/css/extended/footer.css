@@ -44,8 +44,8 @@ form.mailing-list input[type="submit"]  {
   padding: 6px;
   visibility: hidden;
   position: fixed;
-  top: 2px;
-  right: 2px;
+  top: 5px;
+  right: 10px;
   z-index: 99;
   transition: visibility 0.5s, opacity 0.8s linear;
 }
