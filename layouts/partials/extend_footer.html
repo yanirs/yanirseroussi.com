@@ -1,3 +1,7 @@
+<a href="#mailing-list-email" aria-label="subscribe to mailing list" class="mailing-list-link" id="mailing-list-link">
+  ⬇ Subscribe below
+</a>
+
 <div class="mailing-list-container">
   <form
       class="mailing-list"
@@ -29,15 +33,27 @@
 </div>
 
 <script>
+  // Set up the collapsible menu.
   const menuTrigger = document.querySelector("#menu-trigger");
   const menuElem = document.querySelector(".menu");
   menuTrigger.addEventListener("click", function () {
     menuElem.classList.toggle("hidden");
   });
-  // hide menu when clicked outside
   document.body.addEventListener('click', function (event) {
     if (!menuTrigger.contains(event.target)) {
       menuElem.classList.add("hidden");
     }
   });
+
+  // Show / hide mailing list link when scrolling (adapted from top-link functionality).
+  const mailingListButton = document.getElementById("mailing-list-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mailingListButton.style.visibility = "visible";
+      mailingListButton.style.opacity = "1";
+    } else {
+      mailingListButton.style.visibility = "hidden";
+      mailingListButton.style.opacity = "0";
+    }
+  };
 </script>

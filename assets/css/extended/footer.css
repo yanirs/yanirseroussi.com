@@ -35,3 +35,26 @@ form.mailing-list input[type="submit"]  {
   padding-bottom: 10px;
   padding-top: 0;
 }
+
+.mailing-list-link {
+  background: var(--tertiary);
+  color: var(--primary);
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 6px;
+  visibility: hidden;
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  z-index: 99;
+  transition: visibility 0.5s, opacity 0.8s linear;
+}
+
+.mailing-list-link:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.mailing-list-link:focus {
+  outline: 0;
+}
