@@ -81,7 +81,7 @@ params:
     - name: Email
       url: /contact/
   mainSections: post
-  showRssButtonInSectionTermList: true
+  showRssButtonInSectionTermList: false
   showShareButtons: true
 
 taxonomies:
