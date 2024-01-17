@@ -12,7 +12,7 @@ aliases:
  - /presentations/
 editPost:
   disabled: true
-
+disableShare: true
 ---
 Just a list of some talks I've given, saved here for future reference and for general public benefit.
 

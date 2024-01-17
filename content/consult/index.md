@@ -10,6 +10,7 @@ summary: Yanir Seroussi's Data & AI consulting services.
 comments: false
 editPost:
   disabled: true
+disableShare: true
 ---
 
 This is a high-level overview of my approach to consulting and the sort of problems I can help with. Feel free to [contact me](/contact/) for more details.
