@@ -13,7 +13,6 @@ disableShare: true
 
 Feel free to contact me about topics discussed on this website, potential work, or anything else you think I'd find interesting. Contact options:
 * [Book a paid call](https://talkw.me/@yanir)
-* [Fill the contact form](https://docs.google.com/forms/d/e/1FAIpQLSeibojYvmFUDC284wTybWAuWJ4rHi6j6SnF8ZiZt8zBIyi8vw/viewform)
 * [Open a GitHub issue](https://github.com/yanirs/yanirseroussi.com/issues)
 * [Connect on LinkedIn](https://www.linkedin.com/in/yanirseroussi)
 * [Email me](mailto:contact@yanirseroussi.com)
