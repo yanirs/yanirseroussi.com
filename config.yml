@@ -38,9 +38,7 @@ params:
     Human-generated words on data and artificial intelligence, with a focus on nature-positive applications.
   disableScrollToTop: true
   editPost:
-    appendFilePath: true
-    text: Suggest changes
-    url: https://github.com/yanirs/yanirseroussi.com/blob/master/content
+    disabled: true
   hideFooter: true
   profileMode:
     enabled: true
