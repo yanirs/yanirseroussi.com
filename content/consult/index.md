@@ -3,10 +3,10 @@ title: Data & AI Consulting Services
 author: Yanir Seroussi
 type: page
 cover:
-  relative: true
-  image: wolchulsan-cloud-bridge.webp
-  caption: Let's cross bridges together.
-summary: Yanir Seroussi's Data & AI consulting services. 
+  image: /consulting-logo.webp
+  alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph.
+  caption: Helping nature-positive startups and scaleups grow faster.
+summary: Yanir Seroussi's Data & AI consulting services, mostly targeting startups and scaleups focused on nature-positive outcomes.
 comments: false
 editPost:
   disabled: true
@@ -41,9 +41,9 @@ Examples of the above offerings:
 
 ## Ideal clients and areas
 
-My main interest these days is to apply my skills within the climate tech and nature-positive sector. However, I'm happy to discuss any project that is likely to have a positive impact on humanity and our shared environment.
+My main interest these days is helping startups and scaleups within the climate tech and nature-positive sector. However, I'm happy to discuss any project that is likely to have a positive impact on humanity and our shared environment.
 
-I have worked with large companies (Intel, Qualcomm, Google, and Commonwealth Bank), medium-size businesses (Automattic &ndash; WordPress.com), several startups (like Orkestra &ndash; renewable energy space and Car Next Door &ndash; now Uber Carshare), and nonprofits (Reef Life Survey, GetUp!, and Work on Climate). As an independent consultant, I prefer working with stakeholders who have skin in the game, which typically means working with small-to-medium organisations in settings where it's possible to quickly ship iterative solutions.
+I have worked with large companies (Intel, Qualcomm, Google, and Commonwealth Bank), a unicorn scaleup (Automattic &ndash; WordPress.com), several startups (like Orkestra &ndash; renewable energy space, and Car Next Door &ndash; now Uber Carshare), and nonprofits (Reef Life Survey, GetUp!, and Work on Climate). As an independent consultant, I prefer working with stakeholders who have skin in the game, which typically means working with small-to-medium organisations in settings where it's possible to quickly ship iterative solutions.
 
 ## Next steps
 
