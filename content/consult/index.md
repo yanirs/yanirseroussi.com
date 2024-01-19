@@ -5,8 +5,8 @@ type: page
 cover:
   image: /consulting-logo.webp
   alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph.
-  caption: Helping nature-positive startups and scaleups grow faster.
-summary: Yanir Seroussi's Data & AI consulting services, mostly targeting startups and scaleups focused on nature-positive outcomes.
+  caption: Helping positive-impact startups and scaleups grow faster.
+summary: Yanir Seroussi's Data & AI consulting services, mostly targeting startups and scaleups focused on positive-impact outcomes.
 comments: false
 editPost:
   disabled: true

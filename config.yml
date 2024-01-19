@@ -4,7 +4,7 @@ enableGitInfo: true
 languageCode: en-au
 paginate: 10000
 theme: papermod
-title: Yanir Seroussi | Data & AI for Nature
+title: Yanir Seroussi | Data & AI for Impact
 
 markup:
   goldmark:
@@ -35,7 +35,7 @@ params:
   cover:
     hiddenInList: true
   description: |
-    Human-generated words on data and artificial intelligence, with a focus on nature-positive applications.
+    Using advancements in data and artificial intelligence tech to make a positive impact on our world.
   disableScrollToTop: true
   editPost:
     disabled: true
@@ -45,13 +45,13 @@ params:
     title: 'Yanir Seroussi &ndash; Data & AI Expert<sup>*</sup>'
     subtitle: |
       [Consulting for](/consult/)...
-      : startups and scaleups focused on nature-positive outcomes
+      : startups and scaleups focused on positive-impact outcomes
       
       [Experienced in](/about/)...
       : software engineering (15+ years; Computer Science BSc)<br>data science / engineering (10+ years; Artificial Intelligence PhD)
 
       [Posting about](/posts/)...
-      : data and artificial intelligence, and their role in helping nature thrive 
+      : data and artificial intelligence, and their role in helping our world thrive 
 
       <p class="footnote">
         * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence. 🐳️
