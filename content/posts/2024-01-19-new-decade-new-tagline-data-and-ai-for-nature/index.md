@@ -2,7 +2,7 @@
 title: 'New decade, new tagline: Data & AI for Nature'
 author: Yanir Seroussi
 type: post
-date: 2024-01-18T00:00:00+00:00
+date: 2024-01-19T00:00:00+00:00
 url: /2024/01/19/new-decade-new-tagline-data-and-ai-for-nature/
 cover:
   relative: true
