@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 05 Feb 2024 02:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2024 06:15:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>artificial intelligence</title>
+      <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
+      <pubDate>Tue, 06 Feb 2024 06:15:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>quotes</title>
+      <link>https://yanirseroussi.com/tags/quotes/</link>
+      <pubDate>Tue, 06 Feb 2024 06:15:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/quotes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>software engineering</title>
+      <link>https://yanirseroussi.com/tags/software-engineering/</link>
+      <pubDate>Tue, 06 Feb 2024 06:15:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>analytics</title>
       <link>https://yanirseroussi.com/tags/analytics/</link>
@@ -49,13 +70,6 @@
       <link>https://yanirseroussi.com/tags/startups/</link>
       <pubDate>Mon, 05 Feb 2024 02:45:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/startups/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>artificial intelligence</title>
-      <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
-      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
@@ -108,13 +122,6 @@
       <description></description>
     </item>
     <item>
-      <title>quotes</title>
-      <link>https://yanirseroussi.com/tags/quotes/</link>
-      <pubDate>Thu, 14 Dec 2023 00:15:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/quotes/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>data visualisation</title>
       <link>https://yanirseroussi.com/tags/data-visualisation/</link>
       <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
@@ -133,13 +140,6 @@
       <link>https://yanirseroussi.com/tags/reef-life-survey/</link>
       <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/reef-life-survey/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>software engineering</title>
-      <link>https://yanirseroussi.com/tags/software-engineering/</link>
-      <pubDate>Wed, 29 Nov 2023 02:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
