@@ -23,7 +23,7 @@ On a longish drive from Visalia to Los Angeles, I read [Chris Riccomini's though
 
 > Support this newsletter by purchasing [The Missing README: A Guide for the New Software Engineer](https://www.amazon.com/Missing-README-Guide-Software-Engineer/dp/1718501838) for yourself or gifting it to someone.
 
-While my new software engineer days are in the distant past, fresh takes on the basics can be worth reviewing. In addition, my brother [Uri Seroussi](https://www.uriseroussi.com/) &ndash; who is a new software engineer &ndash; was sitting right next to me. So I followed the link, read the overview, skimmed the reviews, and recommended the book to Uri.
+While my new software engineer days are in the distant past, fresh takes on the basics can be worth reviewing. In addition, my brother [Uri Seroussi](https://www.uriseroussi.com/) &ndash; who is [a new software engineer](https://medium.com/@uriser/how-i-became-a-full-stack-engineer-after-10-years-in-life-science-academia-e41287894f3f) &ndash; was sitting right next to me. So I followed the link, read the overview, skimmed the reviews, and recommended the book to Uri.
 
 But... it was a long drive. I figured it'd be fun to get ChatGPT Plus to summarise the book for us &ndash; without it having access to the actual book. In response to the initial prompt, it ran a web search, which resulted in a high-level summary that wasn't very useful (see [the full transcript](https://chat.openai.com/share/bfe9c803-5cf9-4618-b06a-a6a3e7196c8f) for details). I then asked it to go deeper on the first lesson, to which it replied:
 
