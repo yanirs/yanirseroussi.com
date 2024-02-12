@@ -2,7 +2,7 @@
 title: Nudging ChatGPT to invent books you have no time to read
 author: Yanir Seroussi
 type: post
-date: 2024-02-12T02:00:00+00:00
+date: 2024-02-12T05:00:00+00:00
 url: /2024/02/12/nudging-chatgpt-to-invent-books-you-have-no-time-to-read/
 cover:
   relative: true
@@ -50,7 +50,7 @@ I threw the full summary from Amazon at it, which includes these points:
 
 As Uri was driving, I got the ChatGPT app to read out each summary. This continued with subsequent points, with me prompting ChatGPT with "OK, next point", it inventing some stuff that sounded about right, Uri and me discussing the output, and so on.
 
-Should Uri still read the book? Probably. Reading well-written books helps lessons sink in better than listening to made up summaries.
+Should Uri still read the book? Probably. Reading well-written books helps lessons sink in better than listening to made up summaries. That said, the summaries did provide a good overview of the book topics, and they were educational.
 
 While I probably wouldn't have had this conversation if it wasn't for the long drive, I still find this use case interesting. **It's not the first time I got ChatGPT to elaborate on specific allusions &ndash; and obtained informative results.** The general pattern is giving it some text and asking _"what might they mean by X?"_
 
