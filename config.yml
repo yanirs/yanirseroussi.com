@@ -42,7 +42,7 @@ params:
   hideFooter: true
   profileMode:
     enabled: true
-    title: 'Yanir Seroussi &ndash; Data & AI Expert<sup>*</sup>'
+    title: 'Yanir Seroussi &ndash; Data & AI Expert'
     subtitle: |
       [Consulting for](/consult/)...
       : startups and scaleups focused on growing while making a positive impact
@@ -54,10 +54,6 @@ params:
 
       [Posting about](/posts/)...
       : data and artificial intelligence, and their role in driving positive business impact
-
-      <p class="footnote">
-        * Warning: Beware of self-proclaimed experts on the internet. Do your own due diligence. 🐳️
-      </p>
     imageUrl: /home-profile.webp
     imageTitle: Yanir Seroussi's profile picture
     imageWidth: 278
