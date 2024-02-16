@@ -22,7 +22,7 @@
   </h1>
   {{- if .Description }}
   <div class="post-description">
-    {{ .Description }}
+    {{ .Description | markdownify }}
   </div>
   {{- end }}
 </header>
@@ -45,10 +45,13 @@
         <h3 class="archive-entry-title">
           {{- .Title | markdownify }}
         </h3>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+        <div class="entry-content">
+          <p>{{ .Summary | plainify | htmlUnescape }}</p>
+        </div>
         <div class="archive-meta">
           {{- partial "post_meta.html" . -}}
         </div>
-        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
       </div>
       {{- end }}
       {{- end }}
