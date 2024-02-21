@@ -9,12 +9,12 @@ cover:
   image: lord-howe-island.jpg
 summary: Sharing remote teamwork insights, my climate & sustainability activism, Reef Life Survey publications, and progress on Automattic's Experimentation Platform. 
 tags:
-  - a/b testing
   - career
   - causal inference
   - environment
   - Reef Life Survey
   - remote work
+  - split testing
   - sustainability
 
 ---

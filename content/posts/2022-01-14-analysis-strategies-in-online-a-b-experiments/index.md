@@ -9,10 +9,10 @@ cover:
   image: online-drug-experiment.jpg
 summary: Epidemiologists analyse clinical trials to estimate the intention-to-treat and per-protocol effects. This post applies their strategies to online experiments.
 tags:
-  - a/b testing
   - causal inference
   - data science
   - marketing
+  - split testing
   - statistics
 
 ---

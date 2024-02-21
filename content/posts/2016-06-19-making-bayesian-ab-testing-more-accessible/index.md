@@ -9,10 +9,10 @@ cover:
   image: bayesian-split-testing-calculator.png
 summary: A web tool I built to interpret A/B test results in a Bayesian way, including prior specification, visualisations, and decision rules.
 tags:
-  - a/b testing
   - analytics
   - causal inference
   - data science
+  - split testing
   - statistics
 
 ---
