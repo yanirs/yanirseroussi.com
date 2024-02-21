@@ -19,6 +19,7 @@
 <link rel="mask-icon" href="https://yanirseroussi.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/">
 <noscript>
     <style>
         #theme-toggle,
@@ -161,6 +162,8 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <button id="menu-trigger" aria-haspopup="menu" aria-label="Menu Button">
@@ -214,7 +217,7 @@
 </figure>
   <div class="post-content"><p class="intro-note">Background: I have previously written about <a href="https://yanirseroussi.com/2015/12/08/this-holiday-season-give-me-real-insights/">the need for real insights that address the why behind events, not only the what and how</a>. This was followed by a <a href="https://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/">fairly popular post on causality</a>, which was heavily influenced by Samantha Kleinberg's book <a href="http://www.skleinberg.org/why/" target="_blank" rel="noopener">Why: A Guide to Finding and Using Causes</a>. This post continues my exploration of the field, and is primarily based on Kleinberg's previous book: <a href="http://www.skleinberg.org/causality_book/index.html" target="_blank" rel="noopener">Causality, Probability, and Time</a>.</p>
 <p>The study of causality and causal inference is central to science in general and data science in particular. Being able to distinguish between correlation and causation is key to designing effective interventions in business, public policy, medicine, and many other fields. There are quite a few approaches to inferring causal relationships from data. In this post, I discuss some aspects of <a href="https://en.wikipedia.org/wiki/Judea_Pearl" target="_blank" rel="noopener">Judea Pearl&rsquo;s</a> graphical modelling approach, and how its limitations are addressed in recent work by <a href="http://www.skleinberg.org/" target="_blank" rel="noopener">Samantha Kleinberg</a>. I then finish with a brief survey of the <a href="https://en.wikipedia.org/wiki/Bradford_Hill_criteria" target="_blank" rel="noopener">Bradford Hill criteria</a> and their applicability to a key limitation of all causal inference methods: The need for untested assumptions.</p>
-<h2 id="hahahugoshortcode43s0hbhb-overcoming-my-pearl-bias">
+<h2 id="hahahugoshortcode40s0hbhb-overcoming-my-pearl-bias">
 
 
 
@@ -285,7 +288,7 @@
 <p>Pearl&rsquo;s theory of causality employs Bayesian networks to represent causal structures. These are directed acyclic graphs, where each vertex represents a variable, and an edge from X to Y implies that X causes Y. Pearl also introduces the <code>do(X)</code> operator, which simulates interventions by removing all the causes of X, setting it to a constant. There is much more to this theory, but two of its main contributions are the formalisation of causal concepts that are often given only a verbal treatment, and the explicit encoding of causal assumptions. These assumptions must be made by the modeller based on background knowledge, and are encoded in the graph&rsquo;s structure – a missing edge between two vertices indicates that there is no direct causal relationship between the two variables.</p>
 <p>My main issue with Pearl&rsquo;s treatment of causality is that he doesn&rsquo;t explicitly handle time. While time can be encoded into Pearl&rsquo;s models (e.g., via dynamic Bayesian networks), there is nothing that prevents creation of models where the future causes changes in the past. A closely-related issue is that Pearl&rsquo;s causal models must be directed <em>acyclic</em> graphs, making it hard to model feedback loops. For example, Pearl says that &ldquo;mud does not cause rain&rdquo;, but this isn&rsquo;t true – water from mud evaporates, causing rain (which causes mud). What&rsquo;s true is that &ldquo;mud now doesn&rsquo;t cause rain now&rdquo; or something along these lines, which is something that must be accounted for by adding temporal information to the models.</p>
 <p>Nonetheless, Pearl&rsquo;s theory is an important step forward in the study of causality. In his words, &ldquo;<em>in the bulk of the statistical literature before 2000, causal claims rarely appear in the mathematics. They surface only in the verbal interpretation that investigators occasionally attach to certain associations, and in the verbal description with which investigators justify assumptions.</em>&rdquo; The importance of formal causal analysis cannot be overstated, as it underlies many decisions that affect our lives. However, it seems to me like there&rsquo;s still plenty of work to be done before causal analysis becomes as established as other statistical tools.</p>
-<h2 id="hahahugoshortcode43s1hbhb-kleinberg-addressing-gaps-in-pearls-work">
+<h2 id="hahahugoshortcode40s1hbhb-kleinberg-addressing-gaps-in-pearls-work">
 
 
 
@@ -423,7 +426,7 @@
 <blockquote>
 <p>Thus, a just so cause <em>is</em> genuine in the case where all of the outlined assumptions hold (namely that all common causes are included, the structure is representative of the system and, when data is used, a formula satisfied by the data will be satisfied by the structure). Our <em>belief</em> in whether a cause is genuine, in the case where it is not certain that the assumptions hold, should be proportional to how much we believe that the assumptions are true.</p>
 </blockquote>
-<h2 id="hahahugoshortcode43s3hbhb-hill-testing-untested-assumptions">
+<h2 id="hahahugoshortcode40s3hbhb-hill-testing-untested-assumptions">
 
 
 
@@ -535,10 +538,10 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://yanirseroussi.com/tags/causal-inference/">causal inference</a></li>
-      <li><a href="https://yanirseroussi.com/tags/data-science/">data science</a></li>
-      <li><a href="https://yanirseroussi.com/tags/insights/">insights</a></li>
-      <li><a href="https://yanirseroussi.com/tags/predictive-modelling/">predictive modelling</a></li>
+      <li><a href="https://yanirseroussi.com/tags/causal-inference/">Causal Inference</a></li>
+      <li><a href="https://yanirseroussi.com/tags/data-science/">Data Science</a></li>
+      <li><a href="https://yanirseroussi.com/tags/insights/">Insights</a></li>
+      <li><a href="https://yanirseroussi.com/tags/predictive-modelling/">Predictive Modelling</a></li>
     </ul>
 
 <ul class="share-buttons">
