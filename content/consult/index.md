@@ -20,8 +20,10 @@ This is a high-level overview of my approach to consulting and the sort of probl
 With [my broad experience in data science, software engineering, and artificial intelligence](/about/), I can help in a variety of situations. My key offerings are:
 
 - Short one-off advisory sessions to address specific challenges and questions ([book paid call](https://talkw.me/@yanir)).
-- Longer engagements to tackle data & AI problems, which have two components: (1)&nbsp;problem definition and strategic planning; and (2)&nbsp;hands-on implementation work ([contact me to discuss](/contact/)).
-- Mid-to-long term engagements as a Fractional Chief Data & AI Officer for startups and scaleups (see [slide deck](/fractional-chief-data-officer/#/) for details).
+- Longer engagements to tackle data & AI problems ([contact me to discuss](/contact/)). These have two components:
+  1. Problem definition and strategic planning; and
+  2. Help with implementation (if I don't have the capacity to do it, I'll connect you with the right people).
+- Mid-to-long term engagements as a [Fractional Chief Data & AI Officer for startups and scaleups](/fractional-chief-data-officer/#/).
 
 ## Principles
 
