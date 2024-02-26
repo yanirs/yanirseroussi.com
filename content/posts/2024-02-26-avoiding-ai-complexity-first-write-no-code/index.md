@@ -2,13 +2,13 @@
 title: 'Avoiding AI complexity: First, write no code'
 author: Yanir Seroussi
 type: post
-date: 2024-02-26T00:00:00+00:00
+date: 2024-02-26T01:45:00+00:00
 url: /2024/02/26/avoiding-ai-complexity-first-write-no-code/
 cover:
   relative: true
   image: first-write-no-code-primum-non-codere.webp
   alt: "Illustration showing ancient stone tablets with the inscription 'primum non codere' (inspired by primum non noncere: first, do no harm)" 
-summary: Two stories of getting AI functionality in the hands of users demonstrate the risks inherent in custom development versus starting with no-code approach.
+summary: Two stories of getting AI functionality to production, which demonstrate the risks inherent in custom development versus starting with no-code approach.
 tags:
   - artificial intelligence
   - data strategy
