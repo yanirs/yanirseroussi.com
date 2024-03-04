@@ -9,11 +9,18 @@
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
     <atom:link href="https://yanirseroussi.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The two types of startup data problems</title>
+      <link>https://yanirseroussi.com/2024/03/04/the-two-types-of-startup-data-problems/</link>
+      <pubDate>Mon, 04 Mar 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/03/04/the-two-types-of-startup-data-problems/</guid>
+      <description>Classifying startups as ML-centric or non-ML is a helpful exercise to uncover the data challenges they&amp;rsquo;re likely to face.</description>
+    </item>
+    <item>
       <title>Avoiding AI complexity: First, write no code</title>
       <link>https://yanirseroussi.com/2024/02/26/avoiding-ai-complexity-first-write-no-code/</link>
       <pubDate>Mon, 26 Feb 2024 01:45:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/2024/02/26/avoiding-ai-complexity-first-write-no-code/</guid>
-      <description>Two stories of getting AI functionality to production, which demonstrate the risks inherent in custom development versus starting with no-code approach.</description>
+      <description>Two stories of getting AI functionality to production, which demonstrate the risks inherent in custom development versus starting with a no-code approach.</description>
     </item>
     <item>
       <title>Building your startup&#39;s minimum viable data stack</title>
