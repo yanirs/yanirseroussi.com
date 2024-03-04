@@ -8,7 +8,7 @@ cover:
   relative: true
   image: first-write-no-code-primum-non-codere.webp
   alt: "Illustration showing ancient stone tablets with the inscription 'primum non codere' (inspired by primum non noncere: first, do no harm)" 
-summary: Two stories of getting AI functionality to production, which demonstrate the risks inherent in custom development versus starting with no-code approach.
+summary: Two stories of getting AI functionality to production, which demonstrate the risks inherent in custom development versus starting with a no-code approach.
 tags:
   - artificial intelligence
   - data strategy
