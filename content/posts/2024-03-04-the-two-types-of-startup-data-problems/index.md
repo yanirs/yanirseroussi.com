@@ -1,9 +1,11 @@
 ---
-title: The two types of startup data problems
+title: Two types of startup data problems
 author: Yanir Seroussi
 type: post
 date: 2024-03-04T02:00:00+00:00
-url: /2024/03/04/the-two-types-of-startup-data-problems/
+url: /2024/03/04/two-types-of-startup-data-problems/
+aliases:
+  - /2024/03/04/the-two-types-of-startup-data-problems/
 cover:
   relative: true
   image: cover.webp
@@ -19,7 +21,7 @@ Recently, I've been thinking on startup data problems to clarify where I can hel
 
 One way I classify startup data problems is with the question: **Do you need [MLOps](https://en.wikipedia.org/wiki/MLOps)?**
 * If the answer is _Yes_, then it's an **ML-centric startup**. Machine learning is core to the product, so effectively training, deploying, and maintaining ML models (i.e., doing MLOps) is crucial. Such startups should have strong ML and data capabilities in the founding team. Their success depends on it.
-* If the answer is _No_, then it's a **non-ML startup**. Such startups may occasionally build a one-off model, but they won't be dealing with MLOps early on. Non-ML startups [should hold off on hiring data people until they start hitting product-market fit and scaling their marketing](https://yanirseroussi.com/2024/02/05/substance-over-titles-your-first-data-hire-may-be-a-data-scientist/). They can afford to build their data capabilities incrementally with [a minimum viable data stack](https://yanirseroussi.com/2024/02/19/building-your-startups-minimum-viable-data-stack/), and follow well-trodden paths of supporting decisions with data.
+* If the answer is _No_, then it's a **non-ML startup**. Such startups may occasionally build a one-off model, but they won't be dealing with MLOps early on. Unless they're building a data-intensive product,[^data-intensive] non-ML startups [should hold off on hiring data people until they start hitting product-market fit and scaling their marketing](https://yanirseroussi.com/2024/02/05/substance-over-titles-your-first-data-hire-may-be-a-data-scientist/). They can afford to build their data capabilities incrementally with [a minimum viable data stack](https://yanirseroussi.com/2024/02/19/building-your-startups-minimum-viable-data-stack/), and follow well-trodden paths of supporting decisions with data.
 
 Somewhat confusingly, there's an overlap between the skills required for ML-centric startups and those required from data people in non-ML startups. This is because **much of ML is data work**. This is reflected by the following ML system diagram, where the _Data Collection_ and _Data Verification_ boxes are much larger than the _ML Code_ box. Additionally, the _Analysis Tools_ and _Monitoring_ boxes also require data skills, as [defining metrics is one of the hardest problems of data science](https://yanirseroussi.com/2015/11/23/the-hardest-parts-of-data-science/).
 
@@ -43,3 +45,5 @@ With Giveable/Hynt and Orkestra, attempting ML product development without think
 While both ML-centric and non-ML startups face data problems, the centrality of data varies between the two. Trying to run an ML-centric startup without a solid grasp of MLOps and data engineering practices is a recipe for failure, while non-ML startups can get away with less-than-ideal data practices for a long time.
 
 Personally, I'm always on the lookout for better ways of explaining these differences and coming up with accessible terminology to help founders who are navigating the space. ML-centric and non-ML will do for now, but other suggestions are welcome!
+
+[^data-intensive]: This is a fine example of an advantage of writing publicly. The initial version of this post didn't include the qualification of _"unless they're building a data-intensive product"_ &ndash; I realised it was missing the following day. Perhaps a better classification is data-centric versus data-supported, but I'll leave that to a future post.
