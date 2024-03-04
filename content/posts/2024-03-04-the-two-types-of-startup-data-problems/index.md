@@ -6,7 +6,7 @@ date: 2024-03-04T02:00:00+00:00
 url: /2024/03/04/the-two-types-of-startup-data-problems/
 cover:
   relative: true
-  image: cover3.webp
+  image: cover.webp
   alt: Decorative cover, based on ChatGPT's interpretation of the post.
 summary: Classifying startups as ML-centric or non-ML is a helpful exercise to uncover the data challenges they're likely to face.
 tags:
