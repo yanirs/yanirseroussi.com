@@ -20,7 +20,7 @@ With over a decade of experience across various data and engineering roles, the 
 My experience and formal education fall under three key areas:
 - software engineering (15+ years; Computer Science BSc)
 - data science / engineering (10+ years; Artificial Intelligence PhD)
-- tech leadership (10+ years with startups and scaleups)
+- tech leadership (5+ years with startups and scaleups)
 
 **⚡ New!** These days, I provide independent consulting services around Data & AI, focusing on startups and scaleups in the climate tech and nature-positive sector. See [my consulting page](/consult/) for details, or head directly to [my contact page](/contact/) if you have a problem you want to discuss.
 
