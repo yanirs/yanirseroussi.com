@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 04 Mar 2024 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Questions to consider when using AI for PDF data extraction</title>
+      <link>https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/</guid>
+      <description>Discussing considerations that arise when attempting to automate the extraction of structured data from PDFs and similar documents.</description>
+    </item>
     <item>
       <title>Two types of startup data problems</title>
       <link>https://yanirseroussi.com/2024/03/04/two-types-of-startup-data-problems/</link>
