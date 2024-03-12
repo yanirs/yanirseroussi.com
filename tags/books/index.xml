@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Productivity on Yanir Seroussi | Data &amp; AI for Impact</title>
-    <link>https://yanirseroussi.com/tags/productivity/</link>
-    <description>Recent content in Productivity on Yanir Seroussi | Data &amp; AI for Impact</description>
+    <title>Books on Yanir Seroussi | Data &amp; AI for Impact</title>
+    <link>https://yanirseroussi.com/tags/books/</link>
+    <description>Recent content in Books on Yanir Seroussi | Data &amp; AI for Impact</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
     <lastBuildDate>Tue, 12 Mar 2024 06:19:31 +0000</lastBuildDate>
-    <atom:link href="https://yanirseroussi.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yanirseroussi.com/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Atomic Habits is full of actionable advice</title>
       <link>https://yanirseroussi.com/til/2024/03/12/atomic-habits-is-full-of-actionable-advice/</link>
       <pubDate>Tue, 12 Mar 2024 06:19:31 +0000</pubDate>
       <guid>https://yanirseroussi.com/til/2024/03/12/atomic-habits-is-full-of-actionable-advice/</guid>
       <description>I put the book to use after the first listen, and will definitely revisit it in the future to form better habits.</description>
+    </item>
+    <item>
+      <title>Our Blue Machine is changing, but we are not helpless</title>
+      <link>https://yanirseroussi.com/til/2023/11/28/our-blue-machine-is-changing-but-we-are-not-helpless/</link>
+      <pubDate>Tue, 28 Nov 2023 06:40:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/til/2023/11/28/our-blue-machine-is-changing-but-we-are-not-helpless/</guid>
+      <description>One of my many highlights from Helen Czerski&amp;rsquo;s Blue Machine.</description>
+    </item>
+    <item>
+      <title>The Minimalist Entrepreneur is too prescriptive for me</title>
+      <link>https://yanirseroussi.com/til/2023/08/21/the-minimalist-entrepreneur-is-too-prescriptive-for-me/</link>
+      <pubDate>Mon, 21 Aug 2023 03:15:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/til/2023/08/21/the-minimalist-entrepreneur-is-too-prescriptive-for-me/</guid>
+      <description>While I found the story of Gumroad interesting, The Minimalist Entrepreneur seems to over-generalise from the founder&amp;rsquo;s experience.</description>
     </item>
     <item>
       <title>Revisiting Start Small, Stay Small in 2023 (Chapter 2)</title>
@@ -31,11 +45,11 @@
       <description>A summary of the first chapter of Rob Walling&amp;rsquo;s Start Small, Stay Small, along with my thoughts &amp;amp; reflections.</description>
     </item>
     <item>
-      <title>Email notifications on public GitHub commits</title>
-      <link>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</link>
-      <pubDate>Mon, 14 Aug 2023 05:15:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/til/2023/08/14/email-notifications-on-public-github-commits/</guid>
-      <description>GitHub publishes an Atom feed, which means you can use any RSS reader to follow commits.</description>
+      <title>You can&#39;t save time</title>
+      <link>https://yanirseroussi.com/til/2023/07/11/you-cant-save-time/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/til/2023/07/11/you-cant-save-time/</guid>
+      <description>Time can be spent doing different activities, but it can&amp;rsquo;t be stored and saved for later.</description>
     </item>
   </channel>
 </rss>
