@@ -7,6 +7,7 @@ url: /til/2023/08/21/the-minimalist-entrepreneur-is-too-prescriptive-for-me/
 summary: While I found the story of Gumroad interesting, The Minimalist Entrepreneur seems to over-generalise from the founder's experience.
 showBreadcrumbs: true
 tags:
+  - books
   - business
   - career
   - personal

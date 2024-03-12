@@ -7,6 +7,7 @@ url: /til/2023/08/17/revisiting-start-small-stay-small-in-2023-chapter-2/
 summary: A summary of the second chapter of Rob Walling's Start Small, Stay Small, along with my thoughts & reflections.
 showBreadcrumbs: true
 tags:
+  - books
   - business
   - career
   - marketing

@@ -7,6 +7,7 @@ url: /til/2023/07/11/you-cant-save-time/
 summary: Time can be spent doing different activities, but it can't be stored and saved for later.
 showBreadcrumbs: true
 tags:
+  - books
   - personal
   - quotes
 ---

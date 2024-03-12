@@ -7,6 +7,7 @@ url: /til/2023/11/28/our-blue-machine-is-changing-but-we-are-not-helpless/
 summary: One of my many highlights from Helen Czerski's Blue Machine.
 showBreadcrumbs: true
 tags:
+  - books
   - environment
   - marine science
   - quotes
