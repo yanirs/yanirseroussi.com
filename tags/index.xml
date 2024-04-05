@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 01 Apr 2024 06:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2024 01:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://yanirseroussi.com/tags/books/</link>
+      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://yanirseroussi.com/tags/career/</link>
+      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Engineering</title>
+      <link>https://yanirseroussi.com/tags/data-engineering/</link>
+      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quotes</title>
+      <link>https://yanirseroussi.com/tags/quotes/</link>
+      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/quotes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Artificial Intelligence</title>
       <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
@@ -35,20 +63,6 @@
       <link>https://yanirseroussi.com/tags/reef-life-survey/</link>
       <pubDate>Mon, 01 Apr 2024 06:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/reef-life-survey/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Books</title>
-      <link>https://yanirseroussi.com/tags/books/</link>
-      <pubDate>Tue, 12 Mar 2024 06:19:31 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/books/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>https://yanirseroussi.com/tags/career/</link>
-      <pubDate>Tue, 12 Mar 2024 06:19:31 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/career/</guid>
       <description></description>
     </item>
     <item>
@@ -94,24 +108,10 @@
       <description></description>
     </item>
     <item>
-      <title>Data Engineering</title>
-      <link>https://yanirseroussi.com/tags/data-engineering/</link>
-      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Business</title>
       <link>https://yanirseroussi.com/tags/business/</link>
       <pubDate>Sat, 17 Feb 2024 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/business/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quotes</title>
-      <link>https://yanirseroussi.com/tags/quotes/</link>
-      <pubDate>Tue, 06 Feb 2024 06:15:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/quotes/</guid>
       <description></description>
     </item>
     <item>
