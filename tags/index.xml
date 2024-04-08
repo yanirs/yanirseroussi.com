@@ -7,27 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Fri, 05 Apr 2024 01:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2024 02:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Books</title>
-      <link>https://yanirseroussi.com/tags/books/</link>
-      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/books/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Career</title>
       <link>https://yanirseroussi.com/tags/career/</link>
-      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Climate Change</title>
+      <link>https://yanirseroussi.com/tags/climate-change/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/climate-change/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Engineering</title>
       <link>https://yanirseroussi.com/tags/data-engineering/</link>
-      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://yanirseroussi.com/tags/data-science/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Strategy</title>
+      <link>https://yanirseroussi.com/tags/data-strategy/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>https://yanirseroussi.com/tags/environment/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>https://yanirseroussi.com/tags/personal/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote Work</title>
+      <link>https://yanirseroussi.com/tags/remote-work/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/remote-work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startups</title>
+      <link>https://yanirseroussi.com/tags/startups/</link>
+      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/startups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Books</title>
+      <link>https://yanirseroussi.com/tags/books/</link>
+      <pubDate>Fri, 05 Apr 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/books/</guid>
       <description></description>
     </item>
     <item>
@@ -66,13 +115,6 @@
       <description></description>
     </item>
     <item>
-      <title>Personal</title>
-      <link>https://yanirseroussi.com/tags/personal/</link>
-      <pubDate>Tue, 12 Mar 2024 06:19:31 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/personal/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Productivity</title>
       <link>https://yanirseroussi.com/tags/productivity/</link>
       <pubDate>Tue, 12 Mar 2024 06:19:31 +0000</pubDate>
@@ -80,31 +122,10 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>https://yanirseroussi.com/tags/data-science/</link>
-      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Software Engineering</title>
       <link>https://yanirseroussi.com/tags/software-engineering/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Strategy</title>
-      <link>https://yanirseroussi.com/tags/data-strategy/</link>
-      <pubDate>Mon, 04 Mar 2024 02:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-strategy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Startups</title>
-      <link>https://yanirseroussi.com/tags/startups/</link>
-      <pubDate>Mon, 04 Mar 2024 02:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/startups/</guid>
       <description></description>
     </item>
     <item>
@@ -126,13 +147,6 @@
       <link>https://yanirseroussi.com/tags/blogging/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Environment</title>
-      <link>https://yanirseroussi.com/tags/environment/</link>
-      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/environment/</guid>
       <description></description>
     </item>
     <item>
@@ -241,13 +255,6 @@
       <description></description>
     </item>
     <item>
-      <title>Climate Change</title>
-      <link>https://yanirseroussi.com/tags/climate-change/</link>
-      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/climate-change/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Orkestra</title>
       <link>https://yanirseroussi.com/tags/orkestra/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
@@ -259,13 +266,6 @@
       <link>https://yanirseroussi.com/tags/politics/</link>
       <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/politics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Remote Work</title>
-      <link>https://yanirseroussi.com/tags/remote-work/</link>
-      <pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/remote-work/</guid>
       <description></description>
     </item>
     <item>
