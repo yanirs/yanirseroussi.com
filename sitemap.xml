@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/</loc>
+    <lastmod>2024-04-15T15:54:17+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
+    <lastmod>2024-04-15T15:54:17+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
+    <lastmod>2024-04-15T15:54:17+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
+    <lastmod>2024-04-15T15:54:17+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2024-04-15T15:54:17+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2024-04-15T15:54:17+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/business/</loc>
     <lastmod>2024-04-11T13:42:58+10:00</lastmod>
   </url><url>
@@ -15,12 +33,6 @@
     <lastmod>2024-04-11T13:42:58+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/marketing/</loc>
-    <lastmod>2024-04-11T13:42:58+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2024-04-11T13:42:58+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
     <lastmod>2024-04-11T13:42:58+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/climate-change/</loc>
@@ -59,13 +71,7 @@
     <loc>https://yanirseroussi.com/til/2024/04/05/the-data-engineering-lifecycle-is-not-going-anywhere/</loc>
     <lastmod>2024-04-05T11:23:38+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
-    <lastmod>2024-04-01T17:02:44+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/2024/04/01/artificial-intelligence-automation-and-the-art-of-counting-fish/</loc>
-    <lastmod>2024-04-01T17:02:44+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
     <lastmod>2024-04-01T17:02:44+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/marine-science/</loc>
@@ -81,9 +87,6 @@
     <lastmod>2024-03-12T16:33:48+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/</loc>
-    <lastmod>2024-03-11T15:53:13+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
     <lastmod>2024-03-11T15:53:13+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/03/04/two-types-of-startup-data-problems/</loc>

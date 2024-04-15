@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 05:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI does not obviate the need for testing and observability</title>
+      <link>https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/</link>
+      <pubDate>Mon, 15 Apr 2024 05:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/</guid>
+      <description>It&amp;rsquo;s easy to prototype with AI, but production-grade AI apps require even more thorough testing and observability than traditional software.</description>
+    </item>
     <item>
       <title>Questions to consider when using AI for PDF data extraction</title>
       <link>https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/</link>
