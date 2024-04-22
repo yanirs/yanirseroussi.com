@@ -17,9 +17,10 @@ tags:
 ---
 _Bootstrapping the right way_ is a talk I gave earlier this year at the YOW! Data conference in Sydney. You can now watch the video of the talk and have a look through [the slides][1]. The content of the talk is similar to [a post I published on bootstrapping pitfalls][2], with some additional simulations.
 
-<p>
-  {{< youtube id="2wZXejYz-e0" >}}
-</p>
+[//]: # (<p>)
+[//]: # (  {{< youtube id="2wZXejYz-e0" >}})
+[//]: # (</p>)
+<small><i>Update (2024-04-22): There used to be a YouTube embed here, but the video was taken down. :(</i></small>
 
 The main takeaways shared in the talk are:
 
