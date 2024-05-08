@@ -17,6 +17,8 @@ Feel free to contact me about topics discussed on this website, potential work, 
 * [Connect on LinkedIn](https://www.linkedin.com/in/yanirseroussi)
 * [Email me](mailto:contact@yanirseroussi.com)
 
-## Subscribe to the mailing list
+## Subscribe to my mailing list
 
-To get new posts delivered to your mailbox, scroll to the bottom of this page, enter your email address, and tap Subscribe. You may unsubscribe at any time.
+To get new posts delivered to your mailbox, enter your email address below and tap Subscribe. You may unsubscribe at any time.
+
+{{<subscribe_form>}}
