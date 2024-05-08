@@ -6,7 +6,6 @@
 }
 
 form.mailing-list {
-  padding: 10px;
   text-align: center;
   max-width: calc(var(--nav-width) + var(--gap) * 2);
   margin-inline-start: auto;
@@ -16,6 +15,7 @@ form.mailing-list {
 form.mailing-list label {
   display: block;
   font-weight: bold;
+  padding-top: 5px;
 }
 
 form.mailing-list input[type="email"] {
@@ -24,7 +24,7 @@ form.mailing-list input[type="email"] {
   color: var(--primary);
   margin: 8px;
   padding: 4px;
-  min-width: 50%;
+  min-width: 80%;
 }
 
 form.mailing-list button {
