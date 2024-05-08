@@ -15,15 +15,16 @@ form.mailing-list label {
   font-weight: bold;
 }
 
-form.mailing-list input[type="text"] {
+form.mailing-list input[type="email"] {
   background: var(--theme);
   border-radius: 4px;
   color: var(--primary);
   margin: 8px;
   padding: 4px;
+  min-width: 500px;
 }
 
-form.mailing-list input[type="submit"]  {
+form.mailing-list button {
   background: var(--primary);
   border-radius: 18px;
   color: var(--theme);
