@@ -12,6 +12,7 @@ form.mailing-list {
 }
 
 form.mailing-list label {
+  display: block;
   font-weight: bold;
 }
 
@@ -21,7 +22,7 @@ form.mailing-list input[type="email"] {
   color: var(--primary);
   margin: 8px;
   padding: 4px;
-  min-width: 500px;
+  min-width: 50%;
 }
 
 form.mailing-list button {
