@@ -6,7 +6,7 @@ cover:
   image: data-to-ai-health-check-for-startups-cover-page.webp
   relative: true
   alt: "Cover page of the free guide: Data-to-AI Health Check for Startups."
-summary: TODO
+summary: Download a free PDF guide to help you assess a startup's Data-to-AI health by probing eight key areas. 
 comments: false
 editPost:
   disabled: true
@@ -21,28 +21,35 @@ Are you...
 
 If the answer is yes to any of the above, download my free _Data-to-AI Health Check for Startups_ PDF to help guide your next steps.
 
-In the guide, you'll find a set of questions to help you assess a startup's data/AI/ML health, as well as the business context in which data/AI/ML projects get shipped. 
-
-The questions and scoring guidance cover [eight areas](https://yanirseroussi.com/2024/04/22/assessing-a-startups-data-to-ai-health/), resulting in the scorecard shown below.
-
-<div style="text-align: center; font-weight: 500; background-color: var(--code-bg);">
 Startup failure rates are high.<br>
 Data/AI/ML projects often fail to ship.<br>
-Increase your chances of success with the Data-to-AI Health Check.
-</div>
+Increase your chances of success with the _Data-to-AI Health Check for Startups_.
 
-**TODO: parameterised subscribe form (different target + heading + no RSS + button + make it clear that they also subscribe + custom thank you page)**
+<style>
+.mailing-list-container {
+  padding: 10px;
+}
+</style>
 {{<lead_magnet_form>}}
 
-**TODO: comments on the first part questions / link to LinkedIn**
+---
+<p style="text-align: center">
+  <small>
+    <a href="https://www.linkedin.com/posts/yanirseroussi_if-you-join-a-startup-as-an-early-employee-activity-7193738878082564096-PxOS" target="_blank">
+      Early feedback from startup gurus
+    </a>
+  </small>
+</p>
+
+<p style="text-align: center; font-style: italic; font-weight: 600;">
+"A symptom of hard-won personal experience ... a solid list."<br>
+"Excellent advice for anybody looking to join an early stage startup."<br>
+"Great questions to ask any entrepreneur!"
+</p>
+
+---
+
+In the guide, you'll find a set of questions to help you assess a startup's data/AI/ML health, along with the business context in which data/AI/ML projects get shipped.
+The questions and scoring guidance cover [eight areas](https://yanirseroussi.com/2024/04/22/assessing-a-startups-data-to-ai-health/), resulting in the scorecard shown below.
 
 {{< figure src="data-to-ai-health-check-for-startups-scorecard-example.webp" caption="Data-to-AI Health Check: Scorecard example" >}}
-
-[//]: # (1. Product & business model)
-[//]: # (2. People)
-[//]: # (3. Culture)
-[//]: # (4. Processes & project management)
-[//]: # (5. Data)
-[//]: # (6. Tech)
-[//]: # (7. Security & compliance)
-[//]: # (8. Other risks & opportunities)
