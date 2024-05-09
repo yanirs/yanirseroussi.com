@@ -40,6 +40,16 @@ form.mailing-list button {
   padding-top: 0;
 }
 
+.mailing-list-container .footer a {
+  border-bottom: none;
+  box-shadow: none;
+  text-decoration: underline;
+}
+
+.mailing-list-container ul.formkit-alert {
+  margin-bottom: 0;
+}
+
 .mailing-list-link {
   background: var(--tertiary);
   color: var(--primary);
