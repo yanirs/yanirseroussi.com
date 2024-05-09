@@ -4,6 +4,10 @@ article.post-single figure.entry-cover img {
   max-height: 250px;
 }
 
+article.post-single img {
+  border: 1px solid var(--primary);
+}
+
 .post-content p.intro-note {
   font-size: 15px;
   font-style: italic;
