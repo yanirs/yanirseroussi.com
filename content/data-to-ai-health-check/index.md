@@ -6,7 +6,7 @@ cover:
   image: data-to-ai-health-check-for-startups-cover-page.webp
   relative: true
   alt: "Cover page of the free guide: Data-to-AI Health Check for Startups."
-summary: Download a free PDF guide to help you assess a startup's Data-to-AI health by probing eight key areas. 
+summary: Download a free PDF guide that helps you assess a startup's Data-to-AI health by probing eight key areas.
 comments: false
 editPost:
   disabled: true
