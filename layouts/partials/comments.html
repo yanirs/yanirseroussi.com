@@ -1,3 +1,6 @@
+{{- partial "subscribe_hover.html" . }}
+{{- partial "subscribe_form.html" . }}
+
 <section class="comment-section">
   {{ $comments := index $.Site.Data.comments .File.ContentBaseName | default slice }}
 
