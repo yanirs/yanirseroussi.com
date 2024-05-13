@@ -4,7 +4,7 @@ enableGitInfo: true
 languageCode: en-au
 paginate: 10000
 theme: papermod
-title: Yanir Seroussi | Data & AI for Impact
+title: Yanir Seroussi | Data & AI for Startup Impact
 
 markup:
   goldmark:
@@ -42,7 +42,7 @@ params:
   hideFooter: true
   profileMode:
     enabled: true
-    title: 'Yanir Seroussi &ndash; Data & AI Expert'
+    title: 'Yanir Seroussi<br>Startup Data & AI Consultant'
     subtitle: |
       [Consulting for](/consult/)...
       : startups and scaleups focused on growing while making a positive impact
