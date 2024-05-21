@@ -19,7 +19,7 @@ This is a high-level overview of my approach to consulting and the sort of probl
 
 With [my broad experience in data science, software engineering, and artificial intelligence](/about/), I can help in a variety of situations. My key offerings are:
 
-- Short one-off advisory sessions to address specific challenges and questions ([book paid call](https://talkw.me/@yanir)).
+- Short one-off advisory sessions to address specific challenges and questions ([book Data-to-AI Strategy Consultation call](https://calendly.com/yanir-seroussi/data-to-ai-strategy-consultation)).
 - Longer engagements to tackle data & AI problems ([contact me to discuss](/contact/)). These have two components:
   1. Problem definition and strategic planning; and
   2. Help with implementation (if I don't have the capacity to do it, I'll connect you with the right people).
