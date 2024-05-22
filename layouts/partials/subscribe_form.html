@@ -54,7 +54,7 @@ $dataOptions := (dict
         )
     )
     "version" "5"
-) | jsonify | htmlEscape
+) | jsonify
 }}
 
 <div class="mailing-list-container">
@@ -67,7 +67,7 @@ $dataOptions := (dict
     data-uid="9157759fce"
     data-format="inline"
     data-version="5"
-    data-options="{{ $dataOptions }}"
+    data-options='{{ $dataOptions }}'
   >
     <div data-style="clean">
       <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
