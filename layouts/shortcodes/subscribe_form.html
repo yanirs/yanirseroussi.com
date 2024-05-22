@@ -1,1 +1,1 @@
-{{- partial "subscribe_form.html" (dict "context" .) }}
+{{- partial "subscribe_form.html" ($.Params | default dict) }}
