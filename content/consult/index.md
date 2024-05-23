@@ -1,10 +1,10 @@
 ---
-title: Data & AI Consulting Services
+title: Data & AI Consulting for Startups
 author: Yanir Seroussi
 type: page
 cover:
-  image: /consulting-logo.webp
-  alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph.
+  image: /yanir-seroussi-startup-data-and-ai-consultant-banner.webp
+  alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph next to his profile picture.
   caption: Helping startups ship data-intensive solutions (AI/ML for climate/nature tech).
 summary: Yanir Seroussi's Data & AI consulting services, mostly targeting startups and scaleups focused on positive-impact outcomes.
 comments: false
