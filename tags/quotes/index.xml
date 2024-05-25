@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Fri, 05 Apr 2024 01:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adapting to the economy of algorithms</title>
+      <link>https://yanirseroussi.com/til/2024/05/25/adapting-to-the-economy-of-algorithms/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/til/2024/05/25/adapting-to-the-economy-of-algorithms/</guid>
+      <description>Overview of the book The Economy of Algorithms by Marek Kowalkiewicz.</description>
+    </item>
     <item>
       <title>The data engineering lifecycle is not going anywhere</title>
       <link>https://yanirseroussi.com/til/2024/04/05/the-data-engineering-lifecycle-is-not-going-anywhere/</link>
