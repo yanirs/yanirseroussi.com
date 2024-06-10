@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 27 May 2024 02:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 04:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Startup data health starts with healthy event tracking</title>
+      <link>https://yanirseroussi.com/2024/06/10/startup-data-health-starts-with-healthy-event-tracking/</link>
+      <pubDate>Mon, 10 Jun 2024 04:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/06/10/startup-data-health-starts-with-healthy-event-tracking/</guid>
+      <description>Expanding on the startup health check question of tracking Kukuyeva&amp;rsquo;s five business aspects as wide events.</description>
+    </item>
     <item>
       <title>Plumbing, Decisions, and Automation: De-hyping Data &amp; AI</title>
       <link>https://yanirseroussi.com/2024/05/27/plumbing-decisions-and-automation-de-hyping-data-and-ai/</link>
