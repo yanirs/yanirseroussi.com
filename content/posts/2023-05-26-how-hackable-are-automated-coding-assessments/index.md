@@ -16,6 +16,21 @@ tags:
   - software engineering
 
 ---
+<div style="border: solid 1px; border-radius: 4px; padding: 10px 10px 0 10px; margin-bottom: 20px;">
+  <b>Update (2024-06-19):</b>
+  <ul>
+    <li>
+      If you're here for tips on CodeSignal's Industry Coding Framework, one of the best things you can read is
+<a href="https://web.archive.org/web/20230321142915/https://discover.codesignal.com/rs/659-AFH-023/images/Industry-Coding-Skills-Evaluation-Framework-CodeSignal-Skills-Evaluation-Lab-Short.pdf" target="_blank" rel="noopener">their whitepaper on the topic</a>. Scroll all the way down for a sample task.
+    </li>
+    <li>
+      If you're searching for a remote job, you might find <a href="https://github.com/yanirs/established-remote/" target="_blank" rel="noopener">my list of established remote companies</a> useful. You might also like <a href="https://remoterocketship.com/?ref=yanirs-hackable-coding-assessments"  target="_blank" rel="noopener">Remote Rocketship for tens of thousands of job ads</a>.
+    </li>
+    <li>
+      If you're here for a long rant about the silliness of hackable coding assessments and the hoops you need to jump through as a candidate, keep reading. Also feel free to <a href="/contact/">contact me</a> if you have a fun (or not so fun) story to share.
+    </li>
+  </ul>
+</div>
 
 In the essay [The Lesson to Unlearn](http://www.paulgraham.com/lesson.html), Paul Graham makes the claim that students are trained to win by hacking bad tests. That is, to get good grades, one has to avoid spending too much time on material that won't be turned into test questions. Instead, one's focus has to be on test-specific study. Students are taught that actual learning is less important than maximising grades. That is the lesson to unlearn.[^paul-graham]
 
