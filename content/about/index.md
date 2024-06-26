@@ -6,7 +6,7 @@ cover:
   relative: true
   image: profile.jpg
   alt: Yanir Seroussi's profile picture
-summary: About Yanir Seroussi, a hands-on data tech lead with over a decade of experience. Yanir helps climate & nature tech startups ship data-intensive solutions.
+summary: About Yanir Seroussi, a hands-on data tech lead with over a decade of experience. Yanir helps climate/nature tech startups ship data-intensive solutions.
 comments: false
 # Avoid 404 when following the link for the final WP.com post.
 aliases:
