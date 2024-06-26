@@ -1,5 +1,5 @@
 ---
-title: Talks
+title: 'Past talks by Yanir: Startup Data & AI Consultant'
 author: Yanir Seroussi
 type: page
 comments: false
@@ -8,13 +8,14 @@ cover:
   relative: true
   image: /fractional-chief-data-officer/assets/yanir-seroussi-dataengbytes-bne-2023.webp
   alt: Yanir Seroussi giving a talk at DataEngBytes Brisbane 2023.
+summary: Yanir Seroussi's talks on data science, artificial intelligence, machine learning, and career journey.
 aliases:
  - /presentations/
 editPost:
   disabled: true
 disableShare: true
 ---
-Just a list of some talks I've given, saved here for future reference and for general public benefit.
+Talks I've given over the years, saved here for future reference and for public benefit.
 
   * [Lessons from reluctant data engineering](https://docs.google.com/presentation/d/100GiDkp3UKfQtWtxZOF4CaJWTuSYtkEYxkI0_INdqq8/edit) (presented at [DataEngBytes](https://dataengconf.com.au/) Brisbane 2023; see [video](https://www.youtube.com/watch?v=NE6e7Xx7OLQ) and [post](https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/))
   * [Data ethics &ndash; beyond curve fitting](https://docs.google.com/presentation/d/1vi0YKxmevanE8zA6u2ZuA835boSXKMa-Su8LZmLA7EA/edit) (given as part of a local fast.ai course in June 2021; see [video](https://www.youtube.com/watch?v=P1ebqJ4ZIEI) and [post](https://yanirseroussi.com/2021/11/22/use-your-human-brain-to-avoid-artificial-intelligence-disasters/))
