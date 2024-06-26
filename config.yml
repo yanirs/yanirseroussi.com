@@ -35,7 +35,7 @@ params:
   cover:
     hiddenInList: true
   description: |
-    Using advancements in data and artificial intelligence tech to make a positive impact on our world.
+    Helping climate & nature tech startups ship data-intensive solutions (artificial intelligence, machine learning, data science, and advanced analytics).
   disableScrollToTop: true
   editPost:
     disabled: true
@@ -44,16 +44,22 @@ params:
     enabled: true
     title: 'Yanir Seroussi<br>Startup Data & AI Consultant'
     subtitle: |
-      [Consulting for](/consult/)...
-      : startups and scaleups focused on growing while making a positive impact
-      
-      [Experienced in](/about/)...
-      : software engineering (15+ years; Computer Science BSc)<br>
-      data science / engineering (10+ years; Artificial Intelligence PhD)<br>
-      tech leadership (5+ years with startups and scaleups)
+      **Current mission:**
+      : [Helping climate & nature tech startups ship data-intensive solutions. 🐳](/consult/)
 
-      [Posting about](/posts/)...
-      : data and artificial intelligence, and their role in driving positive business impact
+      **Industry experience:**
+      : [Over a decade with startups & scaleups across data science, engineering, and tech leadership roles.](/about/)
+      
+      **Formal education:**
+      : [BSc in Computer Science. PhD in Artificial Intelligence. Still learning every day.](/about/#past-work-examples)
+
+      **Sample testimonial:**
+      : _["The single most talented person I've had the opportunity to work with in my nearly 15 years in Data/ML."](/about/#testimonials)_
+
+      **Writing topics:**
+      : [Data / AI / ML, with a focus on practical applications for startups.](/posts/)
+
+      {{<subscribe_form>}}
     imageUrl: /home-profile.webp
     imageTitle: Yanir Seroussi's profile picture
     imageWidth: 278

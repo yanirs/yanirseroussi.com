@@ -3,15 +3,20 @@
 }
 
 .home-info a, .profile a {
-  text-decoration: underline;
+  border-bottom: 1px dotted;
+  padding-bottom: 3px;
 }
 
-.profile .buttons a {
-  text-decoration: none;
+.profile .buttons a, .profile .social-icons a {
+  border-bottom: unset;
 }
 
 .profile_inner {
   text-align: left;
+}
+
+.profile_inner dl dt {
+  line-height: 2.5;
 }
 
 .home-info .entry-header h1, .profile h1 {
