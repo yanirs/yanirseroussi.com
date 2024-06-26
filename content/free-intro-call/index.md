@@ -30,7 +30,7 @@ Once you submit the form, you'll receive a confirmation email with the booking l
 {{<subscribe_form
     email_label="Register for a free fifteen-minute call"
     form_id=6599419
-    show_rss=false
+    show_footer=false
     submit_label="Register"
     success_message="Success! Now check your email for booking details."
     tag_id=5031249

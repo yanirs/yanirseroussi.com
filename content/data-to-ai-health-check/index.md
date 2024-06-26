@@ -33,7 +33,7 @@ Increase your chances of success with the _Data-to-AI Health Check for Startups_
 {{<subscribe_form
     email_label="Get your copy by email today"
     form_id=6554492
-    show_rss=false
+    show_footer=false
     submit_label="Submit"
     success_message="Success! Now check your email to get your PDF guide."
     tag_id=5001948
