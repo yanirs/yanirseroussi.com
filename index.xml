@@ -839,19 +839,18 @@ Causal Inference: What if by Miguel Hernán and Jamie Robins: The most practical
       <description>Consulting for climate &amp;amp; nature tech startups: Strategic advice, implementation of Data/AI/ML solutions, and hiring help by an experienced tech leader.</description>
     </item>
     <item>
+      <title>Past talks by Yanir: Startup Data &amp; AI Consultant</title>
+      <link>https://yanirseroussi.com/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/talks/</guid>
+      <description>Yanir Seroussi&amp;rsquo;s talks on data science, artificial intelligence, machine learning, and career journey.</description>
+    </item>
+    <item>
       <title>Stay in touch</title>
       <link>https://yanirseroussi.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/contact/</guid>
       <description>Contact me or subscribe to the mailing list.</description>
-    </item>
-    <item>
-      <title>Talks</title>
-      <link>https://yanirseroussi.com/talks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/talks/</guid>
-      <description>Just a list of some talks I&amp;rsquo;ve given, saved here for future reference and for general public benefit.
-Lessons from reluctant data engineering (presented at DataEngBytes Brisbane 2023; see video and post) Data ethics – beyond curve fitting (given as part of a local fast.ai course in June 2021; see video and post) Moving Automattic to net zero carbon emissions (PublishPress interview from November 2020) Running remote data teams (Data Futurology webinar from June 2020) Bootstrapping the right way (presented at YOW!</description>
     </item>
   </channel>
 </rss>
