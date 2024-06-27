@@ -44,11 +44,47 @@ Yanir is that rare data/AI practitioner who combines deep experience in data sci
 
 ## Modes of engagement
 
-- [Advisory calls](https://calendly.com/yanir-seroussi/data-to-ai-strategy-consultation)
-- Well-scoped short-term Data/AI/ML projects
-- [Fractional Chief Data Officer engagements](/fractional-chief-data-officer/#/)
-
 We start with low-commitment engagements to assess fit and build mutual trust. If there's scope for deeper work, I'll embed with your team to help with hands-on delivery. My goal is to help you build in-house capabilities so you can keep growing independently.
+
+Engagements fall into one of the following four buckets.
+
+### 1. One-off advisory calls
+
+These are meant to tackle a specific issue within the space of an hour, such as:
+
+- First Data/AI/ML hire for your startup
+- Review of your AI/ML opportunities and approach
+- Advice on a specific data science problem
+
+<p style="text-align: center;">
+  <a class="fake-button" href="https://calendly.com/yanir-seroussi/data-to-ai-strategy-consultation" target="_blank" rel="noreferrer">Book an advisory call</a>
+</p>
+
+The fee for a one-off advisory call is AU$300, which includes my preparation based on information that you provide. If I don't meet your expectations, you may cancel the call for a full refund up to 15 minutes from the start time.
+
+### 2. Bespoke review and roadmapping
+
+This includes tailoring my [Data-to-AI Health Check for Startups](/data-to-ai-health-check/) to your needs.
+
+We'll follow this process:
+
+1. **Gather information:** Collect details about the current state of your Data/AI/ML lifecycles and operations, focusing on major pain points and requirements. This is done through document requests, email questions, and meetings with team members, while minimising disruption to your everyday work.
+2. **Analyse findings:** Summarise key findings to assess where you stand relative to best practices and your goals.
+3. **Recommend roadmap:** Develop a roadmap to support adoption of best practices and appropriate tools based on the identified gaps and requirements. The goal is to match your needs and capacity rather than simply recommend a bunch of tools from [the aptly-named MAD landscape](https://mattturck.com/landscape/mad2024.pdf).
+
+Fees depend on the complexity of your startup, but typically start at AU$7000.
+
+### 3. Custom Data/AI/ML projects
+
+Depending on your business needs and my capacity, we may work together on well-scoped short-term Data/AI/ML projects. For example, I can help you set up [a minimum viable data stack](https://yanirseroussi.com/2024/02/19/building-your-startups-minimum-viable-data-stack/) or prototype an AI/ML system (e.g., for [computer vision](https://yanirseroussi.com/2023/11/29/supporting-volunteer-monitoring-of-marine-biodiversity-with-modern-web-and-data-tools/), [marketing optimisation](https://yanirseroussi.com/2021/10/07/my-work-with-automattic/), or [data extraction](https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/) &ndash; [the possibilities are endless](https://yanirseroussi.com/2024/05/27/plumbing-decisions-and-automation-de-hyping-data-and-ai/)). This will happen in collaboration with your team, with the goal of building your capacity to maintain the project artefacts.
+
+Fees for short-term projects vary, but are fixed at the project or milestone level for predictable budgeting.
+
+### 4. Fractional engagements
+
+Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is [Fractional Chief Data & AI Officer](/fractional-chief-data-officer/#/), which essentially means I'd join your team on a part-time basis. As I'm targeting seed to series A startups, this would typically include some hands-on work, along with strategy and team formation.
+
+Fees for fractional engagements start at AU$5000 per month.
 
 **Interested in working together?** [Book a free intro call](/free-intro-call/) or [contact me to discuss](/contact/).
 

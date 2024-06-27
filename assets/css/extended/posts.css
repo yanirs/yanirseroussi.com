@@ -51,3 +51,26 @@ article.post-single img {
   font-size: 13px;
   text-decoration: underline;
 }
+
+.post-content a.fake-button {
+  background: var(--primary);
+  border-radius: 18px;
+  box-shadow: none;
+  color: var(--theme);
+  font-size: 16px;
+  padding: 16px;
+}
+
+.post-content a.fake-button:hover {
+  background: var(--theme);
+  border: 1px solid;
+  color: var(--primary);
+}
+
+.post-content a.fake-button:focus {
+  outline: 0;
+}
+
+.post-content p.text-center {
+  text-align: center;
+}
