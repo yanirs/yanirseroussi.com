@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/security/</loc>
+    <lastmod>2024-07-01T12:43:08+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
+    <lastmod>2024-07-01T12:43:08+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/startups/</loc>
+    <lastmod>2024-07-01T12:43:08+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2024/07/01/stay-alert-security-is-everyones-responsibility/</loc>
+    <lastmod>2024-07-01T12:43:08+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2024-07-01T12:43:08+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2024-07-01T12:43:08+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/business/</loc>
     <lastmod>2024-06-26T10:45:15+10:00</lastmod>
   </url><url>
@@ -13,15 +31,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/tags/quotes/</loc>
     <lastmod>2024-06-26T10:45:15+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/startups/</loc>
-    <lastmod>2024-06-26T10:45:15+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2024-06-26T10:45:15+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
-    <lastmod>2024-06-27T12:40:16+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/analytics/</loc>
     <lastmod>2024-06-24T14:12:50+10:00</lastmod>
@@ -39,9 +48,6 @@
     <lastmod>2024-06-24T14:12:50+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
-    <lastmod>2024-06-24T14:12:50+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
     <lastmod>2024-06-24T14:12:50+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2024/06/22/dealing-with-endless-data-changes/</loc>
@@ -238,9 +244,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/tags/github/</loc>
     <lastmod>2024-01-16T09:56:03+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/security/</loc>
-    <lastmod>2023-07-25T09:30:43+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2023/07/23/using-yubikey-for-ssh-access/</loc>
     <lastmod>2023-07-25T09:30:43+10:00</lastmod>

@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 02:00:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security</title>
+      <link>https://yanirseroussi.com/tags/security/</link>
+      <pubDate>Mon, 01 Jul 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://yanirseroussi.com/tags/software-engineering/</link>
+      <pubDate>Mon, 01 Jul 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startups</title>
+      <link>https://yanirseroussi.com/tags/startups/</link>
+      <pubDate>Mon, 01 Jul 2024 02:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/startups/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Business</title>
       <link>https://yanirseroussi.com/tags/business/</link>
@@ -28,13 +49,6 @@
       <link>https://yanirseroussi.com/tags/quotes/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/quotes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Startups</title>
-      <link>https://yanirseroussi.com/tags/startups/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/startups/</guid>
       <description></description>
     </item>
     <item>
@@ -70,13 +84,6 @@
       <link>https://yanirseroussi.com/tags/machine-learning/</link>
       <pubDate>Mon, 24 Jun 2024 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Engineering</title>
-      <link>https://yanirseroussi.com/tags/software-engineering/</link>
-      <pubDate>Mon, 24 Jun 2024 02:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -224,13 +231,6 @@
       <link>https://yanirseroussi.com/tags/github/</link>
       <pubDate>Sun, 23 Jul 2023 00:07:15 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://yanirseroussi.com/tags/security/</link>
-      <pubDate>Sun, 23 Jul 2023 00:07:15 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/security/</guid>
       <description></description>
     </item>
     <item>
