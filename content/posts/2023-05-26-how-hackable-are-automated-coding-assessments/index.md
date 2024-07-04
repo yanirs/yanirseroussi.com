@@ -27,6 +27,9 @@ tags:
       If you're searching for a remote job, you might find <a href="https://github.com/yanirs/established-remote/" target="_blank" rel="noopener">my list of established remote companies</a> useful. You might also like <a href="https://remoterocketship.com/?ref=yanirs-hackable-coding-assessments"  target="_blank" rel="noopener">Remote Rocketship for tens of thousands of job ads</a>.
     </li>
     <li>
+      If you're after a startup job, <a href="https://yanirseroussi.com/data-to-ai-health-check/" target="_blank" rel="noopener">my Data-to-AI Health Check for Startups</a> contains a set of questions you may find useful before accepting an offer.
+    </li>
+    <li>
       If you're here for a long rant about the silliness of hackable coding assessments and the hoops you need to jump through as a candidate, keep reading. Also feel free to <a href="/contact/">contact me</a> if you have a fun (or not so fun) story to share.
     </li>
   </ul>
