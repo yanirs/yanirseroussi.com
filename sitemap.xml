@@ -2,8 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/analytics/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
-    <lastmod>2024-07-08T14:09:24+10:00</lastmod>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-science/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-strategy/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2024/07/15/learn-about-dataland-to-avoid-expensive-hiring-mistakes/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/startups/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/video/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2024-07-15T15:54:38+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/business/</loc>
     <lastmod>2024-07-08T14:09:24+10:00</lastmod>
@@ -12,15 +39,6 @@
     <lastmod>2024-07-08T14:09:24+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/productivity/</loc>
-    <lastmod>2024-07-08T14:09:24+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/startups/</loc>
-    <lastmod>2024-07-08T14:09:24+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2024-07-08T14:09:24+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
     <lastmod>2024-07-08T14:09:24+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/security/</loc>
@@ -40,15 +58,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/tags/quotes/</loc>
     <lastmod>2024-06-26T10:45:15+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/analytics/</loc>
-    <lastmod>2024-06-24T14:12:50+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/data-science/</loc>
-    <lastmod>2024-06-24T14:12:50+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/data-strategy/</loc>
-    <lastmod>2024-06-24T14:12:50+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/06/24/is-your-tech-stack-ready-for-data-intensive-applications/</loc>
     <lastmod>2024-06-24T14:12:50+10:00</lastmod>
@@ -76,9 +85,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/2024/06/03/how-to-avoid-startups-with-poor-development-processes/</loc>
     <lastmod>2024-06-03T12:58:00+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
-    <lastmod>2024-05-27T12:25:30+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/05/27/plumbing-decisions-and-automation-de-hyping-data-and-ai/</loc>
     <lastmod>2024-05-27T12:25:30+10:00</lastmod>
