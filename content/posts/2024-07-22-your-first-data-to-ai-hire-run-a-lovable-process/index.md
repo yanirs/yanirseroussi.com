@@ -8,7 +8,7 @@ cover:
   relative: true
   image: keep-it-efficient-and-respectful.webp
   alt: screenshot of Yanir Seroussi with a slide that says 'above all... keep it efficient and respectful'
-summary: Video and key points from the first part of a webinar on a startup's first data hire, covering tips for defining the role and running the process.
+summary: Video and key points from the second part of a webinar on a startup's first data hire, covering tips for defining the role and running the process.
 tags:
   - analytics
   - artificial intelligence
