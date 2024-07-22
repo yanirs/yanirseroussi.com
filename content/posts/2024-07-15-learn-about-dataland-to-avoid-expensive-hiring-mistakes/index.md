@@ -13,6 +13,7 @@ tags:
   - analytics
   - artificial intelligence
   - data engineering
+  - data hiring
   - data science
   - data strategy
   - startups
@@ -75,3 +76,5 @@ This diagram evolved from [a post I wrote on the first data hire a few months ag
 In the middle of the diagram, we have the unicorns who are good at everything. These do exist &ndash; they're just hard to hire and retain. But even the most talented person can't do everything all the time. That's why hiring for one of the above two options is more feasible.
 
 Next up, I'll record the second part of the webinar, which covers the actual hiring. In the meantime, any feedback is welcome.
+
+_Update 2024-07-22:_ The second part is [here](https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/).

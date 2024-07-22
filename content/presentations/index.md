@@ -17,6 +17,7 @@ disableShare: true
 ---
 Talks I've given over the years, saved here for future reference and for public benefit.
 
+  * [Your first Data-to-AI hire](https://yanirseroussi.com/talks/first-data-hire/#/) (presented to [Climate Salad members](https://members.climatesalad.com/event/receSv3NcyUVs4Z2o)); see posts with practice recordings: [part 1](https://yanirseroussi.com/2024/07/15/learn-about-dataland-to-avoid-expensive-hiring-mistakes/) & [part 2](https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/))
   * [Lessons from reluctant data engineering](https://docs.google.com/presentation/d/100GiDkp3UKfQtWtxZOF4CaJWTuSYtkEYxkI0_INdqq8/edit) (presented at [DataEngBytes](https://dataengconf.com.au/) Brisbane 2023; see [video](https://www.youtube.com/watch?v=NE6e7Xx7OLQ) and [post](https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/))
   * [Data ethics &ndash; beyond curve fitting](https://docs.google.com/presentation/d/1vi0YKxmevanE8zA6u2ZuA835boSXKMa-Su8LZmLA7EA/edit) (given as part of a local fast.ai course in June 2021; see [video](https://www.youtube.com/watch?v=P1ebqJ4ZIEI) and [post](https://yanirseroussi.com/2021/11/22/use-your-human-brain-to-avoid-artificial-intelligence-disasters/))
   * [Moving Automattic to net zero carbon emissions](https://www.youtube.com/watch?v=tMFr_agPLJY) (PublishPress interview from November 2020)

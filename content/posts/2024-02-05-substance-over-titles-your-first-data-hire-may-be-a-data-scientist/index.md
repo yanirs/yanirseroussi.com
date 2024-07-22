@@ -14,6 +14,7 @@ tags:
   - business
   - career
   - data engineering
+  - data hiring
   - data science
   - startups
 ---
