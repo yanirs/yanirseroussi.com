@@ -94,7 +94,7 @@ I like the simplicity of the diagram, but it's missing some arrows. For example,
 
 I went through a couple of iterations of refining this idea and landed on the following diagram: Each stage is a step up the AI/ML lifecycle stairs, but analysing the problems that arise can send you tumbling down. It's a bit like a game of [snakes and ladders](https://en.wikipedia.org/wiki/Snakes_and_ladders) that is not based purely on luck.
 
-{{<figure src="ai-ml-lifecycle-steps.svg" caption="My version of the AI/ML lifecycle: Most arrows are implicit. You go up and down the stairs as reality dictates. Introducing automation to ascend faster on each iteration is the ideal.">}}
+{{<figure src="ai-ml-lifecycle-steps.png" caption="My version of the AI/ML lifecycle: Most arrows are implicit. You go up and down the stairs as reality dictates. Introducing automation to ascend faster on each iteration is the ideal.">}}
 
 ## Experimentation versus productionisation: Why not both?
 
