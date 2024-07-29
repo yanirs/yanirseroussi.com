@@ -153,13 +153,13 @@ As a rough guide, the following table summarises the level of human touch on a 1
       <td>Model deployment</td>
       <td style="background-color: #ffcccc; color: black; text-align: center;">3</td>
       <td style="background-color: #ffe6e6; color: black; text-align: center;">2</td>
-      <td style="background-color: #ffe6e6; color: black; text-align: center;">1</td>
+      <td style="background-color: #fff3f3; color: black; text-align: center;">1</td>
     </tr>
     <tr>
       <td>Monitoring & maintenance</td>
       <td style="background-color: #ffe6e6; color: black; text-align: center;">2</td>
-      <td style="background-color: #ffe6e6; color: black; text-align: center;">1</td>
-      <td style="background-color: #ffe6e6; color: black; text-align: center;">1</td>
+      <td style="background-color: #fff3f3; color: black; text-align: center;">1</td>
+      <td style="background-color: #fff3f3; color: black; text-align: center;">1</td>
     </tr>
   </tbody>
 </table>
