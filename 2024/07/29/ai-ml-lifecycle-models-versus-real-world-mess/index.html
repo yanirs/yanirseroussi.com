@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AI/ML lifecycle models versus real-world mess | Yanir Seroussi | Data &amp; AI for Startup Impact</title>
+<meta name="keywords" content="artificial intelligence, consulting, data strategy, machine learning">
+<meta name="description" content="The real world of AI/ML doesn&rsquo;t fit into a neat diagram, so I created another diagram and a maturity heatmap to model the mess.">
+<meta name="author" content="Yanir Seroussi">
+<link rel="canonical" href="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/">
+<meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aae7b8d6eabaa881f37800d50b4d8604e83f1b3aa14069aaa7e0db30a27839d7.css" integrity="sha256-que41uq6qIHzeADVC02GBOg/GzqhQGmqp&#43;DbMKJ4Odc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://yanirseroussi.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://yanirseroussi.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://yanirseroussi.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+
+<meta property="og:title" content="AI/ML lifecycle models versus real-world mess" />
+<meta property="og:description" content="The real world of AI/ML doesn&rsquo;t fit into a neat diagram, so I created another diagram and a maturity heatmap to model the mess." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/" />
+<meta property="og:image" content="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-29T06:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-29T16:26:07+10:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp" />
+<meta name="twitter:title" content="AI/ML lifecycle models versus real-world mess"/>
+<meta name="twitter:description" content="The real world of AI/ML doesn&rsquo;t fit into a neat diagram, so I created another diagram and a maturity heatmap to model the mess."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Browse Posts",
+      "item": "https://yanirseroussi.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "AI/ML lifecycle models versus real-world mess",
+      "item": "https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI/ML lifecycle models versus real-world mess",
+  "name": "AI\/ML lifecycle models versus real-world mess",
+  "description": "The real world of AI/ML doesn\u0026rsquo;t fit into a neat diagram, so I created another diagram and a maturity heatmap to model the mess.",
+  "keywords": [
+    "artificial intelligence", "consulting", "data strategy", "machine learning"
+  ],
+  "articleBody": "One of my challenges with the transition to consulting is running effective diagnoses. As a long-term employee, you develop an awareness of problems within your organisation – especially problems you’ve caused yourself (e.g., by taking on tech debt). As an outsider with deep industry knowledge, you can guess what the problems are based on the initial brief. However, there’s often no way around spending time with a client to thoroughly diagnose their problems and propose custom solutions.\nFor a recent engagement, the high-level brief was to help the client overcome challenges around the reproducibility and rigour of their machine learning work (AI/ML henceforth). Without getting into confidential details, it was immediately apparent that some of the challenges were due to a lack of engineering experience by the scientists building the models (which is a common problem).\nAs my path into data science \u0026 AI/ML was via software engineering, I’ve always found myself doing engineering work in my data roles. If I were a full-time employee of the client, I’d have ample time to introduce engineering best practices and processes, and help the scientists develop relevant skills (e.g., as I’ve done in my full-time work with Automattic). However, as an external consultant, I didn’t have the luxury of understanding the context and building relationships over months and years. While I do offer long-term engagements to help with implementation, I prefer completing the initial discovery phase as a separate engagement, before requiring either party to commit to working together long-term. Therefore, I had to figure out an effective way to diagnose the problems and propose a roadmap.\nAs a part of the discovery phase, I could use the questions from the Tech section of my Data-to-AI Health Check for Startups. Specifically, the first three questions should provide a good overview of the current state of processes and tooling:\nQ1: Provide an architecture diagram for your tech systems (product and data stacks), including first-party and third-party tools and databases. If a diagram doesn’t exist, an ad hoc drawing would work as well. Q2: Zooming in on data stacks, what tools and pipelines do you use for the data engineering lifecycles (generation, storage, ingestion, transformation, and serving), and downstream uses (analytics, AI/ML, and reverse ETL)? Q3: Zooming in further on the downstream uses of analytics and AI/ML, what systems, processes, and tools do you use to manage their lifecycles (discovery, data preparation, model engineering, deployment, monitoring, and maintenance)? Give specific project examples. However, while I was satisfied with the definition of the data engineering lifecycle (as noted in the Q2 link, its ultimate source is the book Fundamentals of Data Engineering), I didn’t love the definition of the AI/ML lifecycle. As I find lifecycle models incredibly useful for uncovering gaps and opportunities, I decided to dig deeper and find an AI/ML lifecycle model that suits my diagnostic needs. The rest of this post discusses the problem in more detail, and presents my findings.\nMy problems with the AI/ML lifecycle model The AI/ML lifecycle model is messy in at least three ways.\nFirst, the subject of each stage is different:\nDiscovery deals with the business context, stakeholders, and technical feasibility. Data preparation focuses on transforming and exploring the data. Model engineering is where AI-assisted humans create models via iterative coding and experimentation, with the goal of satisfying offline metrics. Deployment, monitoring, and maintenance happen in production – potentially by different people and with results that are far removed from the expectations set by offline metrics. Contrast this with the relative simplicity of the data engineering lifecycle: generation, storage, ingestion, transformation, and serving are all things that happen to data. That is, data is the subject of each stage.\nSecond, experimentation and the probabilistic nature of AI/ML lead to feedback loops. Authors of AI/ML lifecycle models attempt to capture these loops in diagrams that I find confusing. For example, see two of the better sources I found:\nThe ML lifecycle from the AWS Well-Architected Framework The CRISP-ML(Q) model from INNOQ Third, human analysis \u0026 experimentation require different mindsets and tools than productionisation. If you’ve ever worked with AI/ML, you’d know that to be effective you need to step back from optimising for what’s going to happen in production – even if you’re trying to improve a production model. This is partly why notebooks are so popular with data scientists – they support fast iteration. However, notebooks are inherently messy, which is why they aren’t great for production use. This is despite the existence of tools like nbdev and production notebook support by major data platforms and big tech players.\nWith my background in both software engineering and data science, I have used notebooks extensively for rapid experimentation. But I don’t want notebooks in production, where the goal is to maintain a well-structured codebase with testable components and reproducible flows.\nIntegrating analysis into the AI/ML lifecycle model The ideal lifecycle scenario is captured by this quote by David Johnston (from the article on notebooks in production cited above):\nNotebooks are useful tools for interactive data exploration which is the dominant activity of a data scientist working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. The key is to build the ability to experiment into the pipeline itself.\nUnfortunately, reality is often far from this ideal, as noted by Jason Corso (emphasis mine):\nThis rose-tinted view of the machine learning process is often called the machine learning pipeline. And, well, I’m done with hearing about the machine learning pipeline. Everyday work in real machine learning could not be farther from a pipeline.\n[…]\nAs a professor and a founder of an artificial intelligence startup, I’ve had the luxury of interacting with literally hundreds of ML teams. In nearly every case, I’ve heard about the process of going back to the drawing board for the label space, or the inadequacy of the evaluation data set in terms of measuring production performance, or some other issue. It seems the machine learning process is much more complicated than we thought, and certainly much more complicated than we’d like. And, surprisingly, it seems to rarely involve the model choice or the implementation.\n[…]\nI liken the real machine learning process to a random walk. The machine learning problem is often fairly well-designed. And, we take a random walk through some complex space defined by a cross-product between possible datasets and models. It’s a massive and complicated space that evades a careful definition. But, at any instant, we are at a point in that space. As we modify a dataset or a model (architecture or parameters), we move through that space. With the elusive definition of the space, it is impossible to measure a “gradient” of our work in a principled manner.\n[…]\nAnalysis is hence at the heart of the machine learning random walk. The more one can reduce the uncertainty around each decision — each jaunt through the space — the faster one can navigate the random walk toward a performant system.\n[…]\nOptimizing the machine learning process requires an appreciation for the high levels of uncertainty present. Whereas classical computational thinking may lead one to infrastructure-focused orientation that emphasizes the speed and effectiveness by which data gets processed, optimizing the machine learning work instead requires effective mechanisms to uncover false assumptions, mistakes and other mishaps in the manner in which the problem statement was rendered into a computational system.\nI imagine it seems natural to think: ok, fine, once this uncertainty is managed and we have a deployable model, then we can set up our fast, automated pipelines and crunch away in production. To this thought, I’d answer a very clear “maybe.” Sure, one wants to optimize and automate. It certainly makes sense. But, I would still exercise caution: data drift and evolving production expectations create a need to constantly measure and evolve these machine learning systems.\nIn all of these situations, clear software-enabled analytical decisions are required to optimize the machine learning random walk.\nThe full article is worth reading – it was hard to choose just the above quotes!\nFollowing the introduction of analysis as an essential part of AI/ML work at any stage, Corso proposes a simple pipeline diagram that allows for loops via analysis:\nJason Corso’s ML pipeline with analysis-mediated loops I like the simplicity of the diagram, but it’s missing some arrows. For example, sometimes the ML Problem needs redefining, and sometimes analysing the data can lead back to data gathering.\nI went through a couple of iterations of refining this idea and landed on the following diagram: Each stage is a step up the AI/ML lifecycle stairs, but analysing the problems that arise can send you tumbling down. It’s a bit like a game of snakes and ladders that is not based purely on luck.\nMy version of the AI/ML lifecycle: Most arrows are implicit. You go up and down the stairs as reality dictates. Introducing automation to ascend faster on each iteration is the ideal. Experimentation versus productionisation: Why not both? The integration of analysis into the lifecycle addresses the second problem noted above, of explicitly accounting for feedback loops. As to the subject of each stage being different, it’d be hard to reshape the AI/ML lifecycle into something as clean as the data engineering lifecycle and still maintain its usefulness. I’m just going to live with that problem.\nThis leaves us with the third problem, of the need for different mindsets and tools for experimentation and productionisation. There are two types of experiments, though:\nAutomated experimentation in production, e.g., via retraining on fresh data or hyperparameter optimisation. Human experimentation in analysis environments, e.g., testing different prompts, trying a different modelling approach, or reshaping the data. Both experiment types have one thing in common: To count as experiments, results need to be centrally logged and fully reproducible. Anything that doesn’t meet the criteria of logging and reproducibility is tinkering, not experimentation. Tinkering is fine early on, but it doesn’t scale – and notebooks are the tool that epitomises tinkering.\nWhere does this leave us on the problem of different mindsets and tooling, though? Well, it’s hard to capture in a single diagram without overcomplicating things. I realised that this problem requires introducing an additional dimension of maturity:\nLow maturity: Tinkering is fine, as it’s unclear if the model will make it to production. Tinker quickly with whatever tools you’re comfortable with to gain confidence that going to production is feasible and desirable. Medium maturity: Log the experiments and datasets that lead to production models, ensuring reproducibility by other humans in clean environments. If anything changes based on production feedback, all new experiments should be logged. High maturity: Automate experiments in production. Fully replicate production pipelines for offline human analysis and experimentation. As a rough guide, the following table summarises the level of human touch on a 1-5 scale, as a function of stage and maturity level (1: low touch \u0026 high automation). Here, I followed CRISP-ML(Q)’s separation of offline evaluation from model engineering to emphasise the difference in human touch across maturity levels.\nStage Low maturity Medium maturity High maturity Problem discovery 5 5 5 Data engineering 5 4 3 Model engineering 5 4 3 Offline evaluation 4 3 2 Model deployment 3 2 1 Monitoring \u0026 maintenance 2 1 1 In short, ascending the levels of maturity requires more automation – which is often made easier by introducing more tools and enforcing well-defined processes. For example, MLflow is one toolset that as of the time of this writing, offers features like experiment tracking and a model registry. However, many alternatives exist in the 2024 MAD landscape (machine learning, artificial intelligence, and data). As Jason Corso observed: MLOps tools are a fragmented mess, and no vendor has built an end-to-end solution (despite any marketing claims). This may no longer be the case if you’re reading this 5-10 years from now. However, I doubt that the basic idea of increased automation, tooling, and process definition as a function of increased maturity is going to change radically.\nAside: Isn’t everything different with large language models? Short answer: No.\nLonger answer: Using pretrained models (either language-only or multimodal) doesn’t inherently change the lifecycle stages. It just speeds up or obviates some tasks (see the bottom of the CRISP-ML(Q) article for a comprehensive task list). For example, if you’re using a pretrained model as a black box (without fine-tuning), your model engineering stage would only involve model evaluation and prompt engineering. All stages are still required for success beyond the prototype.\nConclusion Unlike some of my other posts, this has been an exercise in public writing with the purpose of figuring something out. Thank you for coming along for the ride!\nMy main takeaways are:\nAccept that human analysis may take you down the AI/ML lifecycle stairs. Aim for increased automation to improve rigour as the maturity of your AI/ML lifecycle increases. Incrementally adopt tools to support reproducible experimentation and analysis, but avoid premature optimisation. The AI/ML lifecycle can’t be simplified to the level of the data engineering lifecycle because the former includes the latter. When diagnosing AI/ML lifecycle problems, query how human analysis is done, and identify opportunities for automation that align with business needs. If it ain’t broke, don’t fix it: There’s nothing wrong with remaining at a low automation level if the cost of introducing more tools and processes outweighs the likely returns. As to the problem of running effective diagnoses, I discovered that the people behind the CRISP-ML(Q) lifecycle model have also published an MLOps Stack Canvas, which includes a bunch of questions that go deep into the practical implementation of the lifecycle. I will use some of them to guide my diagnoses in the future, with the depth of the investigation informed by the maturity level.\n",
+  "wordCount" : "2326",
+  "inLanguage": "en",
+  "image":"https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp","datePublished": "2024-07-29T06:00:00Z",
+  "dateModified": "2024-07-29T16:26:07+10:00",
+  "author":{
+    "@type": "Person",
+    "name": "Yanir Seroussi"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Yanir Seroussi | Data \u0026 AI for Startup Impact",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yanirseroussi.com/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://yanirseroussi.com/" accesskey="h" title="Yanir Seroussi | Data &amp; AI for Startup Impact (Alt + H)">Yanir Seroussi | Data &amp; AI for Startup Impact</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <button id="menu-trigger" aria-haspopup="menu" aria-label="Menu Button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+        <ul class="menu hidden">
+            <li>
+                <a href="https://yanirseroussi.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yanirseroussi.com/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yanirseroussi.com/talks/" title="Talks">
+                    <span>Talks</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://yanirseroussi.com/consult/" title="Consulting">
+                    <span>Consulting</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      AI/ML lifecycle models versus real-world mess
+    </h1>
+    <div class="post-meta"><span title='2024-07-29 06:00:00 +0000 UTC'>July 29, 2024</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" srcset="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_huf52bc104b4e9dacbe880de194309daa3_124078_360x0_resize_q75_h2_box_2.webp 360w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_huf52bc104b4e9dacbe880de194309daa3_124078_480x0_resize_q75_h2_box_2.webp 480w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_huf52bc104b4e9dacbe880de194309daa3_124078_720x0_resize_q75_h2_box_2.webp 720w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_huf52bc104b4e9dacbe880de194309daa3_124078_1080x0_resize_q75_h2_box_2.webp 1080w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp 1200w" 
+            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp" alt="ChatGPT-generated messy machine learning lifecycle model (inspired by xkcd)" 
+            width="1200" height="630">
+        
+</figure>
+  <div class="post-content"><p>One of my challenges with the transition to consulting is running effective diagnoses. As a long-term employee, you develop an awareness of problems within your organisation – especially problems you&rsquo;ve caused yourself (e.g., by taking on tech debt). As an outsider with deep industry knowledge, you can <em>guess</em> what the problems are based on the initial brief. However, there&rsquo;s often no way around spending time with a client to thoroughly diagnose their problems and propose custom solutions.</p>
+<p>For a recent engagement, the high-level brief was to help the client overcome challenges around the reproducibility and rigour of their machine learning work (AI/ML henceforth). Without getting into confidential details, it was immediately apparent that some of the challenges were due to a lack of engineering experience by the scientists building the models (which is a <a href="https://medium.com/@jasoncorso/observations-on-mlops-a-fragmented-mosaic-of-mismatched-expectations-3488685ec0b6" target="_blank" rel="noopener">common problem</a>).</p>
+<p>As <a href="https://yanirseroussi.com/2015/05/02/first-steps-in-data-science-author-aware-sentiment-analysis/">my path into data science &amp; AI/ML was via software engineering</a>, I&rsquo;ve always found myself <a href="https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/">doing engineering work in my data roles</a>. If I were a full-time employee of the client, I&rsquo;d have ample time to introduce engineering best practices and processes, and help the scientists develop relevant skills (e.g., as I&rsquo;ve done in <a href="https://yanirseroussi.com/2021/10/07/my-work-with-automattic/">my full-time work with Automattic</a>). However, as an external consultant, I didn&rsquo;t have the luxury of understanding the context and building relationships over months and years. While I do offer long-term engagements to help with implementation, I prefer completing the initial discovery phase as a separate engagement, before requiring either party to commit to working together long-term. Therefore, I had to figure out an effective way to diagnose the problems and propose a roadmap.</p>
+<p>As a part of the discovery phase, I could use <a href="https://yanirseroussi.com/2024/06/24/is-your-tech-stack-ready-for-data-intensive-applications/">the questions from the Tech section of my Data-to-AI Health Check for Startups</a>.
+Specifically, the first three questions should provide a good overview of the current state of processes and tooling:</p>
+<blockquote>
+<ul>
+<li>Q1: Provide an architecture diagram for your tech systems (product and data stacks), including first-party and third-party tools and databases. If a diagram doesn&rsquo;t exist, an ad hoc drawing would work as well.</li>
+<li>Q2: Zooming in on data stacks, what tools and pipelines do you use for the <a href="https://yanirseroussi.com/til/2024/04/05/the-data-engineering-lifecycle-is-not-going-anywhere/">data engineering lifecycles (generation, storage, ingestion, transformation, and serving)</a>, and downstream uses (analytics, AI/ML, and reverse ETL)?</li>
+<li>Q3: Zooming in further on the downstream uses of analytics and AI/ML, what systems, processes, and tools do you use to manage their lifecycles (discovery, data preparation, model engineering, deployment, monitoring, and maintenance)? Give specific project examples.</li>
+</ul>
+</blockquote>
+<p>However, while I was satisfied with the definition of the data engineering lifecycle (as noted in the Q2 link, its ultimate source is the book <em>Fundamentals of Data Engineering</em>), I didn&rsquo;t <em>love</em> the definition of the AI/ML lifecycle.
+As I find lifecycle models incredibly useful for uncovering gaps and opportunities, I decided to dig deeper and find an AI/ML lifecycle model that suits my diagnostic needs.
+The rest of this post discusses the problem in more detail, and presents my findings.</p>
+<h2 id="my-problems-with-the-aiml-lifecycle-model">My problems with the AI/ML lifecycle model<a hidden class="anchor" aria-hidden="true" href="#my-problems-with-the-aiml-lifecycle-model">#</a></h2>
+<p>The AI/ML lifecycle model is messy in at least three ways.</p>
+<p>First, <strong>the subject of each stage is different</strong>:</p>
+<ul>
+<li><em>Discovery</em> deals with the business context, stakeholders, and technical feasibility.</li>
+<li><em>Data preparation</em> focuses on transforming and exploring the data.</li>
+<li><em>Model engineering</em> is where AI-assisted humans create models via iterative coding and experimentation, with the goal of satisfying offline metrics.</li>
+<li><em>Deployment, monitoring, and maintenance</em> happen in production – potentially by different people and with results that are far removed from the expectations set by offline metrics.</li>
+</ul>
+<p>Contrast this with the relative simplicity of the data engineering lifecycle: <em>generation, storage, ingestion, transformation, and serving</em> are all things that happen to data. That is, data is the subject of each stage.</p>
+<p>Second, <strong>experimentation and the probabilistic nature of AI/ML lead to feedback loops</strong>. Authors of AI/ML lifecycle models attempt to capture these loops in diagrams that I find confusing. For example, see two of the better sources I found:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+  
+  
+    
+  
+  
+  
+
+
+
+<figure>
+  <a href="aws-well-architected-ml-lifecycle.jpg" target="_blank" rel="noopener">
+    <img
+      
+        sizes="
+          (min-width: 768px) 720px,
+          100vw
+        "
+        srcset="
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu8a58082e43e087a9af36bbdc3df3fa26_83185_360x0_resize_q75_box.jpg 360w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu8a58082e43e087a9af36bbdc3df3fa26_83185_480x0_resize_q75_box.jpg 480w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu8a58082e43e087a9af36bbdc3df3fa26_83185_720x0_resize_q75_box.jpg 720w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu8a58082e43e087a9af36bbdc3df3fa26_83185_1080x0_resize_q75_box.jpg 1080w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle.jpg 1130w,
+            
+          
+        "
+        
+        
+        
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu8a58082e43e087a9af36bbdc3df3fa26_83185_800x0_resize_q75_box.jpg"
+        
+      
+        alt="The ML lifecycle from the AWS Well-Architected Framework"loading="lazy"
+    />
+  </a><figcaption>
+        <p><a href="https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/well-architected-machine-learning-lifecycle.html" target="_blank" rel="noopener">The ML lifecycle from the AWS Well-Architected Framework</a>
+          </p>
+      </figcaption>
+</figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+  
+  
+
+
+
+<figure>
+  <a href="crisp-ml-process.webp" target="_blank" rel="noopener">
+    <img
+      
+        sizes="
+          (min-width: 768px) 720px,
+          100vw
+        "
+        srcset="
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu7bc9acd08ac4f64c5eac75553fb2093d_126090_360x0_resize_q75_h2_box_2.webp 360w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu7bc9acd08ac4f64c5eac75553fb2093d_126090_480x0_resize_q75_h2_box_2.webp 480w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu7bc9acd08ac4f64c5eac75553fb2093d_126090_720x0_resize_q75_h2_box_2.webp 720w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu7bc9acd08ac4f64c5eac75553fb2093d_126090_1080x0_resize_q75_h2_box_2.webp 1080w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu7bc9acd08ac4f64c5eac75553fb2093d_126090_1500x0_resize_q75_h2_box_2.webp 1500w,
+            
+          
+        "
+        
+        
+        
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu7bc9acd08ac4f64c5eac75553fb2093d_126090_800x0_resize_q75_h2_box_2.webp"
+        
+      
+        alt="The CRISP-ML(Q) model from INNOQ"loading="lazy"
+    />
+  </a><figcaption>
+        <p><a href="https://ml-ops.org/content/crisp-ml" target="_blank" rel="noopener">The CRISP-ML(Q) model from INNOQ</a>
+          </p>
+      </figcaption>
+</figure>
+
+<p>Third, <strong>human analysis &amp; experimentation require different mindsets and tools than productionisation</strong>. If you&rsquo;ve ever worked with AI/ML, you&rsquo;d know that to be effective you need to step back from optimising for what&rsquo;s going to happen in production – even if you&rsquo;re trying to improve a production model. This is partly why notebooks are so popular with data scientists – they support fast iteration. However, notebooks are inherently messy, which is why <a href="https://martinfowler.com/articles/productize-data-sci-notebooks.html" target="_blank" rel="noopener">they aren&rsquo;t great for production use</a>. This is despite the existence of tools like <a href="https://nbdev.fast.ai/" target="_blank" rel="noopener">nbdev</a> and <a href="https://www.reddit.com/r/datascience/comments/nf47se/does_netflix_use_jupyter_notebooks_in_production/" target="_blank" rel="noopener">production notebook support by major data platforms and big tech players</a>.</p>
+<p>With my background in both software engineering and data science, I have used notebooks extensively for rapid experimentation. But I don&rsquo;t want notebooks in production, where the goal is to maintain a well-structured codebase with testable components and reproducible flows.</p>
+<h2 id="integrating-analysis-into-the-aiml-lifecycle-model">Integrating analysis into the AI/ML lifecycle model<a hidden class="anchor" aria-hidden="true" href="#integrating-analysis-into-the-aiml-lifecycle-model">#</a></h2>
+<p>The ideal lifecycle scenario is captured by this quote by David Johnston (from <a href="https://martinfowler.com/articles/productize-data-sci-notebooks.html" target="_blank" rel="noopener">the article on notebooks in production</a> cited above):</p>
+<blockquote>
+<p>Notebooks are useful tools for interactive data exploration which is the dominant activity of a data scientist working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. The key is to build the ability to experiment into the pipeline itself.</p>
+</blockquote>
+<p>Unfortunately, reality is often far from this ideal, as <a href="https://medium.com/@jasoncorso/the-machine-learning-random-walk-0739a38bdc54" target="_blank" rel="noopener">noted by Jason Corso</a> (emphasis mine):</p>
+<blockquote>
+<p>This rose-tinted view of the machine learning process is often called <em>the machine learning pipeline</em>. And, well, I&rsquo;m done with hearing about the machine learning pipeline. Everyday work in real machine learning could not be farther from a pipeline.</p>
+<p>[&hellip;]</p>
+<p>As a professor and a founder of an artificial intelligence startup, I&rsquo;ve had the luxury of interacting with literally hundreds of ML teams. In nearly every case, I&rsquo;ve heard about the process of going back to the drawing board for the label space, or the inadequacy of the evaluation data set in terms of measuring production performance, or some other issue. It seems the machine learning process is much more complicated than we thought, and certainly much more complicated than we&rsquo;d like. And, surprisingly, it seems to rarely involve the model choice or the implementation.</p>
+<p>[&hellip;]</p>
+<p>I liken the real machine learning process to a random walk. The machine learning problem is often fairly well-designed. And, we take a random walk through some complex space defined by a cross-product between possible datasets and models. It&rsquo;s a massive and complicated space that evades a careful definition. But, at any instant, we are at a point in that space. As we modify a dataset or a model (architecture or parameters), we move through that space. With the elusive definition of the space, it is impossible to measure a &ldquo;gradient&rdquo; of our work in a principled manner.</p>
+<p>[&hellip;]</p>
+<p><strong>Analysis is hence at the heart of the machine learning random walk.</strong> The more one can reduce the uncertainty around each decision — each jaunt through the space — the faster one can navigate the random walk toward a performant system.</p>
+<p>[&hellip;]</p>
+<p>Optimizing the machine learning process requires an appreciation for the high levels of uncertainty present. Whereas classical computational thinking may lead one to infrastructure-focused orientation that emphasizes the speed and effectiveness by which data gets processed, optimizing the machine learning work instead requires effective mechanisms to uncover false assumptions, mistakes and other mishaps in the manner in which the problem statement was rendered into a computational system.</p>
+<p>I imagine it seems natural to think: ok, fine, once this uncertainty is managed and we have a deployable model, then we can set up our fast, automated pipelines and crunch away in production. To this thought, I&rsquo;d answer a very clear &ldquo;maybe.&rdquo; Sure, one wants to optimize and automate. It certainly makes sense. But, I would still exercise caution: data drift and evolving production expectations create a need to constantly measure and evolve these machine learning systems.</p>
+<p>In all of these situations, clear software-enabled analytical decisions are required to optimize the machine learning random walk.</p>
+</blockquote>
+<p>The full article is worth reading – it was hard to choose just the above quotes!</p>
+<p>Following the introduction of analysis as an essential part of AI/ML work at any stage, Corso proposes a simple pipeline diagram that allows for loops via analysis:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+  
+  
+
+
+
+<figure>
+  <a href="jason-corso-ml-pipeline-with-analysis.webp" target="_blank" rel="noopener">
+    <img
+      
+        sizes="
+          (min-width: 768px) 720px,
+          100vw
+        "
+        srcset="
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu63b30a573749075d7c920d257d82198d_29792_360x0_resize_q75_h2_box_2.webp 360w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu63b30a573749075d7c920d257d82198d_29792_480x0_resize_q75_h2_box_2.webp 480w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu63b30a573749075d7c920d257d82198d_29792_720x0_resize_q75_h2_box_2.webp 720w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu63b30a573749075d7c920d257d82198d_29792_1080x0_resize_q75_h2_box_2.webp 1080w,
+            
+          
+            
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu63b30a573749075d7c920d257d82198d_29792_1500x0_resize_q75_h2_box_2.webp 1500w,
+            
+          
+        "
+        
+        
+        
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu63b30a573749075d7c920d257d82198d_29792_800x0_resize_q75_h2_box_2.webp"
+        
+      
+        alt="Jason Corso&amp;rsquo;s ML pipeline with analysis-mediated loops"loading="lazy"
+    />
+  </a><figcaption>
+        <p><a href="https://medium.com/@jasoncorso/the-machine-learning-random-walk-0739a38bdc54" target="_blank" rel="noopener">Jason Corso&rsquo;s ML pipeline with analysis-mediated loops</a>
+          </p>
+      </figcaption>
+</figure>
+
+<p>I like the simplicity of the diagram, but it&rsquo;s missing some arrows. For example, sometimes the ML Problem needs redefining, and sometimes analysing the data can lead back to data gathering.</p>
+<p>I went through a couple of iterations of refining this idea and landed on the following diagram: Each stage is a step up the AI/ML lifecycle stairs, but analysing the problems that arise can send you tumbling down. It&rsquo;s a bit like a game of <a href="https://en.wikipedia.org/wiki/Snakes_and_ladders" target="_blank" rel="noopener">snakes and ladders</a> that is not based purely on luck.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+  <a href="ai-ml-lifecycle-steps.svg" target="_blank" rel="noopener">
+    <img
+      
+          
+          src="ai-ml-lifecycle-steps.svg"
+      
+        alt="My version of the AI/ML lifecycle: Most arrows are implicit. You go up and down the stairs as reality dictates. Introducing automation to ascend faster on each iteration is the ideal."loading="lazy"
+    />
+  </a><figcaption>
+        <p>My version of the AI/ML lifecycle: Most arrows are implicit. You go up and down the stairs as reality dictates. Introducing automation to ascend faster on each iteration is the ideal.
+          </p>
+      </figcaption>
+</figure>
+
+<h2 id="experimentation-versus-productionisation-why-not-both">Experimentation versus productionisation: Why not both?<a hidden class="anchor" aria-hidden="true" href="#experimentation-versus-productionisation-why-not-both">#</a></h2>
+<p>The integration of analysis into the lifecycle addresses the second problem noted above, of explicitly accounting for feedback loops. As to the subject of each stage being different, it&rsquo;d be hard to reshape the AI/ML lifecycle into something as clean as the data engineering lifecycle and still maintain its usefulness. I&rsquo;m just going to live with that problem.</p>
+<p>This leaves us with the third problem, of the need for different mindsets and tools for experimentation and productionisation. There are two types of experiments, though:</p>
+<ol>
+<li>Automated experimentation in production, e.g., via retraining on fresh data or hyperparameter optimisation.</li>
+<li>Human experimentation in analysis environments, e.g., testing different prompts, trying a different modelling approach, or reshaping the data.</li>
+</ol>
+<p>Both experiment types have one thing in common: <strong>To count as experiments, results need to be centrally logged and fully reproducible. Anything that doesn&rsquo;t meet the criteria of logging and reproducibility is tinkering, not experimentation.</strong> Tinkering is fine early on, but it doesn&rsquo;t scale – and notebooks are the tool that epitomises tinkering.</p>
+<p><strong>Where does this leave us on the problem of different mindsets and tooling, though?</strong> Well, it&rsquo;s hard to capture in a single diagram without overcomplicating things. I realised that this problem requires introducing an additional dimension of maturity:</p>
+<ol>
+<li><strong>Low maturity:</strong> Tinkering is fine, as it&rsquo;s unclear if the model will make it to production. Tinker quickly with whatever tools you&rsquo;re comfortable with to gain confidence that going to production is feasible and desirable.</li>
+<li><strong>Medium maturity:</strong> Log the experiments and datasets that lead to production models, ensuring reproducibility by other humans in clean environments. If anything changes based on production feedback, all new experiments should be logged.</li>
+<li><strong>High maturity:</strong> Automate experiments in production. Fully replicate production pipelines for offline human analysis and experimentation.</li>
+</ol>
+<p>As a rough guide, the following table summarises the level of human touch on a 1-5 scale, as a function of stage and maturity level (1: low touch &amp; high automation). Here, I followed CRISP-ML(Q)&rsquo;s separation of offline evaluation from model engineering to emphasise the difference in human touch across maturity levels.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Low maturity</th>
+      <th>Medium maturity</th>
+      <th>High maturity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Problem discovery</td>
+      <td style="background-color: #ff9999; color: black; text-align: center;">5</td>
+      <td style="background-color: #ff9999; color: black; text-align: center;">5</td>
+      <td style="background-color: #ff9999; color: black; text-align: center;">5</td>
+    </tr>
+    <tr>
+      <td>Data engineering</td>
+      <td style="background-color: #ff9999; color: black; text-align: center;">5</td>
+      <td style="background-color: #ffb3b3; color: black; text-align: center;">4</td>
+      <td style="background-color: #ffcccc; color: black; text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td>Model engineering</td>
+      <td style="background-color: #ff9999; color: black; text-align: center;">5</td>
+      <td style="background-color: #ffb3b3; color: black; text-align: center;">4</td>
+      <td style="background-color: #ffcccc; color: black; text-align: center;">3</td>
+    </tr>
+    <tr>
+      <td>Offline evaluation</td>
+      <td style="background-color: #ffb3b3; color: black; text-align: center;">4</td>
+      <td style="background-color: #ffcccc; color: black; text-align: center;">3</td>
+      <td style="background-color: #ffe6e6; color: black; text-align: center;">2</td>
+    </tr>
+    <tr>
+      <td>Model deployment</td>
+      <td style="background-color: #ffcccc; color: black; text-align: center;">3</td>
+      <td style="background-color: #ffe6e6; color: black; text-align: center;">2</td>
+      <td style="background-color: #ffe6e6; color: black; text-align: center;">1</td>
+    </tr>
+    <tr>
+      <td>Monitoring & maintenance</td>
+      <td style="background-color: #ffe6e6; color: black; text-align: center;">2</td>
+      <td style="background-color: #ffe6e6; color: black; text-align: center;">1</td>
+      <td style="background-color: #ffe6e6; color: black; text-align: center;">1</td>
+    </tr>
+  </tbody>
+</table>
+<p>In short, <strong>ascending the levels of maturity requires more automation – which is often made easier by introducing more tools and enforcing well-defined processes.</strong> For example, <a href="https://mlflow.org/" target="_blank" rel="noopener">MLflow</a> is one toolset that as of the time of this writing, offers features like experiment tracking and a model registry. However, <a href="https://mattturck.com/landscape/mad2024.pdf" target="_blank" rel="noopener">many alternatives exist in the 2024 MAD landscape (machine learning, artificial intelligence, and data)</a>. As <a href="https://medium.com/@jasoncorso/observations-on-mlops-a-fragmented-mosaic-of-mismatched-expectations-3488685ec0b6" target="_blank" rel="noopener">Jason Corso observed</a>: <em>MLOps tools are a fragmented mess</em>, and <em>no vendor has built an end-to-end solution</em> (despite any marketing claims). This may no longer be the case if you&rsquo;re reading this 5-10 years from now. However, I doubt that the basic idea of increased automation, tooling, and process definition as a function of increased maturity is going to change radically.</p>
+<h2 id="aside-isnt-everything-different-with-large-language-models">Aside: Isn&rsquo;t everything different with large language models?<a hidden class="anchor" aria-hidden="true" href="#aside-isnt-everything-different-with-large-language-models">#</a></h2>
+<p><strong>Short answer:</strong> No.</p>
+<p><strong>Longer answer:</strong> Using pretrained models (either language-only or multimodal) doesn&rsquo;t inherently change the lifecycle stages. It just speeds up or obviates some tasks (see <a href="https://ml-ops.org/content/crisp-ml#conclusion" target="_blank" rel="noopener">the bottom of the CRISP-ML(Q) article for a comprehensive task list</a>). For example, if you&rsquo;re using a pretrained model as a black box (without fine-tuning), your model engineering stage would only involve model evaluation and prompt engineering. <a href="https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/">All stages are still required for success beyond the prototype</a>.</p>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Unlike some of my other posts, this has been an exercise in public writing with the purpose of figuring something out. Thank you for coming along for the ride!</p>
+<p><strong>My main takeaways are:</strong></p>
+<ol>
+<li>Accept that human analysis may take you down the AI/ML lifecycle stairs.</li>
+<li>Aim for increased automation to improve rigour as the maturity of your AI/ML lifecycle increases.</li>
+<li>Incrementally adopt tools to support reproducible experimentation and analysis, but avoid premature optimisation.</li>
+<li>The AI/ML lifecycle can&rsquo;t be simplified to the level of the data engineering lifecycle because the former includes the latter.</li>
+<li>When diagnosing AI/ML lifecycle problems, query how human analysis is done, and identify opportunities for automation that align with business needs.</li>
+<li><em>If it ain&rsquo;t broke, don&rsquo;t fix it:</em> There&rsquo;s nothing wrong with remaining at a low automation level if the cost of introducing more tools and processes outweighs the likely returns.</li>
+</ol>
+<p>As to the problem of running effective diagnoses, I discovered that the people behind the CRISP-ML(Q) lifecycle model have also published <a href="https://ml-ops.org/content/mlops-stack-canvas" target="_blank" rel="noopener">an MLOps Stack Canvas</a>, which includes a bunch of questions that go deep into the practical implementation of the lifecycle. I will use some of them to guide my diagnoses in the future, with the depth of the investigation informed by the maturity level.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://yanirseroussi.com/tags/artificial-intelligence/">Artificial Intelligence</a></li>
+      <li><a href="https://yanirseroussi.com/tags/consulting/">Consulting</a></li>
+      <li><a href="https://yanirseroussi.com/tags/data-strategy/">Data Strategy</a></li>
+      <li><a href="https://yanirseroussi.com/tags/machine-learning/">Machine Learning</a></li>
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on x"
+            href="https://x.com/intent/tweet/?text=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess&amp;url=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f&amp;hashtags=artificialintelligence%2cconsulting%2cdatastrategy%2cmachinelearning">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f&amp;title=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess&amp;summary=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess&amp;source=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f&title=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on whatsapp"
+            href="https://api.whatsapp.com/send?text=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess%20-%20https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on telegram"
+            href="https://telegram.me/share/url?text=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess&amp;url=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share AI/ML lifecycle models versus real-world mess on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=AI%2fML%20lifecycle%20models%20versus%20real-world%20mess&u=https%3a%2f%2fyanirseroussi.com%2f2024%2f07%2f29%2fai-ml-lifecycle-models-versus-real-world-mess%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+
+<a href="/contact/#mailing-list-email" target="_blank" aria-label="subscribe to mailing list" class="mailing-list-link" id="mailing-list-link">
+  Subscribe
+</a>
+
+<script>
+  
+  const mailingListButton = document.getElementById("mailing-list-link");
+  window.onscroll = function () {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+      mailingListButton.style.visibility = "visible";
+      mailingListButton.style.opacity = "1";
+    } else {
+      mailingListButton.style.visibility = "hidden";
+      mailingListButton.style.opacity = "0";
+    }
+  };
+</script>
+
+
+
+
+<div class="mailing-list-container">
+  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+  <form
+    class="mailing-list seva-form formkit-form"
+    action="https://app.convertkit.com/forms/6549537/subscriptions"
+    method="post"
+    data-sv-form="6549537"
+    data-uid="9157759fce"
+    data-format="inline"
+    data-version="5"
+    data-options='{&#34;settings&#34;:{&#34;after_subscribe&#34;:{&#34;action&#34;:&#34;message&#34;,&#34;redirect_url&#34;:&#34;&#34;,&#34;success_message&#34;:&#34;Success! Now check your email to confirm your subscription.&#34;},&#34;recaptcha&#34;:{&#34;enabled&#34;:false},&#34;return_visitor&#34;:{&#34;action&#34;:&#34;show&#34;,&#34;custom_content&#34;:&#34;&#34;}},&#34;version&#34;:&#34;5&#34;}'
+  >
+    <div data-style="clean">
+      <ul class="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
+      <div data-element="fields" data-stacked="false">
+        <label for="mailing-list-email">Get weekly posts in your mailbox</label>
+        <input
+          id="mailing-list-email"
+          name="email_address"
+          aria-label="Email address"
+          placeholder="Email address"
+          required=""
+          type="email"
+        >
+        
+        <button data-element="submit">Subscribe</button>
+      </div>
+    </div>
+  </form>
+  
+  <div class="footer">
+    Join hundreds of subscribers. No spam or AI-generated slop. Unsubscribe any time.
+  </div>
+  
+</div>
+
+
+<section class="comment-section">
+  
+
+  <p class="post-content contact-cta">
+    Public comments are closed, but I love hearing from readers. Feel free to
+    <a href="/contact/" target="_blank">contact me</a> with your thoughts.
+  </p>
+
+  
+  
+  
+  
+
+  
+</section>
+
+
+
+</article>
+    </main>
+    <div class="global-footer">
+  <div class="footer">
+    <span>Text and figures licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a> by <a href="https://yanirseroussi.com/about/">Yanir Seroussi</a>, except where noted otherwise&nbsp;&nbsp;|</span>
+    <span>
+      Powered by
+      <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+      <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+  </div>
+</div>
+
+<script>
+  
+  const menuTrigger = document.querySelector("#menu-trigger");
+  const menuElem = document.querySelector(".menu");
+  menuTrigger.addEventListener("click", function () {
+    menuElem.classList.toggle("hidden");
+  });
+  document.body.addEventListener('click', function (event) {
+    if (!menuTrigger.contains(event.target)) {
+      menuElem.classList.add("hidden");
+    }
+  });
+</script>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
