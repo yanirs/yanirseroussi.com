@@ -16,10 +16,10 @@ menu:
     - name: About
       url: /about/
       weight: 1
-    - name: Posts
+    - name: Writing
       url: /posts/
       weight: 2
-    - name: Talks
+    - name: Speaking
       url: /talks/
       weight: 3
     - name: Consulting
@@ -65,9 +65,9 @@ params:
     buttons:
       - name: About
         url: /about/
-      - name: Posts
+      - name: Writing
         url: /posts/
-      - name: Talks
+      - name: Speaking
         url: /talks/
       - name: Consulting Services
         url: /consult/

@@ -1,5 +1,5 @@
 ---
-title: 'Past talks by Yanir: Startup Data & AI Consultant'
+title: 'Speaking engagements by Yanir: Startup Data & AI Consultant'
 author: Yanir Seroussi
 type: page
 comments: false
@@ -8,14 +8,14 @@ cover:
   relative: true
   image: /fractional-chief-data-officer/assets/yanir-seroussi-dataengbytes-bne-2023.webp
   alt: Yanir Seroussi giving a talk at DataEngBytes Brisbane 2023.
-summary: Yanir Seroussi's talks on data science, artificial intelligence, machine learning, and career journey.
+summary: Yanir Seroussi speaks on data science, artificial intelligence, machine learning, and career journey.
 aliases:
  - /presentations/
 editPost:
   disabled: true
 disableShare: true
 ---
-Talks I've given over the years, saved here for future reference and for public benefit.
+Talks and podcast appearances, saved here for future reference and for public benefit.
 
   * [Your first Data-to-AI hire](https://yanirseroussi.com/talks/first-data-hire/#/) (presented to [Climate Salad members](https://members.climatesalad.com/event/receSv3NcyUVs4Z2o)); see posts with practice recordings: [part 1](https://yanirseroussi.com/2024/07/15/learn-about-dataland-to-avoid-expensive-hiring-mistakes/) & [part 2](https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/))
   * [Podcast interview on my career path](https://open.spotify.com/episode/1aXcalabXgCgXwSF1LAHyr) with [Eli Gündüz](https://www.linkedin.com/in/eligunduz/) of [Careersy Coaching](https://www.careersycoaching.com/)
