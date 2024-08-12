@@ -7,34 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 05 Aug 2024 08:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 01:30:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Business</title>
-      <link>https://yanirseroussi.com/tags/business/</link>
-      <pubDate>Mon, 05 Aug 2024 08:45:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/business/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Career</title>
       <link>https://yanirseroussi.com/tags/career/</link>
-      <pubDate>Mon, 05 Aug 2024 08:45:00 +0000</pubDate>
+      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/career/</guid>
       <description></description>
     </item>
     <item>
       <title>Consulting</title>
       <link>https://yanirseroussi.com/tags/consulting/</link>
-      <pubDate>Mon, 05 Aug 2024 08:45:00 +0000</pubDate>
+      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/consulting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://yanirseroussi.com/tags/data-science/</link>
+      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal</title>
       <link>https://yanirseroussi.com/tags/personal/</link>
-      <pubDate>Mon, 05 Aug 2024 08:45:00 +0000</pubDate>
+      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://yanirseroussi.com/tags/software-engineering/</link>
+      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://yanirseroussi.com/tags/video/</link>
+      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://yanirseroussi.com/tags/business/</link>
+      <pubDate>Mon, 05 Aug 2024 08:45:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/business/</guid>
       <description></description>
     </item>
     <item>
@@ -87,20 +108,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>https://yanirseroussi.com/tags/data-science/</link>
-      <pubDate>Mon, 22 Jul 2024 01:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video</title>
-      <link>https://yanirseroussi.com/tags/video/</link>
-      <pubDate>Mon, 22 Jul 2024 01:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/video/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Productivity</title>
       <link>https://yanirseroussi.com/tags/productivity/</link>
       <pubDate>Mon, 08 Jul 2024 02:45:00 +0000</pubDate>
@@ -112,13 +119,6 @@
       <link>https://yanirseroussi.com/tags/security/</link>
       <pubDate>Mon, 01 Jul 2024 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Engineering</title>
-      <link>https://yanirseroussi.com/tags/software-engineering/</link>
-      <pubDate>Mon, 01 Jul 2024 02:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>

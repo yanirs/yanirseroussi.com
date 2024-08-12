@@ -2,29 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yanirseroussi.com/tags/business/</loc>
-    <lastmod>2024-08-05T19:15:32+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/career/</loc>
-    <lastmod>2024-08-05T19:15:32+10:00</lastmod>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/consulting/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-science/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2024/08/12/keep-learning-your-career-is-never-truly-done/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/personal/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/video/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/business/</loc>
     <lastmod>2024-08-05T19:15:32+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/08/05/first-year-lessons-from-a-solo-expertise-biz-in-data-and-ai/</loc>
     <lastmod>2024-08-05T19:15:32+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/personal/</loc>
-    <lastmod>2024-08-05T19:15:32+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/startups/</loc>
     <lastmod>2024-08-05T19:15:32+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2024-08-05T19:15:32+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
-    <lastmod>2024-08-12T07:00:53+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/</loc>
     <lastmod>2024-07-29T16:55:58+10:00</lastmod>
@@ -47,12 +59,6 @@
     <loc>https://yanirseroussi.com/tags/data-hiring/</loc>
     <lastmod>2024-07-22T12:46:49+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/data-science/</loc>
-    <lastmod>2024-07-22T12:46:49+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/video/</loc>
-    <lastmod>2024-07-22T12:46:49+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/</loc>
     <lastmod>2024-07-22T12:46:49+10:00</lastmod>
   </url><url>
@@ -67,9 +73,6 @@
   </url><url>
     <loc>https://yanirseroussi.com/tags/security/</loc>
     <lastmod>2024-07-01T12:43:08+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
-    <lastmod>2024-07-04T15:08:22+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/07/01/stay-alert-security-is-everyones-responsibility/</loc>
     <lastmod>2024-07-01T12:43:08+10:00</lastmod>
@@ -630,7 +633,7 @@
     <lastmod>2024-06-27T12:40:16+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/talks/</loc>
-    <lastmod>2024-08-12T07:00:53+10:00</lastmod>
+    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/contact/</loc>
     <lastmod>2024-05-23T15:31:11+10:00</lastmod>
