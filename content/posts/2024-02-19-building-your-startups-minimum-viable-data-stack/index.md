@@ -58,3 +58,5 @@ Other key considerations include:
 As noted, I'm aiming for this to be the first in a series of posts on setting up a minimum viable data stack. Each future post will be dedicated to each of the key components, going deeper into currently-available tools for storage, ingestion, transformation, and analytics. The focus will be on tools that are sensible to use by startups.
 
 Stay tuned for future posts! In the meantime, [feedback is always welcome](https://yanirseroussi.com/contact/).
+
+_Update 2024-08-19:_ I eventually gave up on the series &ndash; [here's why](https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/).
