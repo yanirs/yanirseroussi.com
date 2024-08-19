@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-strategy/</loc>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/</loc>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/startups/</loc>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/career/</loc>
     <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
@@ -20,13 +38,7 @@
     <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
     <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/video/</loc>
-    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
     <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/business/</loc>
@@ -35,25 +47,16 @@
     <loc>https://yanirseroussi.com/2024/08/05/first-year-lessons-from-a-solo-expertise-biz-in-data-and-ai/</loc>
     <lastmod>2024-08-05T19:15:32+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/startups/</loc>
-    <lastmod>2024-08-05T19:15:32+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/</loc>
     <lastmod>2024-07-29T16:55:58+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
     <lastmod>2024-07-29T16:55:58+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/data-strategy/</loc>
-    <lastmod>2024-07-29T16:55:58+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/tags/machine-learning/</loc>
     <lastmod>2024-07-29T16:55:58+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/analytics/</loc>
-    <lastmod>2024-07-22T12:46:49+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/data-engineering/</loc>
     <lastmod>2024-07-22T12:46:49+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/data-hiring/</loc>
@@ -180,7 +183,7 @@
     <lastmod>2024-03-04T12:39:10+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/02/19/building-your-startups-minimum-viable-data-stack/</loc>
-    <lastmod>2024-02-19T11:25:54+10:00</lastmod>
+    <lastmod>2024-08-19T13:41:26+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/til/2024/02/17/the-three-cs-of-indie-consulting-confidence-cash-and-connections/</loc>
     <lastmod>2024-02-17T12:34:00+10:00</lastmod>

@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 22 Jul 2024 01:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 03:30:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giving up on the minimum viable data stack</title>
+      <link>https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/</link>
+      <pubDate>Mon, 19 Aug 2024 03:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/</guid>
+      <description>Exploring why universal advice on startup data stacks is challenging, and the importance of context-specific decisions in data infrastructure.</description>
+    </item>
     <item>
       <title>Your first Data-to-AI hire: Run a lovable process</title>
       <link>https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/</link>
