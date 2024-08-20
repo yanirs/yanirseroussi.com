@@ -16,9 +16,9 @@ tags:
   - software engineering
 
 ---
-<div style="border: solid 1px; border-radius: 4px; padding: 10px 10px 0 10px; margin-bottom: 20px;">
+<div class="bordered-note">
   <b>Update (2024-06-19):</b>
-  <ul>
+  <ul style="margin-bottom: 5px">
     <li>
       If you're here for tips on CodeSignal's Industry Coding Framework, one of the best things you can read is
 <a href="https://web.archive.org/web/20230321142915/https://discover.codesignal.com/rs/659-AFH-023/images/Industry-Coding-Skills-Evaluation-Framework-CodeSignal-Skills-Evaluation-Lab-Short.pdf" target="_blank" rel="noopener">their whitepaper on the topic</a>. Scroll all the way down for a sample task.

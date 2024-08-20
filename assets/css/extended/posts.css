@@ -29,6 +29,13 @@ article.post-single img {
   text-align: center;
 }
 
+.post-content .bordered-note {
+  border: solid 1px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 .post-content p.indent-1 {
   margin-left: 2%;
 }
