@@ -2,6 +2,7 @@
 title: Deep learning resources
 author: Yanir Seroussi
 type: page
+summary: Useful posts and papers on the topic of deep learning (circa 2015).
 date: 2015-07-06T00:38:44+00:00
 
 ---

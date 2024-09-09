@@ -4,6 +4,7 @@ author: Yanir Seroussi
 aliases:
   - /causal-inference-reading-list/
 type: page
+summary: Useful books, articles, and courses on the topic of causal inference.
 editPost:
   disabled: true
 
