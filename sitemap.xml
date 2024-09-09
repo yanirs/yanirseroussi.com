@@ -2,14 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
     <loc>https://yanirseroussi.com/tags/business/</loc>
-    <lastmod>2024-09-02T13:07:48+10:00</lastmod>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/career/</loc>
-    <lastmod>2024-09-02T13:07:48+10:00</lastmod>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/consulting/</loc>
-    <lastmod>2024-09-02T13:07:48+10:00</lastmod>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/data-science/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/2024/09/09/data-ai-humans-and-climate-carving-a-consulting-niche/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/environment/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/tags/video/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
+  </url><url>
+    <loc>https://yanirseroussi.com/</loc>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/09/02/juggling-delivery-admin-and-leads-monthly-biz-recap/</loc>
     <lastmod>2024-09-02T13:07:48+10:00</lastmod>
@@ -20,16 +41,7 @@
     <loc>https://yanirseroussi.com/tags/startups/</loc>
     <lastmod>2024-09-02T13:07:48+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/</loc>
-    <lastmod>2024-09-02T13:07:48+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/</loc>
-    <lastmod>2024-09-02T13:07:48+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/2024/08/26/ai-hype-ai-bullshit-and-the-real-deal/</loc>
-    <lastmod>2024-08-26T11:15:01+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/artificial-intelligence/</loc>
     <lastmod>2024-08-26T11:15:01+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/marketing/</loc>
@@ -44,17 +56,11 @@
     <loc>https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/</loc>
     <lastmod>2024-08-19T13:41:26+10:00</lastmod>
   </url><url>
-    <loc>https://yanirseroussi.com/tags/data-science/</loc>
-    <lastmod>2024-08-20T16:09:55+10:00</lastmod>
-  </url><url>
     <loc>https://yanirseroussi.com/2024/08/12/keep-learning-your-career-is-never-truly-done/</loc>
     <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/software-engineering/</loc>
     <lastmod>2024-08-20T16:09:55+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/video/</loc>
-    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/08/05/first-year-lessons-from-a-solo-expertise-biz-in-data-and-ai/</loc>
     <lastmod>2024-08-05T19:15:32+10:00</lastmod>
@@ -153,9 +159,6 @@
     <lastmod>2024-04-11T13:42:58+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/tags/climate-change/</loc>
-    <lastmod>2024-08-20T16:09:55+10:00</lastmod>
-  </url><url>
-    <loc>https://yanirseroussi.com/tags/environment/</loc>
     <lastmod>2024-08-20T16:09:55+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2024/04/08/my-experience-as-a-data-tech-lead-with-work-on-climate/</loc>
@@ -516,7 +519,7 @@
     <lastmod>2024-01-16T09:56:03+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/deep-learning-resources/</loc>
-    <lastmod>2021-11-09T15:38:25+10:00</lastmod>
+    <lastmod>2024-09-09T11:04:24+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/</loc>
     <lastmod>2024-01-16T09:56:03+10:00</lastmod>
@@ -633,7 +636,7 @@
     <lastmod>2024-05-09T10:03:31+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/causal-inference-resources/</loc>
-    <lastmod>2023-07-06T16:01:57+10:00</lastmod>
+    <lastmod>2024-09-09T11:04:24+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/data-to-ai-health-check/</loc>
     <lastmod>2024-06-26T12:57:51+10:00</lastmod>
@@ -642,7 +645,7 @@
     <lastmod>2024-06-27T12:40:16+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/talks/</loc>
-    <lastmod>2024-08-12T11:31:32+10:00</lastmod>
+    <lastmod>2024-09-09T11:04:57+10:00</lastmod>
   </url><url>
     <loc>https://yanirseroussi.com/contact/</loc>
     <lastmod>2024-05-23T15:31:11+10:00</lastmod>

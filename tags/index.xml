@@ -7,27 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 02 Sep 2024 02:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 00:30:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Business</title>
       <link>https://yanirseroussi.com/tags/business/</link>
-      <pubDate>Mon, 02 Sep 2024 02:30:00 +0000</pubDate>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Career</title>
       <link>https://yanirseroussi.com/tags/career/</link>
-      <pubDate>Mon, 02 Sep 2024 02:30:00 +0000</pubDate>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/career/</guid>
       <description></description>
     </item>
     <item>
       <title>Consulting</title>
       <link>https://yanirseroussi.com/tags/consulting/</link>
-      <pubDate>Mon, 02 Sep 2024 02:30:00 +0000</pubDate>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/consulting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://yanirseroussi.com/tags/data-science/</link>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>https://yanirseroussi.com/tags/environment/</link>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://yanirseroussi.com/tags/video/</link>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/video/</guid>
       <description></description>
     </item>
     <item>
@@ -42,13 +70,6 @@
       <link>https://yanirseroussi.com/tags/startups/</link>
       <pubDate>Mon, 02 Sep 2024 02:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/startups/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Artificial Intelligence</title>
-      <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
-      <pubDate>Mon, 26 Aug 2024 01:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
@@ -73,24 +94,10 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>https://yanirseroussi.com/tags/data-science/</link>
-      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Software Engineering</title>
       <link>https://yanirseroussi.com/tags/software-engineering/</link>
       <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video</title>
-      <link>https://yanirseroussi.com/tags/video/</link>
-      <pubDate>Mon, 12 Aug 2024 01:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/video/</guid>
       <description></description>
     </item>
     <item>
@@ -168,13 +175,6 @@
       <link>https://yanirseroussi.com/tags/climate-change/</link>
       <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/climate-change/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Environment</title>
-      <link>https://yanirseroussi.com/tags/environment/</link>
-      <pubDate>Mon, 08 Apr 2024 02:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/environment/</guid>
       <description></description>
     </item>
     <item>

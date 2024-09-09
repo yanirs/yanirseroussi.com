@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 02 Sep 2024 02:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 00:30:00 +0000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data, AI, humans, and climate: Carving a consulting niche</title>
+      <link>https://yanirseroussi.com/2024/09/09/data-ai-humans-and-climate-carving-a-consulting-niche/</link>
+      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/09/09/data-ai-humans-and-climate-carving-a-consulting-niche/</guid>
+      <description>Podcast chat on the reality of Data &amp;amp; AI and my consulting focus: Helping climate &amp;amp; nature tech startups ship data-intensive solutions.</description>
+    </item>
     <item>
       <title>Juggling delivery, admin, and leads: Monthly biz recap</title>
       <link>https://yanirseroussi.com/2024/09/02/juggling-delivery-admin-and-leads-monthly-biz-recap/</link>
@@ -714,31 +721,7 @@
       <link>https://yanirseroussi.com/deep-learning-resources/</link>
       <pubDate>Mon, 06 Jul 2015 00:38:44 +0000</pubDate>
       <guid>https://yanirseroussi.com/deep-learning-resources/</guid>
-      <description>&lt;p&gt;This page summarises the deep learning resources I&amp;rsquo;ve consulted in &lt;a href=&#34;https://yanirseroussi.com/2015/06/06/hopping-on-the-deep-learning-bandwagon/&#34;&gt;my album cover classification project&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;tutorials-and-blog-posts&#34;&gt;Tutorials and blog posts&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://cs231n.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Networks for Visual Recognition Stanford course notes&lt;/a&gt;: an excellent resource, very up-to-date and useful, despite still being a work in progress&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://deeplearning.net/tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DeepLearning.net&amp;rsquo;s Theano-based tutorials&lt;/a&gt;: not as up-to-date as the Stanford course notes, but still a good introduction to some of the theory and general Theano usage&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://lasagne.readthedocs.org/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lasagne&amp;rsquo;s documentation and tutorials&lt;/a&gt;: still a bit lacking, but good when you know what you&amp;rsquo;re looking for&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/enlitic/lasagne4newbs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lasagne4newbs&lt;/a&gt;: Lasagne&amp;rsquo;s convnet example with richer comments&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://danielnouri.org/notes/2014/12/17/using-convolutional-neural-nets-to-detect-facial-keypoints-tutorial/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Using convolutional neural nets to detect facial keypoints tutorial&lt;/a&gt;: the resource that made me want to use Lasagne&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://benanne.github.io/2015/03/17/plankton.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Classifying plankton with deep neural networks&lt;/a&gt;: an epic post, which I found while looking for Lasagne examples&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Various Wikipedia pages&lt;/a&gt;: a bit disappointing – the above resources are much better&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1412.6980&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Adam: a method for stochastic optimization (Kingma and Ba, 2015)&lt;/a&gt;: an improvement over SGD with Nesterov momentum, AdaGrad and RMSProp, which I found to be useful in practice&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://papers.nips.cc/paper/4443-algorithms-for-hyper-parameter-optimization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Algorithms for Hyper-Parameter Optimization (Bergstra et al., 2011)&lt;/a&gt;: the work behind &lt;a href=&#34;https://github.com/hyperopt/hyperopt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hyperopt&lt;/a&gt; – pretty useful stuff, not only for deep learning&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1412.1710&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Convolutional Neural Networks at Constrained Time Cost (He and Sun, 2014)&lt;/a&gt;: interesting experimental work on the tradeoffs between number of filters, filter sizes, and depth – deeper is better (but with diminishing returns); smaller filter sizes are better; delayed subsampling and spatial pyramid pooling are helpful&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1404.7828&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Learning in Neural Networks: An Overview (Schmidhuber, 2014)&lt;/a&gt;: 88 pages and 888 references (35 content pages) – good for finding references, but a bit hard to follow; not so good for understanding how the various methods work and how to use or implement them&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1409.4842&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Going deeper with convolutions (Szegedy et al., 2014)&lt;/a&gt;: the GoogLeNet paper – interesting and compelling results, especially given the improvement in performance while reducing computational complexity&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ImageNet Classification with Deep Convolutional Neural Networks (Krizhevsky et al., 2012)&lt;/a&gt;: the classic paper that arguably started (or significantly boosted) the recent buzz around deep learning – many interesting ideas; fairly accesible&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cs.toronto.edu/~gdahl/papers/momentumNesterovDeepLearning.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;On the importance of initialization and momentum in deep learning (Sutskever et al., 2013)&lt;/a&gt;: applying Nesterov momentum to deep learning – good read, simple concept, interesting results&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Random Search for Hyper-Parameter Optimization (Bergstra and Bengio, 2012)&lt;/a&gt;: very compelling reasoning and experiments showing that random search outperforms grid search in many cases&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://sergeykarayev.com/files/1311.3715v3.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recognizing Image Style (Karayev et al., 2014)&lt;/a&gt;: identifying image style, which is similar to album genre – found that using models pretrained on ImageNet yielded the best results in some cases&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1409.1556&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Very deep convolutional networks for large scale image recognition (Simonyan and Zisserman, 2014)&lt;/a&gt;: VGGNet paper – interesting experiments and architectures – deep and homogeneous&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://arxiv.org/abs/1311.2901&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing and Understanding Convolutional Networks (Zeiler and Fergus, 2013)&lt;/a&gt;: interesting work on visualisation, but I&amp;rsquo;ll need to apply it to understand it better&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>Useful posts and papers on the topic of deep learning (circa 2015).</description>
     </item>
     <item>
       <title>Hopping on the deep learning bandwagon</title>
@@ -913,21 +896,7 @@
       <link>https://yanirseroussi.com/causal-inference-resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/causal-inference-resources/</guid>
-      <description>&lt;p&gt;This is a list of some causal inference resources, which I update from time to time. You can also check out my posts on &lt;a href=&#34;https://yanirseroussi.com/tags/causal-inference/&#34;&gt;causal inference&lt;/a&gt; and &lt;a href=&#34;https://yanirseroussi.com/tags/a/b-testing/&#34;&gt;A/B testing&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Books&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Causal Inference: What if&lt;/em&gt;&lt;/a&gt; by Miguel Hernán and Jamie Robins: &lt;a href=&#34;https://yanirseroussi.com/2018/12/24/the-most-practical-causal-inference-book-ive-read-is-still-a-draft/&#34;&gt;The most practical book I&amp;rsquo;ve read&lt;/a&gt;. Highly recommended.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://experimentguide.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Trustworthy Online Controlled Experiments : A Practical Guide to A/B Testing&lt;/em&gt;&lt;/a&gt; by Ron Kohavi, Diane Tang, and Ya Xu: Building on the authors&amp;rsquo; decades of industry experience, this is pretty much the bible of online experiments, which is how causal inference is often done in practice.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.skleinberg.org/why/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Why: A Guide to Finding and Using Causes&lt;/em&gt;&lt;/a&gt; by Samantha Kleinberg: A high-level intro to the topic. I discussed highlights in &lt;a href=&#34;https://yanirseroussi.com/2016/02/14/why-you-should-stop-worrying-about-deep-learning-and-deepen-your-understanding-of-causality-instead/&#34;&gt;&lt;em&gt;Why you should stop worrying about deep learning and deepen your understanding of causality instead&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.skleinberg.org/causality_book/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Causality, Probability, and Time&lt;/em&gt;&lt;/a&gt; by Samantha Kleinberg: More technical than Kleinberg&amp;rsquo;s other book. As the title suggests, the element of time is central to the methods presented in the book. However, I&amp;rsquo;m still unsure about the practicality of those methods on real data. See my post &lt;a href=&#34;https://yanirseroussi.com/2016/05/15/diving-deeper-into-causality-pearl-kleinberg-hill-and-untested-assumptions/&#34;&gt;&lt;em&gt;Diving deeper into causality: Pearl, Kleinberg, Hill, and untested assumptions&lt;/em&gt;&lt;/a&gt; for more details.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bayes.cs.ucla.edu/PRIMER/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Causal Inference in Statistics: A Primer&lt;/em&gt;&lt;/a&gt; by Judea Pearl, Madelyn Glymour, Nicholas P. Jewell: A fairly accessible introduction to Judea Pearl&amp;rsquo;s work. I didn&amp;rsquo;t find it that practical, but I believe it helped me understand the graphical modelling parts of &lt;em&gt;Causal Inference&lt;/em&gt; by Hernán and Robins.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://mitpress.mit.edu/books/elements-causal-inference&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Elements of Causal Inference: Foundations and Learning Algorithms&lt;/em&gt;&lt;/a&gt; by Jonas Peters, Dominik Janzing, and Bernhard Schölkopf: The name of the book is an obvious reference to the classic book &lt;a href=&#34;https://web.stanford.edu/~hastie/ElemStatLearn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;The Elements of Statistical Learning&lt;/em&gt;&lt;/a&gt; by Trevor Hastie, Robert Tibshirani, and Jerome Friedman. Unfortunately, the &lt;em&gt;Elements of Causal Inference&lt;/em&gt; isn&amp;rsquo;t as widely applicable as Hastie et al.&amp;rsquo;s book – it contains some interesting ideas, but it appears that algorithms for causal learning from data with minimal assumptions aren&amp;rsquo;t yet scalable enough for practical use. This will probably change in the future.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.mostlyharmlesseconometrics.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Mostly Harmless Econometrics&lt;/em&gt;&lt;/a&gt; by Joshua D. Angrist and Jörn-Steffen Pischke: I started reading this book on my Kindle and was put off by some formatting issues. It also seemed like a less-general version of Pearl&amp;rsquo;s work. I may get back to it one day.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bayes.cs.ucla.edu/BOOK-2K/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Causality: Models, Reasoning, and Inference&lt;/em&gt;&lt;/a&gt; by Judea Pearl: I haven&amp;rsquo;t read it, and I doubt it&amp;rsquo;d be very practical given &lt;a href=&#34;https://www.reddit.com/r/statistics/comments/8lu1sr/causal_inference_book_recommendations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the opinions of people who have&lt;/a&gt;. But maybe I&amp;rsquo;ll get to it one day.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://bayes.cs.ucla.edu/WHY/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;The Book of Why: The New Science of Cause and Effect&lt;/em&gt;&lt;/a&gt; by Judea Pearl and Dana Mackenzie: An accessible overview of the field, focusing on Pearl&amp;rsquo;s contributions, but with plenty of historical background. Worth reading to get excited about the causal revolution.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.manning.com/books/causal-machine-learning&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Causal Machine Learning&lt;/em&gt;&lt;/a&gt; by Robert Osazuwa Ness: Still a draft as of September 2022, but &lt;a href=&#34;https://yanirseroussi.com/2022/09/12/causal-machine-learning-book-draft-review/&#34;&gt;it looks promising&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Articles&lt;/strong&gt;:&lt;/p&gt;</description>
+      <description>Useful books, articles, and courses on the topic of causal inference.</description>
     </item>
     <item>
       <title>Free Guide: Data-to-AI Health Check for Startups</title>
