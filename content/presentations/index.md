@@ -17,6 +17,7 @@ disableShare: true
 ---
 Talks and podcast appearances, saved here for future reference and for public benefit.
 
+  * [Podcast interview on my consulting focus and the reality of Data & AI projects](https://www.youtube.com/watch?v=6a-xYwKzCFA) with [Adam Massey](https://www.linkedin.com/in/amasseyadam/) ([summary post](https://yanirseroussi.com/2024/09/09/data-ai-humans-and-climate-carving-a-consulting-niche/))
   * [Your first Data-to-AI hire](https://yanirseroussi.com/talks/first-data-hire/#/) (presented to [Climate Salad members](https://members.climatesalad.com/event/receSv3NcyUVs4Z2o)); see posts with practice recordings: [part 1](https://yanirseroussi.com/2024/07/15/learn-about-dataland-to-avoid-expensive-hiring-mistakes/) & [part 2](https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/))
   * [Podcast interview on my career path](https://open.spotify.com/episode/1aXcalabXgCgXwSF1LAHyr) with [Eli Gündüz](https://www.linkedin.com/in/eligunduz/) of [Careersy Coaching](https://www.careersycoaching.com/) ([summary post](https://yanirseroussi.com/2024/08/12/keep-learning-your-career-is-never-truly-done/))
   * [Lessons from reluctant data engineering](https://docs.google.com/presentation/d/100GiDkp3UKfQtWtxZOF4CaJWTuSYtkEYxkI0_INdqq8/edit) (presented at [DataEngBytes](https://dataengconf.com.au/) Brisbane 2023; see [video](https://www.youtube.com/watch?v=NE6e7Xx7OLQ) and [post](https://yanirseroussi.com/2023/10/25/lessons-from-reluctant-data-engineering/))
