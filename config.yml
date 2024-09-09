@@ -2,7 +2,8 @@ baseURL: https://yanirseroussi.com/
 copyright: 'Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise'
 enableGitInfo: true
 languageCode: en-au
-paginate: 10000
+pagination:
+  pagerSize: 10000
 theme: papermod
 title: Yanir Seroussi | Data & AI for Startup Impact
 
