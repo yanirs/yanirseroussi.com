@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Learning about deep learning through album cover classification" />
+</noscript><meta property="og:title" content="Learning about deep learning through album cover classification" />
 <meta property="og:description" content="Progress on my album cover classification project, highlighting lessons that would be useful to others who are getting started with deep learning." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yanirseroussi.com/2015/07/06/learning-about-deep-learning-through-album-cover-classification/" />
@@ -252,16 +249,16 @@
 <p>The next experiments were with baselines that utilised pretrained <a href="http://caffe.berkeleyvision.org/" target="_blank" rel="noopener">Caffe</a> models. Training a random forest with 1,000 trees on features extracted from the highest fully-connected layer (fc7) in the <a href="http://caffe.berkeleyvision.org/model_zoo.html" target="_blank" rel="noopener">CaffeNet</a> and <a href="https://gist.github.com/ksimonyan/3785162f95cd2d5fee77#file-readme-md" target="_blank" rel="noopener">VGGNet-19</a> models yielded accuracies of 16.72% and 16.40% respectively. This was pretty disappointing, as I expected these features to perform much better. The reason may be that album covers are very different from ImageNet images, and the representations in fc7 are too specific to ImageNet. Indeed, when fine-tuning the CaffeNet model (following the procedure outlined <a href="http://caffe.berkeleyvision.org/gathered/examples/finetune_flickr_style.html" target="_blank" rel="noopener">here</a>), I got the best accuracy on the dataset: 22.60%. Using Caffe to train the same network from scratch didn&rsquo;t even get close to this accuracy. However, I didn&rsquo;t try to tune Caffe&rsquo;s learning parameters. Instead, I went back to running experiments with my code.</p>
 <p>It&rsquo;s worth noting that the classes identified by the CaffeNet model often have little to do with the actual content of the image. Better baseline results may be obtained by using models that were pretrained on a richer dataset than ImageNet. The following table presents three example covers together with the top-five classes identified by the CaffeNet model for each image. The tags assigned by <a href="http://clarifai.com" target="_blank" rel="noopener">Clarifai&rsquo;s API</a> are also presented for comparison. From this example, it looks like Clarifai&rsquo;s model is more successful at identifying the correct elements than the CaffeNet model, indicating that a baseline that uses the Clarifai tags may yield competitive performance.</p>
 <table>
-<thead>
-<tr>
-<th>Album</th>
-<th>CaffeNet</th>
-<th>Clarifai</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
+  <thead>
+      <tr>
+          <th style="text-align: left">Album</th>
+          <th style="text-align: left">CaffeNet</th>
+          <th style="text-align: left">Clarifai</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">
 
 
 
@@ -335,11 +332,11 @@ hiphop_rap"loading="lazy"
       </figcaption>
 </figure>
 </td>
-<td>digital clock, spotlight, jack-o&rsquo;-lantern, volcano, traffic light</td>
-<td>tree, landscape, sunset, desert, sun, sunrise, nature, evening, sky, travel</td>
-</tr>
-<tr>
-<td>
+          <td style="text-align: left">digital clock, spotlight, jack-o&rsquo;-lantern, volcano, traffic light</td>
+          <td style="text-align: left">tree, landscape, sunset, desert, sun, sunrise, nature, evening, sky, travel</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">
 
 
 
@@ -413,11 +410,11 @@ metal"loading="lazy"
       </figcaption>
 </figure>
 </td>
-<td>spider web, barn spider, chain, bubble, fountain</td>
-<td>skull, bone, nobody, death, vector, help, horror, medicine, black and white, tattoo</td>
-</tr>
-<tr>
-<td>
+          <td style="text-align: left">spider web, barn spider, chain, bubble, fountain</td>
+          <td style="text-align: left">skull, bone, nobody, death, vector, help, horror, medicine, black and white, tattoo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">
 
 
 
@@ -491,10 +488,10 @@ soul"loading="lazy"
       </figcaption>
 </figure>
 </td>
-<td>dishrag, paper towel, honeycomb, envelope, chain mail</td>
-<td>symbol, nobody, sign, illustration, color, flag, text, stripes, business, character</td>
-</tr>
-</tbody>
+          <td style="text-align: left">dishrag, paper towel, honeycomb, envelope, chain mail</td>
+          <td style="text-align: left">symbol, nobody, sign, illustration, color, flag, text, stripes, business, character</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="training-from-scratch">Training from scratch<a hidden class="anchor" aria-hidden="true" href="#training-from-scratch">#</a></h3>
 <p>My initial experiments were with various convnet architectures, where I manually varied the filter sizes and number of layers to have a reasonable number of parameters and ensure that the model is trainable on a GPU with 4GB of memory. As mentioned, this approach yielded unimpressive results. Following the relative success of the fine-tuned CaffeNet baseline, I decided to run more rigorous experiments on variants of AlexNet (which is very similar to CaffeNet).</p>

@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Hackers beware: Bootstrap sampling may be harmful" />
+</noscript><meta property="og:title" content="Hackers beware: Bootstrap sampling may be harmful" />
 <meta property="og:description" content="Bootstrap sampling has been promoted as an easy way of modelling uncertainty to hackers without much statistical knowledge. But things aren&rsquo;t that simple." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yanirseroussi.com/2019/01/08/hackers-beware-bootstrap-sampling-may-be-harmful/" />
@@ -227,66 +224,66 @@
 <h2 id="pitfall-1-inaccurate-confidence-intervals">Pitfall #1: Inaccurate confidence intervals<a hidden class="anchor" aria-hidden="true" href="#pitfall-1-inaccurate-confidence-intervals">#</a></h2>
 <p><a href="https://en.wikipedia.org/wiki/Confidence_interval" target="_blank" rel="noopener">Confidence intervals</a> are a common way of quantifying the uncertainty in an estimate of a population parameter. The percentile method is one of the simplest bootstrapping approaches for generating confidence intervals. For example, let&rsquo;s say we have a data sample of size <code>n</code> and we want to estimate a 95% confidence interval for the population mean. We take <code>r</code> bootstrap <em>resamples</em> from the original data sample, where each resample is a sample with replacement of size <code>n</code>. We calculate the mean of each resample and store the means in a sorted array. We then return the 95% confidence interval as the values that fall at the <code>0.025r</code> and <code>0.975r</code> indices of the sorted array (i.e., the 2.5% and 97.5% percentiles). The following table shows what the first two resamples may look like for a data sample of size <code>n=5</code>.</p>
 <table>
-<thead>
-<tr>
-<th></th>
-<th>Original sample</th>
-<th>Resample #1</th>
-<th>Resample #2</th>
-<th>&hellip;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Values</strong></td>
-<td>10</td>
-<td>30</td>
-<td>20</td>
-<td>&hellip;</td>
-</tr>
-<tr>
-<td></td>
-<td>12</td>
-<td>20</td>
-<td>20</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>20</td>
-<td>12</td>
-<td>30</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>30</td>
-<td>12</td>
-<td>30</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td>45</td>
-<td>45</td>
-<td>30</td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Mean</strong></td>
-<td><em>23.4</em></td>
-<td><em>23.8</em></td>
-<td><em>26</em></td>
-<td><em>&hellip;</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">Original sample</th>
+          <th style="text-align: left">Resample #1</th>
+          <th style="text-align: left">Resample #2</th>
+          <th style="text-align: left">&hellip;</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Values</strong></td>
+          <td style="text-align: left">10</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">&hellip;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">12</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">12</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">12</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">45</td>
+          <td style="text-align: left">45</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Mean</strong></td>
+          <td style="text-align: left"><em>23.4</em></td>
+          <td style="text-align: left"><em>23.8</em></td>
+          <td style="text-align: left"><em>26</em></td>
+          <td style="text-align: left"><em>&hellip;</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>The percentile method is nice and simple. Any programmer should be able to easily implement it in their favourite programming language, assuming <a href="https://blog.codinghorror.com/why-cant-programmers-program/" target="_blank" rel="noopener">they can actually program</a>. Unfortunately, <strong>this method is just not accurate enough for small sample sizes</strong>. Quoting Hesterberg (emphasis mine):</p>
 <blockquote>

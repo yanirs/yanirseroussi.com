@@ -56,10 +56,7 @@
         }
 
     </style>
-</noscript>
-  
-
-<meta property="og:title" content="Stochastic Gradient Boosting: Choosing the Best Number of Iterations" />
+</noscript><meta property="og:title" content="Stochastic Gradient Boosting: Choosing the Best Number of Iterations" />
 <meta property="og:description" content="Exploring an approach to choosing the optimal number of iterations in stochastic gradient boosting, following a bug I found in scikit-learn." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yanirseroussi.com/2014/12/29/stochastic-gradient-boosting-choosing-the-best-number-of-iterations/" /><meta property="article:section" content="posts" />
@@ -361,88 +358,88 @@
 
 <p>The following table shows the raw data that was used to produce the figure.</p>
 <table>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>CV</th>
-<th>SKO</th>
-<th>TSO</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>creditrating</td>
-<td>0.9962</td>
-<td>0.9771</td>
-<td>1</td>
-</tr>
-<tr>
-<td>breastcancer</td>
-<td>1</td>
-<td>0.6675</td>
-<td>0.4869</td>
-</tr>
-<tr>
-<td>mushrooms</td>
-<td>0.9588</td>
-<td>0.9963</td>
-<td>1</td>
-</tr>
-<tr>
-<td>abalone</td>
-<td>1</td>
-<td>0.9754</td>
-<td>0.9963</td>
-</tr>
-<tr>
-<td>ionosphere</td>
-<td>0.9919</td>
-<td>1</td>
-<td>0.8129</td>
-</tr>
-<tr>
-<td>diabetes</td>
-<td>1</td>
-<td>0.9869</td>
-<td>0.9985</td>
-</tr>
-<tr>
-<td>autoprices</td>
-<td>1</td>
-<td>0.9565</td>
-<td>0.5839</td>
-</tr>
-<tr>
-<td>autompg</td>
-<td>1</td>
-<td>0.8753</td>
-<td>0.9948</td>
-</tr>
-<tr>
-<td>bostonhousing</td>
-<td>1</td>
-<td>0.8299</td>
-<td>0.5412</td>
-</tr>
-<tr>
-<td>haberman</td>
-<td>1</td>
-<td>0.9793</td>
-<td>0.9266</td>
-</tr>
-<tr>
-<td>cpuperformance</td>
-<td>0.9934</td>
-<td>0.9160</td>
-<td>1</td>
-</tr>
-<tr>
-<td>adult</td>
-<td>1</td>
-<td>0.9824</td>
-<td>0.9991</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Dataset</th>
+          <th style="text-align: left">CV</th>
+          <th style="text-align: left">SKO</th>
+          <th style="text-align: left">TSO</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">creditrating</td>
+          <td style="text-align: left">0.9962</td>
+          <td style="text-align: left">0.9771</td>
+          <td style="text-align: left">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">breastcancer</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.6675</td>
+          <td style="text-align: left">0.4869</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">mushrooms</td>
+          <td style="text-align: left">0.9588</td>
+          <td style="text-align: left">0.9963</td>
+          <td style="text-align: left">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">abalone</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.9754</td>
+          <td style="text-align: left">0.9963</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ionosphere</td>
+          <td style="text-align: left">0.9919</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.8129</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">diabetes</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.9869</td>
+          <td style="text-align: left">0.9985</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">autoprices</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.9565</td>
+          <td style="text-align: left">0.5839</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">autompg</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.8753</td>
+          <td style="text-align: left">0.9948</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">bostonhousing</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.8299</td>
+          <td style="text-align: left">0.5412</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">haberman</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.9793</td>
+          <td style="text-align: left">0.9266</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">cpuperformance</td>
+          <td style="text-align: left">0.9934</td>
+          <td style="text-align: left">0.9160</td>
+          <td style="text-align: left">1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">adult</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">0.9824</td>
+          <td style="text-align: left">0.9991</td>
+      </tr>
+  </tbody>
 </table>
 <p>The main finding is that CV remains the most reliable approach. Even when CV is not the best-performing method, it&rsquo;s not much worse than the best method (this is in line with Ridgeway&rsquo;s findings). TSO yielded the best results on 3/12 of the datasets, and beat SKO 7/12 times. However, TSO&rsquo;s results are the most variant of the three methods: when it fails, it often yields very poor results.</p>
 <p>In conclusion, stick to cross-validation for the best results. It&rsquo;s more computationally intensive than SKO and TSO, but can be parallelised. I still think that there may be a way to avoid cross-validation, perhaps by extending SKO/TSO in more intelligent ways (see some interesting ideas by Eugene Dubossarsky <a href="http://cavemoosum.blogspot.com.au/2014/02/cross-validation-is-over-long-live.html" target="_blank" rel="noopener">here</a> and <a href="http://cavemoosum.blogspot.com.au/2014/03/cross-validation-is-not-quite-kaput-but.html" target="_blank" rel="noopener">here</a>). Any comments/ideas are very welcome.</p>
