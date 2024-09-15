@@ -23,7 +23,7 @@ But first, note that there are [other ways to contact me](/contact/) that may be
 
 Second, I also offer [longer one-hour advisory calls](https://calendly.com/yanir-seroussi/data-to-ai-strategy-consultation). You get to set the agenda for such calls, but the focus there is typically on your Data-to-AI Strategy.
 
-Third, nothing is truly free. Filling the form below will subscribe you to my weekly mailing list. If you made it here, you probably want that anyway (you can always unsubscribe).
+Third, nothing is truly free. Filling the form below will subscribe you to my mailing list. If you made it here, you probably want that anyway (you can always unsubscribe).
 
 Once you submit the form, you'll receive a confirmation email with the booking link for the call.
 
