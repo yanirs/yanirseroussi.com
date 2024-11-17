@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Video on Yanir Seroussi | Data &amp; AI for Startup Impact</title>
     <link>https://yanirseroussi.com/tags/video/</link>
     <description>Recent content in Video on Yanir Seroussi | Data &amp; AI for Startup Impact</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.138.0</generator>
     <language>en-au</language>
-    <copyright>Text and figures licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) by [Yanir Seroussi](https://yanirseroussi.com/about/), except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 00:30:00 +0000</lastBuildDate>
+    <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
+    <lastBuildDate>Mon, 09 Sep 2024 11:04:57 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/video/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data, AI, humans, and climate: Carving a consulting niche</title>
