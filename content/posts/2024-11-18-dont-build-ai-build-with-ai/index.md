@@ -2,7 +2,7 @@
 title: Don't build AI, build with AI
 author: Yanir Seroussi
 type: post
-date: 2024-11-17T01:00:00+00:00
+date: 2024-11-18T01:00:00+00:00
 url: /2024/11/18/dont-build-ai-build-with-ai/
 cover:
   relative: true
