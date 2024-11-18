@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.138.0</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 09 Sep 2024 11:04:57 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 11:08:07 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t build AI, build with AI</title>
+      <link>https://yanirseroussi.com/2024/11/18/dont-build-ai-build-with-ai/</link>
+      <pubDate>Sun, 17 Nov 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/11/18/dont-build-ai-build-with-ai/</guid>
+      <description>Building AI is hard and expensive. For most companies, the path to AI success is building with third-party AI interns and cheap AI cogs.</description>
+    </item>
     <item>
       <title>Data, AI, humans, and climate: Carving a consulting niche</title>
       <link>https://yanirseroussi.com/2024/09/09/data-ai-humans-and-climate-carving-a-consulting-niche/</link>

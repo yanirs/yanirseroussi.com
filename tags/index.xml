@@ -7,20 +7,41 @@
     <generator>Hugo -- 0.138.0</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 23 Sep 2024 16:28:37 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 11:08:07 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogging</title>
-      <link>https://yanirseroussi.com/tags/blogging/</link>
-      <pubDate>Mon, 23 Sep 2024 06:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/blogging/</guid>
+      <title>Artificial Intelligence</title>
+      <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
+      <pubDate>Sun, 17 Nov 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
       <link>https://yanirseroussi.com/tags/business/</link>
-      <pubDate>Mon, 23 Sep 2024 06:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Nov 2024 01:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://yanirseroussi.com/tags/data-science/</link>
+      <pubDate>Sun, 17 Nov 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startups</title>
+      <link>https://yanirseroussi.com/tags/startups/</link>
+      <pubDate>Sun, 17 Nov 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/startups/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogging</title>
+      <link>https://yanirseroussi.com/tags/blogging/</link>
+      <pubDate>Mon, 23 Sep 2024 06:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/blogging/</guid>
       <description></description>
     </item>
     <item>
@@ -45,13 +66,6 @@
       <description></description>
     </item>
     <item>
-      <title>Artificial Intelligence</title>
-      <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
-      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Career</title>
       <link>https://yanirseroussi.com/tags/career/</link>
       <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
@@ -66,13 +80,6 @@
       <description></description>
     </item>
     <item>
-      <title>Data Science</title>
-      <link>https://yanirseroussi.com/tags/data-science/</link>
-      <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Environment</title>
       <link>https://yanirseroussi.com/tags/environment/</link>
       <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
@@ -84,13 +91,6 @@
       <link>https://yanirseroussi.com/tags/video/</link>
       <pubDate>Mon, 09 Sep 2024 00:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/video/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Startups</title>
-      <link>https://yanirseroussi.com/tags/startups/</link>
-      <pubDate>Mon, 02 Sep 2024 02:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/startups/</guid>
       <description></description>
     </item>
     <item>

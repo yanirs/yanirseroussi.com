@@ -9,6 +9,13 @@
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
     <atom:link href="https://yanirseroussi.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Don&#39;t build AI, build with AI</title>
+      <link>https://yanirseroussi.com/2024/11/18/dont-build-ai-build-with-ai/</link>
+      <pubDate>Sun, 17 Nov 2024 01:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2024/11/18/dont-build-ai-build-with-ai/</guid>
+      <description>Building AI is hard and expensive. For most companies, the path to AI success is building with third-party AI interns and cheap AI cogs.</description>
+    </item>
+    <item>
       <title>In praise of inconsistency: Ditching weekly posts</title>
       <link>https://yanirseroussi.com/2024/09/23/in-praise-of-inconsistency-ditching-weekly-posts/</link>
       <pubDate>Mon, 23 Sep 2024 06:00:00 +0000</pubDate>
