@@ -7,33 +7,40 @@
     <generator>Hugo -- 0.139.2</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Mon, 18 Nov 2024 11:12:27 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 13:32:00 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial Intelligence</title>
       <link>https://yanirseroussi.com/tags/artificial-intelligence/</link>
-      <pubDate>Mon, 18 Nov 2024 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Business</title>
       <link>https://yanirseroussi.com/tags/business/</link>
-      <pubDate>Mon, 18 Nov 2024 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/business/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
       <link>https://yanirseroussi.com/tags/data-science/</link>
-      <pubDate>Mon, 18 Nov 2024 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Strategy</title>
+      <link>https://yanirseroussi.com/tags/data-strategy/</link>
+      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Startups</title>
       <link>https://yanirseroussi.com/tags/startups/</link>
-      <pubDate>Mon, 18 Nov 2024 01:00:00 +0000</pubDate>
+      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/startups/</guid>
       <description></description>
     </item>
@@ -105,13 +112,6 @@
       <link>https://yanirseroussi.com/tags/data-engineering/</link>
       <pubDate>Mon, 19 Aug 2024 03:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/data-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Strategy</title>
-      <link>https://yanirseroussi.com/tags/data-strategy/</link>
-      <pubDate>Mon, 19 Aug 2024 03:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-strategy/</guid>
       <description></description>
     </item>
     <item>
