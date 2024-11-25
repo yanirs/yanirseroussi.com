@@ -8,7 +8,7 @@ cover:
   relative: true
   image: ai-con-2024-speaker-cover.webp
   alt: image showcasing some of the speakers from AI Con 2024
-summary: "Themes from AI Con 2024: data moats, stealthy AI use, Chatty's UX revolution, and enduring fundamentals"
+summary: "Themes from AI Con 2024: data moats, stealthy AI use, Chatty's UX revolution, and enduring fundamentals."
 tags:
   - artificial intelligence
   - business

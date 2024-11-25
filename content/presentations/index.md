@@ -17,6 +17,7 @@ disableShare: true
 ---
 Talks and podcast appearances, saved here for future reference and for public benefit.
 
+  * [We Need More FLOPS: How to Fail with AI](https://yanirseroussi.com/2024/11/25/data-moats-stealthy-ai-and-more-ai-con-2024-notes/we-need-more-flops-how-to-fail-with-ai.pdf) (presented at [AI Con 2024](https://yanirseroussi.com/2024/11/25/data-moats-stealthy-ai-and-more-ai-con-2024-notes/))
   * [Podcast interview on my consulting focus and the reality of Data & AI projects](https://www.youtube.com/watch?v=6a-xYwKzCFA) with [Adam Massey](https://www.linkedin.com/in/amasseyadam/) ([summary post](https://yanirseroussi.com/2024/09/09/data-ai-humans-and-climate-carving-a-consulting-niche/))
   * [Your first Data-to-AI hire](https://yanirseroussi.com/talks/first-data-hire/#/) (presented to [Climate Salad members](https://members.climatesalad.com/event/receSv3NcyUVs4Z2o)); see posts with practice recordings: [part 1](https://yanirseroussi.com/2024/07/15/learn-about-dataland-to-avoid-expensive-hiring-mistakes/) & [part 2](https://yanirseroussi.com/2024/07/22/your-first-data-to-ai-hire-run-a-lovable-process/))
   * [Podcast interview on my career path](https://open.spotify.com/episode/1aXcalabXgCgXwSF1LAHyr) with [Eli Gündüz](https://www.linkedin.com/in/eligunduz/) of [Careersy Coaching](https://www.careersycoaching.com/) ([summary post](https://yanirseroussi.com/2024/08/12/keep-learning-your-career-is-never-truly-done/))
