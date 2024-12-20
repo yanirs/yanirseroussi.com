@@ -1,0 +1,9 @@
+.data-webring {
+  color: var(--secondary);
+  font-size: 14px;
+  text-align: center;
+}
+
+.data-webring a {
+  color: var(--secondary);
+}

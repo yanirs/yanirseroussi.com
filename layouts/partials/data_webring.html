@@ -1,0 +1,57 @@
+<p class="post-content data-webring">
+  This site is a part of the <a href="https://randyau.github.io/datawebring/index.html" target="_blank" rel="noopener">Data People Writing Stuff</a> webring.
+  <br>
+  <a class="data-webring-previous-link" target="_blank" rel="noopener">← previous site</a>
+  &nbsp; | &nbsp;
+  <a class="data-webring-next-link" target="_blank" rel="noopener">next site →</a>
+</p>
+
+<script>
+  // Shuffle the sites make the first and second sites the previous and next links, respectively. This changes on every
+  // page load.
+  function populateDataWebringLinks() {
+    // Taken from https://github.com/randyau/datawebring/blob/main/onionring-variables.js.
+    // This will be periodically synced to the source list.
+    // Not using the third-party JavaScript code to avoid vulnerabilities from injecting code I can't control.
+    const sites = [
+      'https://www.randyau.com/',
+      'https://vickiboykis.com/',
+      'https://www.counting-stuff.com/',
+      'https://gecky.me/',
+      'https://qethanm.cc/datawebring/',
+      'https://mlops.systems/',
+      'https://e2eml.school/',
+      'https://blog.harterrt.com/',
+      'https://www.jessemostipak.com/',
+      'https://elliotgunn.github.io/',
+      'https://radbrt.com',
+      'https://simon.podhajsky.net/blog/',
+      'https://www.heltweg.org/',
+      'https://emilyriederer.com/',
+      'https://kylestratis.com',
+      // Commenting myself out for simplicity.
+      // 'https://yanirseroussi.com/',
+      'https://www.eamoncaddigan.net/'
+    ];
+
+    // Copied from https://stackoverflow.com/a/6274381.
+    // This diverges from the implementation in https://github.com/randyau/datawebring/blob/main/onionring-widget.js
+    // by not setting a daily seed, which hurts consistency but results in simpler code.
+    function shuffle(a) {
+      let j, x, i;
+      for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+      }
+    }
+
+    shuffle(sites);
+
+    document.querySelector('.data-webring-previous-link').href = sites[0];
+    document.querySelector('.data-webring-next-link').href = sites[1];
+  }
+
+  populateDataWebringLinks();
+</script>
