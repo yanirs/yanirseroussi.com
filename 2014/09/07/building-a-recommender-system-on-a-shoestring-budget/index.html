@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2014/09/07/building-a-recommender-system-on-a-shoestring-budget/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.6ae6009622e3a7f627ec457944ddec46485d368a325461242eff3696affc09de.css" integrity="sha256-auYAliLjp/Yn7EV5RN3sRkhdNooyVGEkLv82lq/8Cd4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -403,6 +403,63 @@ This post discusses my exploration of this question by describing the main compo
   
 </section>
 
+<p class="post-content data-webring">
+  This site is a part of the <a href="https://randyau.github.io/datawebring/index.html" target="_blank" rel="noopener">Data People Writing Stuff</a> webring.
+  <br>
+  <a class="data-webring-previous-link" target="_blank" rel="noopener">← previous site</a>
+  &nbsp; | &nbsp;
+  <a class="data-webring-next-link" target="_blank" rel="noopener">next site →</a>
+</p>
+
+<script>
+  
+  
+  function populateDataWebringLinks() {
+    
+    
+    
+    const sites = [
+      'https://www.randyau.com/',
+      'https://vickiboykis.com/',
+      'https://www.counting-stuff.com/',
+      'https://gecky.me/',
+      'https://qethanm.cc/datawebring/',
+      'https://mlops.systems/',
+      'https://e2eml.school/',
+      'https://blog.harterrt.com/',
+      'https://www.jessemostipak.com/',
+      'https://elliotgunn.github.io/',
+      'https://radbrt.com',
+      'https://simon.podhajsky.net/blog/',
+      'https://www.heltweg.org/',
+      'https://emilyriederer.com/',
+      'https://kylestratis.com',
+      
+      
+      'https://www.eamoncaddigan.net/'
+    ];
+
+    
+    
+    
+    function shuffle(a) {
+      let j, x, i;
+      for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+      }
+    }
+
+    shuffle(sites);
+
+    document.querySelector('.data-webring-previous-link').href = sites[0];
+    document.querySelector('.data-webring-next-link').href = sites[1];
+  }
+
+  populateDataWebringLinks();
+</script>
 
 
 </article>
