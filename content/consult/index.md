@@ -60,7 +60,7 @@ These are meant to tackle a specific issue within the space of an hour, such as:
   <a class="fake-button" href="https://calendly.com/yanir-seroussi/data-to-ai-strategy-consultation" target="_blank" rel="noreferrer">Book an advisory call</a>
 </p>
 
-The fee for a one-off advisory call is AU$300, which includes my preparation based on information that you provide. If I don't meet your expectations, you may cancel the call for a full refund up to 15 minutes from the start time.
+The fee for the one-off advisory call includes my preparation based on information that you provide. If I don't meet your expectations, you may cancel the call for a full refund up to 15 minutes from the start time.
 
 ### 2. Bespoke review and roadmapping
 
