@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -214,9 +214,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu17385203320810397143.webp 360w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu138308111555506794.webp 480w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu10264915611336912034.webp 720w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu6446549798322412629.webp 1080w ,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp 1200w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp" alt="ChatGPT-generated messy machine learning lifecycle model (inspired by xkcd)" 
-            width="1200" height="630">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu_e92aea85bea1239c.webp 360w,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu_7a767bc51afecd71.webp 480w,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu_398fcddc7ec150f4.webp 720w,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle_hu_15ad8732a71c01c7.webp 1080w,https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp 1200w'
+                src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/messy-machine-learning-lifecycle.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1200" height="630"
+                alt="ChatGPT-generated messy machine learning lifecycle model (inspired by xkcd)">
         
 </figure>
   <div class="post-content"><p>One of my challenges with the transition to consulting is running effective diagnoses. As a long-term employee, you develop an awareness of problems within your organisation – especially problems you&rsquo;ve caused yourself (e.g., by taking on tech debt). As an outsider with deep industry knowledge, you can <em>guess</em> what the problems are based on the initial brief. However, there&rsquo;s often no way around spending time with a client to thoroughly diagnose their problems and propose custom solutions.</p>
@@ -229,8 +232,7 @@ Specifically, the first three questions should provide a good overview of the cu
 <li>Q1: Provide an architecture diagram for your tech systems (product and data stacks), including first-party and third-party tools and databases. If a diagram doesn&rsquo;t exist, an ad hoc drawing would work as well.</li>
 <li>Q2: Zooming in on data stacks, what tools and pipelines do you use for the <a href="https://yanirseroussi.com/til/2024/04/05/the-data-engineering-lifecycle-is-not-going-anywhere/">data engineering lifecycles (generation, storage, ingestion, transformation, and serving)</a>, and downstream uses (analytics, AI/ML, and reverse ETL)?</li>
 <li>Q3: Zooming in further on the downstream uses of analytics and AI/ML, what systems, processes, and tools do you use to manage their lifecycles (discovery, data preparation, model engineering, deployment, monitoring, and maintenance)? Give specific project examples.</li>
-</ul>
-</blockquote>
+</ul></blockquote>
 <p>However, while I was satisfied with the definition of the data engineering lifecycle (as noted in the Q2 link, its ultimate source is the book <em>Fundamentals of Data Engineering</em>), I didn&rsquo;t <em>love</em> the definition of the AI/ML lifecycle.
 As I find lifecycle models incredibly useful for uncovering gaps and opportunities, I decided to dig deeper and find an AI/ML lifecycle model that suits my diagnostic needs.
 The rest of this post discusses the problem in more detail, and presents my findings.</p>
@@ -296,19 +298,19 @@ The rest of this post discusses the problem in more detail, and presents my find
         srcset="
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu10628004710954923567.jpg 360w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu_bfcf5364cc31af00.jpg 360w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu18282823917121949416.jpg 480w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu_600fc63036db14c.jpg 480w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu15873989455293199206.jpg 720w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu_8fc5759bc6242af9.jpg 720w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu236294197147428252.jpg 1080w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu_37cf953fb4541d3a.jpg 1080w,
             
           
             
@@ -319,7 +321,7 @@ The rest of this post discusses the problem in more detail, and presents my find
         
         
         
-          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu2381321193971662559.jpg"
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/aws-well-architected-ml-lifecycle_hu_ead26373b7711ac8.jpg"
         
       
         alt="The ML lifecycle from the AWS Well-Architected Framework"loading="lazy"
@@ -381,30 +383,30 @@ The rest of this post discusses the problem in more detail, and presents my find
         srcset="
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu13635626371145733910.webp 360w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu_e8b9d45c8e631724.webp 360w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu262551558629969446.webp 480w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu_63cc1af94325ddca.webp 480w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu8238882923204333100.webp 720w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu_273c53e36cb9ca11.webp 720w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu10602781101212920320.webp 1080w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu_e5a6a27893d8f967.webp 1080w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu16357048328613294372.webp 1500w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu_4ad4609fa25e67cc.webp 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu12572662718756424359.webp"
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/crisp-ml-process_hu_4c932bc0fed5c4f.webp"
         
       
         alt="The CRISP-ML(Q) model from INNOQ"loading="lazy"
@@ -420,8 +422,7 @@ The rest of this post discusses the problem in more detail, and presents my find
 <h2 id="integrating-analysis-into-the-aiml-lifecycle-model">Integrating analysis into the AI/ML lifecycle model<a hidden class="anchor" aria-hidden="true" href="#integrating-analysis-into-the-aiml-lifecycle-model">#</a></h2>
 <p>The ideal lifecycle scenario is captured by this quote by David Johnston (from <a href="https://martinfowler.com/articles/productize-data-sci-notebooks.html" target="_blank" rel="noopener">the article on notebooks in production</a> cited above):</p>
 <blockquote>
-<p>Notebooks are useful tools for interactive data exploration which is the dominant activity of a data scientist working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. The key is to build the ability to experiment into the pipeline itself.</p>
-</blockquote>
+<p>Notebooks are useful tools for interactive data exploration which is the dominant activity of a data scientist working on the early phase of a new project or exploring a new technique. But once an approach has been settled on, the focus needs to shift to building a structured codebase around this approach while retaining some ability to experiment. The key is to build the ability to experiment into the pipeline itself.</p></blockquote>
 <p>Unfortunately, reality is often far from this ideal, as <a href="https://medium.com/@jasoncorso/the-machine-learning-random-walk-0739a38bdc54" target="_blank" rel="noopener">noted by Jason Corso</a> (emphasis mine):</p>
 <blockquote>
 <p>This rose-tinted view of the machine learning process is often called <em>the machine learning pipeline</em>. And, well, I&rsquo;m done with hearing about the machine learning pipeline. Everyday work in real machine learning could not be farther from a pipeline.</p>
@@ -434,8 +435,7 @@ The rest of this post discusses the problem in more detail, and presents my find
 <p>[&hellip;]</p>
 <p>Optimizing the machine learning process requires an appreciation for the high levels of uncertainty present. Whereas classical computational thinking may lead one to infrastructure-focused orientation that emphasizes the speed and effectiveness by which data gets processed, optimizing the machine learning work instead requires effective mechanisms to uncover false assumptions, mistakes and other mishaps in the manner in which the problem statement was rendered into a computational system.</p>
 <p>I imagine it seems natural to think: ok, fine, once this uncertainty is managed and we have a deployable model, then we can set up our fast, automated pipelines and crunch away in production. To this thought, I&rsquo;d answer a very clear &ldquo;maybe.&rdquo; Sure, one wants to optimize and automate. It certainly makes sense. But, I would still exercise caution: data drift and evolving production expectations create a need to constantly measure and evolve these machine learning systems.</p>
-<p>In all of these situations, clear software-enabled analytical decisions are required to optimize the machine learning random walk.</p>
-</blockquote>
+<p>In all of these situations, clear software-enabled analytical decisions are required to optimize the machine learning random walk.</p></blockquote>
 <p>The full article is worth reading – it was hard to choose just the above quotes!</p>
 <p>Following the introduction of analysis as an essential part of AI/ML work at any stage, Corso proposes a simple pipeline diagram that allows for loops via analysis:</p>
 
@@ -489,30 +489,30 @@ The rest of this post discusses the problem in more detail, and presents my find
         srcset="
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu3190836251978234608.webp 360w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu_d164b68b116ec0cb.webp 360w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu15598302341448277461.webp 480w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu_3b17be6927d14dc8.webp 480w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu3125708249382893859.webp 720w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu_59e1623038a846d9.webp 720w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu6201202361735197588.webp 1080w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu_4181232e2fa0e404.webp 1080w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu3379585387311817533.webp 1500w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu_43a4cccacd608cad.webp 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu13764450539510242881.webp"
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/jason-corso-ml-pipeline-with-analysis_hu_a0885c01b138992d.webp"
         
       
         alt="Jason Corso&rsquo;s ML pipeline with analysis-mediated loops"loading="lazy"
@@ -576,30 +576,30 @@ The rest of this post discusses the problem in more detail, and presents my find
         srcset="
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu12930071606226625692.png 360w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu_50b2d6f842ce7340.png 360w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu15766688908422956889.png 480w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu_ff232ab7743deee5.png 480w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu9589272808647735708.png 720w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu_5cd0ad8d132400bd.png 720w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu14243191789115717204.png 1080w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu_1444037b2cbae753.png 1080w,
             
           
             
-              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu14579680161961925806.png 1500w,
+              https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu_d1ac71a2b16e93b8.png 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu14793433419732880751.png"
+          src="https://yanirseroussi.com/2024/07/29/ai-ml-lifecycle-models-versus-real-world-mess/ai-ml-lifecycle-steps_hu_eba145d155b33130.png"
         
       
         alt="My version of the AI/ML lifecycle: Most arrows are implicit. You go up and down the stairs as reality dictates. Introducing automation to ascend faster on each iteration is the ideal."loading="lazy"

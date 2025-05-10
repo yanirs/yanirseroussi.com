@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -213,17 +213,19 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu15395538297695215419.jpg 360w ,https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu12126570287752267593.jpg 480w ,https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu15632328318594622743.jpg 720w ,https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs.jpg 794w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs.jpg" alt="" 
-            width="794" height="582">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu_d47cd5e465e8d4a6.jpg 360w,https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu_aea4e1315737a4e5.jpg 480w,https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu_59cd458a36fea45e.jpg 720w,https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs.jpg 794w'
+                src="https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="794" height="582"
+                alt="">
         
 </figure>
   <div class="post-content"><p>One of my favourite blog posts in recent times is <a href="http://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying">The Log: What every software engineer should know about real-time data&rsquo;s unifying abstraction</a> by Jay Kreps. That post comprehensively describes how abstracting all the data produced by LinkedIn&rsquo;s various components into a single log pipeline greatly simplified their architecture and enabled advanced data-driven applications. Among the various technical details there are some beautifully-articulated business insights. My favourite one defines data&rsquo;s hierarchy of needs:</p>
 <blockquote>
 <p>Effective use of data follows a kind of <a href="http://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs" target="_blank" rel="noopener">Maslow&rsquo;s hierarchy of needs</a>. The base of the pyramid involves capturing all the relevant data, being able to put it together in an applicable processing environment (be that a fancy real-time query system or just text files and python scripts). This data needs to be modeled in a uniform way to make it easy to read and process. Once these basic needs of capturing data in a uniform way are taken care of it is reasonable to work on infrastructure to process this data in various ways—MapReduce, real-time query systems, etc.</p>
 <p>It&rsquo;s worth noting the obvious: without a reliable and complete data flow, a Hadoop cluster is little more than a very expensive and difficult to assemble space heater. Once data and processing are available, one can move concern on to more refined problems of good data models and consistent well understood semantics. Finally, concentration can shift to more sophisticated processing—better visualization, reporting, and algorithmic processing and prediction.</p>
-<p><strong>In my experience, most organizations have huge holes in the base of this pyramid—they lack reliable complete data flow—but want to jump directly to advanced data modeling techniques. This is completely backwards.</strong> [emphasis mine]</p>
-</blockquote>
+<p><strong>In my experience, most organizations have huge holes in the base of this pyramid—they lack reliable complete data flow—but want to jump directly to advanced data modeling techniques. This is completely backwards.</strong> [emphasis mine]</p></blockquote>
 <p>Visually, it looks something like this:</p>
 
 
@@ -274,15 +276,15 @@
         srcset="
           
             
-              https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu15395538297695215419.jpg 360w,
+              https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu_d47cd5e465e8d4a6.jpg 360w,
             
           
             
-              https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu12126570287752267593.jpg 480w,
+              https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu_aea4e1315737a4e5.jpg 480w,
             
           
             
-              https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu15632328318594622743.jpg 720w,
+              https://yanirseroussi.com/2014/08/17/datas-hierarchy-of-needs/datas-hierarchy-of-needs_hu_59cd458a36fea45e.jpg 720w,
             
           
             

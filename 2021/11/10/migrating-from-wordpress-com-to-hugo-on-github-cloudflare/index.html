@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -216,9 +216,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu10296156670942967452.jpg 360w ,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu6593284695916993735.jpg 480w ,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu9066934011343568558.jpg 720w ,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu14685106632332466539.jpg 1080w ,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu10384283320125036375.jpg 1500w ,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration.jpg 1920w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration.jpg" alt="" 
-            width="1920" height="938">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu_43fd867fda0d2e48.jpg 360w,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu_fc405a4221c9a21.jpg 480w,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu_86a22cd6cf1b79e4.jpg 720w,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu_241ef3edd936c1a3.jpg 1080w,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration_hu_8edc2721cbf1ab10.jpg 1500w,https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration.jpg 1920w'
+                src="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bird-migration.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1920" height="938"
+                alt="">
         
 </figure>
   <div class="post-content"><p>Last month, I left Automattic (the company behind WordPress.com) after about 4.5 years of working there as a data scientist. As I am moving back into independent consulting, I decided it was time to give my website a facelift and start posting more often. The biggest part of the facelift was migrating off WordPress.com – I now use <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> for site generation and GitHub + Cloudflare for hosting. This post summarises my reasons for switching and some technical choices I made, which may be useful for people who are considering a similar migration.</p>
@@ -291,7 +294,7 @@
             
             
             
-              src="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/github-copilot_hu5975230338131328173.png"
+              src="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/github-copilot_hu_9bfbd4203b7fcb0c.png"
             
           
             alt="GitHub Copilot trying to help with this post"loading="lazy"
@@ -375,15 +378,15 @@
         srcset="
           
             
-              https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu8371606818396112755.png 360w,
+              https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu_2fd6b5e567bb3e2b.png 360w,
             
           
             
-              https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu11174923983386950054.png 480w,
+              https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu_74406e91f0fdc6a3.png 480w,
             
           
             
-              https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu3432957780663688600.png 720w,
+              https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu_da0a7631edfb72cd.png 720w,
             
           
             
@@ -394,7 +397,7 @@
         
         
         
-          src="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu6626464505314896794.png"
+          src="https://yanirseroussi.com/2021/11/10/migrating-from-wordpress-com-to-hugo-on-github-cloudflare/bad-metric_hu_91151a7274716145.png"
         
       
         alt="Bad metric"loading="lazy"

@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -214,9 +214,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu7411601062871825319.jpg 360w ,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu4330467322524265102.jpg 480w ,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu8348915401180542837.jpg 720w ,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu14757878244588156290.jpg 1080w ,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu3047431522584960531.jpg 1500w ,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting.jpg 4896w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting.jpg" alt="" 
-            width="4896" height="3264">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu_6cbe6b92f9c058b1.jpg 360w,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu_976987b9a9f85c4b.jpg 480w,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu_f06ad7cc57b8b2f7.jpg 720w,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu_c3e22133ccd39730.jpg 1080w,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting_hu_e8160f3b21447031.jpg 1500w,https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting.jpg 4896w'
+                src="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/santa-counting.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="4896" height="3264"
+                alt="">
         
 </figure>
   <div class="post-content"><p><a href="https://yanirseroussi.com/2019/10/06/bootstrapping-the-right-way/">Previously, I encouraged readers to test different approaches to bootstrapped confidence interval (CI) estimation</a>. Such testing can done by relying on <a href="https://en.wikipedia.org/wiki/Confidence_interval" target="_blank" rel="noopener">the definition of CIs</a>: Given an infinite number of independent samples from the same population, we expect a <code>ci_level</code> CI to contain the population parameter in exactly <code>ci_level</code> percent of the samples. Therefore, we run &ldquo;many&rdquo; simulations (<code>num_simulations</code>), where each simulation generates a random sample from the same population and runs the CI algorithm on the sample. We then look at the <em>observed</em> CI level (i.e., the percentage of CIs that contain the true population parameter), and say that the CI algorithm works as expected if the observed CI level is &ldquo;not too far&rdquo; from the requested <code>ci_level</code>.</p>
@@ -308,30 +311,30 @@
         srcset="
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu12137438973674417937.png 360w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu_71daa887bc10b9e4.png 360w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu17577320657429909508.png 480w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu_8c63052bd0542a41.png 480w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu10806846634173401799.png 720w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu_38798281b3674b64.png 720w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu14988256282036160558.png 1080w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu_208721c522019692.png 1080w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu3317988682253026554.png 1500w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu_bd8a2c1bc17576aa.png 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu1142111713813566241.png"
+          src="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/confidence-interval-simulation-bounds_hu_7e95840987c5c19f.png"
         
       
         alt="Plot of observed CI bounds (ci_level=95%, simulation_confidence=99%)"loading="lazy"
@@ -391,30 +394,30 @@
         srcset="
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu1684785515329712091.png 360w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu_e11837ff1ee42216.png 360w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu4655191357989958106.png 480w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu_79ebf6644fcc0f20.png 480w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu17475768245169991780.png 720w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu_adfa68b69746741c.png 720w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu924278978078814229.png 1080w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu_68b0593f0c32b46d.png 1080w,
             
           
             
-              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu4985994649251385203.png 1500w,
+              https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu_7b44bbb4ca4a03e2.png 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu17561584938634324626.png"
+          src="https://yanirseroussi.com/2020/08/24/many-is-not-enough-counting-simulations-to-bootstrap-the-right-way/revenue-confidence-intervals-with-bounds_hu_df709f47644cd321.png"
         
       
         alt="Revenue confidence intervals with bounds"loading="lazy"

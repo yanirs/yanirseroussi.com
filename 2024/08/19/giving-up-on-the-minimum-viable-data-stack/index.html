@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -213,10 +213,13 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu14484208253098507848.webp 360w ,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu2097341736554327282.webp 480w ,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu3807772625892347356.webp 720w ,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu364334649108491549.webp 1080w ,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024.webp 1200w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024.webp" alt="MAD landscape 2024. 2000&#43; logos and expanding. [Source](https://mattturck.com/mad2024/)." 
-            width="1200" height="621">
-        <p>MAD landscape 2024. 2000+ logos and expanding. <a href="https://mattturck.com/mad2024/" target="_blank" rel="noopener">Source</a>.</p>
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu_d8bfada60494ca6.webp 360w,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu_da6cf9c9187ec0e1.webp 480w,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu_6f403c98b4d3af8d.webp 720w,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024_hu_b7091a9d404192af.webp 1080w,https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024.webp 1200w'
+                src="https://yanirseroussi.com/2024/08/19/giving-up-on-the-minimum-viable-data-stack/mad-landscape-2024.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1200" height="621"
+                alt="MAD landscape 2024. 2000&#43; logos and expanding. [Source](https://mattturck.com/mad2024/).">
+        <figcaption>MAD landscape 2024. 2000+ logos and expanding. <a href="https://mattturck.com/mad2024/" target="_blank" rel="noopener">Source</a>.</figcaption>
 </figure>
   <div class="post-content"><p>Back in February, I <a href="https://yanirseroussi.com/2024/02/19/building-your-startups-minimum-viable-data-stack/">had an idea for a series of posts on a startup&rsquo;s minimum viable data stack</a>. The motivation was to provide advice that&rsquo;d help startups navigate <a href="https://mattturck.com/mad2024/" target="_blank" rel="noopener">the ever-expanding MAD (Machine Learning, AI, and Data) landscape, which as of 2024 includes over 2,000 logos</a>. I was also aiming to deepen my knowledge through research and writing for the series.</p>
 <p>Since then, I&rsquo;ve decided to drop the idea because:</p>
@@ -227,8 +230,7 @@
 </ol>
 <p>I&rsquo;ll illustrate these issues through a question I advised on recently:</p>
 <blockquote>
-<p>Should a startup use Snowflake, Databricks, or a collection of AWS products at the core of their Data &amp; AI stack?</p>
-</blockquote>
+<p>Should a startup use Snowflake, Databricks, or a collection of AWS products at the core of their Data &amp; AI stack?</p></blockquote>
 <h2 id="1-specific-constraints-are-key">(1) Specific constraints are key<a hidden class="anchor" aria-hidden="true" href="#1-specific-constraints-are-key">#</a></h2>
 <p>The question is constrained to three top-level options. This was informed by the company&rsquo;s choice of AWS as their cloud platform. While Snowflake and Databricks can run with either of the three major cloud providers, throwing Google Cloud or Azure into the mix would be foolish.</p>
 <p>Indeed, when the time comes to get serious about Data &amp; AI, it&rsquo;s often the case that many infrastructure decisions have already been made. These decisions introduce constraints – which is a <em>Good Thing</em>. Such constraints narrow down the search through the MAD landscape.</p>

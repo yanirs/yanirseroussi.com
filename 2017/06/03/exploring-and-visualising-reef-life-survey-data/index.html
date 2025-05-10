@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -216,9 +216,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu6022529753721500475.png 360w ,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu13894183461164592808.png 480w ,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu11783412774393272647.png 720w ,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu7558696541193304477.png 1080w ,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu15211992879912881599.png 1500w ,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot.png 3035w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot.png" alt="" 
-            width="3035" height="1442">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_a6ee5d6c263a175b.png 360w,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_a33e4e006d0241e4.png 480w,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_35a7d2f45ed2757b.png 720w,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_c95931fa9bbeb472.png 1080w,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_87e6d6aba2b7a81c.png 1500w,https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot.png 3035w'
+                src="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot.png"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="3035" height="1442"
+                alt="">
         
 </figure>
   <div class="post-content"><p>Last year, I wrote about the <a href="http://reeflifesurvey.com" target="_blank" rel="noopener">Reef Life Survey</a> (RLS) project and <a href="https://yanirseroussi.com/2016/01/24/the-joys-of-offline-data-collection/">my experience with offline data collection on the Great Barrier Reef</a>. I found that using auto-generated flashcards with an increasing level of difficulty is a good way to memorise marine species. Since publishing that post, I have improved the flashcards and built a tool for exploring the aggregate survey data. Both tools are now publicly available on the RLS website. This post describes the tools and their implementation, and outlines possible directions for future work.</p>
@@ -275,30 +278,30 @@
         srcset="
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu6022529753721500475.png 360w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_a6ee5d6c263a175b.png 360w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu13894183461164592808.png 480w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_a33e4e006d0241e4.png 480w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu11783412774393272647.png 720w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_35a7d2f45ed2757b.png 720w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu7558696541193304477.png 1080w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_c95931fa9bbeb472.png 1080w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu15211992879912881599.png 1500w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_87e6d6aba2b7a81c.png 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu2168781384877283583.png"
+          src="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-frequency-explorer-screenshot_hu_e7129f28bdda9363.png"
         
       
         alt="Reef Life Survey Frequency Explorer screenshot"loading="lazy"
@@ -360,30 +363,30 @@
         srcset="
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu3070872598195408119.png 360w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu_aae8e0e5e28bbdf4.png 360w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu16561906829667751196.png 480w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu_9c6258487f5696f2.png 480w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu10534979297416440841.png 720w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu_2a79476b1bd91234.png 720w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu15738791829047457408.png 1080w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu_56cd2e1445480f39.png 1080w,
             
           
             
-              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu2222179775525036039.png 1500w,
+              https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu_f7330f06154d6897.png 1500w,
             
           
         "
         
         
         
-          src="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu6485317042508195019.png"
+          src="https://yanirseroussi.com/2017/06/03/exploring-and-visualising-reef-life-survey-data/reef-life-survey-flashcards-screenshot_hu_f7fde0c48eb3e3ca.png"
         
       
         alt="Reef Life Survey Flashcards screenshot"loading="lazy"

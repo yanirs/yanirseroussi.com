@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -213,9 +213,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu16937738120446920185.webp 360w ,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu1303200510560620091.webp 480w ,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu7270273763566274072.webp 720w ,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu18169705575333417545.webp 1080w ,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover.webp 1200w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover.webp" alt="clunky untested bot on the left, slicker bot on the right" 
-            width="1200" height="630">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu_e5c21c54b526de3f.webp 360w,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu_10f1c35a1a8a4f2a.webp 480w,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu_3ede15455156cde3.webp 720w,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover_hu_fcdcab292019ae2b.webp 1080w,https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover.webp 1200w'
+                src="https://yanirseroussi.com/2024/04/15/ai-does-not-obviate-the-need-for-testing-and-observability/cover.webp"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1200" height="630"
+                alt="clunky untested bot on the left, slicker bot on the right">
         
 </figure>
   <div class="post-content"><p>The excitement sparked by ChatGPT has led to a flood of funding for building AI applications, especially around large language models (LLMs). The ease of getting started with AI can lead to excessive enthusiasm, to the point of believing that we have entered a new regime of software development where old best practices no longer apply. The goal of this post is to demonstrate that we are still in the old regime: <strong>Testing and observability remain key to AI success beyond initial prototypes.</strong></p>
@@ -232,8 +235,7 @@
 </ol>
 <p>The use of the word <em>evaluations</em> (or <em>evals</em>) by both authors is intentional. This is the common term for testing that deals with the challenges of working with LLMs (essentially a complex mapping from any text input to any text output). As noted in <a href="https://github.com/openai/evals" target="_blank" rel="noopener">the OpenAI Evals repository</a>:</p>
 <blockquote>
-<p>If you are building with LLMs, creating high quality evals is one of the most impactful things you can do. Without evals, it can be very difficult and time intensive to understand how different model versions might affect your use case.</p>
-</blockquote>
+<p>If you are building with LLMs, creating high quality evals is one of the most impactful things you can do. Without evals, it can be very difficult and time intensive to understand how different model versions might affect your use case.</p></blockquote>
 <p>That is, we are at the opposite to a new regime where traditional software testing can be forgotten: <strong>Production-level AI apps still require all the usual software tests, <em>as well as</em> AI-specific evaluations.</strong></p>
 <p>In a way, this is nothing new. Before ChatGPT drew significant attention to LLMs, much of the buzz was around traditional machine learning (ML) apps. And <a href="https://yanirseroussi.com/til/2023/09/21/googles-rules-of-machine-learning-still-apply-in-the-age-of-large-language-models/">many of the best practices from ML engineering apply to LLM / AI engineering</a>.</p>
 <p>If you are inexperienced with shipping production-grade AI/ML/LLM applications, please don&rsquo;t let it stop you from prototyping. But if you are getting serious about going beyond a prototype, it&rsquo;s time to either get help from experienced AI engineers, or to become one yourself (experience is a great teacher). Just remember that <strong>there is no way around testing and observability if you want to ship a quality product.</strong></p>

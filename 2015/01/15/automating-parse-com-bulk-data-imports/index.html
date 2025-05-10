@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -214,9 +214,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu866681167440847715.jpg 360w ,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu8198874274473307971.jpg 480w ,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu14415150448046426861.jpg 720w ,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu15089305698147958025.jpg 1080w ,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting.jpg 1080w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting.jpg" alt="" 
-            width="1080" height="440">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu_eb2a99d4052044e0.jpg 360w,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu_498fb4a6640d90ed.jpg 480w,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu_458e6ab934b94079.jpg 720w,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting_hu_f391698dfe1b0104.jpg 1080w,https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting.jpg 1080w'
+                src="https://yanirseroussi.com/2015/01/15/automating-parse-com-bulk-data-imports/parse-hosting.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="1080" height="440"
+                alt="">
         
 </figure>
   <div class="post-content"><p><a href="http://parse.com" target="_blank" rel="noopener">Parse</a> is a great backend-as-a-service (BaaS) product. It removes much of the hassle involved in backend devops with its web hosting service, SDKs for all the major mobile platforms, and a generous free tier. Parse does have its share of flaws, including various reliability issues (which seem to be getting rarer), and limitations on what you can do (which is reasonable price to pay for working within a sandboxed environment). One such limitation is the lack of APIs to perform bulk data imports. This post introduces my workaround for this limitation (tl;dr: it&rsquo;s a <a href="https://gist.github.com/yanirs/eddedf152f42c1ee02b2" target="_blank" rel="noopener">PhantomJS script</a>).</p>

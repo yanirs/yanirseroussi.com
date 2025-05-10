@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -216,9 +216,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu18024744638725115543.jpg 360w ,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu12786986001334919755.jpg 480w ,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu6103984398909091047.jpg 720w ,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu17292266861577143384.jpg 1080w ,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu13246975630194226725.jpg 1500w ,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals.jpg 3066w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals.jpg" alt="" 
-            width="3066" height="1214">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu_723e07639eab978f.jpg 360w,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu_412913e5c2b79731.jpg 480w,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu_b662a277023a34f2.jpg 720w,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu_efcbcad159ce9bf1.jpg 1080w,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals_hu_44ab079f63cde2ad.jpg 1500w,https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals.jpg 3066w'
+                src="https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/cardinals.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="3066" height="1214"
+                alt="">
         
 </figure>
   <div class="post-content"><p>Being a data scientist is a constant struggle with FOMO (<em>fear of missing out</em>): While you spend your time and attention on one tool, technique, or domain, dozens of other areas keep advancing at breakneck speed. It is impossible to keep up with everything. Fortunately, some advancements make it easy for a single person to accomplish tasks that previously required a team of experts. I covered some aspects of this phenomenon in a previous post: <a href="https://yanirseroussi.com/2020/01/11/software-commodities-are-eating-interesting-data-science-work/">Software commodities are eating interesting data science work</a>. Today&rsquo;s post covers a specific case study, of how I recently overcame some of my deep learning FOMO by building a fish ID web app.</p>
@@ -289,15 +292,15 @@
         srcset="
           
             
-              https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/real-programmers-xkcd_hu11690435987527730848.png 360w,
+              https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/real-programmers-xkcd_hu_644666c43d05a076.png 360w,
             
           
             
-              https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/real-programmers-xkcd_hu8781876556239414478.png 480w,
+              https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/real-programmers-xkcd_hu_9fb6441758653565.png 480w,
             
           
             
-              https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/real-programmers-xkcd_hu3468282846159293257.png 720w,
+              https://yanirseroussi.com/2022/03/20/building-useful-machine-learning-tools-keeps-getting-easier-a-fish-id-case-study/real-programmers-xkcd_hu_e948c398170e4399.png 720w,
             
           
             

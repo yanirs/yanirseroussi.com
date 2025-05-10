@@ -11,7 +11,7 @@
 <meta name="author" content="Yanir Seroussi">
 <link rel="canonical" href="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/">
 <meta name="google-site-verification" content="aWlue7NGcj4dQpjOKJF7YKiAvw3JuHnq6aFqX6VwWAU">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b367d98f2cecb7282f7a3576dac5daaca4eefd96f9c48d6db522129863cc99c6.css" integrity="sha256-s2fZjyzstygvejV22sXarKTu/Zb5xI1ttSISmGPMmcY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7d100fb77f29fb486fe457f33557e8cb59be0ee9b41107b079d00b3b4e52b30b.css" integrity="sha256-fRAPt38p&#43;0hv5FfzNVfoy1m&#43;Dum0EQewedALO05Ssws=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://yanirseroussi.com/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://yanirseroussi.com/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://yanirseroussi.com/favicon-32x32.png">
@@ -215,9 +215,12 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" srcset="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu194975773615667364.jpg 360w ,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu11817484941306126095.jpg 480w ,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu12835472225657309981.jpg 720w ,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu3663975827953547593.jpg 1080w ,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu13525262427519218380.jpg 1500w ,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe.jpg 4961w" 
-            sizes="(min-width: 768px) 720px, 100vw" src="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe.jpg" alt="" 
-            width="4961" height="2468">
+            <img loading="eager"
+                srcset='https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu_ed3ac792dc741ab6.jpg 360w,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu_bf725f7162ac3331.jpg 480w,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu_b7a1a42b887bb90c.jpg 720w,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu_deac29bdeada1d4c.jpg 1080w,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe_hu_6ee8d7aa4b306d16.jpg 1500w,https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe.jpg 4961w'
+                src="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/recommender-universe.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="4961" height="2468"
+                alt="">
         
 </figure>
   <div class="post-content"><p>I recently gave a talk about recommender systems at the <a href="http://www.meetup.com/Data-Science-Sydney/" target="_blank" rel="noopener">Data Science Sydney meetup</a> (the slides are available <a href="http://yanirs.github.io/talks/the-wonderful-world-of-recommender-systems" target="_blank" rel="noopener">here</a>). This post roughly follows the outline of the talk, expanding on some of the key points in non-slide form (i.e., complete sentences and paragraphs!). The first few sections give a broad overview of the field and the common recommendation paradigms, while the final part is dedicated to debunking five common myths about recommender systems.</p>
@@ -251,8 +254,7 @@
 <p>Notably, most of the algorithms that came out of the three-year competition were never integrated into Netflix. As <a href="http://techblog.netflix.com/2012/04/netflix-recommendations-beyond-5-stars.html" target="_blank" rel="noopener">discussed on the Netflix blog</a>:</p>
 <blockquote>
 <p>You might be wondering what happened with the final Grand Prize ensemble that won the $1M two years later&hellip; We evaluated some of the new methods offline but the additional accuracy gains that we measured did not seem to justify the engineering effort needed to bring them into a production environment.</p>
-<p>Our business objective is to maximize member satisfaction and month-to-month subscription retention&hellip; Now it is clear that the Netflix Prize objective, accurate prediction of a movie&rsquo;s rating, is just one of the many components of an effective recommendation system that optimizes our members&rsquo; enjoyment.</p>
-</blockquote>
+<p>Our business objective is to maximize member satisfaction and month-to-month subscription retention&hellip; Now it is clear that the Netflix Prize objective, accurate prediction of a movie&rsquo;s rating, is just one of the many components of an effective recommendation system that optimizes our members&rsquo; enjoyment.</p></blockquote>
 <p>The following chart says it all (taken from <a href="http://techblog.netflix.com/2012/06/netflix-recommendations-beyond-5-stars.html" target="_blank" rel="noopener">the second part of the blog post quoted above</a>):</p>
 
 
@@ -303,15 +305,15 @@
         srcset="
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu17191970390287438292.png 360w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu_6cafd7d473da82e2.png 360w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu17736443663197590432.png 480w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu_bd736313d8220947.png 480w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu13843013049181938312.png 720w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu_f5f262a6188b449c.png 720w,
             
           
             
@@ -322,7 +324,7 @@
         
         
         
-          src="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu13901382034990325091.png"
+          src="https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-rating-prediction-contribution_hu_7c56e380bf37ec37.png"
         
       
         alt="Netflix rating prediction: contribution of ratings"loading="lazy"
@@ -388,15 +390,15 @@
         srcset="
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/hynt-screenshot_hu17008018622414803394.png 360w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/hynt-screenshot_hu_1c63b9e4cbf1f2a6.png 360w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/hynt-screenshot_hu16912368895272562788.png 480w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/hynt-screenshot_hu_13f3341fa25bdc61.png 480w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/hynt-screenshot_hu9102468640053471026.png 720w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/hynt-screenshot_hu_40eabd16839d93c4.png 720w,
             
           
             
@@ -508,11 +510,11 @@
         srcset="
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/amazon-frequently-bought-together_hu15589678651873710813.png 360w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/amazon-frequently-bought-together_hu_43194c4bd4ccf848.png 360w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/amazon-frequently-bought-together_hu18021758773494046297.png 480w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/amazon-frequently-bought-together_hu_3e3e4b50c31ab2db.png 480w,
             
           
             
@@ -580,15 +582,15 @@
         srcset="
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-because-you-watched_hu14742179188839002198.png 360w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-because-you-watched_hu_f43a24909230a9e.png 360w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-because-you-watched_hu3565877031699174505.png 480w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-because-you-watched_hu_3c5be76acaec63ff.png 480w,
             
           
             
-              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-because-you-watched_hu3560546326789046040.png 720w,
+              https://yanirseroussi.com/2015/10/02/the-wonderful-world-of-recommender-systems/netflix-because-you-watched_hu_c36bb57c73364a6.png 720w,
             
           
             
