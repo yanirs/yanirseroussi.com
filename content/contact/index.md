@@ -16,7 +16,7 @@ disableShare: true
 
 Feel free to contact me about topics discussed on this website, potential work, or anything else you think I'd find interesting. Contact options:
 * [Sign up for a free fifteen-minute intro call](/free-intro-call/).
-* [Book a one-hour Data-to-AI Strategy Consultation](https://calendly.com/yanir-seroussi/data-to-ai-strategy-consultation).
+* [Book a one-hour Data-to-AI Strategy Consultation](https://calendar.app.google/Fq1EuuG8y8hjYuy6A).
 * [Open a GitHub issue](https://github.com/yanirs/yanirseroussi.com/issues) if you spotted a problem with this website.
 * [Connect on LinkedIn](https://www.linkedin.com/in/yanirseroussi) &ndash; please include a note on how you found me.
 * [Email me directly](mailto:contact@yanirseroussi.com).
