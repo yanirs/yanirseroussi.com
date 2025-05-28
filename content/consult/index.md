@@ -3,7 +3,7 @@ title: Helping climate & nature tech startups ship data-intensive solutions
 author: Yanir Seroussi
 type: page
 cover:
-  image: /yanir-seroussi-startup-data-and-ai-consultant-banner.webp
+  image: /yanir-seroussi-ai-ml-engineering-consultant-banner.webp
   alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph next to his profile picture.
 summary: 'Consulting for climate & nature tech startups: Strategic advice, implementation of Data/AI/ML solutions, and hiring help by an experienced tech leader.'
 comments: false
