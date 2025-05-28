@@ -6,7 +6,7 @@ cover:
   relative: true
   image: profile.jpg
   alt: Yanir Seroussi's profile picture
-summary: About Yanir Seroussi, a hands-on data tech lead with over a decade of experience. Yanir helps climate/nature tech startups ship data-intensive solutions.
+summary: About Yanir Seroussi, a hands-on data tech lead with over a decade of experience. Yanir helps climate/nature tech succeed with AI/ML engineering.
 comments: false
 # Avoid 404 when following the link for the final WP.com post.
 aliases:
@@ -22,7 +22,7 @@ My experience and formal education fall under three key areas:
 - data science / engineering (10+ years; Artificial Intelligence PhD)
 - tech leadership (5+ years with startups and scaleups)
 
-**🐳 My current mission is to help climate and nature tech startups grow and scale successfully with Data/AI/ML.** See [my consulting page](/consult/) for details, or head directly to [my contact page](/contact/) if you have a problem you want to discuss.
+**🐳 My current mission is to help climate & nature tech scaleups succeed with AI/ML engineering.** See [my consulting page](/consult/) for details, or head directly to [my contact page](/contact/) if you have a problem you want to discuss.
 
 ## Testimonials
 

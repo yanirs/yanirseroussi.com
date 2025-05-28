@@ -1,11 +1,11 @@
 ---
-title: Helping climate & nature tech startups ship data-intensive solutions
+title: Helping climate & nature tech scaleups succeed with AI/ML engineering
 author: Yanir Seroussi
 type: page
 cover:
   image: /yanir-seroussi-ai-ml-engineering-consultant-banner.webp
   alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph next to his profile picture.
-summary: 'Consulting for climate & nature tech startups: Strategic advice, implementation of Data/AI/ML solutions, and hiring help by an experienced tech leader.'
+summary: 'Consulting for climate & nature tech scaleups: Strategic advice, implementation of AI/ML solutions, and hiring help by an experienced tech leader.'
 comments: false
 editPost:
   disabled: true
@@ -26,11 +26,11 @@ Yanir has the rare qualities of being (a) very good with data and (b) very able 
 
 ## Problems I help with
 
-- Implementing Data/AI/ML projects
-- Selecting Data/AI/ML tools and platforms
+- Implementing AI/ML projects
+- Selecting AI/ML tools and platforms
 - Engaging with vendors and agencies
 - Reviewing your architecture and roadmaps
-- Hiring your first Data/AI/ML professionals
+- Hiring your first AI/ML professionals
 
 **Interested in working together?** [Book a free intro call](/free-intro-call/) or [contact me to discuss](/contact/).
 
@@ -52,9 +52,9 @@ Engagements fall into one of the following four buckets.
 
 These are meant to tackle a specific issue within the space of an hour, such as:
 
-- First Data/AI/ML hire for your startup
+- First AI/ML hire for your scaleup
 - Review of your AI/ML opportunities and approach
-- Advice on a specific data science problem
+- Advice on a specific AI/ML engineering problem
 
 <p style="text-align: center;">
   <a class="fake-button" href="https://calendar.app.google/Fq1EuuG8y8hjYuy6A" target="_blank" rel="noreferrer">Book an advisory call</a>
@@ -64,7 +64,7 @@ The fee for the one-off advisory call includes my preparation based on informati
 
 ### 2. Bespoke review and roadmapping
 
-This includes tailoring my [Data-to-AI Health Check for Startups](/data-to-ai-health-check/) to your needs.
+This may include tailoring my [Data-to-AI Health Check](/data-to-ai-health-check/) to your needs.
 
 We'll follow this process:
 
@@ -72,17 +72,17 @@ We'll follow this process:
 2. **Analyse findings:** Summarise key findings to assess where you stand relative to best practices and your goals.
 3. **Recommend roadmap:** Develop a roadmap to support adoption of best practices and appropriate tools based on the identified gaps and requirements. The goal is to match your needs and capacity rather than simply recommend a bunch of tools from [the aptly-named MAD landscape](https://mattturck.com/landscape/mad2024.pdf).
 
-Fees depend on the complexity of your startup, but typically start at AU$7000.
+Fees depend on the complexity of your situation, but typically start at AU$7000.
 
-### 3. Custom Data/AI/ML projects
+### 3. Custom AI/ML projects
 
-Depending on your business needs and my capacity, we may work together on well-scoped short-term Data/AI/ML projects. For example, I can help you set up [a minimum viable data stack](https://yanirseroussi.com/2024/02/19/building-your-startups-minimum-viable-data-stack/) or prototype an AI/ML system (e.g., for [computer vision](https://yanirseroussi.com/2023/11/29/supporting-volunteer-monitoring-of-marine-biodiversity-with-modern-web-and-data-tools/), [marketing optimisation](https://yanirseroussi.com/2021/10/07/my-work-with-automattic/), or [data extraction](https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/) &ndash; [the possibilities are endless](https://yanirseroussi.com/2024/05/27/plumbing-decisions-and-automation-de-hyping-data-and-ai/)). This will happen in collaboration with your team, with the goal of building your capacity to maintain the project artefacts.
+Depending on your business needs and my capacity, we may work together on well-scoped short-term AI/ML projects. For example, I can help you prototype an AI/ML system for [computer vision](https://yanirseroussi.com/2023/11/29/supporting-volunteer-monitoring-of-marine-biodiversity-with-modern-web-and-data-tools/), [marketing optimisation](https://yanirseroussi.com/2021/10/07/my-work-with-automattic/), or [data extraction](https://yanirseroussi.com/2024/03/11/questions-to-consider-when-using-ai-for-pdf-data-extraction/) &ndash; [the possibilities are endless](https://yanirseroussi.com/2024/05/27/plumbing-decisions-and-automation-de-hyping-data-and-ai/). This will happen in collaboration with your team, with the goal of building your capacity to maintain the project artefacts.
 
 Fees for short-term projects vary, but are fixed at the project or milestone level for predictable budgeting.
 
 ### 4. Fractional engagements
 
-Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is [Fractional Chief Data & AI Officer](/fractional-chief-data-officer/#/), which essentially means I'd join your team on a part-time basis. As I'm targeting seed to series A startups, this would typically include some hands-on work, along with strategy and team formation.
+Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is Fractional Head of AI/ML Engineering or [Fractional Chief Data & AI Officer](/fractional-chief-data-officer/#/), which essentially means I'd join your team on a part-time basis. As I'm targeting growth-stage scaleups, this would typically include some hands-on work, along with strategy and team formation.
 
 Fees for fractional engagements start at AU$5000 per month.
 
@@ -129,7 +129,7 @@ My experience and formal education fall under three key areas:
 
 <p style="text-align: center;">
   🐳<br>
-  <i>My current mission is to help climate and nature tech startups grow and scale successfully with Data/AI/ML.</i><br> 
+  <i>My current mission is to help climate & nature tech scaleups succeed with AI/ML engineering.</i><br>
   🐳
 </p>
 

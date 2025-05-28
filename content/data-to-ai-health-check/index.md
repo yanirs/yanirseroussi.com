@@ -1,5 +1,5 @@
 ---
-title: "Free Guide: Data-to-AI Health Check for Startups"
+title: "Free Guide: Data-to-AI Health Check for Startups & Scaleups"
 author: Yanir Seroussi
 type: page
 cover:

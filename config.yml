@@ -36,7 +36,7 @@ params:
   cover:
     hiddenInList: true
   description: |
-    Helping climate & nature tech startups ship data-intensive solutions (artificial intelligence, machine learning, data science, and advanced analytics).
+    Helping climate & nature tech scaleups succeed with AI/ML engineering (hype-free artificial intelligence, machine learning, and data science).
   disableScrollToTop: true
   editPost:
     disabled: true
@@ -46,7 +46,7 @@ params:
     title: 'Yanir Seroussi<br>AI/ML Engineering Consultant'
     subtitle: |
       **Current mission:**
-      : [Helping climate & nature tech startups ship data-intensive solutions. 🐳](/consult/)
+      : [Helping climate & nature tech scaleups succeed with AI/ML engineering. 🐳](/consult/)
 
       **Industry experience:**
       : [Over a decade with startups & scaleups across data science, engineering, and tech leadership roles.](/about/)
