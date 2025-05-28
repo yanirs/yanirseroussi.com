@@ -1,5 +1,5 @@
 ---
-title: 'About Yanir: Startup Data & AI Consultant'
+title: 'About Yanir: AI/ML Engineering Consultant'
 author: Yanir Seroussi
 type: page
 cover:
