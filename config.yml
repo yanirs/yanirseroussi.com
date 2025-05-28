@@ -5,7 +5,7 @@ languageCode: en-au
 pagination:
   pagerSize: 10000
 theme: papermod
-title: Yanir Seroussi | Data & AI for Startup Impact
+title: Yanir Seroussi – AI/ML Engineering Consultant
 
 markup:
   goldmark:
