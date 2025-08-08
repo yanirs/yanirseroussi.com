@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Tue, 20 Aug 2024 16:09:55 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 14:17:43 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond good vibes: Securing AI agents by design</title>
+      <link>https://yanirseroussi.com/2025/08/08/beyond-good-vibes-securing-ai-agents-by-design/</link>
+      <pubDate>Fri, 08 Aug 2025 04:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2025/08/08/beyond-good-vibes-securing-ai-agents-by-design/</guid>
+      <description>Summary of my talk on the paper &amp;ldquo;Design Patterns for Securing LLM Agents against Prompt Injections&amp;rdquo;.</description>
+    </item>
     <item>
       <title>Keep learning: Your career is never truly done</title>
       <link>https://yanirseroussi.com/2024/08/12/keep-learning-your-career-is-never-truly-done/</link>

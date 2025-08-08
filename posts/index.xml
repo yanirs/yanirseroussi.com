@@ -9,6 +9,13 @@
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
     <atom:link href="https://yanirseroussi.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Beyond good vibes: Securing AI agents by design</title>
+      <link>https://yanirseroussi.com/2025/08/08/beyond-good-vibes-securing-ai-agents-by-design/</link>
+      <pubDate>Fri, 08 Aug 2025 04:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2025/08/08/beyond-good-vibes-securing-ai-agents-by-design/</guid>
+      <description>Summary of my talk on the paper &amp;ldquo;Design Patterns for Securing LLM Agents against Prompt Injections&amp;rdquo;.</description>
+    </item>
+    <item>
       <title>Posting into the void – with guardrails</title>
       <link>https://yanirseroussi.com/2025/06/20/posting-into-the-void-with-guardrails/</link>
       <pubDate>Fri, 20 Jun 2025 03:30:00 +0000</pubDate>
