@@ -82,9 +82,9 @@ Fees for short-term projects vary, but are fixed at the project or milestone lev
 
 ### 4. Fractional engagements
 
-Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is Fractional Head of AI/ML Engineering or [Fractional Chief Data & AI Officer](/fractional-chief-data-officer/#/), which essentially means I'd join your team on a part-time basis. As I'm targeting growth-stage scaleups, this would typically include some hands-on work, along with strategy and team formation.
+Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is Fractional Head of AI/ML Engineering or Fractional Chief Data & AI Officer, which essentially means I'd join your team on a part-time basis. As I'm targeting growth-stage scaleups, this would typically include some hands-on work, along with strategy and team formation.
 
-Fees for fractional engagements start at AU$5000 per month.
+Fees for fractional engagements typically start at AU$5000 per month.
 
 **Interested in working together?** [Book a free intro call](/free-intro-call/) or [contact me to discuss](/contact/).
 

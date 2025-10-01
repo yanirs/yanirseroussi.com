@@ -6,7 +6,7 @@ comments: false
 url: /talks/
 cover:
   relative: true
-  image: /fractional-chief-data-officer/assets/yanir-seroussi-dataengbytes-bne-2023.webp
+  image: /yanir-seroussi-dataengbytes-bne-2023.webp
   alt: Yanir Seroussi giving a talk at DataEngBytes Brisbane 2023.
 summary: Yanir Seroussi speaks on data science, artificial intelligence, machine learning, and career journey.
 aliases:

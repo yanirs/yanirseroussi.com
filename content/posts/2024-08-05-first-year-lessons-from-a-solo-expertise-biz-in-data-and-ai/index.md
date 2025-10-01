@@ -103,7 +103,7 @@ The war has also revealed that I couldn't work with some people in the climate s
 
 Concurrently, the AI advisory work with the agency didn't turn out well. We had different ideas on the direction of the product, I didn't want to increase my commitment and help them build it, and so we parted ways.
 
-With whatever energy I could summon, I managed to [start positioning myself as a fractional chief Data & AI officer](https://yanirseroussi.com/fractional-chief-data-officer/), and began reaching out to prospects more systematically. However, things were slowing down with the end of the year, so nothing came of it at that point.
+With whatever energy I could summon, I managed to start positioning myself as a fractional chief Data & AI officer, and began reaching out to prospects more systematically. However, things were slowing down with the end of the year, so nothing came of it at that point.
 
 Looking at my notes and messages, at that point I still didn't fully let go of going down the software product path. This wasn't particularly fruitful, as time was in short supply, and I was also exploring a startup idea with a former colleague. You really can't do it all.
 
