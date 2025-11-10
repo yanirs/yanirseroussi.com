@@ -3,7 +3,7 @@ title: Stay in touch
 author: Yanir Seroussi
 type: page
 cover:
-  image: /yanir-seroussi-ai-ml-engineering-consultant-banner.webp
+  image: /yanir-seroussi-ai-ml-success-architect-banner.webp
   alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph next to his profile picture.
 summary: Contact me or subscribe to the mailing list.
 comments: false

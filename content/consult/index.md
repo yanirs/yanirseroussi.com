@@ -1,9 +1,9 @@
 ---
-title: Helping climate & nature tech scaleups succeed with AI/ML engineering
+title: Helping climate tech founders ship AI/ML solutions that support multi-million dollar growth goals
 author: Yanir Seroussi
 type: page
 cover:
-  image: /yanir-seroussi-ai-ml-engineering-consultant-banner.webp
+  image: /yanir-seroussi-ai-ml-success-architect-banner.webp
   alt: Logo of Yanir Seroussi's consulting services, depicting a wave and an up-and-to-the-right graph next to his profile picture.
 summary: 'Consulting for climate & nature tech scaleups: Strategic advice, implementation of AI/ML solutions, and hiring help by an experienced tech leader.'
 comments: false
@@ -127,10 +127,10 @@ My experience and formal education fall under three key areas:
 - data science / engineering (10+ years; Artificial Intelligence PhD)
 - tech leadership (5+ years with startups and scaleups)
 
-<p style="text-align: center;">
-  🐳<br>
-  <i>My current mission is to help climate & nature tech scaleups succeed with AI/ML engineering.</i><br>
-  🐳
+<p style="text-align: center; width: 50%; margin-left: 25%;">
+  🌏<br>
+  <i>My current mission is to help climate tech founders ship AI/ML solutions that support multi-million dollar growth goals.</i><br>
+  📈
 </p>
 
 **Interested in working together?** [Book a free intro call](/free-intro-call/) or [contact me to discuss](/contact/).

@@ -5,7 +5,7 @@ languageCode: en-au
 pagination:
   pagerSize: 10000
 theme: papermod
-title: Yanir Seroussi – AI/ML Engineering Consultant
+title: Yanir Seroussi – AI/ML Success Architect
 
 markup:
   goldmark:
@@ -36,17 +36,17 @@ params:
   cover:
     hiddenInList: true
   description: |
-    Helping climate & nature tech scaleups succeed with AI/ML engineering (hype-free artificial intelligence, machine learning, and data science).
+    Helping climate tech founders ship AI/ML solutions that support multi-million dollar growth goals (hype-free artificial intelligence, machine learning, and data science).
   disableScrollToTop: true
   editPost:
     disabled: true
   hideFooter: true
   profileMode:
     enabled: true
-    title: 'Yanir Seroussi<br>AI/ML Engineering Consultant'
+    title: 'Yanir Seroussi<br>AI/ML Success Architect'
     subtitle: |
       **Current mission:**
-      : [Helping climate & nature tech scaleups succeed with AI/ML engineering. 🐳](/consult/)
+      : [Help climate tech founders ship AI/ML solutions that support multi-million dollar growth goals.](/consult/)
 
       **Industry experience:**
       : [Over a decade with startups & scaleups across data science, engineering, and tech leadership roles.](/about/)

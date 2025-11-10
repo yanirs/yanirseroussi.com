@@ -1,5 +1,5 @@
 ---
-title: 'Speaking engagements by Yanir: AI/ML Engineering Consultant'
+title: 'Speaking engagements by Yanir: AI/ML Success Architect'
 author: Yanir Seroussi
 type: page
 comments: false
