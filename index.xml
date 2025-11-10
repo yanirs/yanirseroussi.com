@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Yanir Seroussi – AI/ML Engineering Consultant</title>
+    <title>Yanir Seroussi – AI/ML Success Architect</title>
     <link>https://yanirseroussi.com/</link>
-    <description>Recent content on Yanir Seroussi – AI/ML Engineering Consultant</description>
+    <description>Recent content on Yanir Seroussi – AI/ML Success Architect</description>
     <generator>Hugo -- 0.150.1</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Thu, 02 Oct 2025 08:24:36 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 07:25:45 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beyond good vibes: Securing AI agents by design</title>
@@ -913,11 +913,11 @@
       <description>First post! An email I sent to members of the Data Science Sydney Meetup with tips on how to get started with Kaggle competitions.</description>
     </item>
     <item>
-      <title>About Yanir: AI/ML Engineering Consultant</title>
+      <title>About Yanir: AI/ML Success Architect</title>
       <link>https://yanirseroussi.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/about/</guid>
-      <description>About Yanir Seroussi, a hands-on data tech lead with over a decade of experience. Yanir helps climate/nature tech succeed with AI/ML engineering.</description>
+      <description>About Yanir Seroussi, an independent consultant who helps climate tech founders ship AI/ML solutions that support multi-million dollar growth goals.</description>
     </item>
     <item>
       <title>Book a free fifteen-minute call</title>
@@ -941,14 +941,14 @@
       <description>Download a free PDF guide that helps you assess a startup&amp;rsquo;s Data-to-AI health by probing eight key areas.</description>
     </item>
     <item>
-      <title>Helping climate &amp; nature tech scaleups succeed with AI/ML engineering</title>
+      <title>Helping climate tech founders ship AI/ML solutions that support multi-million dollar growth goals</title>
       <link>https://yanirseroussi.com/consult/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/consult/</guid>
       <description>Consulting for climate &amp;amp; nature tech scaleups: Strategic advice, implementation of AI/ML solutions, and hiring help by an experienced tech leader.</description>
     </item>
     <item>
-      <title>Speaking engagements by Yanir: AI/ML Engineering Consultant</title>
+      <title>Speaking engagements by Yanir: AI/ML Success Architect</title>
       <link>https://yanirseroussi.com/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/talks/</guid>
