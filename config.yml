@@ -43,7 +43,7 @@ params:
   hideFooter: true
   profileMode:
     enabled: true
-    title: 'Yanir Seroussi<br>AI/ML Success Architect'
+    title: 'Yanir Seroussi<br><a href="/2026/01/26/what-is-an-ai-ml-success-architect/">AI/ML Success Architect</a>'
     subtitle: |
       **Current mission:**
       : [Help climate tech founders ship AI/ML solutions that support multi-million dollar growth goals.](/consult/)
