@@ -12,9 +12,23 @@ editPost:
 disableShare: true
 ---
 
-This is a high-level overview of the sort of problems I help with and how you can engage with me. I also sprinkled testimonials from [my LinkedIn Recommendations section](https://www.linkedin.com/in/yanirseroussi/details/recommendations/) for good measure.
+## At a glance
+
+80+% of AI projects fail. 90+% of startups fail. Let's work together to beat the odds.
+
+**Top reasons for AI/ML failures:**
+1. Wrong strategy
+2. Poor processes
+3. Missing skills
+
+**Our path to success:**
+1. Introductory call to assess fit
+2. Initial engagement (2-4 weeks): Data-to-AI roadmap – with optional rapid prototyping
+3. Long-term support (month-to-month): Ongoing partnership to scale your AI/ML capabilities – and grow your business
 
 **Interested in working together?** [Book a free intro call](/free-intro-call/) or [contact me to discuss](/contact/).
+
+**Need more details?** Keep reading for a high-level overview of the sort of problems I help with and how you can engage with me. I also sprinkled testimonials from [my LinkedIn Recommendations section](https://www.linkedin.com/in/yanirseroussi/details/recommendations/) for good measure.
 
 ---
 
@@ -26,10 +40,11 @@ Yanir has the rare qualities of being (a) very good with data and (b) very able 
 
 ## Problems I help with
 
+- Establishing and revising your AI/ML strategy
+- Reviewing your architecture and roadmaps
 - Implementing AI/ML projects
 - Selecting AI/ML tools and platforms
 - Engaging with vendors and agencies
-- Reviewing your architecture and roadmaps
 - Hiring your first AI/ML professionals
 
 **Interested in working together?** [Book a free intro call](/free-intro-call/) or [contact me to discuss](/contact/).
@@ -52,9 +67,9 @@ Engagements fall into one of the following four buckets.
 
 These are meant to tackle a specific issue within the space of an hour, such as:
 
-- First AI/ML hire for your scaleup
+- First AI/ML hire for your venture
 - Review of your AI/ML opportunities and approach
-- Advice on a specific AI/ML engineering problem
+- Advice on a specific AI/ML problem
 
 <p style="text-align: center;">
   <a class="fake-button" href="https://calendar.app.google/Fq1EuuG8y8hjYuy6A" target="_blank" rel="noreferrer">Book an advisory call</a>
@@ -68,9 +83,9 @@ This may include tailoring my [Data-to-AI Health Check](/data-to-ai-health-check
 
 We'll follow this process:
 
-1. **Gather information:** Collect details about the current state of your Data/AI/ML lifecycles and operations, focusing on major pain points and requirements. This is done through document requests, email questions, and meetings with team members, while minimising disruption to your everyday work.
-2. **Analyse findings:** Summarise key findings to assess where you stand relative to best practices and your goals.
-3. **Recommend roadmap:** Develop a roadmap to support adoption of best practices and appropriate tools based on the identified gaps and requirements. The goal is to match your needs and capacity rather than simply recommend a bunch of tools from [the aptly-named MAD landscape](https://mattturck.com/landscape/mad2024.pdf).
+1. _Gather information:_ Collect details about the current state of your Data/AI/ML lifecycles and operations, focusing on major pain points and requirements. This is done through document requests, email questions, and meetings with team members, while minimising disruption to your everyday work.
+2. _Analyse findings:_ Summarise key findings to assess where you stand relative to best practices and your goals.
+3. _Recommend roadmap:_ Develop a roadmap to support adoption of best practices and appropriate tools based on the identified gaps and requirements. The goal is to match your needs and capacity rather than simply recommend a bunch of tools from [the aptly-named MAD landscape](https://mattturck.com/landscape/mad2024.pdf).
 
 Fees depend on the complexity of your situation, but typically start at AU$7000.
 
@@ -82,7 +97,7 @@ Fees for short-term projects vary, but are fixed at the project or milestone lev
 
 ### 4. Fractional engagements
 
-Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is Fractional Head of AI/ML Engineering or Fractional Chief Data & AI Officer, which essentially means I'd join your team on a part-time basis. As I'm targeting growth-stage scaleups, this would typically include some hands-on work, along with strategy and team formation.
+Once we've worked together on a custom project or review, we may decide to collaborate for a longer term. The fancy name for this engagement is Fractional Head of AI/ML or Fractional Chief Data & AI Officer, which essentially means I'd help your team on a retainer basis. In addition to strategy and team formation, this includes help with fundraising and potential for some hands-on work.
 
 Fees for fractional engagements typically start at AU$5000 per month.
 
