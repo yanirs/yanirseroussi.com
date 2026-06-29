@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.150.1</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Sat, 07 Feb 2026 09:41:31 +1300</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 15:25:53 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinking in Ecosystems: From Climate to Planetary Resilience Tech</title>
+      <link>https://yanirseroussi.com/2026/06/29/thinking-in-ecosystems-from-climate-to-planetary-resilience-tech/</link>
+      <pubDate>Mon, 29 Jun 2026 05:25:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2026/06/29/thinking-in-ecosystems-from-climate-to-planetary-resilience-tech/</guid>
+      <description>Climate tech is losing trendiness but not relevance. This post explores what&amp;rsquo;s replacing it and why mission and values matter more than branding.</description>
+    </item>
     <item>
       <title>What is an AI/ML Success Architect?</title>
       <link>https://yanirseroussi.com/2026/01/26/what-is-an-ai-ml-success-architect/</link>
@@ -939,6 +946,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/causal-inference-resources/</guid>
       <description>Useful books, articles, and courses on the topic of causal inference.</description>
+    </item>
+    <item>
+      <title>Ecosystem Bets: Conversations with builders and backers of planetary resilience tech</title>
+      <link>https://yanirseroussi.com/ecosystem-bets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/ecosystem-bets/</guid>
+      <description>Introducing Ecosystem Bets: A limited-series podcast of conversations with the founders and investors creating planetary resilience tech.</description>
     </item>
     <item>
       <title>Free Guide: Data-to-AI Health Check for Startups &amp; Scaleups</title>
