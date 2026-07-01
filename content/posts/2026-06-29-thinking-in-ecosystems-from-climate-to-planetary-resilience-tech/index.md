@@ -65,7 +65,7 @@ As an Australian of Israeli-Jewish background, this feels like a more immediate 
 But even if you disagree on what counts as antisemitism, you may still agree that there is now a strong association between anti-Zionist activism and climate activism – and that it's not great for climate.
 Hence my search for a better term.
 
-{{< figure src="earth-climate-change-heatmap.svg" caption="Changes in surface air temperature from 1973 to 2023. Source: [Wikipedia](https://en.wikipedia.org/wiki/Climate_change)." >}}
+{{< figure src="earth-climate-change-heatmap.webp" resize="false" caption="Changes in surface air temperature from 1973 to 2023. Source: [Wikipedia](https://en.wikipedia.org/wiki/Climate_change)." >}}
 
 ## What is climate tech anyway? {#climate-tech}
 
