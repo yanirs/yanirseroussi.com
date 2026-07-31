@@ -7,13 +7,48 @@
     <generator>Hugo -- 0.150.1</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Wed, 01 Jul 2026 13:59:09 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:12:01 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business</title>
       <link>https://yanirseroussi.com/tags/business/</link>
-      <pubDate>Mon, 29 Jun 2026 05:25:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Business</title>
+      <link>https://yanirseroussi.com/tags/data-business/</link>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>https://yanirseroussi.com/tags/data-science/</link>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Strategy</title>
+      <link>https://yanirseroussi.com/tags/data-strategy/</link>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/data-strategy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://yanirseroussi.com/tags/machine-learning/</link>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://yanirseroussi.com/tags/software-engineering/</link>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -73,13 +108,6 @@
       <description></description>
     </item>
     <item>
-      <title>Machine Learning</title>
-      <link>https://yanirseroussi.com/tags/machine-learning/</link>
-      <pubDate>Mon, 26 Jan 2026 00:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Marketing</title>
       <link>https://yanirseroussi.com/tags/marketing/</link>
       <pubDate>Mon, 26 Jan 2026 00:30:00 +0000</pubDate>
@@ -94,31 +122,10 @@
       <description></description>
     </item>
     <item>
-      <title>Software Engineering</title>
-      <link>https://yanirseroussi.com/tags/software-engineering/</link>
-      <pubDate>Fri, 08 Aug 2025 04:00:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Blogging</title>
       <link>https://yanirseroussi.com/tags/blogging/</link>
       <pubDate>Fri, 20 Jun 2025 03:30:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>https://yanirseroussi.com/tags/data-science/</link>
-      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-science/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Strategy</title>
-      <link>https://yanirseroussi.com/tags/data-strategy/</link>
-      <pubDate>Mon, 25 Nov 2024 02:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-strategy/</guid>
       <description></description>
     </item>
     <item>
@@ -210,13 +217,6 @@
       <link>https://yanirseroussi.com/tags/reef-life-survey/</link>
       <pubDate>Mon, 01 Apr 2024 06:00:00 +0000</pubDate>
       <guid>https://yanirseroussi.com/tags/reef-life-survey/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Business</title>
-      <link>https://yanirseroussi.com/tags/data-business/</link>
-      <pubDate>Mon, 18 Dec 2023 00:30:00 +0000</pubDate>
-      <guid>https://yanirseroussi.com/tags/data-business/</guid>
       <description></description>
     </item>
     <item>

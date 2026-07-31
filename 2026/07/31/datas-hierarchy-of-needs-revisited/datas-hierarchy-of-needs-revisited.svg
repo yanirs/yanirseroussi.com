@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Data's hierarchy of needs: organisational culture and strategy at the base, rising through systems and data layers to automating decisions at the top">
+
+  <title>Data's hierarchy of needs - revisited 2026 by Yanir Seroussi</title>
+
+  <defs>
+    <style>
+      .lbl   { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 600; letter-spacing: 0.005em; }
+      .light { fill: #FFFFFF; }
+      .dark  { fill: #06131F; }
+      .eyebrow { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                 font-weight: 700; font-size: 11px; letter-spacing: 0.18em; fill: #6B7C8C; }
+      .rule  { stroke: #D6DEE5; stroke-width: 1.5; stroke-linecap: round; }
+    </style>
+
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0B2A47" flood-opacity="0.13"/>
+    </filter>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="45%"  stop-color="#FFFFFF" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#000018" stop-opacity="0.07"/>
+    </linearGradient>
+
+    <clipPath id="pyramidClip">
+      <polygon points="532,80 708,80 1040,640 200,640"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+
+  <!-- Group markers -->
+  <g>
+    <path class="rule" d="M125 84 L125 422"/>
+    <text class="eyebrow" x="105" y="253" text-anchor="middle" transform="rotate(-90 105 253)">DATA &amp; AI CAPABILITY</text>
+
+    <path class="rule" d="M125 438 L125 636"/>
+    <text class="eyebrow" x="105" y="537" text-anchor="middle" transform="rotate(-90 105 537)">FOUNDATIONS</text>
+  </g>
+
+  <!-- Pyramid -->
+  <g filter="url(#lift)">
+    <polygon points="532.0,80 708.0,80 748.3,148 491.7,148"      fill="#EAF2FC"/>
+    <polygon points="489.3,152 750.7,152 789.8,218 450.2,218"    fill="#CFE2F7"/>
+    <polygon points="447.8,222 792.2,222 831.3,288 408.7,288"    fill="#AECDF2"/>
+    <polygon points="406.3,292 833.7,292 872.8,358 367.2,358"    fill="#8AB7EC"/>
+    <polygon points="364.8,362 875.2,362 913.1,426 326.9,426"    fill="#69A3E7"/>
+    <polygon points="322.1,434 917.9,434 955.8,498 284.2,498"    fill="#275E5B"/>
+    <polygon points="281.8,502 958.2,502 997.3,568 242.7,568"    fill="#1C4542"/>
+    <polygon points="240.3,572 999.7,572 1038.8,638 201.2,638"   fill="#132E2C"/>
+
+    <polygon points="532,80 708,80 1040,640 200,640" fill="url(#sheen)" clip-path="url(#pyramidClip)"/>
+  </g>
+
+  <!-- Band labels -->
+  <g text-anchor="middle">
+    <text class="lbl dark"  x="620" y="119" font-size="20">automate decisions</text>
+    <text class="lbl dark"  x="620" y="190" font-size="20">predict &amp; infer</text>
+    <text class="lbl dark"  x="620" y="260" font-size="20">report &amp; present</text>
+    <text class="lbl dark"  x="620" y="330" font-size="20">transform &amp; serve</text>
+    <text class="lbl dark" x="620" y="399" font-size="20">measure, structure &amp; store</text>
+    <text class="lbl light" x="620" y="471" font-size="20">software systems, processes &amp; architecture</text>
+    <text class="lbl light" x="620" y="540" font-size="20">org systems, processes &amp; structure</text>
+    <text class="lbl light" x="620" y="610" font-size="20">org culture, key people &amp; strategy</text>
+  </g>
+
+</svg>

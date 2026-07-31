@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.150.1</generator>
     <language>en-au</language>
     <copyright>Text and figures licensed under CC BY-NC-ND 4.0 by Yanir Seroussi, except where noted otherwise</copyright>
-    <lastBuildDate>Tue, 16 Jan 2024 09:56:03 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:12:01 +1000</lastBuildDate>
     <atom:link href="https://yanirseroussi.com/tags/data-business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data&#39;s hierarchy of needs revisited</title>
+      <link>https://yanirseroussi.com/2026/07/31/datas-hierarchy-of-needs-revisited/</link>
+      <pubDate>Fri, 31 Jul 2026 03:00:00 +0000</pubDate>
+      <guid>https://yanirseroussi.com/2026/07/31/datas-hierarchy-of-needs-revisited/</guid>
+      <description>Updating data&amp;rsquo;s hierarchy of needs with org foundations and automated decisions. Neglect the base, and the top still fails.</description>
+    </item>
     <item>
       <title>Positioning is a common problem for data scientists</title>
       <link>https://yanirseroussi.com/til/2023/12/18/positioning-is-a-common-problem-for-data-scientists/</link>
