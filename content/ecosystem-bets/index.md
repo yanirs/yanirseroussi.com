@@ -3,6 +3,7 @@ title: "Ecosystem Bets: Conversations with builders and backers of planetary res
 author: Yanir Seroussi
 type: page
 cover:
+  relative: true
   image: ecosystem-bets-podcast-wide-cover.webp
   alt: Podcast cover for the Ecosystem Bets podcast, with the tagline 'conversations with builders and backers of planetary resilience tech'.
 summary: "Introducing Ecosystem Bets: A limited-series podcast of conversations with the founders and investors creating planetary resilience tech."
