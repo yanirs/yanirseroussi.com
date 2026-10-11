@@ -6,7 +6,7 @@ cover:
   relative: true
   image: ecosystem-bets-podcast-wide-cover.webp
   alt: Podcast cover for the Ecosystem Bets podcast, with the tagline 'conversations with builders and backers of planetary resilience tech'.
-summary: "Introducing Ecosystem Bets: A limited-series podcast of conversations with the founders and investors creating planetary resilience tech."
+summary: "Introducing Ecosystem Bets: A limited-series podcast of conversations with the people building and backing planetary resilience tech."
 comments: false
 editPost:
   disabled: true
@@ -15,9 +15,12 @@ disableShare: true
 
 ## Coming soon...
 
-Ecosystem Bets will be a limited series of conversations with the founders and investors building and backing planetary resilience tech – commercially-viable technology that strengthens energy, industrial, and infrastructure systems while keeping us within planetary boundaries.
+Ecosystem Bets will be a limited series of conversations with the people building and backing planetary resilience tech – commercially-viable technology that strengthens energy, industrial, and infrastructure systems while keeping us within planetary boundaries.
 
-Season one is in the works. Subscribe below to hear when the first episodes land, or [get in touch](/contact/) if you're building or backing something that belongs in the conversation.
+Season one is in the works. In the meantime, you can:
+- Subscribe below for email notifications about the episodes, along with other posts from this website.
+- Check out [the dedicated Ecosystem Bets Substack site](https://ecosystembets.substack.com/), where you can find [the season intro post](https://ecosystembets.substack.com/p/introducing-ecosystem-bets) and links to subscribe to the podcast on your preferred platform.
+- [Get in touch](/contact/) if you're building or backing something that belongs in the conversation.
 
 {{<subscribe_form>}}
 
